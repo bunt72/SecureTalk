@@ -209,7 +209,7 @@
         OWSFlatButton *button = [OWSFlatButton buttonWithTitle:NSLocalizedString(@"SETTINGS_DELETE_ACCOUNT_BUTTON", @"")
                                                           font:[OWSFlatButton fontForHeight:kButtonHeight]
                                                     titleColor:[UIColor whiteColor]
-                                               backgroundColor:[UIColor ows_destructiveRedColor]
+                                               backgroundColor:[UIColor ows_secureTalkBackgroundColor]
                                                         target:self
                                                       selector:@selector(unregisterUser)];
         [cell.contentView addSubview:button];
@@ -284,7 +284,7 @@
 
     const CGFloat kSubtitlePointSize = 12.f;
     UILabel *subtitleLabel = [UILabel new];
-    subtitleLabel.textColor = [UIColor ows_darkGrayColor];
+    subtitleLabel.textColor = [UIColor ows_darkGreenColor];
     subtitleLabel.font = [UIFont ows_regularFontWithSize:kSubtitlePointSize];
     subtitleLabel.attributedText = [[NSAttributedString alloc]
         initWithString:[PhoneNumber bestEffortFormatPartialUserSpecifiedTextToLookLikeAPhoneNumber:[TSAccountManager

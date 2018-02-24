@@ -745,7 +745,7 @@ static NSString *const kURLHostVerifyPrefix             = @"verify";
     window.opaque = YES;
     window.userInteractionEnabled = NO;
     window.windowLevel = CGFLOAT_MAX;
-    window.backgroundColor = UIColor.ows_materialBlueColor;
+    window.backgroundColor = UIColor.ows_secureTalkBackgroundColor;
     window.rootViewController =
         [[UIStoryboard storyboardWithName:@"Launch Screen" bundle:nil] instantiateInitialViewController];
 

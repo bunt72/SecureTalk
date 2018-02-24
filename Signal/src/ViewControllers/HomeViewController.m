@@ -173,7 +173,7 @@ typedef NS_ENUM(NSInteger, CellState) { kArchiveState, kInboxState };
 {
     [super loadView];
 
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor ows_secureTalkBackgroundColor];
 
     // TODO: Remove this.
     [SignalApp.sharedApp setHomeViewController:self];
@@ -1088,7 +1088,7 @@ typedef NS_ENUM(NSInteger, CellState) { kArchiveState, kInboxState };
                             value:[UIColor blackColor]
                             range:NSMakeRange(0, firstLine.length)];
     [fullLabelString addAttribute:NSForegroundColorAttributeName
-                            value:[UIColor ows_darkGrayColor]
+                            value:[UIColor ows_darkGreenColor]
                             range:NSMakeRange(firstLine.length + 1, secondLine.length)];
     _emptyBoxLabel.attributedText = fullLabelString;
 }

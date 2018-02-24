@@ -79,7 +79,7 @@
             UILabel *countryCodeLabel = [UILabel new];
             countryCodeLabel.text = [PhoneNumberUtil callingCodeFromCountryCode:countryCode];
             countryCodeLabel.font = [UIFont ows_regularFontWithSize:16.f];
-            countryCodeLabel.textColor = [UIColor ows_darkGrayColor];
+            countryCodeLabel.textColor = [UIColor ows_darkGreenColor];
             [countryCodeLabel sizeToFit];
             cell.accessoryView = countryCodeLabel;
 

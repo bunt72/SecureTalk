@@ -500,7 +500,7 @@ typedef NS_ENUM(NSInteger, MessagesRangeSizeMode) {
 {
     [super loadView];
 
-    self.view.backgroundColor = [UIColor ows_toolbarBackgroundColor];
+    self.view.backgroundColor = [UIColor ows_secureTalkBackgroundColor];
 }
 
 - (void)createContents
@@ -517,7 +517,7 @@ typedef NS_ENUM(NSInteger, MessagesRangeSizeMode) {
     self.collectionView.showsVerticalScrollIndicator = YES;
     self.collectionView.showsHorizontalScrollIndicator = NO;
     self.collectionView.keyboardDismissMode = UIScrollViewKeyboardDismissModeInteractive;
-    self.collectionView.backgroundColor = [UIColor whiteColor];
+    self.collectionView.backgroundColor = [UIColor ows_secureTalkBackgroundColor];
     [self.view addSubview:self.collectionView];
     [self.collectionView autoPinWidthToSuperview];
     [self.collectionView autoPinToTopLayoutGuideOfViewController:self withInset:0];

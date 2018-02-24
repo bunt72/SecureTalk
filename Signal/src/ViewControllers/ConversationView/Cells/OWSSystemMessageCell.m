@@ -53,7 +53,7 @@ NS_ASSUME_NONNULL_BEGIN
 
     [self setTranslatesAutoresizingMaskIntoConstraints:NO];
 
-    self.backgroundColor = [UIColor whiteColor];
+    self.backgroundColor = [UIColor ows_secureTalkBackgroundColor];
 
     self.cellTopLabel = [UILabel new];
     self.cellTopLabel.textAlignment = NSTextAlignmentCenter;

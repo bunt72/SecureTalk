@@ -46,7 +46,7 @@ NS_ASSUME_NONNULL_BEGIN
 
     [self setTranslatesAutoresizingMaskIntoConstraints:NO];
 
-    self.backgroundColor = [UIColor whiteColor];
+    self.backgroundColor = [UIColor ows_secureTalkBackgroundColor];
 
     self.bannerView = [UIView new];
     self.bannerView.backgroundColor = [UIColor colorWithRGBHex:0xf6eee3];
@@ -94,7 +94,7 @@ NS_ASSUME_NONNULL_BEGIN
     self.titleLabel.text = [self titleForInteraction:interaction];
     self.subtitleLabel.text = [self subtitleForInteraction:interaction];
 
-    self.backgroundColor = [UIColor whiteColor];
+    self.backgroundColor = [UIColor ows_secureTalkBackgroundColor];
 
     [self setNeedsLayout];
 }

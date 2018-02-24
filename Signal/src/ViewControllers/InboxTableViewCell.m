@@ -67,7 +67,7 @@ const NSUInteger kAvatarViewDiameter = 52;
     self.preservesSuperviewLayoutMargins = YES;
     self.contentView.preservesSuperviewLayoutMargins = YES;
 
-    self.backgroundColor = [UIColor whiteColor];
+    self.backgroundColor = [UIColor ows_secureTalkBackgroundColor];
 
     self.avatarView = [[AvatarImageView alloc] init];
     [self.contentView addSubview:self.avatarView];
@@ -108,7 +108,7 @@ const NSUInteger kAvatarViewDiameter = 52;
     const int kunreadBadgeSize = 24;
     self.unreadBadge = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kunreadBadgeSize, kunreadBadgeSize)];
     self.unreadBadge.layer.cornerRadius = kunreadBadgeSize / 2;
-    self.unreadBadge.backgroundColor = [UIColor ows_materialBlueColor];
+    self.unreadBadge.backgroundColor = [UIColor ows_darkGreenColor];
     [self.contentView addSubview:self.unreadBadge];
     [self.unreadBadge autoSetDimension:ALDimensionWidth toSize:kunreadBadgeSize];
     [self.unreadBadge autoSetDimension:ALDimensionHeight toSize:kunreadBadgeSize];
@@ -220,7 +220,7 @@ const NSUInteger kAvatarViewDiameter = 52;
 
     self.separatorInset = UIEdgeInsetsMake(0, self.avatarSize * 1.5f, 0, 0);
 
-    _timeLabel.textColor = thread.hasUnreadMessages ? [UIColor ows_materialBlueColor] : [UIColor ows_darkGrayColor];
+    _timeLabel.textColor = thread.hasUnreadMessages ? [UIColor ows_materialBlueColor] : [UIColor ows_darkGreenColor];
 
     if (unreadCount > 0) {
         self.unreadBadge.hidden = NO;
@@ -266,7 +266,7 @@ const NSUInteger kAvatarViewDiameter = 52;
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:timeString];
 
     [attributedString addAttribute:NSForegroundColorAttributeName
-                             value:[UIColor ows_darkGrayColor]
+                             value:[UIColor ows_darkGreenColor]
                              range:NSMakeRange(0, timeString.length)];
 
 

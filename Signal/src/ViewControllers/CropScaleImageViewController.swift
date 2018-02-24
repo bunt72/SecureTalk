@@ -168,7 +168,7 @@ class CropScaleImageViewController: OWSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = UIColor.white
+        view.backgroundColor = UIColor.ows_secureTalkBackground
 
         createViews()
     }
@@ -178,7 +178,7 @@ class CropScaleImageViewController: OWSViewController {
     private func createViews() {
 
         let contentView = UIView()
-        contentView.backgroundColor = UIColor.black
+        contentView.backgroundColor = UIColor.ows_darkGreen
         self.view.addSubview(contentView)
         contentView.autoPinEdgesToSuperviewEdges()
 

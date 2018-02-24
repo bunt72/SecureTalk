@@ -239,7 +239,7 @@ class MessageDetailViewController: OWSViewController, UIScrollViewDelegate, Medi
                     cell.configure(withRecipientId: recipientId, contactsManager: self.contactsManager)
                     let statusLabel = UILabel()
                     statusLabel.text = statusMessage
-                    statusLabel.textColor = UIColor.ows_darkGray
+                    statusLabel.textColor = UIColor.ows_darkGreen
                     statusLabel.font = UIFont.ows_footnote()
                     statusLabel.sizeToFit()
                     cell.accessoryView = statusLabel
@@ -530,7 +530,7 @@ class MessageDetailViewController: OWSViewController, UIScrollViewDelegate, Medi
 
         if subtitle.count > 0 {
             let subtitleLabel = self.valueLabel(text: subtitle)
-            subtitleLabel.textColor = UIColor.ows_darkGray
+            subtitleLabel.textColor = UIColor.ows_darkGreen
             row.addSubview(subtitleLabel)
             subtitleLabel.autoPinTrailingToSuperview()
             subtitleLabel.autoPinLeading(toTrailingOf: nameLabel, margin: 10)

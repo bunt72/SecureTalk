@@ -917,11 +917,11 @@ const CGFloat OWSMessageCellCornerRadius = 17;
     switch (self.attachmentPointer.state) {
         case TSAttachmentPointerStateEnqueued:
             self.customView.backgroundColor
-                = (self.isIncoming ? [UIColor jsq_messageBubbleLightGrayColor] : [UIColor ows_fadedBlueColor]);
+                = (self.isIncoming ? [UIColor jsq_messageBubbleLightGrayColor] : [UIColor ows_bubbleBackGroundColor]);
             break;
         case TSAttachmentPointerStateDownloading:
             self.customView.backgroundColor
-                = (self.isIncoming ? [UIColor jsq_messageBubbleLightGrayColor] : [UIColor ows_fadedBlueColor]);
+                = (self.isIncoming ? [UIColor jsq_messageBubbleLightGrayColor] : [UIColor ows_bubbleBackGroundColor]);
             break;
         case TSAttachmentPointerStateFailed:
             self.customView.backgroundColor = [UIColor grayColor];

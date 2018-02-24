@@ -182,7 +182,7 @@ typedef void (^CustomLayoutBlock)(void);
 {
     UIColor *darkGrey = [UIColor colorWithRGBHex:0x404040];
 
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor ows_secureTalkBackgroundColor];
 
     // Verify/Unverify Button
     UIView *verifyUnverifyButton = [UIView new];
@@ -194,7 +194,7 @@ typedef void (^CustomLayoutBlock)(void);
     [verifyUnverifyButton autoPinToBottomLayoutGuideOfViewController:self withInset:0];
 
     UIView *verifyUnverifyPillbox = [UIView new];
-    verifyUnverifyPillbox.backgroundColor = [UIColor ows_materialBlueColor];
+    verifyUnverifyPillbox.backgroundColor = [UIColor ows_darkGreenColor];
     verifyUnverifyPillbox.layer.cornerRadius = 3.f;
     verifyUnverifyPillbox.clipsToBounds = YES;
     [verifyUnverifyButton addSubview:verifyUnverifyPillbox];

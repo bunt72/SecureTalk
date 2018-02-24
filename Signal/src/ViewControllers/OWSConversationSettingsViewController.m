@@ -657,7 +657,7 @@ NS_ASSUME_NONNULL_BEGIN
         const CGFloat kSubtitlePointSize = 12.f;
         void (^addSubtitle)(NSAttributedString *) = ^(NSAttributedString *subtitle) {
             UILabel *subtitleLabel = [UILabel new];
-            subtitleLabel.textColor = [UIColor ows_darkGrayColor];
+            subtitleLabel.textColor = [UIColor ows_darkGreenColor];
             subtitleLabel.font = [UIFont ows_regularFontWithSize:kSubtitlePointSize];
             subtitleLabel.attributedText = subtitle;
             subtitleLabel.lineBreakMode = NSLineBreakByTruncatingTail;

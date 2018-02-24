@@ -513,7 +513,7 @@ NSString *const OWSContactsManagerSignalAccountsDidChangeNotification
     NSDictionary<NSString *, id> *boldFontAttributes =
         @{ NSFontAttributeName : boldFont, NSForegroundColorAttributeName : [UIColor blackColor] };
     NSDictionary<NSString *, id> *normalFontAttributes =
-        @{ NSFontAttributeName : font, NSForegroundColorAttributeName : [UIColor ows_darkGrayColor] };
+        @{ NSFontAttributeName : font, NSForegroundColorAttributeName : [UIColor ows_darkGreenColor] };
     NSDictionary<NSString *, id> *firstNameAttributes
         = (ABPersonGetSortOrdering() == kABPersonSortByFirstName ? boldFontAttributes : normalFontAttributes);
     NSDictionary<NSString *, id> *lastNameAttributes

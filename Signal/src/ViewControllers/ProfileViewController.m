@@ -92,7 +92,7 @@ NSString *const kProfileView_LastPresentedDate = @"kProfileView_LastPresentedDat
     self.view.backgroundColor = [UIColor colorWithRGBHex:0xefeff4];
 
     UIView *contentView = [UIView containerView];
-    contentView.backgroundColor = [UIColor whiteColor];
+    contentView.backgroundColor = [UIColor ows_secureTalkBackgroundColor];
     [self.view addSubview:contentView];
     [contentView autoPinEdgeToSuperviewEdge:ALEdgeTop];
     [contentView autoPinWidthToSuperview];
@@ -144,7 +144,7 @@ NSString *const kProfileView_LastPresentedDate = @"kProfileView_LastPresentedDat
     UILabel *avatarLabel = [UILabel new];
     avatarLabel.text = NSLocalizedString(
         @"PROFILE_VIEW_PROFILE_AVATAR_FIELD", @"Label for the profile avatar field of the profile view.");
-    avatarLabel.textColor = [UIColor blackColor];
+    avatarLabel.textColor = [UIColor ows_greenColor];
     avatarLabel.font = [UIFont ows_mediumFontWithSize:fontSizePoints];
     [avatarRow addSubview:avatarLabel];
     [avatarLabel autoPinLeadingToSuperview];
@@ -178,7 +178,7 @@ NSString *const kProfileView_LastPresentedDate = @"kProfileView_LastPresentedDat
     [rows addObject:infoRow];
 
     UILabel *infoLabel = [UILabel new];
-    infoLabel.textColor = [UIColor ows_darkGrayColor];
+    infoLabel.textColor = [UIColor ows_darkGreenColor];
     infoLabel.font = [UIFont ows_footnoteFont];
     infoLabel.textAlignment = NSTextAlignmentCenter;
     NSMutableAttributedString *text = [NSMutableAttributedString new];

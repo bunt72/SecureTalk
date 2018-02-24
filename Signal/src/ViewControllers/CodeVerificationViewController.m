@@ -85,13 +85,13 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - 
 
 - (void)createViews {
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor ows_secureTalkBackgroundColor];
     self.view.opaque = YES;
 
     UIColor *signalBlueColor = [UIColor ows_signalBrandBlueColor];
 
     UIView *header = [UIView new];
-    header.backgroundColor = signalBlueColor;
+    header.backgroundColor = UIColor.ows_darkGreenColor;
     [self.view addSubview:header];
     [header autoPinWidthToSuperview];
     [header autoPinEdgeToSuperviewEdge:ALEdgeTop];
@@ -119,7 +119,7 @@ NS_ASSUME_NONNULL_BEGIN
     [backButton addTarget:self action:@selector(backButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     
     _phoneNumberLabel = [UILabel new];
-    _phoneNumberLabel.textColor = [UIColor ows_darkGrayColor];
+    _phoneNumberLabel.textColor = [UIColor ows_darkGreenColor];
     _phoneNumberLabel.font = [UIFont ows_regularFontWithSize:20.f];
     _phoneNumberLabel.numberOfLines = 2;
     _phoneNumberLabel.adjustsFontSizeToFitWidth = YES;
@@ -147,7 +147,7 @@ NS_ASSUME_NONNULL_BEGIN
                           withOffset:25];
     
     UIView *underscoreView = [UIView new];
-    underscoreView.backgroundColor = [UIColor colorWithWhite:0.5 alpha:1.f];
+    underscoreView.backgroundColor = [UIColor ows_secureTalkBackgroundColor];
     [self.view addSubview:underscoreView];
     [underscoreView autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:_challengeTextField
                      withOffset:3];
@@ -162,7 +162,7 @@ NS_ASSUME_NONNULL_BEGIN
                                            @"button text during registration to submit your SMS verification code.")
                                   font:[OWSFlatButton fontForHeight:kSubmitButtonHeight]
                             titleColor:[UIColor whiteColor]
-                       backgroundColor:[UIColor ows_signalBrandBlueColor]
+                       backgroundColor:[UIColor ows_secureTalkBackgroundColor]
                                 target:self
                               selector:@selector(submitVerificationCode)];
     self.submitButton = submitButton;
@@ -182,7 +182,7 @@ NS_ASSUME_NONNULL_BEGIN
     [_submitCodeSpinner autoPinTrailingToSuperviewWithMargin:kSpinnerSpacing];
 
     _sendCodeViaSMSAgainButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    _sendCodeViaSMSAgainButton.backgroundColor = [UIColor whiteColor];
+    _sendCodeViaSMSAgainButton.backgroundColor = [UIColor ows_secureTalkBackgroundColor];
     [_sendCodeViaSMSAgainButton setTitle:NSLocalizedString(@"VERIFICATION_CHALLENGE_SUBMIT_AGAIN", @"button text during registration to request another SMS code be sent")
                                forState:UIControlStateNormal];
     [_sendCodeViaSMSAgainButton setTitleColor:signalBlueColor
@@ -204,7 +204,7 @@ NS_ASSUME_NONNULL_BEGIN
     [_requestCodeAgainSpinner autoPinTrailingToSuperviewWithMargin:kSpinnerSpacing];
 
     _sendCodeViaVoiceButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    _sendCodeViaVoiceButton.backgroundColor = [UIColor whiteColor];
+    _sendCodeViaVoiceButton.backgroundColor = [UIColor ows_secureTalkBackgroundColor];
     [_sendCodeViaVoiceButton setTitle:NSLocalizedString(@"VERIFICATION_CHALLENGE_SEND_VIA_VOICE",
                                 @"button text during registration to request phone number verification be done via phone call")
                             forState:UIControlStateNormal];

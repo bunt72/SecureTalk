@@ -780,7 +780,7 @@ NS_ASSUME_NONNULL_BEGIN
                                            // to ensure that the centered constraints are applied.
                                            [self centerMediaViewConstraints];
                                            [self.mediaView.superview layoutIfNeeded];
-                                           self.view.backgroundColor = UIColor.whiteColor;
+                                           self.view.backgroundColor = UIColor.ows_secureTalkBackgroundColor;
                                        }
                                        completion:^(BOOL finished) {
                                            // HACK: Setting the frame to itself *seems* like it should be a no-op, but
@@ -831,7 +831,7 @@ NS_ASSUME_NONNULL_BEGIN
                              self.presentationView.layer.cornerRadius = OWSMessageCellCornerRadius;
 
                              // In case user has hidden bars, which changes background to black.
-                             self.view.backgroundColor = UIColor.whiteColor;
+                             self.view.backgroundColor = UIColor.ows_secureTalkBackgroundColor;
 
                          }
                          completion:nil];

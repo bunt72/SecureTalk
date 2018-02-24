@@ -77,7 +77,7 @@ static const CGFloat ConversationInputToolbarBorderViewHeight = 0.5;
 {
     self.layoutMargins = UIEdgeInsetsZero;
 
-    self.backgroundColor = [UIColor ows_toolbarBackgroundColor];
+    self.backgroundColor = [UIColor ows_secureTalkBackgroundColor];
     self.autoresizingMask = UIViewAutoresizingFlexibleHeight;
 
     UIView *borderView = [UIView new];
@@ -416,7 +416,7 @@ static const CGFloat ConversationInputToolbarBorderViewHeight = 0.5;
 
     self.voiceMemoUI = [UIView new];
     self.voiceMemoUI.userInteractionEnabled = NO;
-    self.voiceMemoUI.backgroundColor = [UIColor whiteColor];
+    self.voiceMemoUI.backgroundColor = [UIColor ows_secureTalkBackgroundColor];
     [self addSubview:self.voiceMemoUI];
     self.voiceMemoUI.frame = CGRectMake(0, 0, self.bounds.size.width, self.bounds.size.height);
 

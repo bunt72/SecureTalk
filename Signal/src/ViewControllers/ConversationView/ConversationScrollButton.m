@@ -83,7 +83,7 @@ NS_ASSUME_NONNULL_BEGIN
 {
     const CGFloat circleSize = self.class.circleSize;
     self.circleView.backgroundColor
-        = (self.hasUnreadMessages ? [UIColor ows_materialBlueColor] : [UIColor colorWithWhite:0.95f alpha:1.f]);
+        = (self.hasUnreadMessages ? [UIColor ows_secureTalkBackgroundColor] : [UIColor colorWithWhite:0.95f alpha:1.f]);
     self.iconLabel.attributedText = [[NSAttributedString alloc]
         initWithString:self.iconText
             attributes:@{

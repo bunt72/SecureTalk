@@ -198,7 +198,7 @@ private class IntroductingProfilesExperienceUpgradeViewController: ExperienceUpg
         let buttonTitle = NSLocalizedString("UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_BUTTON", comment: "button label shown one time, after user upgrades app")
         button.setTitle(buttonTitle, for: .normal)
         button.setTitleColor(UIColor.white, for: .normal)
-        button.backgroundColor = UIColor.ows_materialBlue
+        button.backgroundColor = UIColor.ows_darkGreen
 
         button.isUserInteractionEnabled = true
         button.addTarget(self, action:#selector(didTapButton), for: .touchUpInside)
@@ -422,18 +422,18 @@ class ExperienceUpgradesPageViewController: OWSViewController, UIPageViewControl
 
     override func loadView() {
         self.view = UIView.container()
-        view.backgroundColor = UIColor.white
+        view.backgroundColor = UIColor.ows_secureTalkBackground
 
         //// Create Views
 
         // Header Background
         let statusBarBackgroundView = UIView.container()
         view.addSubview(statusBarBackgroundView)
-        statusBarBackgroundView.backgroundColor = UIColor.ows_materialBlue
+        statusBarBackgroundView.backgroundColor = UIColor.ows_secureTalkBackground
 
         let headerBackgroundView = UIView.container()
         view.addSubview(headerBackgroundView)
-        headerBackgroundView.backgroundColor = UIColor.ows_materialBlue
+        headerBackgroundView.backgroundColor = UIColor.ows_secureTalkBackground
 
         // Dismiss button
         let dismissButton = UIButton()

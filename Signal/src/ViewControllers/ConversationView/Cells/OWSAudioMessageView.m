@@ -179,7 +179,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (UIColor *)bubbleBackgroundColor
 {
-    return self.isIncoming ? [UIColor jsq_messageBubbleLightGrayColor] : [UIColor ows_materialBlueColor];
+    return self.isIncoming ? [UIColor jsq_messageBubbleLightGrayColor] : [UIColor ows_bubbleBackGroundColor];
 }
 
 - (BOOL)isVoiceMessage

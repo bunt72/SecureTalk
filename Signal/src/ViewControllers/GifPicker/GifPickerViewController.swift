@@ -148,7 +148,7 @@ class GifPickerViewController: OWSViewController, UISearchBarDelegate, UICollect
 
     private func createViews() {
 
-        view.backgroundColor = UIColor.white
+        view.backgroundColor = UIColor.ows_secureTalkBackground
 
         // Block UIKit from adjust insets of collection view which screws up
         // min/max scroll positions.
@@ -159,7 +159,7 @@ class GifPickerViewController: OWSViewController, UISearchBarDelegate, UICollect
         searchBar.delegate = self
         searchBar.placeholder = NSLocalizedString("GIF_VIEW_SEARCH_PLACEHOLDER_TEXT",
                                                   comment: "Placeholder text for the search field in gif view")
-        searchBar.backgroundColor = UIColor.white
+        searchBar.backgroundColor = UIColor.ows_secureTalkBackground
 
         self.view.addSubview(searchBar)
         searchBar.autoPinWidthToSuperview()
@@ -167,7 +167,7 @@ class GifPickerViewController: OWSViewController, UISearchBarDelegate, UICollect
 
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
-        self.collectionView.backgroundColor = UIColor.white
+        self.collectionView.backgroundColor = UIColor.ows_secureTalkBackground
         self.collectionView.register(GifPickerCell.self, forCellWithReuseIdentifier: kCellReuseIdentifier)
         // Inserted below searchbar because we later occlude the collectionview
         // by inserting a masking layer between the search bar and collectionview

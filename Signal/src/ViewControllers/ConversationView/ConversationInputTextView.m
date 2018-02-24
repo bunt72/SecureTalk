@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 
         CGFloat cornerRadius = 6.0f;
 
-        self.backgroundColor = [UIColor whiteColor];
+        self.backgroundColor = [UIColor ows_secureTalkBackgroundColor];
         self.layer.borderColor = [UIColor lightGrayColor].CGColor;
         self.layer.borderWidth = 0.5f;
         self.layer.cornerRadius = cornerRadius;
