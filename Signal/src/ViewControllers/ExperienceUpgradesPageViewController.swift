@@ -94,7 +94,7 @@ private class IntroductingReadReceiptsExperienceUpgradeViewController: Experienc
         let button = MultiLineButton()
         view.addSubview(button)
         button.setTitle(title, for: .normal)
-        button.setTitleColor(UIColor.ows_signalBrandBlue, for: .normal)
+        button.setTitleColor(UIColor.ows_darkGreen, for: .normal)
         button.isUserInteractionEnabled = true
         button.addTarget(self, action:#selector(didTapButton), for: .touchUpInside)
         button.contentEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
@@ -259,7 +259,7 @@ private class CallKitExperienceUpgradeViewController: ExperienceUpgradeViewContr
         view.addSubview(privacySettingsButton)
         let privacyTitle = NSLocalizedString("UPGRADE_EXPERIENCE_CALLKIT_PRIVACY_SETTINGS_BUTTON", comment: "button label shown once when when user upgrades app, in context of call kit")
         privacySettingsButton.setTitle(privacyTitle, for: .normal)
-        privacySettingsButton.setTitleColor(UIColor.ows_signalBrandBlue, for: .normal)
+        privacySettingsButton.setTitleColor(UIColor.ows_darkGreen, for: .normal)
         privacySettingsButton.isUserInteractionEnabled = true
         privacySettingsButton.addTarget(self, action:#selector(didTapPrivacySettingsButton), for: .touchUpInside)
         privacySettingsButton.titleLabel?.font = bodyLabel.font
@@ -439,7 +439,7 @@ class ExperienceUpgradesPageViewController: OWSViewController, UIPageViewControl
         let dismissButton = UIButton()
         view.addSubview(dismissButton)
         dismissButton.setTitle(CommonStrings.dismissButton, for: .normal)
-        dismissButton.setTitleColor(UIColor.ows_signalBrandBlue, for: .normal)
+        dismissButton.setTitleColor(UIColor.ows_darkGreen, for: .normal)
         dismissButton.isUserInteractionEnabled = true
         dismissButton.addTarget(self, action:#selector(didTapDismissButton), for: .touchUpInside)
         dismissButton.titleLabel?.font = UIFont.ows_mediumFont(withSize: ScaleFromIPhone5(16))

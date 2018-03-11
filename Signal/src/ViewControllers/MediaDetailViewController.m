@@ -336,7 +336,7 @@ NS_ASSUME_NONNULL_BEGIN
     if (self.viewItem) {
         UIToolbar *footerBar = [UIToolbar new];
         _footerBar = footerBar;
-        footerBar.barTintColor = [UIColor ows_signalBrandBlueColor];
+        footerBar.barTintColor = [UIColor ows_darkGreenColor];
         self.videoPlayBarButton =
             [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemPlay
                                                           target:self
@@ -727,7 +727,7 @@ NS_ASSUME_NONNULL_BEGIN
     // animate in our view, over the existing context, similar to a cross disolve, but allowing us to have
     // more fine grained control
     navController.modalPresentationStyle = UIModalPresentationCustom;
-    navController.navigationBar.barTintColor = UIColor.ows_materialBlueColor;
+    navController.navigationBar.barTintColor = UIColor.ows_darkGreenColor;
     navController.navigationBar.translucent = NO;
     navController.navigationBar.opaque = YES;
 

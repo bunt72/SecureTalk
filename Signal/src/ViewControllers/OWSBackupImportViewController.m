@@ -83,7 +83,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)showInProgressUI
 {
     self.progressView = [OWSProgressView new];
-    self.progressView.color = [UIColor ows_materialBlueColor];
+    self.progressView.color = [UIColor ows_darkGreenColor];
     self.progressView.progress = self.backup.backupProgress;
     [self.progressView autoSetDimension:ALDimensionWidth toSize:300];
     [self.progressView autoSetDimension:ALDimensionHeight toSize:20];
@@ -174,7 +174,7 @@ NS_ASSUME_NONNULL_BEGIN
     OWSFlatButton *button = [OWSFlatButton buttonWithTitle:title
                                                       font:[OWSFlatButton fontForHeight:kButtonHeight]
                                                 titleColor:[UIColor whiteColor]
-                                           backgroundColor:[UIColor ows_materialBlueColor]
+                                           backgroundColor:[UIColor ows_darkGreenColor]
                                                     target:self
                                                   selector:selector];
     [button autoSetDimension:ALDimensionWidth toSize:140];

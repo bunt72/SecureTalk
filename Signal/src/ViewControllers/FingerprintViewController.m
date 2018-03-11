@@ -228,7 +228,7 @@ typedef void (^CustomLayoutBlock)(void);
                 NSUnderlineStyleAttributeName : @(NSUnderlineStyleSingle | NSUnderlinePatternSolid),
             }];
     learnMoreLabel.font = [UIFont ows_regularFontWithSize:ScaleFromIPhone5To7Plus(13.f, 16.f)];
-    learnMoreLabel.textColor = [UIColor ows_materialBlueColor];
+    learnMoreLabel.textColor = [UIColor ows_darkGreenColor];
     learnMoreLabel.textAlignment = NSTextAlignmentCenter;
     [learnMoreButton addSubview:learnMoreLabel];
     [learnMoreLabel autoPinWidthToSuperviewWithMargin:16.f];

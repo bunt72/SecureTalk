@@ -89,7 +89,7 @@ NS_ASSUME_NONNULL_BEGIN
             attributes:@{
                 NSFontAttributeName : [UIFont ows_fontAwesomeFont:circleSize * 0.8f],
                 NSForegroundColorAttributeName :
-                    (self.hasUnreadMessages ? [UIColor whiteColor] : [UIColor ows_materialBlueColor]),
+                    (self.hasUnreadMessages ? [UIColor whiteColor] : [UIColor ows_darkGreenColor]),
                 NSBaselineOffsetAttributeName : @(-0.5f),
             }];
 }

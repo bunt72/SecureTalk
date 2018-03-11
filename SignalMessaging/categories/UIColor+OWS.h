@@ -9,7 +9,6 @@ NS_ASSUME_NONNULL_BEGIN
 @interface UIColor (OWS)
 
 @property (class, readonly, nonatomic) UIColor *ows_systemPrimaryButtonColor;
-@property (class, readonly, nonatomic) UIColor *ows_signalBrandBlueColor;
 @property (class, readonly, nonatomic) UIColor *ows_secureTalkBackgroundColor;
 @property (class, readonly, nonatomic) UIColor *ows_materialBlueColor;
 @property (class, readonly, nonatomic) UIColor *ows_destructiveRedColor;

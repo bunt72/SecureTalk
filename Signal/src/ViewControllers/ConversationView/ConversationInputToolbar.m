@@ -127,7 +127,7 @@ static const CGFloat ConversationInputToolbarBorderViewHeight = 0.5;
     [self.sendButton
         setTitle:NSLocalizedString(@"SEND_BUTTON_TITLE", @"Label for the send button in the conversation view.")
         forState:UIControlStateNormal];
-    [self.sendButton setTitleColor:[UIColor ows_materialBlueColor] forState:UIControlStateNormal];
+    [self.sendButton setTitleColor:[UIColor ows_darkGreenColor] forState:UIControlStateNormal];
     self.sendButton.titleLabel.textAlignment = NSTextAlignmentCenter;
     self.sendButton.titleLabel.font = [UIFont ows_mediumFontWithSize:16.f];
     [self.sendButton addTarget:self action:@selector(sendButtonPressed) forControlEvents:UIControlEventTouchUpInside];
@@ -138,7 +138,7 @@ static const CGFloat ConversationInputToolbarBorderViewHeight = 0.5;
     _voiceMemoButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [self.voiceMemoButton setImage:[voiceMemoIcon imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate]
                           forState:UIControlStateNormal];
-    self.voiceMemoButton.imageView.tintColor = [UIColor ows_materialBlueColor];
+    self.voiceMemoButton.imageView.tintColor = [UIColor ows_darkGreenColor];
     [self.rightButtonWrapper addSubview:self.voiceMemoButton];
 
     // We want to be permissive about the voice message gesture, so we hang

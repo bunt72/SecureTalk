@@ -220,7 +220,7 @@ const NSUInteger kAvatarViewDiameter = 52;
 
     self.separatorInset = UIEdgeInsetsMake(0, self.avatarSize * 1.5f, 0, 0);
 
-    _timeLabel.textColor = thread.hasUnreadMessages ? [UIColor ows_materialBlueColor] : [UIColor ows_darkGreenColor];
+    _timeLabel.textColor = thread.hasUnreadMessages ? [UIColor ows_darkGreenColor] : [UIColor ows_darkGreenColor];
 
     if (unreadCount > 0) {
         self.unreadBadge.hidden = NO;

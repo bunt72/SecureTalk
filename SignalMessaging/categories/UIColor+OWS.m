@@ -15,10 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
     return [UIColor colorWithRed:0.1135657504 green:0.4787300229 blue:0.89595204589999999 alpha:1.];
 }
 
-+ (UIColor *)ows_secureBrandBlueColor
-{
-    return [UIColor colorWithRed:0.1135657504 green:0.4787300229 blue:0.89595204589999999 alpha:1.];
-}
 
 + (UIColor *)ows_materialBlueColor
 {
@@ -72,7 +68,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIColor *)ows_bubbleBackGroundColor
 {
     // green: #889690
-    return [UIColor colorWithRed:136.f / 255.f green:150.f / 255.f blue:144.f / 255.f alpha:1.f];
+    return [UIColor colorWithRed:0.f / 255.f green:79.f / 255.f blue:6.f / 255.f alpha:1.f];
 }
 
 + (UIColor *)ows_reminderYellowColor

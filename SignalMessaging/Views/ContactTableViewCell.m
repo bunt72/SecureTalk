@@ -89,7 +89,7 @@ const CGFloat kContactTableViewCellAvatarTextMargin = 12;
 
     _subtitle = [UILabel new];
     _subtitle.font = [UIFont ows_footnoteFont];
-    _subtitle.textColor = [UIColor ows_darkGrayColor];
+    _subtitle.textColor = [UIColor ows_darkGreenColor];
     [_nameContainerView addSubview:self.subtitle];
 
     [_avatarView autoVCenterInSuperview];

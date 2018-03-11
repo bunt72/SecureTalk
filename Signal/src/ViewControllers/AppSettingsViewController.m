@@ -274,7 +274,7 @@
     } else {
         titleLabel.text = NSLocalizedString(
             @"APP_SETTINGS_EDIT_PROFILE_NAME_PROMPT", @"Text prompting user to edit their profile name.");
-        titleLabel.textColor = [UIColor ows_materialBlueColor];
+        titleLabel.textColor = [UIColor ows_darkGreenColor];
         titleLabel.font = [UIFont ows_dynamicTypeHeadlineFont];
     }
     titleLabel.lineBreakMode = NSLineBreakByTruncatingTail;

@@ -120,7 +120,7 @@ NSString *const kProfileView_LastPresentedDate = @"kProfileView_LastPresentedDat
     UITextField *nameTextField = [UITextField new];
     _nameTextField = nameTextField;
     nameTextField.font = [UIFont ows_mediumFontWithSize:18.f];
-    nameTextField.textColor = [UIColor ows_materialBlueColor];
+    nameTextField.textColor = [UIColor ows_darkGreenColor];
     nameTextField.placeholder = NSLocalizedString(
         @"PROFILE_VIEW_NAME_DEFAULT_TEXT", @"Default text for the profile name field of the profile view.");
     nameTextField.delegate = self;
@@ -193,7 +193,7 @@ NSString *const kProfileView_LastPresentedDate = @"kProfileView_LastPresentedDat
                                          attributes:@{
                                              NSUnderlineStyleAttributeName :
                                                  @(NSUnderlineStyleSingle | NSUnderlinePatternSolid),
-                                             NSForegroundColorAttributeName : [UIColor ows_materialBlueColor],
+                                             NSForegroundColorAttributeName : [UIColor ows_darkGreenColor],
                                          }]];
     infoLabel.attributedText = text;
     infoLabel.numberOfLines = 0;
@@ -211,14 +211,13 @@ NSString *const kProfileView_LastPresentedDate = @"kProfileView_LastPresentedDat
         [rows addObject:buttonRow];
 
         const CGFloat kButtonHeight = 47.f;
-        // NOTE: We use ows_signalBrandBlueColor instead of ows_materialBlueColor
-        //       throughout the onboarding flow to be consistent with the headers.
+        
         OWSFlatButton *saveButton =
             [OWSFlatButton buttonWithTitle:NSLocalizedString(@"PROFILE_VIEW_SAVE_BUTTON",
                                                @"Button to save the profile view in the profile view.")
                                       font:[OWSFlatButton fontForHeight:kButtonHeight]
                                 titleColor:[UIColor whiteColor]
-                           backgroundColor:[UIColor ows_signalBrandBlueColor]
+                           backgroundColor:[UIColor ows_darkGreenColor]
                                     target:self
                                   selector:@selector(saveButtonPressed)];
         self.saveButton = saveButton;
@@ -347,11 +346,11 @@ NSString *const kProfileView_LastPresentedDate = @"kProfileView_LastPresentedDat
     // The save button is only used in "registration" and "upgrade or nag" modes.
     if (self.hasUnsavedChanges) {
         self.saveButton.enabled = YES;
-        [self.saveButton setBackgroundColorsWithUpColor:[UIColor ows_signalBrandBlueColor]];
+        [self.saveButton setBackgroundColorsWithUpColor:[UIColor ows_darkGreenColor]];
     } else {
         self.saveButton.enabled = NO;
         [self.saveButton
-            setBackgroundColorsWithUpColor:[[UIColor ows_signalBrandBlueColor] blendWithColor:[UIColor whiteColor]
+            setBackgroundColorsWithUpColor:[[UIColor ows_darkGreenColor] blendWithColor:[UIColor whiteColor]
                                                                                         alpha:0.5f]];
     }
 }

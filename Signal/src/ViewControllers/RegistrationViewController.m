@@ -68,7 +68,7 @@ NSString *const kKeychainKey_LastRegisteredPhoneNumber = @"kKeychainKey_LastRegi
 
     UIView *headerWrapper = [UIView containerView];
     [self.view addSubview:headerWrapper];
-    headerWrapper.backgroundColor = UIColor.ows_signalBrandBlueColor;
+    headerWrapper.backgroundColor = UIColor.ows_darkGreenColor;
     
     UIView *headerContent = [UIView new];
     [headerWrapper addSubview:headerContent];
@@ -140,7 +140,7 @@ NSString *const kKeychainKey_LastRegisteredPhoneNumber = @"kKeychainKey_LastRegi
 
     UILabel *countryCodeLabel = [UILabel new];
     self.countryCodeLabel = countryCodeLabel;
-    countryCodeLabel.textColor = [UIColor ows_materialBlueColor];
+    countryCodeLabel.textColor = [UIColor ows_darkGreenColor];
     countryCodeLabel.font = [UIFont ows_mediumFontWithSize:fontSizePoints + 2.f];
     [countryRow addSubview:countryCodeLabel];
     [countryCodeLabel autoVCenterInSuperview];
@@ -176,7 +176,7 @@ NSString *const kKeychainKey_LastRegisteredPhoneNumber = @"kKeychainKey_LastRegi
     phoneNumberTextField.placeholder = NSLocalizedString(
         @"REGISTRATION_ENTERNUMBER_DEFAULT_TEXT", @"Placeholder text for the phone number textfield");
     self.phoneNumberTextField = phoneNumberTextField;
-    phoneNumberTextField.textColor = [UIColor ows_materialBlueColor];
+    phoneNumberTextField.textColor = [UIColor ows_darkGreenColor];
     phoneNumberTextField.font = [UIFont ows_mediumFontWithSize:fontSizePoints + 2];
     [phoneNumberRow addSubview:phoneNumberTextField];
     [phoneNumberTextField autoVCenterInSuperview];
@@ -205,12 +205,11 @@ NSString *const kKeychainKey_LastRegisteredPhoneNumber = @"kKeychainKey_LastRegi
 
     // Activate Button
     const CGFloat kActivateButtonHeight = 47.f;
-    // NOTE: We use ows_signalBrandBlueColor instead of ows_materialBlueColor
-    //       throughout the onboarding flow to be consistent with the headers.
+   
     OWSFlatButton *activateButton = [OWSFlatButton buttonWithTitle:NSLocalizedString(@"REGISTRATION_VERIFY_DEVICE", @"")
                                                               font:[OWSFlatButton fontForHeight:kActivateButtonHeight]
                                                         titleColor:[UIColor whiteColor]
-                                                   backgroundColor:[UIColor ows_signalBrandBlueColor]
+                                                   backgroundColor:[UIColor ows_darkGreenColor]
                                                             target:self
                                                           selector:@selector(sendCodeAction)];
     self.activateButton = activateButton;
