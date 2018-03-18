@@ -150,7 +150,7 @@ class MessageDetailViewController: OWSViewController, UIScrollViewDelegate, Medi
 
         if hasMediaAttachment {
             let footer = UIToolbar()
-            footer.barTintColor = UIColor.ows_materialBlue
+            footer.barTintColor = UIColor.ows_darkGreen
             view.addSubview(footer)
             footer.autoPinWidthToSuperview(withMargin: 0)
             footer.autoPinEdge(.top, to: .bottom, of: scrollView)

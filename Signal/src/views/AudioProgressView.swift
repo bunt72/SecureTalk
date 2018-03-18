@@ -29,7 +29,7 @@ import SignalServiceKit
         }
     }
 
-    var progressColor = UIColor.blue {
+    var progressColor = UIColor.darkGray {
         didSet {
             updateContent()
         }

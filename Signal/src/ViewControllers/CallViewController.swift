@@ -398,7 +398,6 @@ class CallViewController: OWSViewController, CallObserver, CallServiceObserver {
         AssertIsOnMainThread()
 
         let actionSheetController = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
-
         let dismissAction = UIAlertAction(title:  CommonStrings.dismissButton, style: .cancel, handler: nil)
         actionSheetController.addAction(dismissAction)
 

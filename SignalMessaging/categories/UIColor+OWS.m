@@ -10,18 +10,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @implementation UIColor (OWS)
 
-+ (UIColor *)ows_signalBrandBlueColor
-{
-    return [UIColor colorWithRed:0.1135657504 green:0.4787300229 blue:0.89595204589999999 alpha:1.];
-}
-
-
-+ (UIColor *)ows_materialBlueColor
-{
-    // blue: #2090EA
-    return [UIColor colorWithRed:32.f / 255.f green:144.f / 255.f blue:234.f / 255.f alpha:1.f];
-}
-
 + (UIColor *)ows_blackColor
 {
     // black: #080A00
@@ -53,15 +41,10 @@ NS_ASSUME_NONNULL_BEGIN
     return [UIColor colorWithRed:220.f / 255.f green: 242.f/ 255.f blue: 236.f/ 255.f alpha: 1.f];
 }
 
-+ (UIColor *)ows_fadedBlueColor
-{
-    // blue: #B6DEF4
-    return [UIColor colorWithRed:182.f / 255.f green:222.f / 255.f blue:244.f / 255.f alpha:1.f];
-}
 
 + (UIColor *)ows_yellowColor
 {
-    // gold: #FFBB5C
+    // gold: #FFBB5
     return [UIColor colorWithRed:245.f / 255.f green:186.f / 255.f blue:98.f / 255.f alpha:1.f];
 }
 

@@ -3340,15 +3340,15 @@ typedef NS_ENUM(NSInteger, MessagesRangeSizeMode) {
 
     UIAlertController *actionSheetController =
         [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
-
+    actionSheetController.view.tintColor = UIColor.ows_darkGreenColor;
     [actionSheetController addAction:[OWSAlerts cancelAction]];
-
     UIAlertAction *takeMediaAction = [UIAlertAction
         actionWithTitle:NSLocalizedString(@"MEDIA_FROM_CAMERA_BUTTON", @"media picker option to take photo or video")
                   style:UIAlertActionStyleDefault
                 handler:^(UIAlertAction *_Nonnull action) {
                     [self takePictureOrVideo];
                 }];
+    
     UIImage *takeMediaImage = [UIImage imageNamed:@"actionsheet_camera_black"];
     OWSAssert(takeMediaImage);
     [takeMediaAction setValue:takeMediaImage forKey:@"image"];

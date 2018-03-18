@@ -368,7 +368,7 @@ func setPageControlAppearance() {
     if #available(iOS 9.0, *) {
         let pageControl = UIPageControl.appearance(whenContainedInInstancesOf: [UIPageViewController.self])
         pageControl.pageIndicatorTintColor = UIColor.lightGray
-        pageControl.currentPageIndicatorTintColor = UIColor.ows_materialBlue
+        pageControl.currentPageIndicatorTintColor = UIColor.ows_darkGreen
     } else {
         // iOS8 won't see the page controls =(
     }

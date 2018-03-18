@@ -10,9 +10,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (class, readonly, nonatomic) UIColor *ows_systemPrimaryButtonColor;
 @property (class, readonly, nonatomic) UIColor *ows_secureTalkBackgroundColor;
-@property (class, readonly, nonatomic) UIColor *ows_materialBlueColor;
 @property (class, readonly, nonatomic) UIColor *ows_destructiveRedColor;
-@property (class, readonly, nonatomic) UIColor *ows_fadedBlueColor;
+//@property (class, readonly, nonatomic) UIColor *ows_fadedBlueColor;
 @property (class, readonly, nonatomic) UIColor *ows_darkGreenColor;
 @property (class, readonly, nonatomic) UIColor *ows_yellowColor;
 @property (class, readonly, nonatomic) UIColor *ows_reminderYellowColor;
