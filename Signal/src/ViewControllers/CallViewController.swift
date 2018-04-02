@@ -400,7 +400,7 @@ class CallViewController: OWSViewController, CallObserver, CallServiceObserver {
         let actionSheetController = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
         let dismissAction = UIAlertAction(title:  CommonStrings.dismissButton, style: .cancel, handler: nil)
         actionSheetController.addAction(dismissAction)
-
+        actionSheetController.view.tintColor = UIColor.ows_darkGreen;
         let currentAudioSource = callUIAdapter.audioService.currentAudioSource(call: self.call)
         for audioSource in self.appropriateAudioSources {
             let routeAudioAction = UIAlertAction(title: audioSource.localizedName, style: .default) { _ in

@@ -35,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
                                             message:nil
                                      preferredStyle:UIAlertControllerStyleActionSheet];
     [actionSheetController addAction:[OWSAlerts cancelAction]];
-
+    actionSheetController.view.tintColor = UIColor.ows_darkGreenColor;
     UIAlertAction *takePictureAction = [UIAlertAction
         actionWithTitle:NSLocalizedString(@"MEDIA_FROM_CAMERA_BUTTON", @"media picker option to take photo or video")
                   style:UIAlertActionStyleDefault

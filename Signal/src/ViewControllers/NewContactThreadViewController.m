@@ -197,7 +197,7 @@ NS_ASSUME_NONNULL_BEGIN
     UILabel *titleLabel = [UILabel new];
     titleLabel.text = NSLocalizedString(
         @"EMPTY_CONTACTS_LABEL_LINE1", "Full width label displayed when attempting to compose message");
-    titleLabel.textColor = [UIColor blackColor];
+    titleLabel.textColor = [UIColor ows_darkGreenColor];
     titleLabel.font = [UIFont ows_mediumFontWithSize:ScaleFromIPhone5To7Plus(17.f, 20.f)];
     titleLabel.textAlignment = NSTextAlignmentCenter;
     titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
@@ -341,6 +341,7 @@ NS_ASSUME_NONNULL_BEGIN
                                              viewController.nonContactConversationDelegate = weakSelf;
                                              [weakSelf.navigationController pushViewController:viewController
                                                                                       animated:YES];
+                                             viewController.view.tintColor = UIColor.ows_darkGreenColor;
                                          }]];
 
     if (self.contactsViewHelper.contactsManager.isSystemContactsAuthorized) {

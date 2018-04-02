@@ -50,8 +50,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (UIColor *)ows_bubbleBackGroundColor
 {
-    // green: #889690
-    return [UIColor colorWithRed:0.f / 255.f green:79.f / 255.f blue:6.f / 255.f alpha:1.f];
+    // green: #318422
+    return [UIColor colorWithRed:49.f / 255.f green:132.f / 255.f blue:34.f / 255.f alpha:1.f];
 }
 
 + (UIColor *)ows_reminderYellowColor

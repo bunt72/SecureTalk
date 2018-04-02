@@ -883,6 +883,7 @@ typedef NS_ENUM(NSInteger, MessagesRangeSizeMode) {
             [UIAlertController alertControllerWithTitle:nil
                                                 message:nil
                                          preferredStyle:UIAlertControllerStyleActionSheet];
+        actionSheetController.view.tintColor = UIColor.ows_darkGreenColor;
 
         __weak ConversationViewController *weakSelf = self;
         UIAlertAction *verifyAction = [UIAlertAction

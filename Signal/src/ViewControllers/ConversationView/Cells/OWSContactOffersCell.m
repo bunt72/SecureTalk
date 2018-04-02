@@ -43,7 +43,7 @@ NS_ASSUME_NONNULL_BEGIN
     //    [self setTranslatesAutoresizingMaskIntoConstraints:NO];
 
     self.titleLabel = [UILabel new];
-    self.titleLabel.textColor = [UIColor blackColor];
+    self.titleLabel.textColor = [UIColor ows_darkGreenColor];
     self.titleLabel.font = [self titleFont];
     self.titleLabel.text = NSLocalizedString(@"CONVERSATION_VIEW_CONTACTS_OFFER_TITLE",
         @"Title for the group of buttons show for unknown contacts offering to add them to contacts, etc.");

@@ -178,26 +178,26 @@
                                               actionBlock:^{
                                                   [weakSelf showNotifications];
                                               }]];
-    [section addItem:[OWSTableItem disclosureItemWithText:NSLocalizedString(@"LINKED_DEVICES_TITLE",
-                                                              @"Menu item and navbar title for the device manager")
-                                              actionBlock:^{
-                                                  [weakSelf showLinkedDevices];
-                                              }]];
-    [section addItem:[OWSTableItem disclosureItemWithText:NSLocalizedString(@"SETTINGS_ADVANCED_TITLE", @"")
-                                              actionBlock:^{
-                                                  [weakSelf showAdvanced];
-                                              }]];
+//    [section addItem:[OWSTableItem disclosureItemWithText:NSLocalizedString(@"LINKED_DEVICES_TITLE",
+//                                                              @"Menu item and navbar title for the device manager")
+//                                              actionBlock:^{
+//                                                  [weakSelf showLinkedDevices];
+//                                              }]];
+//    [section addItem:[OWSTableItem disclosureItemWithText:NSLocalizedString(@"SETTINGS_ADVANCED_TITLE", @"")
+//                                              actionBlock:^{
+//                                                  [weakSelf showAdvanced];
+//                                              }]];
     [section addItem:[OWSTableItem disclosureItemWithText:NSLocalizedString(@"SETTINGS_ABOUT", @"")
                                               actionBlock:^{
                                                   [weakSelf showAbout];
                                               }]];
 
-#ifdef USE_DEBUG_UI
-    [section addItem:[OWSTableItem disclosureItemWithText:@"Debug UI"
-                                              actionBlock:^{
-                                                  [weakSelf showDebugUI];
-                                              }]];
-#endif
+//#ifdef USE_DEBUG_UI
+//    [section addItem:[OWSTableItem disclosureItemWithText:@"Debug UI"
+//                                              actionBlock:^{
+//                                                  [weakSelf showDebugUI];
+//                                              }]];
+//#endif
 
     [section addItem:[OWSTableItem itemWithCustomCellBlock:^{
         UITableViewCell *cell = [UITableViewCell new];
@@ -209,7 +209,7 @@
         OWSFlatButton *button = [OWSFlatButton buttonWithTitle:NSLocalizedString(@"SETTINGS_DELETE_ACCOUNT_BUTTON", @"")
                                                           font:[OWSFlatButton fontForHeight:kButtonHeight]
                                                     titleColor:[UIColor whiteColor]
-                                               backgroundColor:[UIColor ows_secureTalkBackgroundColor]
+                                               backgroundColor:[UIColor ows_darkGreenColor]
                                                         target:self
                                                       selector:@selector(unregisterUser)];
         [cell.contentView addSubview:button];
@@ -244,7 +244,7 @@
 
     AvatarImageView *avatarView = [[AvatarImageView alloc] initWithImage:avatarImage];
     if (!localProfileAvatarImage) {
-        avatarView.tintColor = [UIColor colorWithRGBHex:0x888888];
+        avatarView.tintColor = [UIColor ows_darkGreenColor];
     }
     [cell.contentView addSubview:avatarView];
     [avatarView autoVCenterInSuperview];
@@ -269,7 +269,7 @@
     NSString *_Nullable localProfileName = [OWSProfileManager.sharedManager localProfileName];
     if (localProfileName.length > 0) {
         titleLabel.text = localProfileName;
-        titleLabel.textColor = [UIColor blackColor];
+        titleLabel.textColor = [UIColor grayColor];
         titleLabel.font = [UIFont ows_dynamicTypeTitle2Font];
     } else {
         titleLabel.text = NSLocalizedString(

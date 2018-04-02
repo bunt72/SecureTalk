@@ -65,7 +65,7 @@ NS_ASSUME_NONNULL_BEGIN
             UITableViewCell *cell = [UITableViewCell new];
             cell.textLabel.text = countryMetadata.localizedCountryName;
             cell.textLabel.font = [UIFont ows_regularFontWithSize:18.f];
-            cell.textLabel.textColor = [UIColor blackColor];
+            cell.textLabel.textColor = [UIColor greenColor];
 
             if ([countryMetadata.countryCode isEqualToString:currentCountryCode]) {
                 cell.accessoryType = UITableViewCellAccessoryCheckmark;

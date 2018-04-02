@@ -128,11 +128,11 @@ NSString *const kKeychainKey_LastRegisteredPhoneNumber = @"kKeychainKey_LastRegi
     [countryRow
         addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self
                                                                      action:@selector(countryCodeRowWasTapped:)]];
-
+    countryRow.tintColor = UIColor.ows_darkGreenColor;
     UILabel *countryNameLabel = [UILabel new];
     countryNameLabel.text
         = NSLocalizedString(@"REGISTRATION_DEFAULT_COUNTRY_NAME", @"Label for the country code field");
-    countryNameLabel.textColor = [UIColor blackColor];
+    countryNameLabel.textColor = [UIColor ows_darkGreenColor];
     countryNameLabel.font = [UIFont ows_mediumFontWithSize:fontSizePoints];
     [countryRow addSubview:countryNameLabel];
     [countryNameLabel autoVCenterInSuperview];
@@ -163,7 +163,7 @@ NSString *const kKeychainKey_LastRegisteredPhoneNumber = @"kKeychainKey_LastRegi
     UILabel *phoneNumberLabel = [UILabel new];
     phoneNumberLabel.text
         = NSLocalizedString(@"REGISTRATION_PHONENUMBER_BUTTON", @"Label for the phone number textfield");
-    phoneNumberLabel.textColor = [UIColor blackColor];
+    phoneNumberLabel.textColor = [UIColor ows_darkGreenColor];
     phoneNumberLabel.font = [UIFont ows_mediumFontWithSize:fontSizePoints];
     [phoneNumberRow addSubview:phoneNumberLabel];
     [phoneNumberLabel autoVCenterInSuperview];
@@ -185,7 +185,7 @@ NSString *const kKeychainKey_LastRegisteredPhoneNumber = @"kKeychainKey_LastRegi
     UILabel *examplePhoneNumberLabel = [UILabel new];
     self.examplePhoneNumberLabel = examplePhoneNumberLabel;
     examplePhoneNumberLabel.font = [UIFont ows_regularFontWithSize:fontSizePoints - 2.f];
-    examplePhoneNumberLabel.textColor = [UIColor colorWithWhite:0.5f alpha:1.f];
+    examplePhoneNumberLabel.textColor = [UIColor ows_darkGreenColor];
     [contentView addSubview:examplePhoneNumberLabel];
     [examplePhoneNumberLabel autoPinTrailingToSuperview];
     [examplePhoneNumberLabel autoPinEdge:ALEdgeTop

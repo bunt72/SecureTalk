@@ -134,7 +134,7 @@ NS_ASSUME_NONNULL_BEGIN
     const CGFloat kHMargin = 36;
     
     _challengeTextField = [UITextField new];
-    _challengeTextField.textColor = [UIColor blackColor];
+    _challengeTextField.textColor = [UIColor ows_darkGreenColor];
     _challengeTextField.placeholder = NSLocalizedString(@"VERIFICATION_CHALLENGE_DEFAULT_TEXT",
                                                         @"Text field placeholder for SMS verification code during registration");
     _challengeTextField.font = [UIFont ows_lightFontWithSize:21.f];
@@ -306,10 +306,8 @@ NS_ASSUME_NONNULL_BEGIN
                                                               [_challengeTextField becomeFirstResponder];
                                                           }];
     [alertController addAction:dismissAction];
-
     [self presentViewController:alertController animated:YES completion:nil];
 }
-
 - (NSString *)validationCodeFromTextField {
     return [self.challengeTextField.text stringByReplacingOccurrencesOfString:@"-" withString:@""];
 }

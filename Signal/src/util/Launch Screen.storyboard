@@ -49,4 +49,5 @@
     <resources>
         <image name="talk_logo" width="226" height="230"/>
     </resources>
+    <color key="tintColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

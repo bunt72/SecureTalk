@@ -10,6 +10,7 @@
 #import "MainAppContext.h"
 #import "NotificationsManager.h"
 #import "OWSBackup.h"
+#import "UIColor+OWS.h"
 #import "OWSNavigationController.h"
 #import "Pastelog.h"
 #import "PushManager.h"
@@ -165,6 +166,7 @@ static NSString *const kURLHostVerifyPrefix             = @"verify";
     self.window.rootViewController = [self loadingRootViewController];
 
     [self.window makeKeyAndVisible];
+    self.window.tintColor = [UIColor colorWithRed:66.f / 255.f green:191.f / 255.f blue:64.f / 255.f alpha:1.f];
 
     // performUpdateCheck must be invoked after Environment has been initialized because
     // upgrade process may depend on Environment.
