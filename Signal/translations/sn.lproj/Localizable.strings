@@ -1403,7 +1403,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Koka shamwari kupfurikidza netsamba isina kukwedekerwa?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Unoda here kukoka nhamba dzinotevera kuSignal:";
+"SEND_SMS_INVITE_TITLE" = "Unoda here kukoka nhamba dzinotevera kuSecureTalk:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "Nezve";

@@ -1403,7 +1403,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Inviter en venn via usikker SMS?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Vil du invitere følgende nummer til Signal:";
+"SEND_SMS_INVITE_TITLE" = "Vil du invitere følgende nummer til SecureTalk:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "Om";

@@ -1403,7 +1403,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Πρόσκληση φίλου/ης μέσω μη-ασφαλούς SMS;";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Θέλεις να προσκαλέσεις τον ακόλουθο αριθμό στο Signal:";
+"SEND_SMS_INVITE_TITLE" = "Θέλεις να προσκαλέσεις τον ακόλουθο αριθμό στο SecureTalk:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "Για εμάς";

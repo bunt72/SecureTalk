@@ -1352,7 +1352,7 @@
 "SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION" = "Enviar Assim Mesmo";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Nosso Número de Segurança Signal:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Nosso Número de Segurança SecureTalk:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "O seu número de segurança com %@ mudou. Queira verificá-lo, por favor.";

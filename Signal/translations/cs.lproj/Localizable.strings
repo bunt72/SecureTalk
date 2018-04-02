@@ -1403,7 +1403,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Pozvat kamaráda přes zabezpečenou SMS?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Chcete pozvat toto číslo do Signal:";
+"SEND_SMS_INVITE_TITLE" = "Chcete pozvat toto číslo do SecuryTalk:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "O aplikaci";

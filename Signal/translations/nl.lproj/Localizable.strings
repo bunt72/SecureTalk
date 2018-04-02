@@ -1403,7 +1403,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Vriend uitnodigen via onbeveiligde sms?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Wil je het volgende nummer uitnodigen voor Signal:";
+"SEND_SMS_INVITE_TITLE" = "Wil je het volgende nummer uitnodigen voor SecureTalk:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "Over";

@@ -1403,7 +1403,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Invită un prieten prin SMS nesecurizat?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Ai dori să inviți numărul următor să folosească aplicația Signal:";
+"SEND_SMS_INVITE_TITLE" = "Ai dori să inviți numărul următor să folosească aplicația SecureTalk:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "Despre";

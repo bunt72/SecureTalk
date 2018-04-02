@@ -1403,7 +1403,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "¿Invitar a un contacto vía SMS inseguro? ";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "¿Deseas invitar este número a usar Signal:";
+"SEND_SMS_INVITE_TITLE" = "¿Deseas invitar este número a usar SecureTalk:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "Acerca de Signal";

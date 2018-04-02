@@ -1403,7 +1403,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Vai uzaicināt draugu, izmantojot nedrošu SMS?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Vai Jūs vēlētos uzaicināt sekojošos numurus izmantot Signal:";
+"SEND_SMS_INVITE_TITLE" = "Vai Jūs vēlētos uzaicināt sekojošos numurus izmantot SecureTalk:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "Par";

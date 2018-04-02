@@ -88,7 +88,7 @@ NS_ASSUME_NONNULL_BEGIN
     self.view.backgroundColor = [UIColor ows_secureTalkBackgroundColor];
     self.view.opaque = YES;
 
-    UIColor *signalBlueColor = [UIColor ows_darkGreenColor];
+    UIColor *secureTalkColor = [UIColor ows_darkGreenColor];
 
     UIView *header = [UIView new];
     header.backgroundColor = UIColor.ows_darkGreenColor;
@@ -183,7 +183,7 @@ NS_ASSUME_NONNULL_BEGIN
     _sendCodeViaSMSAgainButton.backgroundColor = [UIColor ows_secureTalkBackgroundColor];
     [_sendCodeViaSMSAgainButton setTitle:NSLocalizedString(@"VERIFICATION_CHALLENGE_SUBMIT_AGAIN", @"button text during registration to request another SMS code be sent")
                                forState:UIControlStateNormal];
-    [_sendCodeViaSMSAgainButton setTitleColor:signalBlueColor
+    [_sendCodeViaSMSAgainButton setTitleColor:secureTalkColor
                                     forState:UIControlStateNormal];
     _sendCodeViaSMSAgainButton.titleLabel.font = [UIFont ows_mediumFontWithSize:14.f];
     [_sendCodeViaSMSAgainButton addTarget:self
@@ -206,7 +206,7 @@ NS_ASSUME_NONNULL_BEGIN
     [_sendCodeViaVoiceButton setTitle:NSLocalizedString(@"VERIFICATION_CHALLENGE_SEND_VIA_VOICE",
                                 @"button text during registration to request phone number verification be done via phone call")
                             forState:UIControlStateNormal];
-    [_sendCodeViaVoiceButton setTitleColor:signalBlueColor
+    [_sendCodeViaVoiceButton setTitleColor:secureTalkColor
                                     forState:UIControlStateNormal];
     _sendCodeViaVoiceButton.titleLabel.font = [UIFont ows_mediumFontWithSize:14.f];
     [_sendCodeViaVoiceButton addTarget:self

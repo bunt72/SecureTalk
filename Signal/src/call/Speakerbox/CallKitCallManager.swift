@@ -18,7 +18,7 @@ import SignalServiceKit
 final class CallKitCallManager: NSObject {
 
     let callController = CXCallController()
-    static let kAnonymousCallHandlePrefix = "Signal:"
+    static let kAnonymousCallHandlePrefix = "SecuryTalk:"
 
     override required init() {
         AssertIsOnMainThread()

@@ -1462,7 +1462,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Invite a friend via insecure SMS?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Would you like to invite the following number to Signal: ";
+"SEND_SMS_INVITE_TITLE" = "Would you like to invite the following number to SecuryTalk: ";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "About";

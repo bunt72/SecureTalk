@@ -1403,7 +1403,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Undang teman melalui SMS tidak aman?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Apakah kamu akan mengundang beberapa nomor untuk bergabung Signal:";
+"SEND_SMS_INVITE_TITLE" = "Apakah kamu akan mengundang beberapa nomor untuk bergabung SecureTalkl:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "Tentang";

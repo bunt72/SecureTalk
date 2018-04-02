@@ -267,8 +267,8 @@ typedef NS_ENUM(NSInteger, CellState) { kArchiveState, kInboxState };
     [self tableViewSetUp];
 
     self.segmentedControl = [[UISegmentedControl alloc] initWithItems:@[
-        NSLocalizedString(@"WHISPER_NAV_BAR_TITLE", nil),
-        NSLocalizedString(@"ARCHIVE_NAV_BAR_TITLE", nil)
+        NSLocalizedString(@"WHISPER_NAV_BAR_TITLE", nil)
+        //NSLocalizedString(@"ARCHIVE_NAV_BAR_TITLE", nil)
     ]];
 
     [self.segmentedControl addTarget:self
@@ -644,39 +644,39 @@ typedef NS_ENUM(NSInteger, CellState) { kArchiveState, kInboxState };
     return;
 }
 
-- (NSArray *)tableView:(UITableView *)tableView editActionsForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    UITableViewRowAction *deleteAction =
-        [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDefault
-                                           title:NSLocalizedString(@"TXT_DELETE_TITLE", nil)
-                                         handler:^(UITableViewRowAction *action, NSIndexPath *swipedIndexPath) {
-                                             [self tableViewCellTappedDelete:swipedIndexPath];
-                                         }];
-
-    UITableViewRowAction *archiveAction;
-    if (self.viewingThreadsIn == kInboxState) {
-        archiveAction = [UITableViewRowAction
-            rowActionWithStyle:UITableViewRowActionStyleNormal
-                         title:NSLocalizedString(@"ARCHIVE_ACTION",
-                                   @"Pressing this button moves a thread from the inbox to the archive")
-                       handler:^(UITableViewRowAction *_Nonnull action, NSIndexPath *_Nonnull tappedIndexPath) {
-                           [self archiveIndexPath:tappedIndexPath];
-                           [Environment.preferences setHasArchivedAMessage:YES];
-                       }];
-
-    } else {
-        archiveAction = [UITableViewRowAction
-            rowActionWithStyle:UITableViewRowActionStyleNormal
-                         title:NSLocalizedString(@"UNARCHIVE_ACTION",
-                                   @"Pressing this button moves an archived thread from the archive back to the inbox")
-                       handler:^(UITableViewRowAction *_Nonnull action, NSIndexPath *_Nonnull tappedIndexPath) {
-                           [self archiveIndexPath:tappedIndexPath];
-                       }];
-    }
-
-
-    return @[ deleteAction, archiveAction ];
-}
+//- (NSArray *)tableView:(UITableView *)tableView editActionsForRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    UITableViewRowAction *deleteAction =
+//        [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDefault
+//                                           title:NSLocalizedString(@"TXT_DELETE_TITLE", nil)
+//                                         handler:^(UITableViewRowAction *action, NSIndexPath *swipedIndexPath) {
+//                                             [self tableViewCellTappedDelete:swipedIndexPath];
+//                                         }];
+//
+//    UITableViewRowAction *archiveAction;
+//    if (self.viewingThreadsIn == kInboxState) {
+//        archiveAction = [UITableViewRowAction
+//            rowActionWithStyle:UITableViewRowActionStyleNormal
+//                         title:NSLocalizedString(@"ARCHIVE_ACTION",
+//                                   @"Pressing this button moves a thread from the inbox to the archive")
+//                       handler:^(UITableViewRowAction *_Nonnull action, NSIndexPath *_Nonnull tappedIndexPath) {
+//                           [self archiveIndexPath:tappedIndexPath];
+//                           [Environment.preferences setHasArchivedAMessage:YES];
+//                       }];
+//
+//    } else {
+//        archiveAction = [UITableViewRowAction
+//            rowActionWithStyle:UITableViewRowActionStyleNormal
+//                         title:NSLocalizedString(@"UNARCHIVE_ACTION",
+//                                   @"Pressing this button moves an archived thread from the archive back to the inbox")
+//                       handler:^(UITableViewRowAction *_Nonnull action, NSIndexPath *_Nonnull tappedIndexPath) {
+//                           [self archiveIndexPath:tappedIndexPath];
+//                       }];
+//    }
+//
+//
+//    return @[ deleteAction, archiveAction ];
+//}
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {

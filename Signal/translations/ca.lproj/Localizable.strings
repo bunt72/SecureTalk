@@ -1352,7 +1352,7 @@
 "SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION" = "Envia-ho de totes maneres";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Els nostres números de seguretat del Signal:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Els nostres números de seguretat del SecuryTalk:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Els números de seguretat amb %@ ha canviat. Potser voleu verificar-los.";
@@ -1403,7 +1403,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Convidar a un amic via SMS segur?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Voleu convidar aquest número al Signal:";
+"SEND_SMS_INVITE_TITLE" = "Voleu convidar aquest número al SecuryTalk:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "Quant a";

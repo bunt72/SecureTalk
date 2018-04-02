@@ -536,7 +536,7 @@
 "EDIT_TXT" = "Uredi";
 
 /* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to WhisperSystems home page}} */
-"EMAIL_INVITE_BODY" = "Hej,\n\nže nekaj časa uporabljam Signal, aplikacijo za varno sporočanje. Namesti si jo tudi ti! Tako bova lahko sigurna, da stvari, ki si jih poveva, ostajajo samo med nama.\n\nAplikacija je na voljo za IPhone ali Android, dobiš pa jo lahko tukaj: %@\n\nSignal deluje tako kot druge aplikacije za sporočanje. Z njim lahko pošiljamo fotografije, video, opravljamo glasovne in skupinske pogovore. Njegova posebnost pa je, da nihče ne more prisluškovati naši komunikaciji, niti ljudje, ki so ga ustvarili.\n\nTu si lahko prebereš več o Open Whisper Systems; ljudeh, ki ustvarjajo aplikacijo Signal: %@";
+"EMAIL_INVITE_BODY" = "Hej,\n\nže nekaj časa uporabljam Signal, aplikacijo za varno sporočanje. Namesti si jo tudi ti! Tako bova lahko sigurna, da stvari, ki si jih poveva, ostajajo samo med nama.\n\nAplikacija je na voljo za IPhone ali Android, dobiš pa jo lahko tukaj: %@\n\nSignal deluje tako kot druge aplikacije za sporočanje. Z njim lahko pošiljamo fotografije, video, opravljamo glasovne in skupinske pogovore. Njegova posebnost pa je, da nihče ne more prisluškovati naši komunikaciji, niti ljudje, ki so ga ustvarili.\n\nTu si lahko prebereš več o Open Whisper Systems; ljudeh, ki ustvarjajo aplikacijo SecureTalk: %@";
 
 /* subject of email sent to contacts when inviting to install Signal */
 "EMAIL_INVITE_SUBJECT" = "Preklopite na Signal!";

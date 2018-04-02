@@ -1403,7 +1403,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Fto një shok/shoqe përmes SMS me tekst të thjeshtë?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Dëshironi ta ftoni këtë numër në Signal:";
+"SEND_SMS_INVITE_TITLE" = "Dëshironi ta ftoni këtë numër në SecureTalk:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "Më shumë";

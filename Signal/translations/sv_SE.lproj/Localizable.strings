@@ -1352,7 +1352,7 @@
 "SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION" = "Skicka ändå";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Vårt säkerhetsnummer för Signal:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Vårt säkerhetsnummer för SecureTalk:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Ditt säkerhetsnummer med %@ har ändrats. Du vill nog bekräfta det.";
@@ -1403,7 +1403,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Bjud in en vän via osäkert SMS?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Vill du bjuda in följande nummer till Signal:";
+"SEND_SMS_INVITE_TITLE" = "Vill du bjuda in följande nummer till SecureTalk:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "Om";

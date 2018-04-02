@@ -1403,7 +1403,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Пригласить друга через незащищенное SMS?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Хотите пригласить этот номер в Signal:";
+"SEND_SMS_INVITE_TITLE" = "Хотите пригласить этот номер в SecureTalk:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "О программе";
