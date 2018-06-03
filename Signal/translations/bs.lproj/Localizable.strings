@@ -59,13 +59,13 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "%@ verzija je sada dostupna na App Storeu.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Dostupna je nova verzija Signala";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Dostupna je nova verzija SecureTalka";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Ažuriraj";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "SecureTalk";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "Arhiviraj";
@@ -131,7 +131,7 @@
 "ATTACHMENT_PICKER_DOCUMENTS_FAILED_ALERT_TITLE" = "Nije moguće izabrati dokument.";
 
 /* Alert body when picking a document fails because user picked a directory/bundle */
-"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "Signal ne može prenijeti ovu datoteku. Probajte je sažeti u .zip format prije slanja.";
+"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "SecureTalk ne može prenijeti ovu datoteku. Probajte je sažeti u .zip format prije slanja.";
 
 /* Alert title when picking a document fails because user picked a directory/bundle */
 "ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_TITLE" = "Datoteka nije podržana.";
@@ -200,7 +200,7 @@
 "BUTTON_DONE" = "Uredu";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Signal zahtijeva pristup mikrofonu za uspostavu poziva i snimanje glasovnih poruka. Možete odobriti ove dozvole u aplikaciji Postavke.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "SecureTalk zahtijeva pristup mikrofonu za uspostavu poziva i snimanje glasovnih poruka. Možete odobriti ove dozvole u aplikaciji Postavke.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Zahtijeva pristup mikrofonu";
@@ -215,7 +215,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Nema odgovora.";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "SecureTalk %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Poziv";
@@ -263,7 +263,7 @@
 "CALLBACK_BUTTON_TITLE" = "Povratni poziv";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Signal Korisnik";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "SecureTalk Korisnik";
 
 /* Message for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_MESSAGE" = "Ovaj korisnik ne može biti provjeren sve dok sa njim ne razmijenite poruke.";
@@ -287,7 +287,7 @@
 "COMPOSE_MESSAGE_INVITE_SECTION_TITLE" = "Invite";
 
 /* Multiline label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Da biste vidjeli koji od vaših kontakata koriste Signal, omogućite pristup kontaktima u podešavanjima sistema.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Da biste vidjeli koji od vaših kontakata koriste SecureTalk, omogućite pristup kontaktima u podešavanjima sistema.";
 
 /* No comment provided by engineer. */
 "CONFIRM_ACCOUNT_DESTRUCTION_TEXT" = "Ovo će resetirati aplikaciju brisanjem vaših poruka i odjaviti će vas sa servera. Aplikacija će se zatvoriti nakon brisanja podataka.";
@@ -305,7 +305,7 @@
 "CONFIRM_LINK_NEW_DEVICE_ACTION" = "Uveži novi uređaj";
 
 /* Action sheet body presented when a user's SN have recently changed. Embeds {{contact's name or phone nubmer}} */
-"CONFIRM_SENDING_TO_CHANGED_IDENTITY_BODY_FORMAT" = "%@ je možda reinstalirao/la Signal ili promijenio/la uređaj. Provjerite svoj sigurnosni broj s njim/njom kako biste osigurali privatnost.";
+"CONFIRM_SENDING_TO_CHANGED_IDENTITY_BODY_FORMAT" = "%@ je možda reinstalirao/la SecureTalk ili promijenio/la uređaj. Provjerite svoj sigurnosni broj s njim/njom kako biste osigurali privatnost.";
 
 /* Action sheet title presented when a users's SN have recently changed. Embeds {{contact's name or phone number}} */
 "CONFIRM_SENDING_TO_CHANGED_IDENTITY_TITLE_FORMAT" = "Sigurnosni broj sa %@ je promijenjen.";
@@ -488,7 +488,7 @@
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Možete odobriti pristup u aplikaciji Postavke.";
 
 /* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal zahtijeva pristup kontaktima za uređivanje kontakt informacija";
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "SecureTalk zahtijeva pristup kontaktima za uređivanje kontakt informacija";
 
 /* table cell label in conversation settings */
 "EDIT_GROUP_ACTION" = "Uredi grupu";
@@ -536,16 +536,16 @@
 "EDIT_TXT" = "Uredi";
 
 /* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to WhisperSystems home page}} */
-"EMAIL_INVITE_BODY" = "Hej,\n\nOdnedavno koristim Signal kako bi svoje razgovore na mom iPhoneu zadržao privatnim. Volio bi da ga i ti instaliraš, tako da budemo sigurni da samo ja i ti možemo čitati naše poruke i čuti naše razgovore.\n\nSignal je dostupan za iPhone i Android. Preuzmite ga ovdje : %@\n\nSignal radi kao tvoja postojeća aplikacija za razmjenu poruka. Možemo slati slike i video, vršiti pozive i započeti grupne razgovore. Najbolje stvar je što niko drugi osim nas ništa od toga ne može vidjeti, pa čak ni ljudi koje čine Signal.\n\nMožeš pročitati više o Open Whisper System i Signalu, ljudima koji stoje iza ovog projekta, ovdje: %@";
+"EMAIL_INVITE_BODY" = "Hej,\n\nOdnedavno koristim SecureTalk kako bi svoje razgovore na mom iPhoneu zadržao privatnim. Volio bi da ga i ti instaliraš, tako da budemo sigurni da samo ja i ti možemo čitati naše poruke i čuti naše razgovore.\n\nSecureTalk je dostupan za iPhone i Android. Preuzmite ga ovdje : %@\n\nSecureTalk radi kao tvoja postojeća aplikacija za razmjenu poruka. Možemo slati slike i video, vršiti pozive i započeti grupne razgovore. Najbolje stvar je što niko drugi osim nas ništa od toga ne može vidjeti, pa čak ni ljudi koje čine SecureTalk.\n\nMožeš pročitati više o Open Whisper System i SecureTalku, ljudima koji stoje iza ovog projekta, ovdje: %@";
 
 /* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Pređimo na Signal";
+"EMAIL_INVITE_SUBJECT" = "Pređimo na SecureTalk";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "Dodirni dugme za sastavljanje poruke.";
 
 /* No comment provided by engineer. */
-"EMPTY_ARCHIVE_FIRST_TITLE" = "Započnite vaš prvi razgovor na Signalu!";
+"EMPTY_ARCHIVE_FIRST_TITLE" = "Započnite vaš prvi razgovor na SecureTalku!";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_TEXT" = "Možete arhivirati neaktivne razgovore za kasnije iz vašeg Sandučića.";
@@ -554,7 +554,7 @@
 "EMPTY_ARCHIVE_TITLE" = "Očistite vaše razgovore.";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Niko od vaših kontakata ne koristi Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Niko od vaših kontakata ne koristi SecureTalk.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Zašto nekome ne pošaljete pozivnicu?";
@@ -590,13 +590,13 @@
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_FAILED_ATTACHMENT_WRITE" = "Failed due to failed attachment write.";
 
 /* Generic error used whenver Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal nije u mogućnosti povezati se na internet. Molimo pokušajte sa drugom WiFi ili mobilnom mrežom.";
+"ERROR_DESCRIPTION_NO_INTERNET" = "SecureTalk nije u mogućnosti povezati se na internet. Molimo pokušajte sa drugom WiFi ili mobilnom mrežom.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Slanje poruke nije uspjelo zbog nedostatka valjanih primatelja.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Vaš uređaj više nije registriran za vaš telefonski broj. Morate ukloniti i ponovno instalirati Signal.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Vaš uređaj više nije registriran za vaš telefonski broj. Morate ukloniti i ponovno instalirati SecureTalk.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Greška servera. Molimo pokušajte ponovo kasnije.";
@@ -605,10 +605,10 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Došlo je do nepoznate greške.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontakt ne koristi Signal.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontakt ne koristi SecureTalk.";
 
 /* Error message when unable to receive an attachment because the sending client is too old. */
-"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Failure: Ask sender to update Signal and resend.";
+"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Failure: Ask sender to update SecureTalk and resend.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "Primljena dupla poruka.";
@@ -797,13 +797,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Nevažeća audio datoteka.";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Da biste poslali pozivnicu svojim kontaktima, potrebno je da Signalu omogućite pristup svojim kontaktima u aplikaciji Postavke.";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Da biste poslali pozivnicu svojim kontaktima, potrebno je da SecureTalku omogućite pristup svojim kontaktima u aplikaciji Postavke.";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Dozvoli pristup kontaktima";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Pozovite prijatelje na Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Pozovite prijatelje na SecureTalk";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Traži";
@@ -987,11 +987,11 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Signal zahtijeva pristup vašoj kameri za video pozive. Možete odobriti ovu dozvolu u aplikaciji Postavke >> Privatnost >> Kamera >> Signal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "SecureTalk zahtijeva pristup vašoj kameri za video pozive. Možete odobriti ovu dozvolu u aplikaciji Postavke >> Privatnost >> Kamera >> SecureTalk";
 
 /* Alert title
    Alert title when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal treba pristup vašoj kameri.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "SecureTalk treba pristup vašoj kameri.";
 
 /* notification title. Embeds {{caller's name or phone number}} */
 "MSGVIEW_MISSED_CALL_WITH_NAME" = "Propušten poziv od %@.";
@@ -1181,19 +1181,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Broj u vašem međuspremniku ne izgleda kao ispravan sigurnosni broj za ovaj razgovor.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal ne može pronaći nijedan sigurnosni broj u međuspremniku. Da li ste ga ispravno kopirali?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "SecureTalk ne može pronaći nijedan sigurnosni broj u međuspremniku. Da li ste ga ispravno kopirali?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Svaki korisnički par na Signalu dijeli poseban sigurnosni broj. Duplo provjerite da %@ prikazuje *vaš* poseban sigurnosni broj.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Svaki korisnički par na SecureTalku dijeli poseban sigurnosni broj. Duplo provjerite da %@ prikazuje *vaš* poseban sigurnosni broj.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Pokrećete staru verziju Signala. Potrebno je ažuriranje prije provjere.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Pokrećete staru verziju SecureTalka. Potrebno je ažuriranje prije provjere.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Vaš partner pokreće staru verziju Signala. Potrebna je nadogradnja prije provjere.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Vaš partner pokreće staru verziju SecureTalka. Potrebna je nadogradnja prije provjere.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Skenirani kôd ne izgleda kao kôd sigurnosnih brojeva. Da li oboje koristite najnoviju verziju Signala?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Skenirani kôd ne izgleda kao kôd sigurnosnih brojeva. Da li oboje koristite najnoviju verziju SecureTalka?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Ako želite verifikovati sigurnost end-to-end šifriranja sa %@, uporedite brojeve iznad sa brojevima na njegovom/njezinom uređaju.\n\nAlternativno, možete skenirati kôd na njegovom/njezinom telefonu ili upitati ih da skeniraju vaš kôd.";
@@ -1232,7 +1232,7 @@
 "PROFILE_VIEW_PROFILE_AVATAR_FIELD" = "Slika profila";
 
 /* Description of the user profile. */
-"PROFILE_VIEW_PROFILE_DESCRIPTION" = "Vaš Signal profil će biti vidljiv vašim kontaktima, kada pokrenete nove razgovore i kada ga podijelite sa drugim korisnicima i grupama.";
+"PROFILE_VIEW_PROFILE_DESCRIPTION" = "Vaš SecureTalk profil će biti vidljiv vašim kontaktima, kada pokrenete nove razgovore i kada ga podijelite sa drugim korisnicima i grupama.";
 
 /* Link to more information about the user profile. */
 "PROFILE_VIEW_PROFILE_DESCRIPTION_LINK" = "Dodirnite ovdje da biste saznali više.";
@@ -1265,13 +1265,13 @@
 "QUESTIONMARK_PUNCTUATION" = "?";
 
 /* No comment provided by engineer. */
-"RATING_MSG" = "Ako volite koristiti Signal za privatne razgovore, svojom ocijenom možete podržati naš projekat. To vam neće uzeti ni minutu vremena, a pomoći će drugima da pronađu privatnost.";
+"RATING_MSG" = "Ako volite koristiti SecureTalk za privatne razgovore, svojom ocijenom možete podržati naš projekat. To vam neće uzeti ni minutu vremena, a pomoći će drugima da pronađu privatnost.";
 
 /* No comment provided by engineer. */
-"RATING_RATE" = "Ocijeni Signal";
+"RATING_RATE" = "Ocijeni SecureTalk";
 
 /* No comment provided by engineer. */
-"RATING_TITLE" = "Podrži Signal!";
+"RATING_TITLE" = "Podrži SecureTalk!";
 
 /* No comment provided by engineer. */
 "REGISTER_CONTACTS_WELCOME" = "Dobrodošli!";
@@ -1352,7 +1352,7 @@
 "SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION" = "Svakako pošalji";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Naš Signal sigurnosni broj:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Naš SecureTalk sigurnosni broj:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Vaš sigurnosni broj sa %@ je promijenjen. Možda ga želite provjeriti";
@@ -1394,7 +1394,7 @@
 "SEND_INVITE_FAILURE" = "Slanje pozivnice nije uspjelo, molimo pokušajte kasnije.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Pozvali se prijatelja/icu da koristi Signal!";
+"SEND_INVITE_SUCCESS" = "Pozvali se prijatelja/icu da koristi SecureTalk!";
 
 /* Text for button to send a Signal invite via SMS. %@ is placeholder for the receipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "Pošalji pozivnicu putem SMS: %@";
@@ -1403,7 +1403,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Pošalji pozivnicu prijatelju putem obične SMS poruke?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Želite li poslati pozivnicu na Signal sljedećem broju:";
+"SEND_SMS_INVITE_TITLE" = "Želite li poslati pozivnicu na SecureTalk sljedećem broju:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "O aplikaciji";
@@ -1424,7 +1424,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY_FORMAT" = "Lokacija: %@";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Ako je omogućeno, Signal će pokušati zaobići cenzuru. Nemojte omogućiti ovu funkciju osim ako niste na mjestu gdje je Signal cenzuriran.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Ako je omogućeno, SecureTalk će pokušati zaobići cenzuru. Nemojte omogućiti ovu funkciju osim ako niste na mjestu gdje je SecureTalk cenzuriran.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Korištenje cenzure je aktivirano na temelju telefonskog broja vašeg računa.";
@@ -1433,7 +1433,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Korištenje cenzure može se aktivirati samo ako ste povezani na internet.";
 
 /* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Zaobilazak cenzure nije potreban; već ste spojeni na uslugu Signal.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Zaobilazak cenzure nije potreban; već ste spojeni na uslugu SecureTalk.";
 
 /* Table header for the 'censorship circumvention' section. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_HEADER" = "Zaobilazak cenzure";
@@ -1451,7 +1451,7 @@
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Dodaj...";
 
 /* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Nemate kontakata koji koriste Signal.";
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Nemate kontakata koji koriste SecureTalk.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Nema rezultata pretraživanja";
@@ -1466,7 +1466,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Uvijek sakrij adresu";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Sakrij za sve pozive putem Signal servera kako bi izbjegli otkrivanje IP adrese vašem kontaktu. Omogućavanje će smanjiti kvalitetu poziva.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Sakrij za sve pozive putem SecureTalk servera kako bi izbjegli otkrivanje IP adrese vašem kontaktu. Omogućavanje će smanjiti kvalitetu poziva.";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "Očisti historijske zapise";
@@ -1496,7 +1496,7 @@
 "SETTINGS_INVITE_TITLE" = "Pošalji pozivnicu prijateljima";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Povežimo se koristeći Signal od @WhisperSystems, preuzmite aplikaciju sada.";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Povežimo se koristeći SecureTalk od @WhisperSystems, preuzmite aplikaciju sada.";
 
 /* Title for settings activity */
 "SETTINGS_NAV_BAR_TITLE" = "Podešavanja";
@@ -1523,10 +1523,10 @@
 "SETTINGS_SCREEN_SECURITY" = "Omogući sigurnost zaslona";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY_DETAIL" = "Sprječava pregled Signala kod pojavljivanja prilikom promjene aplikacija.";
+"SETTINGS_SCREEN_SECURITY_DETAIL" = "Sprječava pregled SecureTalka kod pojavljivanja prilikom promjene aplikacija.";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "iOS integracija poziva omogućava prikaz Signal poziva na zaključanom ekranu i historiju poziva unutar sistema u aplikaciji \"Telefon\". Po izboru možete omogućiti prikaz imena i brojeva vaših kontakata. Ako je omogućen iCloud, ova povijest poziva dijelit će se sa Apple-om.";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "iOS integracija poziva omogućava prikaz SecureTalk poziva na zaključanom ekranu i historiju poziva unutar sistema u aplikaciji \"Telefon\". Po izboru možete omogućiti prikaz imena i brojeva vaših kontakata. Ako je omogućen iCloud, ova povijest poziva dijelit će se sa Apple-om.";
 
 /* settings topic header for table section */
 "SETTINGS_SECTION_TITLE_CALLING" = "Pozivanje";
@@ -1553,13 +1553,13 @@
 "SHARE_EXTENSION_LOADING" = "Loading...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Launch the Signal app to register.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Launch the SecureTalk app to register.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Not Registered";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Launch the Signal app to update.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Launch the SecureTalk app to update.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Not Ready";
@@ -1574,7 +1574,7 @@
 "SHOW_THREAD_BUTTON_TITLE" = "Prikaži razgovor";
 
 /* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Pozivam vas da instalirate Signal! Ovdje je link:";
+"SMS_INVITE_BODY" = "Pozivam vas da instalirate SecureTalk! Ovdje je link:";
 
 /* Alert body after verifying privacy with {{other user's name}} */
 "SUCCESSFUL_VERIFICATION_DESCRIPTION" = "Vaš sigurnosni broj sa %@ se podudara. Možete označiti ovaj kontakt provjerenim.";
@@ -1640,13 +1640,13 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Prekini vezu sa \"%@\"?";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal nije u mogućnosti prekinuti vezu sa vašim uređajem.";
+"UNLINKING_FAILED_ALERT_TITLE" = "SecureTalk nije u mogućnosti prekinuti vezu sa vašim uređajem.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Neimenovani uređaj";
 
 /* No comment provided by engineer. */
-"UNREGISTER_SIGNAL_FAIL" = "Odjava sa Signala nije uspjela.";
+"UNREGISTER_SIGNAL_FAIL" = "Odjava sa SecureTalka nije uspjela.";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Primljeni privitak nije podržan.";
@@ -1673,7 +1673,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_BUTTON" = "Podesite svoj profil";
 
 /* Description of new profile feature for upgrading (existing) users */
-"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "Sada možete podijeliti fotografiju i ime profila s prijateljima na Signalu.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "Sada možete podijeliti fotografiju i ime profila s prijateljima na SecureTalku.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_TITLE" = "Spremni ste da vas vide izbliza?";
@@ -1688,19 +1688,19 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_READ_RECEIPTS_TITLE" = "Introducing Read Receipts";
 
 /* Description of video calling to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Signal sada podržava sigurne video pozive. Dovoljno je da uspostavite uobičajen poziv i dodirnete ikonu kamere.";
+"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "SecureTalk sada podržava sigurne video pozive. Dovoljno je da uspostavite uobičajen poziv i dodirnete ikonu kamere.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "Pozdrav sigurnim video pozivima!";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Signal će uskoro zahtijevati iOS 9 ili noviji. Molimo izvršite ažuriranje u aplikaciji Postavke >> Općenito >> Ažuriranje softvera.";
+"UPGRADE_IOS_ALERT_MESSAGE" = "SecureTalk će uskoro zahtijevati iOS 9 ili noviji. Molimo izvršite ažuriranje u aplikaciji Postavke >> Općenito >> Ažuriranje softvera.";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "Ažuriraj iOS";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "Signal se nadograđuje ...";
+"Upgrading SecureTalk ..." = "SecureTalk se nadograđuje ...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "Nazad";
@@ -1754,7 +1754,7 @@
 "VOICE_MESSAGE_TOO_SHORT_ALERT_TITLE" = "Glasovna poruka";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Završi podešavanje na Signal za Desktop.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Završi podešavanje na SecureTalk za Desktop.";
 
 /* No comment provided by engineer. */
 "WHISPER_NAV_BAR_TITLE" = "Sandučić";

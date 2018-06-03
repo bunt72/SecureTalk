@@ -59,13 +59,13 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "バージョン%@がApp Storeに出ています";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Signalの最新版が出ています";
+"APP_UPDATE_NAG_ALERT_TITLE" = "SecureTalkの最新版が出ています";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "更新する";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "SecureTalk";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "アーカイブ";
@@ -215,7 +215,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "応答なし";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "SecureTalk %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "通話";
@@ -263,7 +263,7 @@
 "CALLBACK_BUTTON_TITLE" = "折り返す";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Signalユーザー";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "SecureTalkユーザー";
 
 /* Message for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_MESSAGE" = "メッセージ交換するまではユーザーの確認はできません";
@@ -287,7 +287,7 @@
 "COMPOSE_MESSAGE_INVITE_SECTION_TITLE" = "招待する";
 
 /* Multiline label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "連絡先にいるSignalユーザーを確認するには，連絡先へのアクセスが必要です。許可を出すにはiOSの設定に進んでください。";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "連絡先にいるSecureTalkユーザーを確認するには，連絡先へのアクセスが必要です。許可を出すにはiOSの設定に進んでください。";
 
 /* No comment provided by engineer. */
 "CONFIRM_ACCOUNT_DESTRUCTION_TEXT" = "アプリをリセットします。メッセージや登録情報をサーバから削除します。削除が終わり次第アプリを終了します。";
@@ -536,10 +536,10 @@
 "EDIT_TXT" = "編集";
 
 /* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to WhisperSystems home page}} */
-"EMAIL_INVITE_BODY" = "こんにちは。私は最近，携帯電話での会話・チャットをSignalというアプリで行っています。このアプリを使うと，会話内容が他人に傍受されないという安心感が持てますので，あなたもインストールしてみませんか？iPhoneでもAndroidでも使えます。こちらからインストールできます：%@\n\nSignalは普通のメッセージアプリと同じように使えます。写真や動画も送れますし，電話もできますし，３人以上でのチャットもできます。一番いいところは，通信内容が他人から傍受されないことです。アプリの制作者でさえ傍受できない仕組みになっており、非常に安全です。\n\nSignalの制作者であるOpen Whisper Systemsについての詳細はここを見て下さい：%@";
+"EMAIL_INVITE_BODY" = "こんにちは。私は最近，携帯電話での会話・チャットをSecureTalkというアプリで行っています。このアプリを使うと，会話内容が他人に傍受されないという安心感が持てますので，あなたもインストールしてみませんか？iPhoneでもAndroidでも使えます。こちらからインストールできます：%@\n\nSecureTalkは普通のメッセージアプリと同じように使えます。写真や動画も送れますし，電話もできますし，３人以上でのチャットもできます。一番いいところは，通信内容が他人から傍受されないことです。アプリの制作者でさえ傍受できない仕組みになっており、非常に安全です。\n\nSecureTalkの制作者であるOpen Whisper Systemsについての詳細はここを見て下さい：%@";
 
 /* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "チャットアプリをSignalに変更しましょう。";
+"EMAIL_INVITE_SUBJECT" = "チャットアプリをSSecureTalkに変更しましょう。";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "右上の記入ボタンを押して下さい";
@@ -554,7 +554,7 @@
 "EMPTY_ARCHIVE_TITLE" = "会話を整理しよう";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "連絡先にSignalユーザーはいないようです";
+"EMPTY_CONTACTS_LABEL_LINE1" = "連絡先にSecureTalkユーザーはいないようです";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "だれかを招待しませんか";
@@ -596,7 +596,7 @@
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "メッセージ送信に失敗しました。受取人が正しくありません。";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "電話番号と端末との結び付きがないようです。Signalを削除してインストールし直してください。";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "電話番号と端末との結び付きがないようです。SecureTalkを削除してインストールし直してください。";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "サーバーにエラーが発生しました。少し待って再試行してください。";
@@ -605,10 +605,10 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "不明なエラーが発生しました";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "連絡先はSignalのユーザーではありません";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "連絡先はSecureTalkのユーザーではありません";
 
 /* Error message when unable to receive an attachment because the sending client is too old. */
-"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "エラー：送信者にSignalを更新して再送してもらってください";
+"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "エラー：送信者にSecureTalkを更新して再送してもらってください";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "重複メッセージを受信しました";
@@ -803,7 +803,7 @@
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "連絡先へのアクセスを許可する";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "友だちをSignalに招待する";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "友だちをSecureTalkに招待する";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "検索";
@@ -987,7 +987,7 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "ビデオ電話をするにはカメラへのアクセスが必要です。アクセスを許可するには，設定→プライバシー→カメラ→Signal，と進んでください。";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "ビデオ電話をするにはカメラへのアクセスが必要です。アクセスを許可するには，設定→プライバシー→カメラ→SecureTalk，と進んでください。";
 
 /* Alert title
    Alert title when camera is not authorized */
@@ -1184,16 +1184,16 @@
 "PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "クリップボードのなかに安全番号はみつかりませんでした。正しくコピーしましたか？";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "安全番号はSignalユーザーの組合せごとに異なります。%@が表示している安全番号があなたとの番号か確認してください。";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "安全番号はSecureTalkユーザーの組合せごとに異なります。%@が表示している安全番号があなたとの番号か確認してください。";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "古いバージョンのSignalを使っています。最新版に更新してください。";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "古いバージョンのSecureTalkを使っています。最新版に更新してください。";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "相手先が古いバージョンのSignalを使っています。最新版に更新するようお願いしてください。";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "相手先が古いバージョンのSecureTalkを使っています。最新版に更新するようお願いしてください。";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "読み取ったQRコードは安全番号のコードと異なります。双方ともに最新版のSignalを使っているか確認してください。";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "読み取ったQRコードは安全番号のコードと異なります。双方ともに最新版のSecureTalkを使っているか確認してください。";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "%@との端末間の暗号化が完全かどうかを確認するには，上記の番号と相手方に表示されている番号を比べてください。\n\nあるいは，相手方の端末上のQRコードを読み取るか，こちらのQRコードを相手に読み取ってもらってください。";
@@ -1265,13 +1265,13 @@
 "QUESTIONMARK_PUNCTUATION" = "?";
 
 /* No comment provided by engineer. */
-"RATING_MSG" = "Signalを使ってプライベートな会話を楽しんでいる方に評価アンケートをお願いしています。１分もかかりませんし，他のユーザーのプライバシー確保の手助けになりますので、ご協力をお願いします。";
+"RATING_MSG" = "SecureTalkを使ってプライベートな会話を楽しんでいる方に評価アンケートをお願いしています。１分もかかりませんし，他のユーザーのプライバシー確保の手助けになりますので、ご協力をお願いします。";
 
 /* No comment provided by engineer. */
-"RATING_RATE" = "Signalを評価する";
+"RATING_RATE" = "SecureTalkを評価する";
 
 /* No comment provided by engineer. */
-"RATING_TITLE" = "Signalを支援する";
+"RATING_TITLE" = "SecureTalkを支援する";
 
 /* No comment provided by engineer. */
 "REGISTER_CONTACTS_WELCOME" = "ようこそ！";
@@ -1394,7 +1394,7 @@
 "SEND_INVITE_FAILURE" = "招待の送信に失敗しました。後でもう一度行ってください。";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "友だちをSignalに招待しました";
+"SEND_INVITE_SUCCESS" = "友だちをSecureTalkに招待しました";
 
 /* Text for button to send a Signal invite via SMS. %@ is placeholder for the receipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "SMSで招待する：%@";
@@ -1403,10 +1403,10 @@
 "SEND_SMS_CONFIRM_TITLE" = "安全性の低いSMSで招待しますか？";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "この番号をSignalに招待しますか？";
+"SEND_SMS_INVITE_TITLE" = "この番号をSecureTalkに招待しますか？";
 
 /* Navbar title */
-"SETTINGS_ABOUT" = "Signalについて";
+"SETTINGS_ABOUT" = "SecureTalkについて";
 
 /* Title for the 'block contact' section of the 'add to block list' view. */
 "SETTINGS_ADD_TO_BLOCK_LIST_BLOCK_CONTACT_TITLE" = "連絡先を拒否";
@@ -1424,7 +1424,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY_FORMAT" = "場所：%@";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "有効にすると検閲回避を試します。Signalが検閲される場所にいない場合は有効にしないでください。";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "有効にすると検閲回避を試します。SecureTalkが検閲される場所にいない場合は有効にしないでください。";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "検閲回避が登録番号のもとで有効になりました";
@@ -1433,7 +1433,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "検閲回避はネットに接続されているときのみ有効となります";
 
 /* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "検閲回避は不要です。Signalに接続済みです。";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "検閲回避は不要です。SecureTalkに接続済みです。";
 
 /* Table header for the 'censorship circumvention' section. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_HEADER" = "検閲回避";
@@ -1466,7 +1466,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "IPアドレスを隠す";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "すべての通話をSignalサーバーに中継して，IPアドレスが相手に見えないようにします。ただし通話の質は下がります。";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "すべての通話をSecureTalkサーバーに中継して，IPアドレスが相手に見えないようにします。ただし通話の質は下がります。";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "通信ログを削除";
@@ -1496,7 +1496,7 @@
 "SETTINGS_INVITE_TITLE" = "友だちを招待する";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "私と連絡を取るには@WhisperSystemsのSignalが使えますので，入手をお願いします。";
+"SETTINGS_INVITE_TWITTER_TEXT" = "私と連絡を取るには@WhisperSystemsのSecureTalkが使えますので，入手をお願いします。";
 
 /* Title for settings activity */
 "SETTINGS_NAV_BAR_TITLE" = "設定";
@@ -1523,10 +1523,10 @@
 "SETTINGS_SCREEN_SECURITY" = "スクリーンセキュリティを有効化";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY_DETAIL" = "Signalの画面をアプリ変更時に表示しません。";
+"SETTINGS_SCREEN_SECURITY_DETAIL" = "SecureTalkの画面をアプリ変更時に表示しません。";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "通話をiOSに統合すると，Signalでの通話がiOSのロック画面や通話履歴に表示されます。通話相手の名前と番号を表示することも可能になります。ただしiCloudが有効の場合は，通話履歴がAppleと共有されます。";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "通話をiOSに統合すると，SecureTalkでの通話がiOSのロック画面や通話履歴に表示されます。通話相手の名前と番号を表示することも可能になります。ただしiCloudが有効の場合は，通話履歴がAppleと共有されます。";
 
 /* settings topic header for table section */
 "SETTINGS_SECTION_TITLE_CALLING" = "通話";
@@ -1553,13 +1553,13 @@
 "SHARE_EXTENSION_LOADING" = "読み込み中";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "ユーザー登録を行うためにSignalを起動します";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "ユーザー登録を行うためにSecureTalkを起動します";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "ユーザー未登録";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Signalを起動して更新します";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "SecureTalkを起動して更新します";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "準備不足";
@@ -1574,7 +1574,7 @@
 "SHOW_THREAD_BUTTON_TITLE" = "会話を表示する";
 
 /* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Signalのインストールをお勧めします。このリンクから入手してください：";
+"SMS_INVITE_BODY" = "SecureTalkのインストールをお勧めします。このリンクから入手してください：";
 
 /* Alert body after verifying privacy with {{other user's name}} */
 "SUCCESSFUL_VERIFICATION_DESCRIPTION" = "%@に対する安全番号と一致しました。この相手は確認済みにできます。";
@@ -1694,13 +1694,13 @@
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "安全なビデオ電話にようこそ！";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "SignalはまもなくiOS 9以降でしか動作しなくなります。iOSを更新するには設定→一般→ソフトウェアアップデートに進んでください。";
+"UPGRADE_IOS_ALERT_MESSAGE" = "SecureTalkはまもなくiOS 9以降でしか動作しなくなります。iOSを更新するには設定→一般→ソフトウェアアップデートに進んでください。";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "iOSを更新する";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "Signalをアップグレードしています……";
+"Upgrading SecureTalk ..." = "SecureTalkをアップグレードしています……";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "もどる";
@@ -1754,7 +1754,7 @@
 "VOICE_MESSAGE_TOO_SHORT_ALERT_TITLE" = "音声メッセージ";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Signal Desktopが設定を行っています";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "SecureTalk Desktopが設定を行っています";
 
 /* No comment provided by engineer. */
 "WHISPER_NAV_BAR_TITLE" = "受信箱";

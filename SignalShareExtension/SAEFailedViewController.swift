@@ -38,11 +38,11 @@ class SAEFailedViewController: UIViewController {
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel,
                                                                 target: self,
                                                                 action: #selector(cancelPressed))
-        self.navigationItem.title = "Signal"
+        self.navigationItem.title = "SecureTalk"
 
         self.view.backgroundColor = UIColor.ows_darkGreen
 
-        let logoImage = UIImage(named: "logoSignal")
+        let logoImage = UIImage(named: "talk_logo")
         let logoImageView = UIImageView(image: logoImage)
         self.view.addSubview(logoImageView)
         logoImageView.autoCenterInSuperview()

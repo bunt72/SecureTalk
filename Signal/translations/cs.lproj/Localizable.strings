@@ -59,13 +59,13 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "V App Store je dostupná verze %@.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Je dostupná nová verze Signalu";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Je dostupná nová verze SecureTalku";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Aktualizovat";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "SecureTalk";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "Archivovat";
@@ -131,7 +131,7 @@
 "ATTACHMENT_PICKER_DOCUMENTS_FAILED_ALERT_TITLE" = "Nepodařilo se vybrat dokument.";
 
 /* Alert body when picking a document fails because user picked a directory/bundle */
-"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "Signal tento soubor nemůže jak je zpracovat. Zkuste ho před odesláním zazipovat.";
+"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "SecureTalk tento soubor nemůže jak je zpracovat. Zkuste ho před odesláním zazipovat.";
 
 /* Alert title when picking a document fails because user picked a directory/bundle */
 "ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_TITLE" = "Nepodporovaný soubor";
@@ -200,7 +200,7 @@
 "BUTTON_DONE" = "Hotovo";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Signal k uskutečňování hovorů a k záznamu hlasových zpráv potřebuje přístup k vašemu mikrofonu. Toto oprávnění můžete povolit v aplikaci Nastavení.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "SecureTalk k uskutečňování hovorů a k záznamu hlasových zpráv potřebuje přístup k vašemu mikrofonu. Toto oprávnění můžete povolit v aplikaci Nastavení.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Vyžadován přístup k mikrofonu";
@@ -215,7 +215,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Žádná odpověď.";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "SecureTalk %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Volat";
@@ -263,7 +263,7 @@
 "CALLBACK_BUTTON_TITLE" = "Zavolat zpět";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Uživatel Signalu";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Uživatel SecureTalku";
 
 /* Message for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_MESSAGE" = "Tento uživatel nemůže být ověřen, dokud si nevyměníte zprávu.";
@@ -287,7 +287,7 @@
 "COMPOSE_MESSAGE_INVITE_SECTION_TITLE" = "Invite";
 
 /* Multiline label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Pokud chcete vidět, kteří z vašich kontaktů jsou uživatelé Signalu, povolte v systémovém nastavení přístup ke kontaktům.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Pokud chcete vidět, kteří z vašich kontaktů jsou uživatelé SecureTalku, povolte v systémovém nastavení přístup ke kontaktům.";
 
 /* No comment provided by engineer. */
 "CONFIRM_ACCOUNT_DESTRUCTION_TEXT" = "Tímto aplikaci resetujete. Budou smazány vaše zprávy a bude vám zrušena registrace na serveru. Po smazání dat se aplikace zavře.";
@@ -488,7 +488,7 @@
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Přístup můžete povolit v aplikaci Nastavení.";
 
 /* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal pro úpravu informací kontaktu potřebuje přístup ke kontaktům.";
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "SecureTalk pro úpravu informací kontaktu potřebuje přístup ke kontaktům.";
 
 /* table cell label in conversation settings */
 "EDIT_GROUP_ACTION" = "Upravit skupinu";
@@ -536,16 +536,16 @@
 "EDIT_TXT" = "Upravit";
 
 /* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to WhisperSystems home page}} */
-"EMAIL_INVITE_BODY" = "Čau,\n\nPoslední dobou jsem začal na svém iPhonu používat Signal, aby moje konverzace zůstaly soukromé. Byl bych rád, kdyby sis ho také nainstaloval, takže by naše zprávy a hovory nemohl sledovat nikdo nepovolaný.\n\nSignal je dostupný pro iPhony a Android. Získáš ho zde: %@\n\nSignal funguje stejně, jako tvá stávající aplikace na posílání zpráv. Můžeme posílat obrázky, videa, pořádat hovory a vytvářet skupinové chaty. A nejlepší na tom je, že nidko iný to nemůže vidět, ani lidé, co vyvíjí Signal!\n\nO Open Whisper Systems, lidech, kteří vyvíjí Signal, se můžeš dočíst tady %@";
+"EMAIL_INVITE_BODY" = "Čau,\n\nPoslední dobou jsem začal na svém iPhonu používat SecureTalk, aby moje konverzace zůstaly soukromé. Byl bych rád, kdyby sis ho také nainstaloval, takže by naše zprávy a hovory nemohl sledovat nikdo nepovolaný.\n\nSecureTalk je dostupný pro iPhony a Android. Získáš ho zde: %@\n\nSecureTalk funguje stejně, jako tvá stávající aplikace na posílání zpráv. Můžeme posílat obrázky, videa, pořádat hovory a vytvářet skupinové chaty. A nejlepší na tom je, že nidko iný to nemůže vidět, ani lidé, co vyvíjí SecureTalk!\n\nO Open Whisper Systems, lidech, kteří vyvíjí SecureTalk, se můžeš dočíst tady %@";
 
 /* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Přejďeme na Signal";
+"EMAIL_INVITE_SUBJECT" = "Přejďeme na SecureTalk";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "Klepněte na tlačítko vytvořit.";
 
 /* No comment provided by engineer. */
-"EMPTY_ARCHIVE_FIRST_TITLE" = "Začněte vaši první Signal konverzaci!";
+"EMPTY_ARCHIVE_FIRST_TITLE" = "Začněte vaši první SecureTalk konverzaci!";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_TEXT" = "Konverzace můžete archivovat na později z vaší schránky.";
@@ -554,7 +554,7 @@
 "EMPTY_ARCHIVE_TITLE" = "Vyčistěte vaše konverzace.";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Žádný z vašich kontaktů nemá Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Žádný z vašich kontaktů nemá SecureTalk.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Proč někoho nepozvete?";
@@ -590,13 +590,13 @@
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_FAILED_ATTACHMENT_WRITE" = "Failed due to failed attachment write.";
 
 /* Generic error used whenver Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal se nemohl připojit k internetu. Zkuste jinou bezdrátovou síť, nebo mobilní data.";
+"ERROR_DESCRIPTION_NO_INTERNET" = "SecureTalk se nemohl připojit k internetu. Zkuste jinou bezdrátovou síť, nebo mobilní data.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Poslání zprávy selhalo z důvodu platných příjemců.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Vaše zařízení již není registrováno na vaše telefonní číslo. Musíte Signal reinstalovat.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Vaše zařízení již není registrováno na vaše telefonní číslo. Musíte SecureTalk reinstalovat.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Chyba serveru. Prosím, zkuste to později.";
@@ -605,10 +605,10 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Došlo k neznámé chybě.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontakt není uživatelem Signalu.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontakt není uživatelem SecureTalku.";
 
 /* Error message when unable to receive an attachment because the sending client is too old. */
-"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Failure: Ask sender to update Signal and resend.";
+"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Failure: Ask sender to update SecureTalk and resend.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "Přijata duplikovaná zpráva.";
@@ -797,13 +797,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Neplatný zvukový soubor.";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Pokud chcete pozvat vaše kontakty, musíte Signalu povolit v aplikaci Nastavení přístup ke kontaktům.";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Pokud chcete pozvat vaše kontakty, musíte SecureTalku povolit v aplikaci Nastavení přístup ke kontaktům.";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Povolit přístup ke kontaktům";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Pozvat přátele do Signalu";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Pozvat přátele do SecureTalku";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Hledat";
@@ -987,11 +987,11 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Signal při video hovorech potřebuje přístup k vašemu fotoaparátu. Toto oprávnění můžete udělit v aplikaci Nastavení >> Soukromí >> Fotoaparát >> Signal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "SecureTalk při video hovorech potřebuje přístup k vašemu fotoaparátu. Toto oprávnění můžete udělit v aplikaci Nastavení >> Soukromí >> Fotoaparát >> SecureTalk";
 
 /* Alert title
    Alert title when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal potřebuje přístup k vašemu fotoaparátu.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "SecureTalk potřebuje přístup k vašemu fotoaparátu.";
 
 /* notification title. Embeds {{caller's name or phone number}} */
 "MSGVIEW_MISSED_CALL_WITH_NAME" = "Zmeškaný hovor od %@.";
@@ -1181,19 +1181,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Číslo ve vaší schránce nevypadá jako správné bezpečnostní číslo této konverzace.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal nemohl ve vaší schránce nalézt žádné bezpečnostní číslo. Zkopírovali jste ho správně?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "SecureTalk nemohl ve vaší schránce nalézt žádné bezpečnostní číslo. Zkopírovali jste ho správně?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Každá dvojice uživatelů Signalu sdílí odlišné bezpečnostní číslo. Ověřte, že %@ zobrazuje *vaše* bezpečnostní číslo.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Každá dvojice uživatelů SecureTalku sdílí odlišné bezpečnostní číslo. Ověřte, že %@ zobrazuje *vaše* bezpečnostní číslo.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Používáte starou verzi Signalu, před ověřením musíte aktualizovat.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Používáte starou verzi SecureTalku, před ověřením musíte aktualizovat.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Druhá strana používá starou verzi Signalu a musí aktualizovat, než bude možné ověření.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Druhá strana používá starou verzi SecureTalku a musí aktualizovat, než bude možné ověření.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Naskenovaný kód nevypadá jako kód bezpečných čísel. Používate oba aktuální verzi Signalu?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Naskenovaný kód nevypadá jako kód bezpečných čísel. Používate oba aktuální verzi SecureTalku?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Pokud chcete ověřit bezpečnost koncového šifrování s %@, porovnete čísla výše s čísli na druhém zařízení..\n\nNebo můžete naskenovat kód z druhého telefonu, nebo on může naskenovat ten váš.";
@@ -1232,7 +1232,7 @@
 "PROFILE_VIEW_PROFILE_AVATAR_FIELD" = "Obrázek";
 
 /* Description of the user profile. */
-"PROFILE_VIEW_PROFILE_DESCRIPTION" = "Váš Signal profil bude viditelný vašim kontaktům, pokud zahájíte novou konverzaci, nebo uživatelům a skupinám, se kterými ho nasdílíte.";
+"PROFILE_VIEW_PROFILE_DESCRIPTION" = "Váš SecureTalk profil bude viditelný vašim kontaktům, pokud zahájíte novou konverzaci, nebo uživatelům a skupinám, se kterými ho nasdílíte.";
 
 /* Link to more information about the user profile. */
 "PROFILE_VIEW_PROFILE_DESCRIPTION_LINK" = "Klepnutím sem se dozvíte více.";
@@ -1265,13 +1265,13 @@
 "QUESTIONMARK_PUNCTUATION" = "?";
 
 /* No comment provided by engineer. */
-"RATING_MSG" = "Pokud se vám líbí soukromé konverzace se Signalem, můžete podpořit náš projekt tím, že ho ohodnotíte. Nebude to trvat déle než minutu a ostatním to pomůže nalézt nějaké to soukromí.";
+"RATING_MSG" = "Pokud se vám líbí soukromé konverzace se SecureTalkem, můžete podpořit náš projekt tím, že ho ohodnotíte. Nebude to trvat déle než minutu a ostatním to pomůže nalézt nějaké to soukromí.";
 
 /* No comment provided by engineer. */
-"RATING_RATE" = "Ohodnotit Signal";
+"RATING_RATE" = "Ohodnotit SecureTalk";
 
 /* No comment provided by engineer. */
-"RATING_TITLE" = "Podpořte Signal!";
+"RATING_TITLE" = "Podpořte SecureTalk!";
 
 /* No comment provided by engineer. */
 "REGISTER_CONTACTS_WELCOME" = "Vítejte!";
@@ -1352,7 +1352,7 @@
 "SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION" = "Přesto odeslat";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Naše bezpečnostní číslo Signalu:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Naše bezpečnostní číslo SecureTalku:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Vaše bezpečnostní číslo s %@ se změnilo. Možná ho chcete ověřit.";
@@ -1394,7 +1394,7 @@
 "SEND_INVITE_FAILURE" = "Odeslání pozvánky selhalo, zkuste to později.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Pozval(a) jste vašeho přítele, aby začal používat Signal!";
+"SEND_INVITE_SUCCESS" = "Pozval(a) jste vašeho přítele, aby začal používat SecureTalk!";
 
 /* Text for button to send a Signal invite via SMS. %@ is placeholder for the receipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "Pozvat pomocí SMS: %@";
@@ -1424,7 +1424,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY_FORMAT" = "Umístění: %@";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Pokud je povoleno, Signal se pokusí obejít cenzuru. Nepovolujte v místech, kde není Signal cenzurován.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Pokud je povoleno, SecureTalk se pokusí obejít cenzuru. Nepovolujte v místech, kde není SecureTalk cenzurován.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Obcházení cenzury bylo aktivováno na základě vašeho telefonního čísla.";
@@ -1433,7 +1433,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Obcházení cenzury může být povoleno pouze pokud jste připojeni k internetu.";
 
 /* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Obcházení cenzury není nutné; již jste připojeni ke službě Signal.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Obcházení cenzury není nutné; již jste připojeni ke službě SecureTalk.";
 
 /* Table header for the 'censorship circumvention' section. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_HEADER" = "Obcházení cenzury";
@@ -1451,7 +1451,7 @@
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Přidat…";
 
 /* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "V Signalu nemáte žádné kontakty.";
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "V SecureTalku nemáte žádné kontakty.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Žádné výsledky vyhledávání";
@@ -1466,7 +1466,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Vždy přeposílat hovory";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Přeposlat všechny hovory přez server Signalu, abyste skryly svou IP adresu před kontaktem. Povolení sníží kvalitu volání.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Přeposlat všechny hovory přez server SecureTalku, abyste skryly svou IP adresu před kontaktem. Povolení sníží kvalitu volání.";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "Vymazat historii";
@@ -1496,7 +1496,7 @@
 "SETTINGS_INVITE_TITLE" = "Pozvěte vaše přátele";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Můžete mě kontaktovat pomocí Signalu ood @WhisperSystems, tak si ho stáhněte.";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Můžete mě kontaktovat pomocí SecureTalku ood @WhisperSystems, tak si ho stáhněte.";
 
 /* Title for settings activity */
 "SETTINGS_NAV_BAR_TITLE" = "Nastavení";
@@ -1523,10 +1523,10 @@
 "SETTINGS_SCREEN_SECURITY" = "Ochrana obrazovky";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY_DETAIL" = "Zabránit náhledům ze Signalu, aby se objevily v přepínači aplikací.";
+"SETTINGS_SCREEN_SECURITY_DETAIL" = "Zabránit náhledům ze SecureTalku, aby se objevily v přepínači aplikací.";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "Integrace s iOS hovory zobrazuje hovory Signalu na zamykací obrazovce a v systémové historii hovorů. Volitelně můžete zobrazit jméno a telefonní číslo. Pokud je povolen iCloud zálohy, tato data jsou sdílena se společností Apple.";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "Integrace s iOS hovory zobrazuje hovory SecureTalku na zamykací obrazovce a v systémové historii hovorů. Volitelně můžete zobrazit jméno a telefonní číslo. Pokud je povolen iCloud zálohy, tato data jsou sdílena se společností Apple.";
 
 /* settings topic header for table section */
 "SETTINGS_SECTION_TITLE_CALLING" = "Volání";
@@ -1553,13 +1553,13 @@
 "SHARE_EXTENSION_LOADING" = "Loading...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Launch the Signal app to register.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Launch the SecureTalk app to register.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Not Registered";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Launch the Signal app to update.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Launch the SecureTalk app to update.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Not Ready";
@@ -1574,7 +1574,7 @@
 "SHOW_THREAD_BUTTON_TITLE" = "Zobrazit konverzaci";
 
 /* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Pozval jsem tě do Signal! Zde je odkaz:";
+"SMS_INVITE_BODY" = "Pozval jsem tě do SecureTalk! Zde je odkaz:";
 
 /* Alert body after verifying privacy with {{other user's name}} */
 "SUCCESSFUL_VERIFICATION_DESCRIPTION" = "Vaše bezpečnostní číslo s %@ sedí. Můžete ho označit jako ověřený.";
@@ -1640,13 +1640,13 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Odpojit \"%@\"?";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signalu se nepodařilo odpojit vaše zařízení.";
+"UNLINKING_FAILED_ALERT_TITLE" = "SecureTalku se nepodařilo odpojit vaše zařízení.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Nepojmenované zařízení";
 
 /* No comment provided by engineer. */
-"UNREGISTER_SIGNAL_FAIL" = "Zrušení Signal registrace selhalo.";
+"UNREGISTER_SIGNAL_FAIL" = "Zrušení SecureTalk registrace selhalo.";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Přijat nepodporovaný typ přílohy.";
@@ -1673,7 +1673,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_BUTTON" = "Nastavit váš profil";
 
 /* Description of new profile feature for upgrading (existing) users */
-"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "Nyní můžete s vašimi přáteli na Signalu sdílet profilovou fotku a jméno.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "Nyní můžete s vašimi přáteli na SecureTalku sdílet profilovou fotku a jméno.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_TITLE" = "Připraveni?";
@@ -1688,19 +1688,19 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_READ_RECEIPTS_TITLE" = "Introducing Read Receipts";
 
 /* Description of video calling to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Signal nyní podporuje bezpečné video hovory. Začněte hovor jako obvykle, klepněte na tlačítko kamery a zamávejte na pozdrav.";
+"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "SecureTalk nyní podporuje bezpečné video hovory. Začněte hovor jako obvykle, klepněte na tlačítko kamery a zamávejte na pozdrav.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "Ahoj bezpečné video hovory!";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Signal bude brzy vyžadovat iOS 9 nebo novější. Prosíme, aktualizujte v aplikaci Nastavení >> Obecné >> Aktualizace softwaru";
+"UPGRADE_IOS_ALERT_MESSAGE" = "SecureTalk bude brzy vyžadovat iOS 9 nebo novější. Prosíme, aktualizujte v aplikaci Nastavení >> Obecné >> Aktualizace softwaru";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "Aktualizujte iOS";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "Aktualizace Signalu...";
+"Upgrading SecureTalk ..." = "Aktualizace SecureTalku...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "Zpět";
@@ -1754,7 +1754,7 @@
 "VOICE_MESSAGE_TOO_SHORT_ALERT_TITLE" = "Hlasová zpráva";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Dokončete nastavení v Signalu pro desktop.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Dokončete nastavení v SecureTalku pro desktop.";
 
 /* No comment provided by engineer. */
 "WHISPER_NAV_BAR_TITLE" = "Schránka";

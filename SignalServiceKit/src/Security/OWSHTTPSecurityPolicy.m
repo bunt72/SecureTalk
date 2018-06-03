@@ -19,17 +19,24 @@
 - (instancetype)initWithOWSPolicy {
     self = [[super class] defaultPolicy];
 
+    // ?? self = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeCertificate];
+    
     if (self) {
-        self.pinnedCertificates = [NSSet setWithArray:@[
-            [self certificateDataForService:@"textsecure"],
-        ]];
+        //self.pinnedCertificates = [NSSet setWithArray:@[
+        //    [self certificateDataForService:@"textsecure"],
+        //]];
+
+       // self.validatesCertificateChain = false;
+        self.allowInvalidCertificates = YES;
+        self.validatesDomainName = NO;
+        
     }
 
     return self;
 }
 
 - (NSArray *)certs {
-    return @[ (__bridge id)[self certificateForService:@"textsecure"] ];
+    return nil; // ## @[ (__bridge id)[self certificateForService:@"textsecure"] ];
 }
 
 - (NSData *)certificateDataForService:(NSString *)service {
@@ -72,7 +79,7 @@
     }
 
     if (!AFServerTrustIsValid(serverTrust)) {
-        return NO;
+        return YES; // ## NO;
     }
 
     return YES;

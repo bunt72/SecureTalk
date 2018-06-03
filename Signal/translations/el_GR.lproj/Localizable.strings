@@ -59,13 +59,13 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "Η έκδοση %@ είναι τώρα διαθέσιμη στο App Store.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Μια νέα έκδοση του Signal είναι διαθέσιμη";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Μια νέα έκδοση του SecureTalk είναι διαθέσιμη";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Αναβάθμιση";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "SecureTalk";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "Αρχειοθέτηση";
@@ -131,7 +131,7 @@
 "ATTACHMENT_PICKER_DOCUMENTS_FAILED_ALERT_TITLE" = "Αποτυχία επιλογής εγγράφου.";
 
 /* Alert body when picking a document fails because user picked a directory/bundle */
-"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "Το Signal δεν μπορεί να διαχειριστεί αυτό το αρχείο ως έχει. Προσπάθησε να το συμπιέσεις πριν το στείλεις.";
+"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "Το SecureTalk δεν μπορεί να διαχειριστεί αυτό το αρχείο ως έχει. Προσπάθησε να το συμπιέσεις πριν το στείλεις.";
 
 /* Alert title when picking a document fails because user picked a directory/bundle */
 "ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_TITLE" = "Μη υποστηριζόμενο αρχείο";
@@ -200,7 +200,7 @@
 "BUTTON_DONE" = "Τέλος";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Το Signal χρειάζεται πρόσβαση στο μικρόφωνό σου για να πραγματοποιήσει κλήσεις και να ηχογραφήσει μηνύματα φωνής. Μπορείς να δώσεις αυτήν την πρόσβαση στην εφαρμογή Ρυθμίσεις.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "Το SecureTalk χρειάζεται πρόσβαση στο μικρόφωνό σου για να πραγματοποιήσει κλήσεις και να ηχογραφήσει μηνύματα φωνής. Μπορείς να δώσεις αυτήν την πρόσβαση στην εφαρμογή Ρυθμίσεις.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Απαιτείται πρόσβαση στο μικρόφωνο";
@@ -215,7 +215,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Καμία απάντηση.";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Το Signal %@";
+"CALL_STATUS_FORMAT" = "Το SecureTalk %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Κλήση";
@@ -263,7 +263,7 @@
 "CALLBACK_BUTTON_TITLE" = "Κάλεσε Πίσω";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Χρήστης Signal";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Χρήστης SecureTalk";
 
 /* Message for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_MESSAGE" = "Αυτός ο χρήστης δεν μπορεί να επιβεβαιωθεί μέχρι να ανταλλάξετε μηνύματα.";
@@ -287,7 +287,7 @@
 "COMPOSE_MESSAGE_INVITE_SECTION_TITLE" = "Πρόσκληση";
 
 /* Multiline label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Για να δείς ποιές από τις επαφές σου είναι χρήστες του Signal, επέτρεψε πρόσβαση στις επαφές στις ρυθμίσεις του συστήματος.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Για να δείς ποιές από τις επαφές σου είναι χρήστες του SecureTalk, επέτρεψε πρόσβαση στις επαφές στις ρυθμίσεις του συστήματος.";
 
 /* No comment provided by engineer. */
 "CONFIRM_ACCOUNT_DESTRUCTION_TEXT" = "Αυτό θα επαναφέρει την εφαρμογή στην αρχική κατάσταση, διαγράφοντας τα μηνύματα και το λογαριασμό σου από τον εξυπηρετητή. Μετά τη διαγραφή των δεδομένων, η εφαρμογή θα κλείσει.";
@@ -488,7 +488,7 @@
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Μπορείς να δώσεις πρόσβαση στην εφαρμογή Ρυθμίσεις";
 
 /* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Το Signal χρειάζεται πρόσβαση στις επαφές για να επεξεργαστεί πληροφορίες επαφές";
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Το SecureTalk χρειάζεται πρόσβαση στις επαφές για να επεξεργαστεί πληροφορίες επαφές";
 
 /* table cell label in conversation settings */
 "EDIT_GROUP_ACTION" = "Επεξεργασία Ομάδας";
@@ -536,16 +536,16 @@
 "EDIT_TXT" = "Επεξεργασία";
 
 /* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to WhisperSystems home page}} */
-"EMAIL_INVITE_BODY" = "Γειά,\n\nτελευταία χρησιμοποιώ το Signal για να κρατήσω τα μηνύματα στο iPhone μου ιδιωτικά. Θα ήθελα να το εγκαταστήσεις και συ, για να είμαστε σίγουροι οτι μόνο εμείς οι δυο μπορούμε να διαβάσουμε τα μηνύματα μας και να ακούσουμε τις συνομιλίες μας.\n\nΤο Signal είναι διαθέσιμο για το iPhone και το Android εδώ: %@\n\nΔουλεύει σαν την εφαρμογή μηνυμάτων που ήδη χρησιμοποιείς. Μπορούμε να στείλουμε φωτογραφίες και βίντεο, να κάνουμε κλήσεις, και να αρχίσουμε ομαδικές συνομιλίες. Το καλύτερο είναι οτι κανείς δεν θα μπορεί να τα δει, ούτε καν αυτοί που έφτιαξαν το Signal!\n\nΜπορείς να διαβάσεις περισσότερα για το Open Whisper Systems, τον οργανισμό που έφτιαξε το Signal, εδώ: %@";
+"EMAIL_INVITE_BODY" = "Γειά,\n\nτελευταία χρησιμοποιώ το SecureTalk για να κρατήσω τα μηνύματα στο iPhone μου ιδιωτικά. Θα ήθελα να το εγκαταστήσεις και συ, για να είμαστε σίγουροι οτι μόνο εμείς οι δυο μπορούμε να διαβάσουμε τα μηνύματα μας και να ακούσουμε τις συνομιλίες μας.\n\nΤο SecureTalk είναι διαθέσιμο για το iPhone και το Android εδώ: %@\n\nΔουλεύει σαν την εφαρμογή μηνυμάτων που ήδη χρησιμοποιείς. Μπορούμε να στείλουμε φωτογραφίες και βίντεο, να κάνουμε κλήσεις, και να αρχίσουμε ομαδικές συνομιλίες. Το καλύτερο είναι οτι κανείς δεν θα μπορεί να τα δει, ούτε καν αυτοί που έφτιαξαν το SecureTalk!\n\nΜπορείς να διαβάσεις περισσότερα για το Open Whisper Systems, τον οργανισμό που έφτιαξε το SecureTalk, εδώ: %@";
 
 /* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Ας χρησιμοποιήσουμε το Signal";
+"EMAIL_INVITE_SUBJECT" = "Ας χρησιμοποιήσουμε το SecureTalk";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "Πάτα το κουμπί σύνθεσης";
 
 /* No comment provided by engineer. */
-"EMPTY_ARCHIVE_FIRST_TITLE" = "Άρχισε την πρώτη συζήτησή σου στο Signal!";
+"EMPTY_ARCHIVE_FIRST_TITLE" = "Άρχισε την πρώτη συζήτησή σου στο SecureTalk!";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_TEXT" = "Μπορείς να αρχειοθετήσεις όλες τις μη ενεργές συζητήσεις από τα εισερχόμενά σου για να τις έχεις διαθέσιμες αργότερα.";
@@ -554,7 +554,7 @@
 "EMPTY_ARCHIVE_TITLE" = "Ξεκαθάρισμα των Συζητήσεών σου";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Καμία απο τις επαφές σου δεν χρησιμοποιεί το Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Καμία απο τις επαφές σου δεν χρησιμοποιεί το SecureTalk.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Γιατί δεν προσκαλείς κάποιον/α;";
@@ -590,13 +590,13 @@
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_FAILED_ATTACHMENT_WRITE" = "Αποτυχία λόγω αποτυχίας εγγραφής συνημμένου.";
 
 /* Generic error used whenver Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Το Signal δεν μπόρεσε να συνδεθεί στο διαδίκτυο. Παρακαλώ προσπάθησε να συνδεθείς σε άλλο δίκτυο WiFi ή να χρησιμοποιήσεις τα δεδομένα της κινητής.";
+"ERROR_DESCRIPTION_NO_INTERNET" = "Το SecureTalk δεν μπόρεσε να συνδεθεί στο διαδίκτυο. Παρακαλώ προσπάθησε να συνδεθείς σε άλλο δίκτυο WiFi ή να χρησιμοποιήσεις τα δεδομένα της κινητής.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Αποτυχία αποστολής μηνύματος λόγω απουσίας έγκυρων παραληπτών.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Η συσκευή σου δεν είναι πλέον εγγεγραμμένη για τον αριθμό τηλεφώνου σου. Θα πρέπει να απεγκαταστήσεις και επανεγκαταστήσεις το Signal.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Η συσκευή σου δεν είναι πλέον εγγεγραμμένη για τον αριθμό τηλεφώνου σου. Θα πρέπει να απεγκαταστήσεις και επανεγκαταστήσεις το SecureTalk.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Σφάλμα διακομιστή. Παρακαλώ ξαναδοκίμασε αργότερα.";
@@ -605,10 +605,10 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Συνέβη ένα άγνωστο σφάλμα.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Η επαφή δεν χρησιμοποιεί Signal.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Η επαφή δεν χρησιμοποιεί SecureTalk.";
 
 /* Error message when unable to receive an attachment because the sending client is too old. */
-"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Αποτυχία: Ζήτα από τον/την αποστολέα να αναβαθμίσει το Signal και να ξαναστείλει.";
+"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Αποτυχία: Ζήτα από τον/την αποστολέα να αναβαθμίσει το SecureTalk και να ξαναστείλει.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "Λάβαμε διπλότυπο μήνυμα.";
@@ -620,7 +620,7 @@
 "ERROR_MESSAGE_INVALID_MESSAGE" = "Το μήνυμα που λάβαμε δεν ήταν συγχρονισμένο. Πάτα για επαναφορά της ασφαλούς συνεδρίας.";
 
 /* No comment provided by engineer. */
-"ERROR_MESSAGE_INVALID_VERSION" = "Λήψη μηνύματος το οποίο δεν είναι συμβατό με αυτή την έκδοση του Signal.";
+"ERROR_MESSAGE_INVALID_VERSION" = "Λήψη μηνύματος το οποίο δεν είναι συμβατό με αυτή την έκδοση του SecureTalk.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_NO_SESSION" = "Δεν υπάρχει διαθέσιμή συνεδρία για αυτή την επαφή.";
@@ -797,13 +797,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Μη έγκυρο αρχείο ήχου.";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Για να προσκαλέσεις τις επαφές σου, πρέπει να δώσεις πρόσβαση στις επαφές σου στο Signal από την εφαρμογή Ρυθμίσεις.";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Για να προσκαλέσεις τις επαφές σου, πρέπει να δώσεις πρόσβαση στις επαφές σου στο SecureTalk από την εφαρμογή Ρυθμίσεις.";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Επέτρεψε Πρόσβαση στις Επαφές";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Προσκληση φίλων στο Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Προσκληση φίλων στο SecureTalk";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Αναζήτηση";
@@ -987,11 +987,11 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Το Signal χρειάζεται πρόσβαση στην κάμερα για βιντεοκλήσεις. Μπορείς να παραχωρήσεις αυτή την άδεια στην εφαρμογή Ρυθμίσεις >> Ιδιωτικότητα >> Κάμερα >> Signal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "Το SecureTalk χρειάζεται πρόσβαση στην κάμερα για βιντεοκλήσεις. Μπορείς να παραχωρήσεις αυτή την άδεια στην εφαρμογή Ρυθμίσεις >> Ιδιωτικότητα >> Κάμερα >> SecureTalk";
 
 /* Alert title
    Alert title when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Το Signal χρειάζεται πρόσβαση στη κάμερα.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "Το SecureTalk χρειάζεται πρόσβαση στη κάμερα.";
 
 /* notification title. Embeds {{caller's name or phone number}} */
 "MSGVIEW_MISSED_CALL_WITH_NAME" = "Αναπάντητη κλήση απο τον/την %@.";
@@ -1181,19 +1181,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Ο αριθμός στο πρόχειρο δεν μοιάζει με τον σωστό αριθμό ασφαλείας για αυτή την συζήτηση.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Το Signal δεν βρήκε αριθμό ασφαλείας στο πρόχειρό σου. Το αντέγραψες σωστά;";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Το SecureTalk δεν βρήκε αριθμό ασφαλείας στο πρόχειρό σου. Το αντέγραψες σωστά;";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Κάθε ζευγάρι χρηστών Signal μοιράζεται έναν ξεχωριστό αριθμό ασφαλείας, Έλεγξε καλά ότι ο/η %@ σου δείχνει τον *δικό σου* ξεχωριστό αριθμό ασφαλείας.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Κάθε ζευγάρι χρηστών SecureTalk μοιράζεται έναν ξεχωριστό αριθμό ασφαλείας, Έλεγξε καλά ότι ο/η %@ σου δείχνει τον *δικό σου* ξεχωριστό αριθμό ασφαλείας.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Χρησιμοποιείς μια παλιά έκδοση του Signal. Πρέπει να το αναβαθμίσεις προτού μπορέσεις να επιβεβαιώσεις.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Χρησιμοποιείς μια παλιά έκδοση του SecureTalk. Πρέπει να το αναβαθμίσεις προτού μπορέσεις να επιβεβαιώσεις.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Ο/Η συνομιλητής/τρια χρησιμοποιεί μια παλιά έκδοση του Signal. Πρέπει να το αναβαθμίσει προτού μπορέσεις να επιβεβαιώσεις.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Ο/Η συνομιλητής/τρια χρησιμοποιεί μια παλιά έκδοση του SecureTalk. Πρέπει να το αναβαθμίσει προτού μπορέσεις να επιβεβαιώσεις.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Ο σκαναρισμένος κωδικός δεν μοιάζει με κωδικό αριθμού ασφαλείας. Χρησιμοποιείτε και οι δυο σας την αναβαθμισμένη έκδοση του Signal;";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Ο σκαναρισμένος κωδικός δεν μοιάζει με κωδικό αριθμού ασφαλείας. Χρησιμοποιείτε και οι δυο σας την αναβαθμισμένη έκδοση του SecureTalk;";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Αν επιθυμείς να επιβεβαιώσεις την ασφάλεια της κρυπτογράφησης από άκρο σε άκρο με τον/την %@, σύγκρινε τους παραπάνω αριθμούς με τους αριθμούς στην συσκευή του/της.\n\nΕναλλακτικά, μπορείς να σκανάρεις τον κωδικό στο τηλέφωνό του/της, ή να του/της ζητήσεις να σκανάρει τον δικό σου κωδικό.";
@@ -1232,7 +1232,7 @@
 "PROFILE_VIEW_PROFILE_AVATAR_FIELD" = "Εικόνα προφίλ";
 
 /* Description of the user profile. */
-"PROFILE_VIEW_PROFILE_DESCRIPTION" = "Το Προφίλ Signal σου θα είναι ορατό από τις επαφές σου, όταν ξεκινάς νέες συζητήσεις και όταν το μοιράζεσαι με άλλους χρήστες και ομάδες.";
+"PROFILE_VIEW_PROFILE_DESCRIPTION" = "Το Προφίλ SecureTalk σου θα είναι ορατό από τις επαφές σου, όταν ξεκινάς νέες συζητήσεις και όταν το μοιράζεσαι με άλλους χρήστες και ομάδες.";
 
 /* Link to more information about the user profile. */
 "PROFILE_VIEW_PROFILE_DESCRIPTION_LINK" = "Πάτα εδώ για να μάθεις περισσότερα.";
@@ -1265,13 +1265,13 @@
 "QUESTIONMARK_PUNCTUATION" = ";";
 
 /* No comment provided by engineer. */
-"RATING_MSG" = "Αν σου αρέσει να χρησιμοποιείς το Signal για να έχεις ιδιωτικές συνομιλίες, μπορείς να υποστηρίξεις το έργο μας αξιολογώντας την εφαρμογή. Δεν θα σου πάρει περισσότερο από ένα λεπτό, και θα βοηθήσει και άλλους να βρουν κάποια προστασία της ιδιωτικής τους ζωής.";
+"RATING_MSG" = "Αν σου αρέσει να χρησιμοποιείς το SecureTalk για να έχεις ιδιωτικές συνομιλίες, μπορείς να υποστηρίξεις το έργο μας αξιολογώντας την εφαρμογή. Δεν θα σου πάρει περισσότερο από ένα λεπτό, και θα βοηθήσει και άλλους να βρουν κάποια προστασία της ιδιωτικής τους ζωής.";
 
 /* No comment provided by engineer. */
-"RATING_RATE" = "Αξιολόγηση του Signal";
+"RATING_RATE" = "Αξιολόγηση του SecureTalk";
 
 /* No comment provided by engineer. */
-"RATING_TITLE" = "Υποστήριξε το Signal!";
+"RATING_TITLE" = "Υποστήριξε το SecureTalk!";
 
 /* No comment provided by engineer. */
 "REGISTER_CONTACTS_WELCOME" = "Καλωσόρισες!";
@@ -1352,7 +1352,7 @@
 "SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION" = "Αποστολή παρ'όλα αυτά";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Ο αριθμός ασφαλείας Signal μας:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Ο αριθμός ασφαλείας SecureTalk μας:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Ο αριθμός ασφαλείας με τον/την %@ άλλαξε. Ίσως θέλεις να τον επιβεβαιώσεις.";
@@ -1394,7 +1394,7 @@
 "SEND_INVITE_FAILURE" = "Η αποστολή της πρόσκλησης απέτυχε, παρακαλώ δοκίμασε ξανά αργότερα.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Προσκάλεσες τον/την φίλο/η σου να χρησιμοποιήσει το Signal!";
+"SEND_INVITE_SUCCESS" = "Προσκάλεσες τον/την φίλο/η σου να χρησιμοποιήσει το SecureTalk!";
 
 /* Text for button to send a Signal invite via SMS. %@ is placeholder for the receipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "Πρόσκληση μέσω SMS: %@";
@@ -1424,7 +1424,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY_FORMAT" = "Τοποθεσία: %@";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Αν είναι ενεργοποιημένο, το Signal θα προσπαθήσει να παρακάμψει την λογοκρισία. Μην ενεργοποιήσεις αυτή την επιλογή εκτός και αν βρίσκεσαι σε περιοχή όπου το Signal έχει λογοκριθεί/μπλοκαριστεί.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Αν είναι ενεργοποιημένο, το SecureTalk θα προσπαθήσει να παρακάμψει την λογοκρισία. Μην ενεργοποιήσεις αυτή την επιλογή εκτός και αν βρίσκεσαι σε περιοχή όπου το SecureTalk έχει λογοκριθεί/μπλοκαριστεί.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Η παράκαμψη λογοκρισίας ενεργοποιήθηκε βάσει του αριθμού τηλεφώνου του λογαριασμού σου.";
@@ -1433,7 +1433,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Η παράκαμψη λογοκρισίας μπορεί να ενεργοποιηθεί μόνο όταν υπάρχει σύνδεση στο διαδίκτυο.";
 
 /* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Η παράκαμψη λογοκρισίας δεν είναι απαραίτητη, είσαι ήδη συνδεδεμένος/η στις υπηρεσίες του Signal.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Η παράκαμψη λογοκρισίας δεν είναι απαραίτητη, είσαι ήδη συνδεδεμένος/η στις υπηρεσίες του SecureTalk.";
 
 /* Table header for the 'censorship circumvention' section. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_HEADER" = "Παράκαμψη Λογοκρισίας";
@@ -1451,7 +1451,7 @@
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Προσθήκη...";
 
 /* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Δεν έχεις επαφές στο Signal.";
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Δεν έχεις επαφές στο SecureTalk.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Δεν βρέθηκαν αποτελέσματα";
@@ -1466,7 +1466,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Πάντα να αναμεταδίδονται οι κλήσεις";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Αναμετάδοση όλων των κλήσεων μέσω του διακομιστή Signal για να αποφύγεις την αποκάλυψη της IP διεύθυνσής σου στην επαφή σου. Η ενεργοποίηση θα ρίξει την ποιότητα των κλήσεων.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Αναμετάδοση όλων των κλήσεων μέσω του διακομιστή SecureTalk για να αποφύγεις την αποκάλυψη της IP διεύθυνσής σου στην επαφή σου. Η ενεργοποίηση θα ρίξει την ποιότητα των κλήσεων.";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "Διαγραφή ιστορικού";
@@ -1496,7 +1496,7 @@
 "SETTINGS_INVITE_TITLE" = "Προσκάλεσε τους φίλους και τις φίλες σου";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Επικοινωνήστε μαζί μου χρησιμοποιώντας το Signal των @WhisperSystems, κατεβάστε το τώρα.";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Επικοινωνήστε μαζί μου χρησιμοποιώντας το SecureTalk των @WhisperSystems, κατεβάστε το τώρα.";
 
 /* Title for settings activity */
 "SETTINGS_NAV_BAR_TITLE" = "Ρυθμίσεις";
@@ -1523,10 +1523,10 @@
 "SETTINGS_SCREEN_SECURITY" = "Ενεργοποίηση Ασφάλειας Οθόνης";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY_DETAIL" = "Να μην εμφανίζονται προεπισκοπήσεις του Signal στον εναλλαγέα εφαρμογών.";
+"SETTINGS_SCREEN_SECURITY_DETAIL" = "Να μην εμφανίζονται προεπισκοπήσεις του SecureTalk στον εναλλαγέα εφαρμογών.";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "Η ενσωμάτωση κλήσεων iOS εμφανίζει τις κλήσεις Signal στην οθόνη κλειδώματος και στο ιστορικό κλήσεων του συστήματος. Μπορείς προαιρετικά να εμφανίζεις το όνομα και τον αριθμό της επαφής σου. Αν το iCloud είναι ενεργοποιημένο, αυτό το ιστορικό κλήσεων θα αποστέλλεται στην Apple.";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "Η ενσωμάτωση κλήσεων iOS εμφανίζει τις κλήσεις SecureTalk στην οθόνη κλειδώματος και στο ιστορικό κλήσεων του συστήματος. Μπορείς προαιρετικά να εμφανίζεις το όνομα και τον αριθμό της επαφής σου. Αν το iCloud είναι ενεργοποιημένο, αυτό το ιστορικό κλήσεων θα αποστέλλεται στην Apple.";
 
 /* settings topic header for table section */
 "SETTINGS_SECTION_TITLE_CALLING" = "Κλήσεις";
@@ -1553,13 +1553,13 @@
 "SHARE_EXTENSION_LOADING" = "Loading...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Launch the Signal app to register.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Launch the SecureTalk app to register.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Not Registered";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Launch the Signal app to update.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Launch the SecureTalk app to update.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Not Ready";
@@ -1574,7 +1574,7 @@
 "SHOW_THREAD_BUTTON_TITLE" = "Εμφάνιση συζήτησης";
 
 /* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Σε προσκαλώ να εγκαταστήσεις το Signal! Να ο σύνδεσμος:";
+"SMS_INVITE_BODY" = "Σε προσκαλώ να εγκαταστήσεις το SecureTalk! Να ο σύνδεσμος:";
 
 /* Alert body after verifying privacy with {{other user's name}} */
 "SUCCESSFUL_VERIFICATION_DESCRIPTION" = "Ο αριθμός ασφαλείας με τον/την %@ ταιριάζει. Μπορείς να σημειώσεις αυτή την επαφή ως επιβεβαιωμένη.";
@@ -1640,13 +1640,13 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Αποσύνδεση του/της \"%@\";";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Το Signal δεν μπόρεσε να αποσυνδέσει την συσκευή σου.";
+"UNLINKING_FAILED_ALERT_TITLE" = "Το SecureTalk δεν μπόρεσε να αποσυνδέσει την συσκευή σου.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Ανώνυμη συσκευή";
 
 /* No comment provided by engineer. */
-"UNREGISTER_SIGNAL_FAIL" = "Αποτυχία απεγγραφής από το Signal.";
+"UNREGISTER_SIGNAL_FAIL" = "Αποτυχία απεγγραφής από το SecureTalk.";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Λήψη συνημμένου του οποίου ο τύπος δεν υποστηρίζεται.";
@@ -1673,7 +1673,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_BUTTON" = "Σετάρισμα του προφίλ σου";
 
 /* Description of new profile feature for upgrading (existing) users */
-"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "Μπορείς πλέον να μοιράζεσαι μια φωτογραφία προφίλ και ένα όνομα με τους/τις φίλους/ες σου στο Signal.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "Μπορείς πλέον να μοιράζεσαι μια φωτογραφία προφίλ και ένα όνομα με τους/τις φίλους/ες σου στο SecureTalk.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_TITLE" = "Έτοιμος/η για μια φωτογραφία;";
@@ -1688,19 +1688,19 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_READ_RECEIPTS_TITLE" = "Ήρθαν τα αποδεικτικά ανάγνωσης";
 
 /* Description of video calling to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Το Signal υποστηρίζει  πλέον ασφαλείς βιντεοκλήσεις. Απλά κάνε μια κλήση Signal όπως συνήθως, πάτα το κουμπί για το βίντεο, και χαμογέλα.";
+"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Το SecureTalk υποστηρίζει  πλέον ασφαλείς βιντεοκλήσεις. Απλά κάνε μια κλήση SecureTalk όπως συνήθως, πάτα το κουμπί για το βίντεο, και χαμογέλα.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "Καλωσορίσατε, Ασφαλείς βιντεοκλησεις!";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Το Signal θα χρειάζεται σύντομα το iOS 9 ή πιο καινούργιο. Παρακαλώ αναβάθμισέ το από την εφαρμογή Ρυθμίσεις >> Γενικά >> Αναβάθμιση";
+"UPGRADE_IOS_ALERT_MESSAGE" = "Το SecureTalk θα χρειάζεται σύντομα το iOS 9 ή πιο καινούργιο. Παρακαλώ αναβάθμισέ το από την εφαρμογή Ρυθμίσεις >> Γενικά >> Αναβάθμιση";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "Αναβάθμιση iOS";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "Το Signal αναβαθμίζεται...";
+"Upgrading SecureTalk ..." = "Το SecureTalk αναβαθμίζεται...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "Πίσω";
@@ -1754,7 +1754,7 @@
 "VOICE_MESSAGE_TOO_SHORT_ALERT_TITLE" = "Μήνυμα φωνής";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Ολοκλήρωσε την εγκατάσταση στο Signal Desktop.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Ολοκλήρωσε την εγκατάσταση στο SecureTalk Desktop.";
 
 /* No comment provided by engineer. */
 "WHISPER_NAV_BAR_TITLE" = "Εισερχόμενα";

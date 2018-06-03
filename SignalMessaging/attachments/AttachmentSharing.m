@@ -59,7 +59,7 @@
             NSArray *__nullable returnedItems,
             NSError *__nullable activityError) {
 
-            DDLogDebug(@"%@ applying signal appearence", self.logTag);
+            DDLogDebug(@"%@ applying SecureTalk appearence", self.logTag);
             [UIUtil applySignalAppearence];
 
             if (activityError) {

@@ -46,7 +46,7 @@ class AccountManager: NSObject {
             return Promise(error: error)
         }
 
-        Logger.debug("\(self.TAG) registering with signal server")
+        Logger.debug("\(self.TAG) registering with SecureTalk server")
         let registrationPromise: Promise<Void> = firstly {
             self.registerForTextSecure(verificationCode: verificationCode)
         }.then {

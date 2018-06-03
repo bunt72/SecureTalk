@@ -59,13 +59,13 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "Versio %@ on nyt saatavilla App Storesta.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Uusi versio Signalista on saatavilla";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Uusi versio SecureTalkista on saatavilla";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Päivitä";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "SecureTalk";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "Arkistoi";
@@ -131,7 +131,7 @@
 "ATTACHMENT_PICKER_DOCUMENTS_FAILED_ALERT_TITLE" = "Tiedoston valinta epäonnistui.";
 
 /* Alert body when picking a document fails because user picked a directory/bundle */
-"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "Signal ei osaa käsitellä tätä tiedostoa sellaisenaan. Kokeile sen pakkaamista ja lähetä uudelleen.";
+"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "SecureTalk ei osaa käsitellä tätä tiedostoa sellaisenaan. Kokeile sen pakkaamista ja lähetä uudelleen.";
 
 /* Alert title when picking a document fails because user picked a directory/bundle */
 "ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_TITLE" = "Tiedostotyyppiä ei tueta";
@@ -200,7 +200,7 @@
 "BUTTON_DONE" = "Valmis";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Signal tarvitsee lupaa käyttää laitteesi mikrofonia puheluja  ja ääniviestejä varten. Voit antaa tämän käyttöoikeuden laitteesi Asetuksista.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "SecureTalk tarvitsee lupaa käyttää laitteesi mikrofonia puheluja  ja ääniviestejä varten. Voit antaa tämän käyttöoikeuden laitteesi Asetuksista.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Mikrofonin käyttöoikeutta tarvitaan";
@@ -215,7 +215,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Ei vastausta.";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "SecureTalk %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Soita";
@@ -263,7 +263,7 @@
 "CALLBACK_BUTTON_TITLE" = "Soita takaisin";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Signal-käyttäjä";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "SecureTalk-käyttäjä";
 
 /* Message for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_MESSAGE" = "Tätä käyttäjää ei voida varmentaa ennen kuin olet lähettänyt tai vastaanottanut viestejä hänen kanssaan.";
@@ -287,7 +287,7 @@
 "COMPOSE_MESSAGE_INVITE_SECTION_TITLE" = "Kutsu";
 
 /* Multiline label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Jotta voit nähdä, ketkä yhteystietodoistasi ovat Signalin käyttäjiä, salli yhteystietojen käyttö järjestelmäasetuksistasi.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Jotta voit nähdä, ketkä yhteystietodoistasi ovat SecureTalkin käyttäjiä, salli yhteystietojen käyttö järjestelmäasetuksistasi.";
 
 /* No comment provided by engineer. */
 "CONFIRM_ACCOUNT_DESTRUCTION_TEXT" = "Tämä alustaa ohjelman tuhoamalla viestisi ja purkaa rekisteröitymisesi palvelimelta. Tietojen tuhoamisen jälkeen ohjelma suljetaan.";
@@ -488,7 +488,7 @@
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Voit sallia yhteystietojen käytön Asetukset-ohjelmasta";
 
 /* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal tarvitsee oikeutta käyttää yhteystietojasi niiden muokkaamiseen";
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "SecureTalk tarvitsee oikeutta käyttää yhteystietojasi niiden muokkaamiseen";
 
 /* table cell label in conversation settings */
 "EDIT_GROUP_ACTION" = "Muokkaa ryhmää";
@@ -536,16 +536,16 @@
 "EDIT_TXT" = "Muokkaa";
 
 /* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to WhisperSystems home page}} */
-"EMAIL_INVITE_BODY" = "Hei,\n\nViimeaikoina olen käyttänyt Signalia pitämään keskusteluni iPhonella yksityisinä. Haluaisin, että asentaisit sen myös, jotta voimme olla varmoja, ettei kukaan muu lue viestejämme tai kuuntele puheluitamme.\n\nSignal on saatavilla sekä iPhonelle että Androidille. Hae se täältä: %@\n\nSignal toimii niinkuin nykyinen viestiohjelmasi. Sillä voi lähettää kuvia ja videoita, soittaa puheluita ja käydä ryhmäkeskusteluja. Ja parasta on, ettei kukaan ulkopuolinen näe mitään, eivät edes Signalin tekijät!\n\nVoit lukea lisää Open Whisper Systemsistä, eli Signalin kehittäjistä, täältä: %@";
+"EMAIL_INVITE_BODY" = "Hei,\n\nViimeaikoina olen käyttänyt SecureTalkia pitämään keskusteluni iPhonella yksityisinä. Haluaisin, että asentaisit sen myös, jotta voimme olla varmoja, ettei kukaan muu lue viestejämme tai kuuntele puheluitamme.\n\nSecureTalk on saatavilla sekä iPhonelle että Androidille. Hae se täältä: %@\n\nSecureTalk toimii niinkuin nykyinen viestiohjelmasi. Sillä voi lähettää kuvia ja videoita, soittaa puheluita ja käydä ryhmäkeskusteluja. Ja parasta on, ettei kukaan ulkopuolinen näe mitään, eivät edes SecureTalkin tekijät!\n\nVoit lukea lisää Open Whisper Systemsistä, eli SecureTalkin kehittäjistä, täältä: %@";
 
 /* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Vaihdetaan Signaliin";
+"EMAIL_INVITE_SUBJECT" = "Vaihdetaan SecureTalkiin";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "Napauta uuden viestin kirjoitus -painiketta.";
 
 /* No comment provided by engineer. */
-"EMPTY_ARCHIVE_FIRST_TITLE" = "Aloita ensimmäinen Signal-keskustelusi!";
+"EMPTY_ARCHIVE_FIRST_TITLE" = "Aloita ensimmäinen SecureTalk-keskustelusi!";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_TEXT" = "Voit arkistoida vanhoja keskusteluja postilaatikostasi myöhempää varten.";
@@ -554,7 +554,7 @@
 "EMPTY_ARCHIVE_TITLE" = "Siisti viestiketjujasi";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Kellään yhteystiedollasi ei ole Signalia.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Kellään yhteystiedollasi ei ole SecureTalkia.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Kutsupa joku?";
@@ -590,13 +590,13 @@
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_FAILED_ATTACHMENT_WRITE" = "Lähetys epäonnistui koska liitteen lisääminen epäonnistui.";
 
 /* Generic error used whenver Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal ei saanut yhteyttä internetiin. Yritä uudelleen toisesta WiFi-verkosta tai kokeile mobiiliyhteyttä.";
+"ERROR_DESCRIPTION_NO_INTERNET" = "SecureTalk ei saanut yhteyttä internetiin. Yritä uudelleen toisesta WiFi-verkosta tai kokeile mobiiliyhteyttä.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Viestin lähettäminen ei onnistunut, koska vastaanottajatiedoissa on virhe.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Laitteesi ei ole enää rekisteröity puhelinnumerollesi. Sinun täytyy poistaa ja asentaa Signal uudelleen.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Laitteesi ei ole enää rekisteröity puhelinnumerollesi. Sinun täytyy poistaa ja asentaa SecureTalk uudelleen.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Palvelinvirhe. Ytitä myöhemmin uudelleen.";
@@ -605,10 +605,10 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Tuntematon virhe.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Yhteystieto ei käytä Signalia.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Yhteystieto ei käytä SecureTalkia.";
 
 /* Error message when unable to receive an attachment because the sending client is too old. */
-"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Virhe: Pyydä lähettäjää päivittämään Signal ja lähettämään viesti uudelleen";
+"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Virhe: Pyydä lähettäjää päivittämään SecureTalk ja lähettämään viesti uudelleen";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "Vastaanotettiin viestin kaksoiskappale.";
@@ -797,13 +797,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Virheellinen äänitiedosto.";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Jotta voit kutsua yhteystietoja, sinun tulee sallia Signalin käyttää yhteystietojasi Asetukset-ohjelmasta.";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Jotta voit kutsua yhteystietoja, sinun tulee sallia SecureTalkin käyttää yhteystietojasi Asetukset-ohjelmasta.";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Sally yhteystietojen käyttö";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Kutsu ystäviä Signaliin";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Kutsu ystäviä SecureTalkiin";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Hae";
@@ -987,11 +987,11 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Signal tarvitsee lupaa käyttää laitteesi kameraa videopuheluita varten. Voit antaa tämän käyttöoikeuden avaamalla laitteesi Asetukset >> Tietosuoja >> Kamera >> Signal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "SecureTalk tarvitsee lupaa käyttää laitteesi kameraa videopuheluita varten. Voit antaa tämän käyttöoikeuden avaamalla laitteesi Asetukset >> Tietosuoja >> Kamera >> SecureTalk";
 
 /* Alert title
    Alert title when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal tarvitsee oikeutta käyttää kameraa.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "SecureTalk tarvitsee oikeutta käyttää kameraa.";
 
 /* notification title. Embeds {{caller's name or phone number}} */
 "MSGVIEW_MISSED_CALL_WITH_NAME" = "Vastaamatta jäänyt puhelu: %@";
@@ -1072,7 +1072,7 @@
 "NOTIFICATION_SEND_FAILED" = "Viestin lähettäminen yhteystiedolle %@ epäonnistui.";
 
 /* No comment provided by engineer. */
-"NOTIFICATIONS_FOOTER_WARNING" = "Applen push-ilmoituspalvelussa olevien ohjelmistovirheiden vuoksi viestien esikatselu toimii tällä hetkellä vain, jos viesti saadaan haettua 30 sekunnin kuluttua sen lähettämisestä. Tästä syystä Signalin kuvake Koti-valikossa saattaa näytää virheellistä saapuneiden viestien määrää.";
+"NOTIFICATIONS_FOOTER_WARNING" = "Applen push-ilmoituspalvelussa olevien ohjelmistovirheiden vuoksi viestien esikatselu toimii tällä hetkellä vain, jos viesti saadaan haettua 30 sekunnin kuluttua sen lähettämisestä. Tästä syystä SecureTalkin kuvake Koti-valikossa saattaa näytää virheellistä saapuneiden viestien määrää.";
 
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "Ei nimeä eikä viestiä";
@@ -1181,19 +1181,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Leikepöydällä oleva numero ei näytä olevan oikea turvanumero tälle keskustelulle.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal ei löytänyt turvanumeroa leikepöydältä. Oletko varmasti kopioinut sen oikein?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "SecureTalk ei löytänyt turvanumeroa leikepöydältä. Oletko varmasti kopioinut sen oikein?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Turvanumero on yksilöllinen aina kahden Signal-käyttäjän välillä. Tarkista vielä uudelleen, että yhteystiedon %@ laiteessa näkyy juuri teidän turvanumero.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Turvanumero on yksilöllinen aina kahden SecureTalk-käyttäjän välillä. Tarkista vielä uudelleen, että yhteystiedon %@ laiteessa näkyy juuri teidän turvanumero.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Sinulla on käytössä vanha versio Signalista. Sinun tulee ensin päivittää, jotta voit varmentaa.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Sinulla on käytössä vanha versio SecureTalkista. Sinun tulee ensin päivittää, jotta voit varmentaa.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Vastapuolella on käytössä vanha versio Signalista. Hänen tulee ensin päivittää, jotta voit varmentaa.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Vastapuolella on käytössä vanha versio SecureTalkista. Hänen tulee ensin päivittää, jotta voit varmentaa.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Skannattu koodi ei näytä olevan turvanumero. Onko teillä kummallakin viimeisin versio Signalista käytössä?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Skannattu koodi ei näytä olevan turvanumero. Onko teillä kummallakin viimeisin versio SecureTalkista käytössä?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Jos haluat varmentaa sinun ja yhteystiedon %@ välisen salauksen tietoturvan, vertaa ylläolevia numeroita hänen laitteessaan näkyviin vastaaviin numeroihin.\n\nVaihtoehtoisesti voit skannata koodin hänen puhelimestaan, tai pyytää häntä skannaamaan sinun koodisi.";
@@ -1232,7 +1232,7 @@
 "PROFILE_VIEW_PROFILE_AVATAR_FIELD" = "Kuvake";
 
 /* Description of the user profile. */
-"PROFILE_VIEW_PROFILE_DESCRIPTION" = "Signal-profiilisi näkyy kaikille yhteystiedoillesi, kun aloitat uusia keskusteluja ja kun jaat sen muiden käyttäjien ja ryhmien kanssa.";
+"PROFILE_VIEW_PROFILE_DESCRIPTION" = "SecureTalk-profiilisi näkyy kaikille yhteystiedoillesi, kun aloitat uusia keskusteluja ja kun jaat sen muiden käyttäjien ja ryhmien kanssa.";
 
 /* Link to more information about the user profile. */
 "PROFILE_VIEW_PROFILE_DESCRIPTION_LINK" = "Lisätietoja napauttamalla tästä";
@@ -1265,13 +1265,13 @@
 "QUESTIONMARK_PUNCTUATION" = "?";
 
 /* No comment provided by engineer. */
-"RATING_MSG" = "Jos pidät Signalista ja haluat tukea projektiamme tuoda helposti käytettävät ja yksityiset keskustelut kaikille, voit auttaa meitä arvostelemalla Signalin. Se vie vain hetken ja auttaa muita löytämään ohjelman helpommin.";
+"RATING_MSG" = "Jos pidät SecureTalkista ja haluat tukea projektiamme tuoda helposti käytettävät ja yksityiset keskustelut kaikille, voit auttaa meitä arvostelemalla SecureTalkin. Se vie vain hetken ja auttaa muita löytämään ohjelman helpommin.";
 
 /* No comment provided by engineer. */
-"RATING_RATE" = "Arvostele Signal";
+"RATING_RATE" = "Arvostele SecureTalk";
 
 /* No comment provided by engineer. */
-"RATING_TITLE" = "Tue Signalia!";
+"RATING_TITLE" = "Tue SecureTalkia!";
 
 /* No comment provided by engineer. */
 "REGISTER_CONTACTS_WELCOME" = "Tervetuloa!";
@@ -1352,7 +1352,7 @@
 "SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION" = "Lähetä joka tapauksessa";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Meidän Signal-turvanumeromme:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Meidän SecureTalk-turvanumeromme:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Sinun ja yhteystiedon %@ turvanumero on vaihtunut. Saatat halua varmentaa sen.";
@@ -1394,7 +1394,7 @@
 "SEND_INVITE_FAILURE" = "Kutsun lähettäminen epäonnistui. Yritä myöhemmin uudelleen.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Olet kutsunut ystäväsi käyttämään Signalia!";
+"SEND_INVITE_SUCCESS" = "Olet kutsunut ystäväsi käyttämään SecureTalkia!";
 
 /* Text for button to send a Signal invite via SMS. %@ is placeholder for the receipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "Kutsu tekstiviestillä: %@";
@@ -1403,7 +1403,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Kutsu ystävä suojaamattomalla tekstiviestillä?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Haluatko kutsua seuraavan numeron käyttämään Signalia:";
+"SEND_SMS_INVITE_TITLE" = "Haluatko kutsua seuraavan numeron käyttämään SecureTalkia:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "Tietoja ohjelmasta";
@@ -1424,7 +1424,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY_FORMAT" = "Sijainti: %@";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Jos tämä on käytössä, niin Signal yrittää kiertää sensuuria. Älä ota tätä ominaisuutta käyttöön ellet ole paikassa, missä Signal on sensuroitu.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Jos tämä on käytössä, niin SecureTalk yrittää kiertää sensuuria. Älä ota tätä ominaisuutta käyttöön ellet ole paikassa, missä SecureTalk on sensuroitu.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Puhelinnumerosi sijaintiin perustuva sensuurin kiertäminen otettu käyttöön.";
@@ -1433,7 +1433,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Sensuurin kiertäminen toimii ainoastaan silloin, kun olet yhteydessä internetiin.";
 
 /* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Sensuurin kiertäminen ei ole tarpeen. Olet jo yhdistetty Signal-palvelimeen.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Sensuurin kiertäminen ei ole tarpeen. Olet jo yhdistetty SecureTalk-palvelimeen.";
 
 /* Table header for the 'censorship circumvention' section. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_HEADER" = "Sensuurin kiertäminen";
@@ -1451,7 +1451,7 @@
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Lisää...";
 
 /* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Sinulla ei ole yhteystietoja Signalissa.";
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Sinulla ei ole yhteystietoja SecureTalkissa.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Ei hakutuloksia";
@@ -1466,7 +1466,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Välitä aina puhelut";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Välitä kaikki puhelut Signal-palvelimen kautta välttääksesi IP-osoitteesi paljastumista yhteystiedollesi. Tämä toiminto heikentää puhelun laatua.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Välitä kaikki puhelut SecureTalk-palvelimen kautta välttääksesi IP-osoitteesi paljastumista yhteystiedollesi. Tämä toiminto heikentää puhelun laatua.";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "Tyhjennä historialoki";
@@ -1496,7 +1496,7 @@
 "SETTINGS_INVITE_TITLE" = "Kutsu kavereitasi";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Voit ottaa minuun yhteyttä @WhisperSystems​in Signalilla. Lataa se nyt.";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Voit ottaa minuun yhteyttä @WhisperSystems​in SecureTalkilla. Lataa se nyt.";
 
 /* Title for settings activity */
 "SETTINGS_NAV_BAR_TITLE" = "Asetukset";
@@ -1523,10 +1523,10 @@
 "SETTINGS_SCREEN_SECURITY" = "Estä kuvakaappaukset";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY_DETAIL" = "Estä Signalin esikatselukuvien näkyminen ohjelmanvaihtajanäytöltä.";
+"SETTINGS_SCREEN_SECURITY_DETAIL" = "Estä SecureTalkin esikatselukuvien näkyminen ohjelmanvaihtajanäytöltä.";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "iOS puheluiden integraatio näyttää Signal-puhelut lukitusruudullasi ja järjestelmän puheluhistoriassa. Voi halutessasi näyttää myös yhteystietosi nimen ja numeron. Jos iCloud on käytössä, puheluhistoria jaetaan myös Applelle.";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "iOS puheluiden integraatio näyttää SecureTalk-puhelut lukitusruudullasi ja järjestelmän puheluhistoriassa. Voi halutessasi näyttää myös yhteystietosi nimen ja numeron. Jos iCloud on käytössä, puheluhistoria jaetaan myös Applelle.";
 
 /* settings topic header for table section */
 "SETTINGS_SECTION_TITLE_CALLING" = "Puhelut";
@@ -1553,13 +1553,13 @@
 "SHARE_EXTENSION_LOADING" = "Ladataan...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Avaa Signal ohjelma rekisteröityäksesi.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Avaa SecureTalk ohjelma rekisteröityäksesi.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Ei rekisteröity";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Avaa Signal ohjelma päivittääksesi.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Avaa SecureTalk ohjelma päivittääksesi.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Ei valmis";
@@ -1574,7 +1574,7 @@
 "SHOW_THREAD_BUTTON_TITLE" = "Näytä keskustelu";
 
 /* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Kutsun sinut käyttämään Signalia! Tässä linkki:";
+"SMS_INVITE_BODY" = "Kutsun sinut käyttämään SecureTalkia! Tässä linkki:";
 
 /* Alert body after verifying privacy with {{other user's name}} */
 "SUCCESSFUL_VERIFICATION_DESCRIPTION" = "Turvanumerosi yhteystiedon %@ kanssa täsmää. Voit nyt merkitä tämän yhteystiedon varmennetuksi.";
@@ -1640,13 +1640,13 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Poista \"%@\"?";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal ei onnistunut poistamaan laitettasi.";
+"UNLINKING_FAILED_ALERT_TITLE" = "SecureTalk ei onnistunut poistamaan laitettasi.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Nimeämätön laite";
 
 /* No comment provided by engineer. */
-"UNREGISTER_SIGNAL_FAIL" = "Rekisteröimisen purku Signalista epäonnistui.";
+"UNREGISTER_SIGNAL_FAIL" = "Rekisteröimisen purku SecureTalkista epäonnistui.";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Vastaanotettiin liite, jota ei tueta.";
@@ -1673,7 +1673,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_BUTTON" = "Aseta profiilisi";
 
 /* Description of new profile feature for upgrading (existing) users */
-"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "Voit nyt jakaa profiilikuvasi ja -nimesi ystäviesi kanssa Signalissa.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "Voit nyt jakaa profiilikuvasi ja -nimesi ystäviesi kanssa SecureTalkissa.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_TITLE" = "Oletko valmis kuvaa varten?";
@@ -1688,19 +1688,19 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_READ_RECEIPTS_TITLE" = "Esittelemme lukukuittaukset";
 
 /* Description of video calling to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Signal tukee nyt turvallisia videopuheluita. Aloita puhelu kuten ennenkin, sitten vain napauta kamerakuvaketta ja vilkuta hei.";
+"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "SecureTalk tukee nyt turvallisia videopuheluita. Aloita puhelu kuten ennenkin, sitten vain napauta kamerakuvaketta ja vilkuta hei.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "Hei, turvalliset videopuhelut!";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Lähitulevaisuudessa Signal tulee vaatimaan iOS 9:ä tai uudempaa. Voit päivittää käyttöjärjestelmäsi Asetukset ohjelmasta >> Yleiset >> Ohjelmistopäivitys";
+"UPGRADE_IOS_ALERT_MESSAGE" = "Lähitulevaisuudessa SecureTalk tulee vaatimaan iOS 9:ä tai uudempaa. Voit päivittää käyttöjärjestelmäsi Asetukset ohjelmasta >> Yleiset >> Ohjelmistopäivitys";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "Päivitä iOS";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "Päivitetään Signalia ...";
+"Upgrading SecureTalk ..." = "Päivitetään SecureTalkia ...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "Takaisin";
@@ -1754,7 +1754,7 @@
 "VOICE_MESSAGE_TOO_SHORT_ALERT_TITLE" = "Ääniviesti";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Saata yhdistäminen loppuun Signal Desktopissa.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Saata yhdistäminen loppuun SecureTalk Desktopissa.";
 
 /* No comment provided by engineer. */
 "WHISPER_NAV_BAR_TITLE" = "Postilaatikko";

@@ -59,13 +59,13 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "La versión %@ está disponible en la App Store.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Nueva versión de Signal disponible";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Nueva versión de SecureTalk disponible";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Actualizar";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "SecureTalk";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "Archivar";
@@ -131,7 +131,7 @@
 "ATTACHMENT_PICKER_DOCUMENTS_FAILED_ALERT_TITLE" = "Fallo al seleccionar documento.";
 
 /* Alert body when picking a document fails because user picked a directory/bundle */
-"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "Signal no puede enviar una carpeta. Prueba a comprimirla antes de enviarla. ";
+"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "SecureTalk no puede enviar una carpeta. Prueba a comprimirla antes de enviarla. ";
 
 /* Alert title when picking a document fails because user picked a directory/bundle */
 "ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_TITLE" = "Archivo no soportado";
@@ -200,10 +200,10 @@
 "BUTTON_DONE" = "Hecho";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Signal necesita acceder al micrófono para realizar llamadas y grabar notas de voz. Permite el acceso a Signal desde los ajustes de iOS.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "SecureTalk necesita acceder al micrófono para realizar llamadas y grabar notas de voz. Permite el acceso a SecureTalk desde los ajustes de iOS.";
 
 /* Alert title when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_TITLE" = "Signal necesita acceso al micrófono";
+"CALL_AUDIO_PERMISSION_TITLE" = "SecureTalk necesita acceso al micrófono";
 
 /* Accessibilty label for placing call button */
 "CALL_LABEL" = "Llamada";
@@ -215,7 +215,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "sin respuesta.";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "SecureTalk %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Llamar";
@@ -242,10 +242,10 @@
 "CALL_VIEW_MUTE_LABEL" = "Silenciar";
 
 /* Reminder to the user of the benefits of enabling CallKit and disabling CallKit privacy. */
-"CALL_VIEW_SETTINGS_NAG_DESCRIPTION_ALL" = "Puedes responder llamadas desde la pantalla bloqueada y ver el nombre y número de teléfono del contacto si modificas los ajustes.\n\nPara más detalles, comprueba los ajustes de Signal.";
+"CALL_VIEW_SETTINGS_NAG_DESCRIPTION_ALL" = "Puedes responder llamadas desde la pantalla bloqueada y ver el nombre y número de teléfono del contacto si modificas los ajustes.\n\nPara más detalles, comprueba los ajustes de SecureTalk.";
 
 /* Reminder to the user of the benefits of disabling CallKit privacy. */
-"CALL_VIEW_SETTINGS_NAG_DESCRIPTION_PRIVACY" = "Puedes ver el nombre y número de teléfono de las llamadas recibidas si modificas los ajustes.\n\nPara más detalles, comprueba los ajustes de Signal.";
+"CALL_VIEW_SETTINGS_NAG_DESCRIPTION_PRIVACY" = "Puedes ver el nombre y número de teléfono de las llamadas recibidas si modificas los ajustes.\n\nPara más detalles, comprueba los ajustes de SecureTalk.";
 
 /* Label for button that dismiss the call view's settings nag. */
 "CALL_VIEW_SETTINGS_NAG_NOT_NOW_BUTTON" = "Ahora no";
@@ -263,7 +263,7 @@
 "CALLBACK_BUTTON_TITLE" = "Responder llamada";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Contacto de Signal";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Contacto de SecureTalk";
 
 /* Message for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_MESSAGE" = "Sólo se puede verificar este contacto una vez que hayáis intercambiado mensajes.";
@@ -287,10 +287,10 @@
 "COMPOSE_MESSAGE_INVITE_SECTION_TITLE" = "Invitar";
 
 /* Multiline label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Para ver quién de tus contactos usa Signal, permite el acceso a los contactos desde los ajustes de iOS.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Para ver quién de tus contactos usa SecureTalk, permite el acceso a los contactos desde los ajustes de iOS.";
 
 /* No comment provided by engineer. */
-"CONFIRM_ACCOUNT_DESTRUCTION_TEXT" = "Esta acción restablece la aplicación, borra todos los mensajes y da de baja el número del servidor de Signal. Signal se cerrará después de borrar todos los datos.";
+"CONFIRM_ACCOUNT_DESTRUCTION_TEXT" = "Esta acción restablece la aplicación, borra todos los mensajes y da de baja el número del servidor de SecureTalk. SecureTalk se cerrará después de borrar todos los datos.";
 
 /* No comment provided by engineer. */
 "CONFIRM_ACCOUNT_DESTRUCTION_TITLE" = "¿Estás seguro de querer eliminar tu cuenta?";
@@ -305,7 +305,7 @@
 "CONFIRM_LINK_NEW_DEVICE_ACTION" = "Enlazar nuevo dispositivo";
 
 /* Action sheet body presented when a user's SN have recently changed. Embeds {{contact's name or phone nubmer}} */
-"CONFIRM_SENDING_TO_CHANGED_IDENTITY_BODY_FORMAT" = "%@ puede haber reinstalado Signal o tener un dispositivo nuevo. Verifica las cifras de seguridad para asegurar la privacidad de vuestro chat.";
+"CONFIRM_SENDING_TO_CHANGED_IDENTITY_BODY_FORMAT" = "%@ puede haber reinstalado SecureTalk o tener un dispositivo nuevo. Verifica las cifras de seguridad para asegurar la privacidad de vuestro chat.";
 
 /* Action sheet title presented when a users's SN have recently changed. Embeds {{contact's name or phone number}} */
 "CONFIRM_SENDING_TO_CHANGED_IDENTITY_TITLE_FORMAT" = "Las cifras de seguridad con %@ han cambiado";
@@ -488,7 +488,7 @@
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Puedes dar acceso desde la aplicación de Ajustes de iOS.";
 
 /* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal necesita acceso a los contactos para que puedas modificarlos.";
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "SecureTalk necesita acceso a los contactos para que puedas modificarlos.";
 
 /* table cell label in conversation settings */
 "EDIT_GROUP_ACTION" = "Editar grupo";
@@ -536,16 +536,16 @@
 "EDIT_TXT" = "Modificar";
 
 /* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to WhisperSystems home page}} */
-"EMAIL_INVITE_BODY" = "Hola:\n\nÚltimamente uso Signal para tener chats privados desde mi iPhone. Me gustaría que también lo instalases y así estar seguros que solo tú y yo podemos leer nuestros mensajes.\n\nSignal está disponible para iPhone y Android. Consíguelo aquí: %@\n\nSignal funciona como tu aplicación de mensajes de toda la vida. Podemos enviarnos fotos y videos, hacer llamadas y crear chats de grupo. Lo mejor es que nadie puede ver el contenido de nuestra conversación ¡ni siquiera los desarrolladores de Signal!\n\nPuedes leer más sobre Open Whisper Systems (los desarrolladores de Signal) aquí: %@";
+"EMAIL_INVITE_BODY" = "Hola:\n\nÚltimamente uso SecureTalk para tener chats privados desde mi iPhone. Me gustaría que también lo instalases y así estar seguros que solo tú y yo podemos leer nuestros mensajes.\n\nSecureTalk está disponible para iPhone y Android. Consíguelo aquí: %@\n\nSecureTalk funciona como tu aplicación de mensajes de toda la vida. Podemos enviarnos fotos y videos, hacer llamadas y crear chats de grupo. Lo mejor es que nadie puede ver el contenido de nuestra conversación ¡ni siquiera los desarrolladores de SecureTalk!\n\nPuedes leer más sobre Open Whisper Systems (los desarrolladores de SecureTalk) aquí: %@";
 
 /* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "¿Usamos Signal para chatear de forma segura?";
+"EMAIL_INVITE_SUBJECT" = "¿Usamos SecureTalk para chatear de forma segura?";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "Toca sobre el símbolo del lápiz para comenzar un chat.";
 
 /* No comment provided by engineer. */
-"EMPTY_ARCHIVE_FIRST_TITLE" = "¡Escribe tu primer mensaje con Signal!";
+"EMPTY_ARCHIVE_FIRST_TITLE" = "¡Escribe tu primer mensaje con SecureTalk!";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_TEXT" = "Puedes archivar chats inactivos y devolverlos más tarde al buzón de entrada.";
@@ -554,7 +554,7 @@
 "EMPTY_ARCHIVE_TITLE" = "Organiza tus chats";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Ninguno de tus contactos usa Signal";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Ninguno de tus contactos usa SecureTalk";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "¿Por qué no invitas a alguien?";
@@ -590,13 +590,13 @@
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_FAILED_ATTACHMENT_WRITE" = "Fallo al enviar por problemas con el adjunto.";
 
 /* Generic error used whenver Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal no ha podido conectarse a internet. Prueba a conectarte desde otra red WiFi o usa la red de datos de tu operador.";
+"ERROR_DESCRIPTION_NO_INTERNET" = "SecureTalk no ha podido conectarse a internet. Prueba a conectarte desde otra red WiFi o usa la red de datos de tu operador.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Fallo al enviar mensaje por falta de destinatarios válidos.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Este dispositivo ya no está registrado con tu número de teléfono. Tienes que eliminar y reinstalar Signal.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Este dispositivo ya no está registrado con tu número de teléfono. Tienes que eliminar y reinstalar SecureTalk.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Fallo en el servidor. Por favor, inténtalo más tarde.";
@@ -605,10 +605,10 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Ocurrió un fallo desconocido.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Este contacto no utiliza Signal.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Este contacto no utiliza SecureTalk.";
 
 /* Error message when unable to receive an attachment because the sending client is too old. */
-"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Fallo: Pide a tu contacto actualizar Signal.";
+"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Fallo: Pide a tu contacto actualizar SecureTalk.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "Mensaje duplicado.";
@@ -776,7 +776,7 @@
 "INBOX_VIEW_ARCHIVE_MODE_REMINDER" = "Estos son tus chats archivados. Toca aquí para regresar al buzón de entrada.";
 
 /* Multiline label explaining how to show names instead of phone numbers in your inbox */
-"INBOX_VIEW_MISSING_CONTACTS_PERMISSION" = "Para ver los nombres de tus contactos, actualiza los ajustes de iOS para que Signal pueda acceder a los contactos.";
+"INBOX_VIEW_MISSING_CONTACTS_PERMISSION" = "Para ver los nombres de tus contactos, actualiza los ajustes de iOS para que SecureTalk pueda acceder a los contactos.";
 
 /* notification body */
 "INCOMING_CALL" = "Llamada recibida";
@@ -797,7 +797,7 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Archivo de audio inválido.";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Para invitar contactos, Signal necesita acceder a tu agenda. Puedes permitir el acceso a los contactos en la aplicación Ajustes de iOS.";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Para invitar contactos, SecureTalk necesita acceder a tu agenda. Puedes permitir el acceso a los contactos en la aplicación Ajustes de iOS.";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Permitir acesso a contactos";
@@ -987,11 +987,11 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Signal necesita acceder a la cámara para realizar vídeollamadas. Activa el acceso a Signal en la App Ajustes >> Privacidad >> Cámara >> Signal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "SecureTalk necesita acceder a la cámara para realizar vídeollamadas. Activa el acceso a SecureTalk en la App Ajustes >> Privacidad >> Cámara >> SecureTalk";
 
 /* Alert title
    Alert title when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal necesita acceder a la cámara.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "SecureTalk necesita acceder a la cámara.";
 
 /* notification title. Embeds {{caller's name or phone number}} */
 "MSGVIEW_MISSED_CALL_WITH_NAME" = "Llamada perdida de %@.";
@@ -1072,7 +1072,7 @@
 "NOTIFICATION_SEND_FAILED" = "Fallo al enviar mensaje a %@.";
 
 /* No comment provided by engineer. */
-"NOTIFICATIONS_FOOTER_WARNING" = "Debido a fallos del sistema de notificationes de Apple, la previsualización de mensajes sólo ocurre si el mensaje se recupera 30 segundos después de haberse enviado. Esto puede resultar que el número mostrado en el globo junto al icono de Signal sea incorrecto.";
+"NOTIFICATIONS_FOOTER_WARNING" = "Debido a fallos del sistema de notificationes de Apple, la previsualización de mensajes sólo ocurre si el mensaje se recupera 30 segundos después de haberse enviado. Esto puede resultar que el número mostrado en el globo junto al icono de SecureTalk sea incorrecto.";
 
 /* No comment provided by engineer. */
 "NOTIFICATIONS_NONE" = "Ni contacto ni mensaje";
@@ -1081,7 +1081,7 @@
 "NOTIFICATIONS_SECTION_BACKGROUND" = "Notificaciones de iOS";
 
 /* No comment provided by engineer. */
-"NOTIFICATIONS_SECTION_INAPP" = "Con Signal en primer plano";
+"NOTIFICATIONS_SECTION_INAPP" = "Con SecureTalk en primer plano";
 
 /* No comment provided by engineer. */
 "NOTIFICATIONS_SENDER_AND_MESSAGE" = "Remitente y mensaje";
@@ -1181,19 +1181,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Las cifras en el portapapeles no son las cifras de seguridad correctas para este chat.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal no ha encontrado las cifras de seguridad en el portapapeles. ¿Las has copiado correctamente?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "SecureTalk no ha encontrado las cifras de seguridad en el portapapeles. ¿Las has copiado correctamente?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Todos los chats entre contactos de Signal comparten unas cifras de seguridad únicas. Vuelve a verificar que %@ está mostrando las cifras de *vuestro* chat.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Todos los chats entre contactos de SecureTalk comparten unas cifras de seguridad únicas. Vuelve a verificar que %@ está mostrando las cifras de *vuestro* chat.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Estás utilizando una version antigua de Signal. Necesitas actualizar para poder verificar.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Estás utilizando una version antigua de SecureTalk. Necesitas actualizar para poder verificar.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Tu contacto está utilizando una version antigua de Signal. Necesita actualizar para poder verificar.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Tu contacto está utilizando una version antigua de SecureTalk. Necesita actualizar para poder verificar.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "El código escaneado no es un código de cifras de seguridad. ¿Estáis usando los dos una versión de Signal reciente?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "El código escaneado no es un código de cifras de seguridad. ¿Estáis usando los dos una versión de SecureTalk reciente?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Si quieres verificar la seguridad del cifrado punto a punto con %@, compara las cifras de arriba con las mostradas en su dispositivo.\n\nTambién puedes escanear el código en el dispositivo de tu contacto o dejarle escanear el tuyo.";
@@ -1232,7 +1232,7 @@
 "PROFILE_VIEW_PROFILE_AVATAR_FIELD" = "Foto";
 
 /* Description of the user profile. */
-"PROFILE_VIEW_PROFILE_DESCRIPTION" = "El perfil de Signal será visible para tus contactos al iniciar un chat nuevo y cuando decidas compartirlo con otros usuarios y grupos.";
+"PROFILE_VIEW_PROFILE_DESCRIPTION" = "El perfil de SecureTalk será visible para tus contactos al iniciar un chat nuevo y cuando decidas compartirlo con otros usuarios y grupos.";
 
 /* Link to more information about the user profile. */
 "PROFILE_VIEW_PROFILE_DESCRIPTION_LINK" = "Toca para más información.";
@@ -1265,13 +1265,13 @@
 "QUESTIONMARK_PUNCTUATION" = "?";
 
 /* No comment provided by engineer. */
-"RATING_MSG" = "Si te gusta utilizar Signal para tener chats privados, puedes apoyar nuestro proyecto valorándolo en la App Store. No te llevará más de un minuto y ayudará a otros a asociar Signal con privacidad.";
+"RATING_MSG" = "Si te gusta utilizar SecureTalk para tener chats privados, puedes apoyar nuestro proyecto valorándolo en la App Store. No te llevará más de un minuto y ayudará a otros a asociar SecureTalk con privacidad.";
 
 /* No comment provided by engineer. */
-"RATING_RATE" = "Valora Signal";
+"RATING_RATE" = "Valora SecureTalk";
 
 /* No comment provided by engineer. */
-"RATING_TITLE" = "¡Apoya Signal!";
+"RATING_TITLE" = "¡Apoya SecureTalk!";
 
 /* No comment provided by engineer. */
 "REGISTER_CONTACTS_WELCOME" = "¡Bienvenid@!";
@@ -1352,7 +1352,7 @@
 "SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION" = "Enviar de todas formas";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Las cifras de seguridad de nuestro chat en Signal son:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Las cifras de seguridad de nuestro chat en SecureTalk son:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Las cifras de seguridad del chat con %@ han cambiado. Por favor, compruébalo.";
@@ -1394,7 +1394,7 @@
 "SEND_INVITE_FAILURE" = "Fallo al enviar invitación. Por favor, inténtalo más tarde.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "¡Has invitado a tu contacto a usar Signal!";
+"SEND_INVITE_SUCCESS" = "¡Has invitado a tu contacto a usar SecureTalk!";
 
 /* Text for button to send a Signal invite via SMS. %@ is placeholder for the receipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "Invitar por SMS: %@";
@@ -1406,7 +1406,7 @@
 "SEND_SMS_INVITE_TITLE" = "¿Deseas invitar este número a usar SecureTalk:";
 
 /* Navbar title */
-"SETTINGS_ABOUT" = "Acerca de Signal";
+"SETTINGS_ABOUT" = "Acerca de SecureTalk";
 
 /* Title for the 'block contact' section of the 'add to block list' view. */
 "SETTINGS_ADD_TO_BLOCK_LIST_BLOCK_CONTACT_TITLE" = "Bloquear contacto";
@@ -1424,16 +1424,16 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY_FORMAT" = "Ubicación: %@";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Al activar la opción, Signal intentará enviar mensajes evitando la censura. No activar esta opción a no ser que el país en el que te encuentres bloquee Signal.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Al activar la opción, SecureTalk intentará enviar mensajes evitando la censura. No activar esta opción a no ser que el país en el que te encuentres bloquee SecureTalk.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "La opción para evitar censura se ha activado automáticamente basándose en el número de teléfono de tu cuenta de Signal.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "La opción para evitar censura se ha activado automáticamente basándose en el número de teléfono de tu cuenta de SecureTalk.";
 
 /* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "La opción para evitar censura sólo se puede activar con acceso a internet.";
 
 /* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "La opción para evitar censura no es necesaria: Ya estás conectado al servidor de Signal.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "La opción para evitar censura no es necesaria: Ya estás conectado al servidor de SecureTalk.";
 
 /* Table header for the 'censorship circumvention' section. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_HEADER" = "Evitar censura";
@@ -1451,7 +1451,7 @@
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Añadir...";
 
 /* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "No tienes contactos en Signal.";
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "No tienes contactos en SecureTalk.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Sin resultados";
@@ -1466,7 +1466,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Redirigir llamadas siempre";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Signal redirigirá todas las llamadas a través del servidor de Signal para evitar revelar tu dirección IP al contacto. Activar la opción reducirá la calidad de las llamadas.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "SecureTalk redirigirá todas las llamadas a través del servidor de SecureTalk para evitar revelar tu dirección IP al contacto. Activar la opción reducirá la calidad de las llamadas.";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "Borrar historial";
@@ -1496,7 +1496,7 @@
 "SETTINGS_INVITE_TITLE" = "Invitar contactos";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Puedes contactar conmigo usando Signal de @WhisperSystems. ¡Bájatelo!";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Puedes contactar conmigo usando SecureTalk de @WhisperSystems. ¡Bájatelo!";
 
 /* Title for settings activity */
 "SETTINGS_NAV_BAR_TITLE" = "Ajustes";
@@ -1526,7 +1526,7 @@
 "SETTINGS_SCREEN_SECURITY_DETAIL" = "Esta opción evita que aparezca contenido en las capturas de pantalla del gestor de aplicaciones.";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "La integración de llamadas en iOS muestra los avisos de llamada de Signal a pantalla completa y en el historial de llamadas del sistema de forma anónima. Opcionalmente puedes activar que se muestre el nombre o número del contacto. Con iCloud activado, el historial de llamadas se comparte con Apple.";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "La integración de llamadas en iOS muestra los avisos de llamada de SecureTalk a pantalla completa y en el historial de llamadas del sistema de forma anónima. Opcionalmente puedes activar que se muestre el nombre o número del contacto. Con iCloud activado, el historial de llamadas se comparte con Apple.";
 
 /* settings topic header for table section */
 "SETTINGS_SECTION_TITLE_CALLING" = "Llamadas";
@@ -1553,13 +1553,13 @@
 "SHARE_EXTENSION_LOADING" = "Cargando...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Inicia Signal para registrarte.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Inicia SecureTalk para registrarte.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Usuario no registrado";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Inicia Signal para sincronizar esta extensión con la aplicación principal.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Inicia SecureTalk para sincronizar esta extensión con la aplicación principal.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Atención";
@@ -1574,7 +1574,7 @@
 "SHOW_THREAD_BUTTON_TITLE" = "Mostrar chat";
 
 /* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "¡Instala Signal en tu teléfono! Toca aquí:";
+"SMS_INVITE_BODY" = "¡Instala SecureTalk en tu teléfono! Toca aquí:";
 
 /* Alert body after verifying privacy with {{other user's name}} */
 "SUCCESSFUL_VERIFICATION_DESCRIPTION" = "Tus cifras de seguridad con %@ coinciden, Puedes marcar este contacto como verificado.";
@@ -1640,13 +1640,13 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "¿Desenlazar \"%@\"?";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal no ha podido desenlazar tu dispositivo.";
+"UNLINKING_FAILED_ALERT_TITLE" = "SecureTalk no ha podido desenlazar tu dispositivo.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Dispositivo sin nombre";
 
 /* No comment provided by engineer. */
-"UNREGISTER_SIGNAL_FAIL" = "Fallo al darse de baja en Signal";
+"UNREGISTER_SIGNAL_FAIL" = "Fallo al darse de baja en SecureTalk";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Adjunto recibido con formato no compatible.";
@@ -1661,10 +1661,10 @@
 "UPDATE_GROUP_CANT_REMOVE_MEMBERS_ALERT_TITLE" = "No permitido";
 
 /* Description of CallKit to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_CALLKIT_DESCRIPTION" = "Responder llamadas desde la pantalla bloqueada es fácil con la integración de llamadas en iOS. El número de la llamada recibida es anonimizado por defecto, por lo que la llamada es también privada.\n\nPuedes leer más al respecto en los ajustes de privacidad de Signal.";
+"UPGRADE_EXPERIENCE_CALLKIT_DESCRIPTION" = "Responder llamadas desde la pantalla bloqueada es fácil con la integración de llamadas en iOS. El número de la llamada recibida es anonimizado por defecto, por lo que la llamada es también privada.\n\nPuedes leer más al respecto en los ajustes de privacidad de SecureTalk.";
 
 /* button label shown once when when user upgrades app, in context of call kit */
-"UPGRADE_EXPERIENCE_CALLKIT_PRIVACY_SETTINGS_BUTTON" = "Más detalles en los ajustes de privacidad de Signal.";
+"UPGRADE_EXPERIENCE_CALLKIT_PRIVACY_SETTINGS_BUTTON" = "Más detalles en los ajustes de privacidad de SecureTalk.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_CALLKIT_TITLE" = "Desliza para responder";
@@ -1673,7 +1673,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_BUTTON" = "Completa tu perfil";
 
 /* Description of new profile feature for upgrading (existing) users */
-"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "Ahora puedes compartir tu foto de perfil y tu nombre con tus contactos en Signal.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "Ahora puedes compartir tu foto de perfil y tu nombre con tus contactos en SecureTalk.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_TITLE" = "¿List@ para tu retrato?";
@@ -1688,19 +1688,19 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_READ_RECEIPTS_TITLE" = "Nuevo: Notificaciones de lectura";
 
 /* Description of video calling to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Ahora Signal permite hacer vídeollamadas seguras. Inicia simplemente una llamada de Signal, toca el botón de la cámara y saluda.";
+"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Ahora SecureTalk permite hacer vídeollamadas seguras. Inicia simplemente una llamada de SecureTalk, toca el botón de la cámara y saluda.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "¡Saluda a las vídeollamadas seguras!";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Signal va a necesitar en los próximos meses por lo menos iOS 9 para funcionar. Actualiza tu iPhone en Ajustes >> General >> Actualización de Software  ";
+"UPGRADE_IOS_ALERT_MESSAGE" = "SecureTalk va a necesitar en los próximos meses por lo menos iOS 9 para funcionar. Actualiza tu iPhone en Ajustes >> General >> Actualización de Software  ";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "Actualizar iOS";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "Actualizando Signal...";
+"Upgrading SecureTalk ..." = "Actualizando SecureTalk...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "Atrás";
