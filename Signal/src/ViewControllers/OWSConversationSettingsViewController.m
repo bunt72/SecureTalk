@@ -10,7 +10,7 @@
 #import "OWSBlockingManager.h"
 #import "PhoneNumber.h"
 #import "ShowGroupMembersViewController.h"
-#import "Signal-Swift.h"
+#import "SecureTalk-Swift.h"
 #import "UIFont+OWS.h"
 #import "UIView+OWS.h"
 #import "UpdateGroupViewController.h"

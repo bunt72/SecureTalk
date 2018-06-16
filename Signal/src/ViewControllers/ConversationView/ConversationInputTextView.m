@@ -3,7 +3,7 @@
 //
 
 #import "ConversationInputTextView.h"
-#import "Signal-Swift.h"
+#import "SecureTalk-Swift.h"
 #import <SignalMessaging/NSString+OWS.h>
 
 NS_ASSUME_NONNULL_BEGIN

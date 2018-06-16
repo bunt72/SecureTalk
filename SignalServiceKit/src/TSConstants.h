@@ -17,8 +17,8 @@ typedef NS_ENUM(NSInteger, TSWhisperMessageType) {
 
 #define textSecureHTTPTimeOut 10
 
-#define textSecureWebSocketAPI @"wss://sotger32.vds.serverdale.com/v1/websocket/"
-#define textSecureServerURL @"https://sotger32.vds.serverdale.com/"
+#define textSecureWebSocketAPI @"wss://195.242.219.133/v1/websocket/"
+#define textSecureServerURL @"https://195.242.219.133/"
 
 #ifndef DEBUG
 
@@ -60,6 +60,6 @@ typedef NS_ENUM(NSInteger, TSWhisperMessageType) {
 #define textSecureSetProfileNameAPIFormat @"v1/profile/name/%@"
 #define textSecureProfileAvatarFormAPI @"v1/profile/form/avatar"
 
-#define SignalApplicationGroup @"group.org.whispersystems.signal.group"
+#define SignalApplicationGroup @"group.com.konke.SecureTalk"
 
 #endif

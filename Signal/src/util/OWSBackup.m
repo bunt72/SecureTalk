@@ -4,7 +4,7 @@
 
 #import "OWSBackup.h"
 #import "NSUserDefaults+OWS.h"
-#import "Signal-Swift.h"
+#import "SecureTalk-Swift.h"
 #import "zlib.h"
 #import <SAMKeychain/SAMKeychain.h>
 #import <SSZipArchive/SSZipArchive.h>

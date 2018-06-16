@@ -4,7 +4,7 @@
 
 #import "CodeVerificationViewController.h"
 #import "ProfileViewController.h"
-#import "Signal-Swift.h"
+#import "SecureTalk-Swift.h"
 #import "UIViewController+OWS.h"
 #import <PromiseKit/AnyPromise.h>
 #import <SignalServiceKit/OWSError.h>

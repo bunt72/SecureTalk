@@ -7,7 +7,7 @@
 #import "CountryCodeViewController.h"
 #import "PhoneNumber.h"
 #import "PhoneNumberUtil.h"
-#import "Signal-Swift.h"
+#import "SecureTalk-Swift.h"
 #import "TSAccountManager.h"
 #import "UIView+OWS.h"
 #import "ViewControllerUtils.h"

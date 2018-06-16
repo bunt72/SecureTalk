@@ -6,7 +6,7 @@
 #import "Cryptography.h"
 #import "OWSDeviceProvisioningURLParser.h"
 #import "OWSLinkedDevicesTableViewController.h"
-#import "Signal-Swift.h"
+#import "SecureTalk-Swift.h"
 #import <SignalMessaging/OWSProfileManager.h>
 #import <SignalServiceKit/ECKeyPair+OWSPrivateKey.h>
 #import <SignalServiceKit/OWSDevice.h>

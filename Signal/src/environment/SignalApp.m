@@ -5,7 +5,7 @@
 #import "SignalApp.h"
 #import "ConversationViewController.h"
 #import "HomeViewController.h"
-#import "Signal-Swift.h"
+#import "SecureTalk-Swift.h"
 #import <SignalMessaging/DebugLogger.h>
 #import <SignalMessaging/Environment.h>
 #import <SignalServiceKit/TSContactThread.h>

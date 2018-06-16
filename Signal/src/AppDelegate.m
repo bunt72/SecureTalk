@@ -15,7 +15,7 @@
 #import "Pastelog.h"
 #import "PushManager.h"
 #import "RegistrationViewController.h"
-#import "Signal-Swift.h"
+#import "SecureTalk-Swift.h"
 #import "SignalApp.h"
 #import "SignalsNavigationController.h"
 #import "ViewControllerUtils.h"
@@ -636,7 +636,7 @@ static NSString *const kURLHostVerifyPrefix             = @"verify";
         if ([handle hasPrefix:CallKitCallManager.kAnonymousCallHandlePrefix]) {
             phoneNumber = [[TSStorageManager sharedManager] phoneNumberForCallKitId:handle];
             if (phoneNumber.length < 1) {
-                DDLogWarn(@"%@ ignoring attempt to initiate video call to unknown anonymous signal user.", self.logTag);
+                DDLogWarn(@"%@ ignoring attempt to initiate video call to unknown anonymous SecureTalk user.", self.logTag);
                 return NO;
             }
         }
@@ -691,7 +691,7 @@ static NSString *const kURLHostVerifyPrefix             = @"verify";
         if ([handle hasPrefix:CallKitCallManager.kAnonymousCallHandlePrefix]) {
             phoneNumber = [[TSStorageManager sharedManager] phoneNumberForCallKitId:handle];
             if (phoneNumber.length < 1) {
-                DDLogWarn(@"%@ ignoring attempt to initiate audio call to unknown anonymous signal user.", self.logTag);
+                DDLogWarn(@"%@ ignoring attempt to initiate audio call to unknown anonymous SecureTalk user.", self.logTag);
                 return NO;
             }
         }

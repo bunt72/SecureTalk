@@ -8,7 +8,7 @@
 #import "OWSMessageCell.h"
 #import "OWSSystemMessageCell.h"
 #import "OWSUnreadIndicatorCell.h"
-#import "Signal-Swift.h"
+#import "SecureTalk-Swift.h"
 #import <AssetsLibrary/AssetsLibrary.h>
 #import <SignalMessaging/NSString+OWS.h>
 #import <SignalServiceKit/TSInteraction.h>

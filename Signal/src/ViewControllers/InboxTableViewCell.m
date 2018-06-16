@@ -4,7 +4,7 @@
 
 #import "InboxTableViewCell.h"
 #import "OWSAvatarBuilder.h"
-#import "Signal-Swift.h"
+#import "SecureTalk-Swift.h"
 #import "ViewControllerUtils.h"
 #import <SignalMessaging/OWSFormat.h>
 #import <SignalMessaging/OWSUserProfile.h>

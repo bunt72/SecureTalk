@@ -4,7 +4,7 @@
 
 #import "PrivacySettingsTableViewController.h"
 #import "BlockListViewController.h"
-#import "Signal-Swift.h"
+#import "SecureTalk-Swift.h"
 #import <SignalMessaging/Environment.h>
 #import <SignalMessaging/OWSPreferences.h>
 #import <SignalServiceKit/OWSReadReceiptManager.h>

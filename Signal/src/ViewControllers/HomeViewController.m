@@ -11,7 +11,7 @@
 #import "OWSNavigationController.h"
 #import "ProfileViewController.h"
 #import "PushManager.h"
-#import "Signal-Swift.h"
+#import "SecureTalk-Swift.h"
 #import "SignalApp.h"
 #import "TSAccountManager.h"
 #import "TSDatabaseView.h"

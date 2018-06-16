@@ -5,7 +5,7 @@
 #import "OWSBackupExportViewController.h"
 #import "OWSBackup.h"
 #import "OWSProgressView.h"
-#import "Signal-Swift.h"
+#import "SecureTalk-Swift.h"
 #import "ThreadUtil.h"
 #import <SignalMessaging/AttachmentSharing.h>
 #import <SignalMessaging/Environment.h>

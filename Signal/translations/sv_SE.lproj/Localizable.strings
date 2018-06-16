@@ -59,13 +59,13 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "Version %@ finns nu tillgänglig i App Store.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "En ny version av Signal finns nu tillgänglig.";
+"APP_UPDATE_NAG_ALERT_TITLE" = "En ny version av SecureTalk finns nu tillgänglig.";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Uppdatera";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "SecureTalk";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "Arkivera";
@@ -131,7 +131,7 @@
 "ATTACHMENT_PICKER_DOCUMENTS_FAILED_ALERT_TITLE" = "Kunde inte välja dokument.";
 
 /* Alert body when picking a document fails because user picked a directory/bundle */
-"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "Signal kan inte hantera filen. Prova att zippa ihop den innan du skickar.";
+"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "SecureTalk kan inte hantera filen. Prova att zippa ihop den innan du skickar.";
 
 /* Alert title when picking a document fails because user picked a directory/bundle */
 "ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_TITLE" = "Filtypen stöds ej";
@@ -200,7 +200,7 @@
 "BUTTON_DONE" = "Klar";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Signal behöver åtkomst till mikrofonen för samtal och röstmeddelanden. Du kan tillåta det i appen Inställningar.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "SecureTalk behöver åtkomst till mikrofonen för samtal och röstmeddelanden. Du kan tillåta det i appen Inställningar.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Åtkomst till mikrofon krävs";
@@ -215,7 +215,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Inget svar.";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "SecureTalk %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Ring";
@@ -263,7 +263,7 @@
 "CALLBACK_BUTTON_TITLE" = "Ring tillbaka";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Signalanvändare";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "SSecureTalkanvändare";
 
 /* Message for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_MESSAGE" = "Användaren kan inte verifieras innan du har skickat eller tagit emot meddelanden.";
@@ -287,7 +287,7 @@
 "COMPOSE_MESSAGE_INVITE_SECTION_TITLE" = "Bjud in";
 
 /* Multiline label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "För att se vilka av dina kontakter som använder Signal behöver du tillåta åtkomst till kontakter i appen Inställningar.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "För att se vilka av dina kontakter som använder SecureTalk behöver du tillåta åtkomst till kontakter i appen Inställningar.";
 
 /* No comment provided by engineer. */
 "CONFIRM_ACCOUNT_DESTRUCTION_TEXT" = "Det här kommer återställa appen, radera dina meddelanden och avregistrera dig från servern. Appen kommer stängas när datan är raderad.";
@@ -488,7 +488,7 @@
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Du kan ge åtkomst i appen Inställningar.";
 
 /* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal behöver åtkomst för att ändra kontaktinformation";
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "SecureTalk behöver åtkomst för att ändra kontaktinformation";
 
 /* table cell label in conversation settings */
 "EDIT_GROUP_ACTION" = "Ändra grupp";
@@ -536,16 +536,16 @@
 "EDIT_TXT" = "Ändra";
 
 /* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to WhisperSystems home page}} */
-"EMAIL_INVITE_BODY" = "Hej,\n\nDen senaste tiden har jag använt Signal för att hålla mina konversationer på min iPhone privata. Jag vill att du installerar det också, så att vi kan vara säkra på att endast du och jag kan läsa våra meddelanden eller höra våra samtal.\n\nSignal finns tillgänglig för iPhone och för Android. Hämta den här: %@\n\nSignal fungerar som din redan befintliga meddelande-app. Vi kan skicka bilder och video, ringa samtal, och starta gruppkonversationer. Den bästa delen med det är att ingen annan kan se något av det, inte ens de som gör Signal!\n\nDu kan läsa mer om Open Whisper Systems, och de som ligger bakom hör: %@";
+"EMAIL_INVITE_BODY" = "Hej,\n\nDen senaste tiden har jag använt SecureTalk för att hålla mina konversationer på min iPhone privata. Jag vill att du installerar det också, så att vi kan vara säkra på att endast du och jag kan läsa våra meddelanden eller höra våra samtal.\n\nSecureTalk finns tillgänglig för iPhone och för Android. Hämta den här: %@\n\nSecureTalk fungerar som din redan befintliga meddelande-app. Vi kan skicka bilder och video, ringa samtal, och starta gruppkonversationer. Den bästa delen med det är att ingen annan kan se något av det, inte ens de som gör SecureTalk!\n\nDu kan läsa mer om Open Whisper Systems, och de som ligger bakom hör: %@";
 
 /* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Låt oss byta till Signal";
+"EMAIL_INVITE_SUBJECT" = "Låt oss byta till SecureTalk";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "Tryck på knappen för nytt meddelande.";
 
 /* No comment provided by engineer. */
-"EMPTY_ARCHIVE_FIRST_TITLE" = "Starta din första konversation i Signal!";
+"EMPTY_ARCHIVE_FIRST_TITLE" = "Starta din första konversation i SecureTalk!";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_TEXT" = "Du kan arkivera inaktiva konversationer för senare från din Inkorg.";
@@ -554,7 +554,7 @@
 "EMPTY_ARCHIVE_TITLE" = "Rensa bland konversationerna.";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Inga av dina kontakter har Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Inga av dina kontakter har SecureTalk.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "Varför inte bjuda in någon?";
@@ -590,13 +590,13 @@
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_FAILED_ATTACHMENT_WRITE" = "Misslyckades, skrivfel för bifogad fil.";
 
 /* Generic error used whenver Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal kunde inte nå ut på internet. Försök igen från ett annat trådlöst nätverk eller använd mobildata.";
+"ERROR_DESCRIPTION_NO_INTERNET" = "SecureTalk kunde inte nå ut på internet. Försök igen från ett annat trådlöst nätverk eller använd mobildata.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Kunde inte skicka meddelandet, det saknas giltig mottagare.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Din enhet är inte längre registrerad till ditt telefonnummer. Du behöver ta bort och ominstallera Signal.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Din enhet är inte längre registrerad till ditt telefonnummer. Du behöver ta bort och ominstallera SecureTalk.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Serverfel. Försök igen senare.";
@@ -605,10 +605,10 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Ett okänt fel inträffade.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontakten är inte en Signal-användare.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kontakten är inte en SecureTalk-användare.";
 
 /* Error message when unable to receive an attachment because the sending client is too old. */
-"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Misslyckades: Be personen uppdatera Signal och skicka igen.";
+"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Misslyckades: Be personen uppdatera SecureTalk och skicka igen.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "Fick ett duplicerat meddelande.";
@@ -797,13 +797,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Ogiltig ljudfil.";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "För att bjuda in kontakter behöver du ge Signal åtkomst till dina kontakter i appen Systeminställningar.";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "För att bjuda in kontakter behöver du ge SecureTalk åtkomst till dina kontakter i appen Systeminställningar.";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Tillåt åtkomst till kontakter";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Bjud in vänner till Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Bjud in vänner till SecureTalk";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Sök";
@@ -987,11 +987,11 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Signal behöver åtkomst till kameran för videosamtal. Du kan tillåta det i Inställningar >> Integritetsskydd >> Kamera >> Signal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "SecureTalk behöver åtkomst till kameran för videosamtal. Du kan tillåta det i Inställningar >> Integritetsskydd >> Kamera >> SecureTalk";
 
 /* Alert title
    Alert title when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal behöver åtkomst till din kamera.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "SecureTalk behöver åtkomst till din kamera.";
 
 /* notification title. Embeds {{caller's name or phone number}} */
 "MSGVIEW_MISSED_CALL_WITH_NAME" = "Missat samtal från %@";
@@ -1181,19 +1181,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Numret i urklippet ser inte ut som ett korrekt säkerhetsnummer för den här konversationen.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal kunde inte hitta något säkerhetsnummer i ditt urklipp. Har du kopierat det korrekt?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "SecureTalk kunde inte hitta något säkerhetsnummer i ditt urklipp. Har du kopierat det korrekt?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Varje par av Signal-användare delar ett unikt säkerhetsnummer. Kontrollera noga att %@ visar *ditt* säkerhetsnummer.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Varje par av SecureTalk-användare delar ett unikt säkerhetsnummer. Kontrollera noga att %@ visar *ditt* säkerhetsnummer.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Du kör en gammal version av Signal. Du behöver uppdatera innan du kan bekräfta.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Du kör en gammal version av SecureTalk. Du behöver uppdatera innan du kan bekräfta.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Din partner kör en gammal version av Signal. De behöver uppdatera innan du kan bekräfta.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Din partner kör en gammal version av SecureTalk. De behöver uppdatera innan du kan bekräfta.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Koden som lästes in verkar inte vara ett säkerhetsnummer. Är du säker att ni båda två har en uppdaterad version av Signal?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Koden som lästes in verkar inte vara ett säkerhetsnummer. Är du säker att ni båda två har en uppdaterad version av SecureTalk?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Om du vill vara säker på att din kommunikation med %@ är krypterad hela vägen, jämför numren ovan med numren på den andra enheten.\n\nEtt alternativ är att du läser av koden på deras telefon eller be dem läsa av din kod.";
@@ -1232,7 +1232,7 @@
 "PROFILE_VIEW_PROFILE_AVATAR_FIELD" = "Avatar";
 
 /* Description of the user profile. */
-"PROFILE_VIEW_PROFILE_DESCRIPTION" = "Dina kontakter kommer kunna se din Signalprofil när du startar nya konversationer och när du delar den med andra användare eller grupper.";
+"PROFILE_VIEW_PROFILE_DESCRIPTION" = "Dina kontakter kommer kunna se din SecureTalkprofil när du startar nya konversationer och när du delar den med andra användare eller grupper.";
 
 /* Link to more information about the user profile. */
 "PROFILE_VIEW_PROFILE_DESCRIPTION_LINK" = "Tryck här för att veta mer. ";
@@ -1265,13 +1265,13 @@
 "QUESTIONMARK_PUNCTUATION" = "?";
 
 /* No comment provided by engineer. */
-"RATING_MSG" = "Om du gillar att använda Signal för att ha privata konversationer så kan du stödja vårt projekt genom att betygsätta det. Det tar inte mer än en minut, och hjälper andra att förbättra sin integritet.";
+"RATING_MSG" = "Om du gillar att använda SecureTalk för att ha privata konversationer så kan du stödja vårt projekt genom att betygsätta det. Det tar inte mer än en minut, och hjälper andra att förbättra sin integritet.";
 
 /* No comment provided by engineer. */
-"RATING_RATE" = "Betygsätt Signal";
+"RATING_RATE" = "Betygsätt SecureTalk";
 
 /* No comment provided by engineer. */
-"RATING_TITLE" = "Stöd Signal!";
+"RATING_TITLE" = "Stöd SecureTalk!";
 
 /* No comment provided by engineer. */
 "REGISTER_CONTACTS_WELCOME" = "Välkommen!";
@@ -1394,7 +1394,7 @@
 "SEND_INVITE_FAILURE" = "Kunde inte skicka inbjudan, vänligen försök senare.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Du har bjudit in din vän att använda Signal!";
+"SEND_INVITE_SUCCESS" = "Du har bjudit in din vän att använda SecureTalk!";
 
 /* Text for button to send a Signal invite via SMS. %@ is placeholder for the receipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "Bjud in via SMS: %@";
@@ -1424,7 +1424,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY_FORMAT" = "Plats: %@";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Om påslaget så kommer Signal försöka kringgå censur. Slå bara på den här funktionen om du är på en plats där Signal censureras.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Om påslaget så kommer SecureTalk försöka kringgå censur. Slå bara på den här funktionen om du är på en plats där SecureTalk censureras.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Kringgå censur har aktiverats baserat på ditt kontos telefonnummer";
@@ -1433,7 +1433,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Kringgå censur kan bara aktiveras när då internet är tillgängligt";
 
 /* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Kringgå censur är inte nödvändigt; du är redan uppkopplad mot Signal-tjänsten.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Kringgå censur är inte nödvändigt; du är redan uppkopplad mot SecureTalk-tjänsten.";
 
 /* Table header for the 'censorship circumvention' section. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_HEADER" = "Kringgå censur";
@@ -1451,7 +1451,7 @@
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Lägg till...";
 
 /* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Du har inga kontakter med Signal.";
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Du har inga kontakter med SecureTalk.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Inga sökresultat";
@@ -1466,7 +1466,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Vidarebefordra alltid samtal";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Vidarebefordra alla samtal genom Signal-servern för att undvika att avslöja ditt IP-nummer till din kontakt. Detta kommer att reducera samtalskvaliteten.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Vidarebefordra alla samtal genom SecureTalk-servern för att undvika att avslöja ditt IP-nummer till din kontakt. Detta kommer att reducera samtalskvaliteten.";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "Rensa historik";
@@ -1496,7 +1496,7 @@
 "SETTINGS_INVITE_TITLE" = "Bjud in dina vänner";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Du kan nå mig via Signal från @WhisperSystems, hämta den nu.";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Du kan nå mig via SecureTalk från @WhisperSystems, hämta den nu.";
 
 /* Title for settings activity */
 "SETTINGS_NAV_BAR_TITLE" = "Inställningar";
@@ -1523,10 +1523,10 @@
 "SETTINGS_SCREEN_SECURITY" = "Aktivera skärmsäkerhet";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY_DETAIL" = "Förhindra Signals förhandsvisning från att visas i app-bytaren.";
+"SETTINGS_SCREEN_SECURITY_DETAIL" = "Förhindra SecureTalks förhandsvisning från att visas i app-bytaren.";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "iOS Call Integration visar Signalsamtal på din låsskärm och i systemets samtalshistorik. Du kan välja att visa din kontakts namn och nummer. Ifall iCloud är påslaget kan denna samtalshistorik delas med Apple.";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "iOS Call Integration visar SecureTalksamtal på din låsskärm och i systemets samtalshistorik. Du kan välja att visa din kontakts namn och nummer. Ifall iCloud är påslaget kan denna samtalshistorik delas med Apple.";
 
 /* settings topic header for table section */
 "SETTINGS_SECTION_TITLE_CALLING" = "Ringer";
@@ -1553,13 +1553,13 @@
 "SHARE_EXTENSION_LOADING" = "Loading...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Launch the Signal app to register.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Launch the SecureTalk app to register.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Not Registered";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Launch the Signal app to update.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Launch the SecureTalk app to update.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Not Ready";
@@ -1574,7 +1574,7 @@
 "SHOW_THREAD_BUTTON_TITLE" = "Visa konversation";
 
 /* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Jag vill gärna att du installerar Signal! Här är länken:";
+"SMS_INVITE_BODY" = "Jag vill gärna att du installerar SecureTalk! Här är länken:";
 
 /* Alert body after verifying privacy with {{other user's name}} */
 "SUCCESSFUL_VERIFICATION_DESCRIPTION" = "Ditt säkerhetsnummer med %@ stämmer. Du kan markera den är kontakten som verifierad.";
@@ -1640,13 +1640,13 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Avlänka \"%@\"?";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal kunde inte avlänka din enhet.";
+"UNLINKING_FAILED_ALERT_TITLE" = "SecureTalk kunde inte avlänka din enhet.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Namnlös enhet";
 
 /* No comment provided by engineer. */
-"UNREGISTER_SIGNAL_FAIL" = "Kunde inte avregistrera från Signal.";
+"UNREGISTER_SIGNAL_FAIL" = "Kunde inte avregistrera från SecureTalk.";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Tog emot bifogad fil av en typ som det saknas stöd för.";
@@ -1673,7 +1673,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_BUTTON" = "Skapa din profil";
 
 /* Description of new profile feature for upgrading (existing) users */
-"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "Du kan nu dela ett profilfoto och namn med dina vänner på Signal.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "Du kan nu dela ett profilfoto och namn med dina vänner på SecureTalk.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_TITLE" = "Redo för en närbild?";
@@ -1688,19 +1688,19 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_READ_RECEIPTS_TITLE" = "Introducerar Läskvittens";
 
 /* Description of video calling to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Signal har nu stöd för säkra videosamtal. Påbörja ett samtal som vanligt, tryck på kameraknappen och vinka hej.";
+"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "SecureTalk har nu stöd för säkra videosamtal. Påbörja ett samtal som vanligt, tryck på kameraknappen och vinka hej.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "Hallå säkra videosamtal!";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Signal kommer snart kräva iOS 9 eller senare. Uppgradera i appen Inställningar >> Allmänt >> Programuppdatering.";
+"UPGRADE_IOS_ALERT_MESSAGE" = "SecureTalk kommer snart kräva iOS 9 eller senare. Uppgradera i appen Inställningar >> Allmänt >> Programuppdatering.";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "Uppgradera iOS";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "Uppgraderar Signal ...";
+"Upgrading SecureTalk ..." = "Uppgraderar SecureTalk ...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "Tillbaka";
@@ -1754,7 +1754,7 @@
 "VOICE_MESSAGE_TOO_SHORT_ALERT_TITLE" = "Röstmeddelande";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Färdigställ länkningen i Signal Desktop.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Färdigställ länkningen i SecureTalk Desktop.";
 
 /* No comment provided by engineer. */
 "WHISPER_NAV_BAR_TITLE" = "Inbox";

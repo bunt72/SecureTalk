@@ -12,7 +12,7 @@
 #import "OWSBackupImportViewController.h"
 #import "OWSExpirationTimerView.h"
 #import "OWSGenericAttachmentView.h"
-#import "Signal-Swift.h"
+#import "SecureTalk-Swift.h"
 #import "UIColor+OWS.h"
 #import <JSQMessagesViewController/JSQMessagesTimestampFormatter.h>
 #import <JSQMessagesViewController/UIColor+JSQMessages.h>

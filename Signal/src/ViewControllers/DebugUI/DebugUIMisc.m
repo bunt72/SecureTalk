@@ -8,7 +8,7 @@
 #import "OWSCountryMetadata.h"
 #import "OWSTableViewController.h"
 #import "RegistrationViewController.h"
-#import "Signal-Swift.h"
+#import "SecureTalk-Swift.h"
 #import "ThreadUtil.h"
 #import <AFNetworking/AFNetworking.h>
 #import <AxolotlKit/PreKeyBundle.h>

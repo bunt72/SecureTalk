@@ -5,7 +5,7 @@
 #import "ConversationInputToolbar.h"
 #import "ConversationInputTextView.h"
 #import "OWSMath.h"
-#import "Signal-Swift.h"
+#import "SecureTalk-Swift.h"
 #import "UIColor+OWS.h"
 #import "UIFont+OWS.h"
 #import "UIView+OWS.h"
