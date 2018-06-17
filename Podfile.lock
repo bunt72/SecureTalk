@@ -144,6 +144,23 @@ DEPENDENCIES:
   - YapDatabase/SQLCipher (from `https://github.com/WhisperSystems/YapDatabase.git`, branch `release/unencryptedHeaders`)
   - YYImage
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - ATAppUpdater
+    - CocoaLumberjack
+    - JSQSystemSoundPlayer
+    - libPhoneNumber-iOS
+    - Mantle
+    - ProtocolBuffers
+    - PureLayout
+    - Reachability
+    - SAMKeychain
+    - SSZipArchive
+    - TwistedOakCollapsingFutures
+    - UnionFind
+    - YYImage
+
 EXTERNAL SOURCES:
   AxolotlKit:
     :branch: mkirk/framework-friendly
@@ -160,7 +177,7 @@ EXTERNAL SOURCES:
     :branch: mkirk/share-compatible
     :git: https://github.com/WhisperSystems/JSQMessagesViewController.git
   SignalServiceKit:
-    :path: .
+    :path: "."
   SocketRocket:
     :git: https://github.com/facebook/SocketRocket.git
   SQLCipher:
@@ -223,4 +240,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 0d804514eb2db34b9874b653e543255d8c2f5751
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3
