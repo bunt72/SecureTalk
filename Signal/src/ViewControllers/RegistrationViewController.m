@@ -96,7 +96,7 @@ NSString *const kKeychainKey_LastRegisteredPhoneNumber = @"kKeychainKey_LastRegi
     } else {
         [headerContent autoSetDimension:ALDimensionHeight toSize:220];
 
-        UIImage *logo = [UIImage imageNamed:@"talk_logo"];
+        UIImage *logo = [UIImage imageNamed:@"talk_logo1"];
         OWSAssert(logo);
         UIImageView *logoView = [UIImageView new];
         logoView.image = logo;
