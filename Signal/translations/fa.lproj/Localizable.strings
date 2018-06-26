@@ -987,7 +987,7 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "برای تماس ویدیویی، سیگنال نیاز به دسترسی به دوربین شما دارد:\nSettings >> Privacy >> Camera >> Signal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "برای تماس ویدیویی، سیگنال نیاز به دسترسی به دوربین شما دارد:\nSettings >> Privacy >> Camera >> SecureTalk";
 
 /* Alert title
    Alert title when camera is not authorized */
@@ -1553,13 +1553,13 @@
 "SHARE_EXTENSION_LOADING" = "Loading...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Launch the Signal app to register.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Launch the SecureTalk app to register.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Not Registered";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Launch the Signal app to update.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Launch the SecureTalk app to update.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Not Ready";
@@ -1700,7 +1700,7 @@
 "UPGRADE_IOS_ALERT_TITLE" = "به‌روزرسانی iOS";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "در حال به‌روزرسانی سیگنال…";
+"Upgrading SecureTalk ..." = "در حال به‌روزرسانی سیگنال…";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "بازگشت";

@@ -59,13 +59,13 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "Versiunea %@ este disponibilă acum în App Store.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "O nouă versiune de Signal este disponibilă";
+"APP_UPDATE_NAG_ALERT_TITLE" = "O nouă versiune de SecureTalk este disponibilă";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Actualizează";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "SecureTalk";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "Arhivează";
@@ -131,7 +131,7 @@
 "ATTACHMENT_PICKER_DOCUMENTS_FAILED_ALERT_TITLE" = "Eroare la selectarea documentului.";
 
 /* Alert body when picking a document fails because user picked a directory/bundle */
-"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "Signal nu poate folosi acest fișier așa cum e acum. Încearcă să-l faci zip înainte de a-l trimite.";
+"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "SecureTalk nu poate folosi acest fișier așa cum e acum. Încearcă să-l faci zip înainte de a-l trimite.";
 
 /* Alert title when picking a document fails because user picked a directory/bundle */
 "ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_TITLE" = "Fișier nesuportat";
@@ -200,7 +200,7 @@
 "BUTTON_DONE" = "Gata";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Signal are nevoie de acces la microfon pentru a realiza apeluri și a înregistra mesaje vocale. Poți activa această permisiune din aplicația Setări.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "SecureTalk are nevoie de acces la microfon pentru a realiza apeluri și a înregistra mesaje vocale. Poți activa această permisiune din aplicația Setări.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Accesul la microfon este necesar";
@@ -215,7 +215,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Nici un răspuns.";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "SecureTalk %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Apelează";
@@ -263,7 +263,7 @@
 "CALLBACK_BUTTON_TITLE" = "Apelează înapoi";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Utilizator Signal";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Utilizator SecureTalk";
 
 /* Message for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_MESSAGE" = "Acest utilizator nu poate fi verificat până nu schimbați mesaje cu el.";
@@ -287,7 +287,7 @@
 "COMPOSE_MESSAGE_INVITE_SECTION_TITLE" = "Invită";
 
 /* Multiline label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Pentru a vedea care dintre contactele tale sunt utilizatori Signal, permite accesul la contacte în setările de sistem.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Pentru a vedea care dintre contactele tale sunt utilizatori SecureTalk, permite accesul la contacte în setările de sistem.";
 
 /* No comment provided by engineer. */
 "CONFIRM_ACCOUNT_DESTRUCTION_TEXT" = "Această acțiune va reseta aplicația prin șteregerea mesajelor tale și prin anularea înregistrării la server. Această aplicație se va închide după ștergerea datelor.";
@@ -488,7 +488,7 @@
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Poți permite accesul din aplicația Setări.";
 
 /* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal are nevoie de acces la contacte pentru a edita informațiile despre contact";
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "SecureTalk are nevoie de acces la contacte pentru a edita informațiile despre contact";
 
 /* table cell label in conversation settings */
 "EDIT_GROUP_ACTION" = "Editează grupul";
@@ -536,16 +536,16 @@
 "EDIT_TXT" = "Editează";
 
 /* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to WhisperSystems home page}} */
-"EMAIL_INVITE_BODY" = "Hey,\n\nRecent am început să folosesc Signal pentru a-mi păstra conversațiile private pe iPhone. Aș dori să-ți instalezi și tu aplicația, ca să fim siguri că numai noi doi putem citi mesajele sau să ascultăm apelurile.\n\nSignal este disponibil pentru iPhone și Android. Obține-l de aici:%@\n\nSignal funcționează ca și aplicația ta curentă de mesagerie. Putem trimite poze și video-uri, putem suna, și putem incepe chat-uri de grup. Cea mai bună parte este că nimeni altcineva nu poate vedea toate acestea, nici măcar oamenii care dezvoltă Signal!\n\nPoți afla mai multe despre Open Whisper Systems, oamenii care dezvoltă Signal, aici: %@";
+"EMAIL_INVITE_BODY" = "Hey,\n\nRecent am început să folosesc SecureTalk pentru a-mi păstra conversațiile private pe iPhone. Aș dori să-ți instalezi și tu aplicația, ca să fim siguri că numai noi doi putem citi mesajele sau să ascultăm apelurile.\n\nSecureTalk este disponibil pentru iPhone și Android. Obține-l de aici:%@\n\nSecureTalk funcționează ca și aplicația ta curentă de mesagerie. Putem trimite poze și video-uri, putem suna, și putem incepe chat-uri de grup. Cea mai bună parte este că nimeni altcineva nu poate vedea toate acestea, nici măcar oamenii care dezvoltă SecureTalk!\n\nPoți afla mai multe despre, oamenii care dezvoltă SecureTalk, aici: %@";
 
 /* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Hai să folosim Signal";
+"EMAIL_INVITE_SUBJECT" = "Hai să folosim SecureTalk";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "Apasă pe butonul de compunere.";
 
 /* No comment provided by engineer. */
-"EMPTY_ARCHIVE_FIRST_TITLE" = "Începe prima ta cinversație in Signal!";
+"EMPTY_ARCHIVE_FIRST_TITLE" = "Începe prima ta cinversație in SecureTalk!";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_TEXT" = "Poți arhiva mai târziu conversațiile inactive din inbox-ul tău.";
@@ -554,7 +554,7 @@
 "EMPTY_ARCHIVE_TITLE" = "Ștergerge Conversațiile Tale";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "Nici un contact de al tău nu are Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "Nici un contact de al tău nu are SecureTalk.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "De ce nu inviți pe cineva?";
@@ -590,13 +590,13 @@
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_FAILED_ATTACHMENT_WRITE" = "Eșuat din cauza unei erori la salvarea atașamentului.";
 
 /* Generic error used whenver Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal nu s-a putut conecta la internet. Te rog să incerci dintr-o altă rețea WiFi sau folosește datele mobile.";
+"ERROR_DESCRIPTION_NO_INTERNET" = "SecureTalk nu s-a putut conecta la internet. Te rog să incerci dintr-o altă rețea WiFi sau folosește datele mobile.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Mesajul nu a putut fi trimis deoarece nu există o listă validă de destinatari.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Dispozitivul tău nu mai este înregistrat pentru numărul tău de telefon. Trebuie să ștergi și să reinstalezi Signal.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Dispozitivul tău nu mai este înregistrat pentru numărul tău de telefon. Trebuie să ștergi și să reinstalezi SecureTalk.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Eroare de server. Te rog încearcă mai târziu.";
@@ -605,10 +605,10 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "A apărut o eroare neprevăzută. ";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Contactul nu este un utilizator de Signal.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Contactul nu este un utilizator de SecureTalk.";
 
 /* Error message when unable to receive an attachment because the sending client is too old. */
-"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Eroare: Roagă expeditorul să-și actualizeze aplicația Signal și să retrimită.";
+"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Eroare: Roagă expeditorul să-și actualizeze aplicația SecureTalk și să retrimită.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "A fost primit un mesaj duplicat.";
@@ -797,13 +797,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Fișier audio invalid.";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Pentru a invita contactele tale, trebuie să permiți accesul Signal la contactele tale în aplicația Setări.";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Pentru a invita contactele tale, trebuie să permiți accesul SecureTalk la contactele tale în aplicația Setări.";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Permite accesul la contacte";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Invită-ți prietenii la Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Invită-ți prietenii la SecureTalk";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Căutare";
@@ -987,11 +987,11 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Signal are nevoie de acces la cameră pentru apelurile video. Poți activa această permisiune din Configurări >> Intimitate >> Cameră >> Signal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "SecureTalk are nevoie de acces la cameră pentru apelurile video. Poți activa această permisiune din Configurări >> Intimitate >> Cameră >> SecureTalk";
 
 /* Alert title
    Alert title when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal are nevoie de acces la camera ta.";
+"MISSING_CAMERA_PERMISSION_TITLE" = "SecureTalk are nevoie de acces la camera ta.";
 
 /* notification title. Embeds {{caller's name or phone number}} */
 "MSGVIEW_MISSED_CALL_WITH_NAME" = "Apel ratat de la %@.";
@@ -1181,19 +1181,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Numărul din clipboard-ul tău nu pare a fi un număr de siguranță corect pentru această conversație.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal nu a putut găsi nici un număr de siguranță în clipboard-ul tău. L-ai copiat corect?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "SecureTalk nu a putut găsi nici un număr de siguranță în clipboard-ul tău. L-ai copiat corect?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Fiecare pereche de utilizatori Signal partajează un număr de siguranță distinct. Verifică din nou dacă %@ afișează numărul *tău* de siguranță.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Fiecare pereche de utilizatori SecureTalk partajează un număr de siguranță distinct. Verifică din nou dacă %@ afișează numărul *tău* de siguranță.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Folosești o versiune veche de Signal. Trebuie să actualizezi aplicația înainte de a realiza verificarea.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Folosești o versiune veche de SecureTalk. Trebuie să actualizezi aplicația înainte de a realiza verificarea.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Partenerul tău folosește o versiune veche de Signal. Trebuie sa-și actualizeze aplicația pentru a realiza verificarea.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Partenerul tău folosește o versiune veche de SecureTalk. Trebuie sa-și actualizeze aplicația pentru a realiza verificarea.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Codul scanat nu pare a fi un număr de siguranță. Folosiți amândoi o versiune actualizată de Signal?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Codul scanat nu pare a fi un număr de siguranță. Folosiți amândoi o versiune actualizată de SecureTalk?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Dacă dorești să verifici securitatea criptării integrale cu %@, compară numerele de deasupra cu numerele de pe dispozitivul lor.\n\nAlternativ, poți scana codul de pe telefonul lor sau îi poți ruga să scaneze codul tău.";
@@ -1232,7 +1232,7 @@
 "PROFILE_VIEW_PROFILE_AVATAR_FIELD" = "Avatar";
 
 /* Description of the user profile. */
-"PROFILE_VIEW_PROFILE_DESCRIPTION" = "Profilul tău Signal va fi vizibil la contactele tale, când inițiezi o nouă conversație, și când îl partajezi la alți utilizatori și grupuri.";
+"PROFILE_VIEW_PROFILE_DESCRIPTION" = "Profilul tău SecureTalk va fi vizibil la contactele tale, când inițiezi o nouă conversație, și când îl partajezi la alți utilizatori și grupuri.";
 
 /* Link to more information about the user profile. */
 "PROFILE_VIEW_PROFILE_DESCRIPTION_LINK" = "Apasă aici pentru a afla mai multe.";
@@ -1265,13 +1265,13 @@
 "QUESTIONMARK_PUNCTUATION" = "?";
 
 /* No comment provided by engineer. */
-"RATING_MSG" = "Dacă îți place sa folosești aplicația Signal pentru conversații confidențiale,atunci poți sprijini proectul nostru prin ai acorda o notă.Asta nu va dura mai mult de un minut,și va ajuta pe alții să găsească intimitate in conversații.";
+"RATING_MSG" = "Dacă îți place sa folosești aplicația SecureTalk pentru conversații confidențiale,atunci poți sprijini proectul nostru prin ai acorda o notă.Asta nu va dura mai mult de un minut,și va ajuta pe alții să găsească intimitate in conversații.";
 
 /* No comment provided by engineer. */
-"RATING_RATE" = "Apreciază Aplicația Signal";
+"RATING_RATE" = "Apreciază Aplicația SecureTalk";
 
 /* No comment provided by engineer. */
-"RATING_TITLE" = "Susţine Signal!";
+"RATING_TITLE" = "Susţine SecureTalk!";
 
 /* No comment provided by engineer. */
 "REGISTER_CONTACTS_WELCOME" = "Bine ați venit!";
@@ -1352,7 +1352,7 @@
 "SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION" = "Trimite oricum";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Numărul nostru Signal de Siguranță:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Numărul nostru SecureTalk de Siguranță:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "Numărul tău de siguranță pentru %@ s-a schimbat. S-ar putea să dorești să-l verifici.";
@@ -1394,7 +1394,7 @@
 "SEND_INVITE_FAILURE" = "Invitația trimisă a eșuat, te rog încearcă din nou mai târziu.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Ai invitat prietenul tău să folosească Signal!";
+"SEND_INVITE_SUCCESS" = "Ai invitat prietenul tău să folosească SecureTalk!";
 
 /* Text for button to send a Signal invite via SMS. %@ is placeholder for the receipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "Invită prin SMS: %@";
@@ -1424,7 +1424,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY_FORMAT" = "Locație: %@";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Dacă este activată, Signal va încerca să ocolească cenzura. Nu activa această funcționalitate doar dacă ești într-o locație unde Signal este cenzurat.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Dacă este activată, SecureTalk va încerca să ocolească cenzura. Nu activa această funcționalitate doar dacă ești într-o locație unde SecureTalk este cenzurat.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Ocolirea cenzurii a fost activată pe baza numărului tău de telefon.";
@@ -1433,7 +1433,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Ocolirea cenzurii poate fi activată numai atunci când ești conectat la internet.";
 
 /* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Ocolirea cenzurii nu este necesară; ești deja conectat la serviciul Signal.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Ocolirea cenzurii nu este necesară; ești deja conectat la serviciul SecureTalk.";
 
 /* Table header for the 'censorship circumvention' section. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_HEADER" = "Ocolire Cenzură ";
@@ -1451,7 +1451,7 @@
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Adaugă...";
 
 /* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Nu ai nici un contact pe Signal.";
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Nu ai nici un contact pe SecureTalk.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Niciun rezultat al căutării";
@@ -1466,7 +1466,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Redirecționează întotdeauna apelurile";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Redirecționează toate apelurile către serverul Signal pentru a evita aflarea adresei IP de către contact tău. Activarea va reduce calitatea apelului.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "Redirecționează toate apelurile către serverul SecureTalk pentru a evita aflarea adresei IP de către contact tău. Activarea va reduce calitatea apelului.";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "Șterge log-urile cu istoric";
@@ -1496,7 +1496,7 @@
 "SETTINGS_INVITE_TITLE" = "Invită-ți prietenii";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Poți să mă contactezi pe Signal de la @WhisperSystems, obține-l acum.";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Poți să mă contactezi pe SecureTalk, obține-l acum.";
 
 /* Title for settings activity */
 "SETTINGS_NAV_BAR_TITLE" = "Setări";
@@ -1523,10 +1523,10 @@
 "SETTINGS_SCREEN_SECURITY" = "Activează ecranul de securitate";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY_DETAIL" = "Previne previzualizare lui Signal în app switcher.";
+"SETTINGS_SCREEN_SECURITY_DETAIL" = "Previne previzualizare lui SecureTalk în app switcher.";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "Integrarea de apel iOS afișează apelurile Signal pe ecranul de blocare și în jurnalul de apeluri de sistem.  Poți afișa opțional numele și numărul de telefon al contactului tău. Dacă iCloud este activat, istoricul apelurilor va fi partajat cu Apple.";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "Integrarea de apel iOS afișează apelurile SecureTalk pe ecranul de blocare și în jurnalul de apeluri de sistem.  Poți afișa opțional numele și numărul de telefon al contactului tău. Dacă iCloud este activat, istoricul apelurilor va fi partajat cu Apple.";
 
 /* settings topic header for table section */
 "SETTINGS_SECTION_TITLE_CALLING" = "Apel în curs";
@@ -1553,13 +1553,13 @@
 "SHARE_EXTENSION_LOADING" = "Se încarcă...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Lansează aplicația Signal pentru a te înregistra.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Lansează aplicația SecureTalk pentru a te înregistra.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Nu este înregistrată";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Lansează aplicația Signal pentru actualizare.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Lansează aplicația SecureTalk pentru actualizare.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Nu este gata";
@@ -1574,7 +1574,7 @@
 "SHOW_THREAD_BUTTON_TITLE" = "Arată conversația";
 
 /* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Te invit să instalezi Signal! Uite link-ul:";
+"SMS_INVITE_BODY" = "Te invit să instalezi SecureTalk! Uite link-ul:";
 
 /* Alert body after verifying privacy with {{other user's name}} */
 "SUCCESSFUL_VERIFICATION_DESCRIPTION" = "Numărul tău de siguranța cu %@ se potrivește. Poți marca acest contact ca fiind verificat.";
@@ -1640,13 +1640,13 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "Disociez \"%@\"?";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal nu a putut disocia dispozitivul tău.";
+"UNLINKING_FAILED_ALERT_TITLE" = "SecureTalk nu a putut disocia dispozitivul tău.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Dispozitiv fără nume";
 
 /* No comment provided by engineer. */
-"UNREGISTER_SIGNAL_FAIL" = "Anularea înregistrării de la Signal a eșuat.";
+"UNREGISTER_SIGNAL_FAIL" = "Anularea înregistrării de la SecureTalk a eșuat.";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "A fost primit un tip de atașament care nu e suportat.";
@@ -1673,7 +1673,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_BUTTON" = "Configurează-ți profilul";
 
 /* Description of new profile feature for upgrading (existing) users */
-"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "Acum poți să partajezi numele și o poză de profil la prietenii de pe Signal.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "Acum poți să partajezi numele și o poză de profil la prietenii de pe SecureTalk.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_TITLE" = "Ești gata pentru poza de aproape?";
@@ -1688,19 +1688,19 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_READ_RECEIPTS_TITLE" = "Vă prezentăm confirmările de citire";
 
 /* Description of video calling to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Signal suportă acum apeluri video securizate. Trebuie doar să inițiezi un apel în mod normal, să apeși pe butonul de cameră și să faci cu mana.";
+"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "SecureTalk suportă acum apeluri video securizate. Trebuie doar să inițiezi un apel în mod normal, să apeși pe butonul de cameră și să faci cu mana.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "Bun venit la apeluri video securizate!";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Signal va necesita în curând iOS 9 sau o versiune mai nouă. Te rog actualizează din aplicația Setări >> General >> Actualizări Software.";
+"UPGRADE_IOS_ALERT_MESSAGE" = "SecureTalk va necesita în curând iOS 9 sau o versiune mai nouă. Te rog actualizează din aplicația Setări >> General >> Actualizări Software.";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "Actualizează-ți iOS-ul";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "Se actualizează Signal ...";
+"Upgrading SecureTalk ..." = "Se actualizează SecureTalk ...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "Înapoi";
@@ -1754,7 +1754,7 @@
 "VOICE_MESSAGE_TOO_SHORT_ALERT_TITLE" = "Mesaj vocal";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Finalizează configurarea în Signal Desktop.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Finalizează configurarea în SecureTalk Desktop.";
 
 /* No comment provided by engineer. */
 "WHISPER_NAV_BAR_TITLE" = "Primite";

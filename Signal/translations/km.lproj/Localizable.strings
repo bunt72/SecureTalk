@@ -59,13 +59,13 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "ជំនាន់ %@ ឥលូវមាននៅលើ App Store។";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "មាន Signal ជំនាន់ថ្មី";
+"APP_UPDATE_NAG_ALERT_TITLE" = "មាន SecureTalk ជំនាន់ថ្មី";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "បច្ចុប្បន្នភាព";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "SecureTalk";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "បណ្ណសារ";
@@ -131,7 +131,7 @@
 "ATTACHMENT_PICKER_DOCUMENTS_FAILED_ALERT_TITLE" = "បរាជ័យក្នុងការជ្រើសរើសឯកសារ។";
 
 /* Alert body when picking a document fails because user picked a directory/bundle */
-"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "Signal មិនអាចទ្រទ្រង់ឯកសារនេះបាន។ ព្យាយាមពង្រួម មុនពេលផ្ញើចេញ។";
+"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "SecureTalk មិនអាចទ្រទ្រង់ឯកសារនេះបាន។ ព្យាយាមពង្រួម មុនពេលផ្ញើចេញ។";
 
 /* Alert title when picking a document fails because user picked a directory/bundle */
 "ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_TITLE" = "ឯកសារមិនស្គាល់";
@@ -200,7 +200,7 @@
 "BUTTON_DONE" = "បញ្ចប់";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Signal ទាមទារចូលប្រើប្រាស់ប្រដាប់ស្រូបសំឡេងរបស់អ្នក ដើម្បីធ្វើការហៅចេញ និងថតសារសំឡេង។ អ្នកអាចផ្តល់សិទ្ធិនេះក្នុងការកំណត់។";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "SecureTalk ទាមទារចូលប្រើប្រាស់ប្រដាប់ស្រូបសំឡេងរបស់អ្នក ដើម្បីធ្វើការហៅចេញ និងថតសារសំឡេង។ អ្នកអាចផ្តល់សិទ្ធិនេះក្នុងការកំណត់។";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "ទាមទារចូលប្រើប្រាស់ប្រដាប់ស្រូបសំឡេង";
@@ -215,7 +215,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "គ្មានឆ្លើយតប";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "SecureTalk %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "ហៅ";
@@ -263,7 +263,7 @@
 "CALLBACK_BUTTON_TITLE" = "ហៅទៅវិញ";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "អ្នកប្រើប្រាស់ Signal";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "អ្នកប្រើប្រាស់ SecureTalk";
 
 /* Message for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_MESSAGE" = "អ្នកប្រើប្រាស់នេះ មិនអាចផ្ទៀងផ្ទាត់ ទាល់តែអ្នកបានផ្លាស់ប្តូរសារជាមួយគេ។";
@@ -287,7 +287,7 @@
 "COMPOSE_MESSAGE_INVITE_SECTION_TITLE" = "អញ្ជើញ";
 
 /* Multiline label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "អនុញ្ញាតចូលប្រើប្រាស់បញ្ជីទំនាក់ទំនងក្នុងការកំណត់ប្រព័ន្ធរបស់អ្នក ដើម្បីពិនិត្យមើលថាលេខទំនាក់ទំនងណាមួយជា អ្នកប្រើប្រាស់ Signal។";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "អនុញ្ញាតចូលប្រើប្រាស់បញ្ជីទំនាក់ទំនងក្នុងការកំណត់ប្រព័ន្ធរបស់អ្នក ដើម្បីពិនិត្យមើលថាលេខទំនាក់ទំនងណាមួយជា អ្នកប្រើប្រាស់ SecureTalk។";
 
 /* No comment provided by engineer. */
 "CONFIRM_ACCOUNT_DESTRUCTION_TEXT" = "នេះនឹងកំណត់កម្មវិធីឡើងវិញ ដោយលុបសាររបស់អ្នក និងលុបឈ្មោះអ្នកពីម៉ាស៊ីនមេ។ កម្មវិធីនេះ នឹងបិទបន្ទាប់ពីទិន្នន័យត្រូវបានលុប។";
@@ -488,7 +488,7 @@
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "អ្នកអាចផ្តល់សិទ្ធិក្នុងការកំណត់។";
 
 /* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal ត្រូវការចូលប្រើប្រាស់លេខទំនាក់ទំនង ដើម្បីកែប្រែព័ត៌មានទំនាក់ទំនង";
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "SecureTalk ត្រូវការចូលប្រើប្រាស់លេខទំនាក់ទំនង ដើម្បីកែប្រែព័ត៌មានទំនាក់ទំនង";
 
 /* table cell label in conversation settings */
 "EDIT_GROUP_ACTION" = "កែក្រុម";
@@ -536,16 +536,16 @@
 "EDIT_TXT" = "កែប្រែ";
 
 /* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to WhisperSystems home page}} */
-"EMAIL_INVITE_BODY" = "សួស្តី,\n\nថ្មីៗនេះ ខ្ញុំបានប្រើប្រាស់ Signal ដើម្បីរក្សាការសន្ទនាឯកជនលើទូរស័ព្ទ iPhone របស់ខ្ញុំ។ ខ្ញុំចង់ឲ្យអ្នកបញ្ចូលវាដែរ ដូចនេះ យើងអាចទុកចិត្តថា មានតែអ្នកនិងខ្ញុំ ដែលអាចអានសាររបស់យើង ឬស្តាប់ការហៅរបស់យើង។\n\nSignal មានសម្រាប់ ទូរស័ព្ទ iPhone និង Android។ ទាញយកនៅទីនេះ៖ %@\n\nSignal ដំណើរការដូចគ្នានឹងកម្មវិធីផ្ញើសារ ដែលមានស្រាប់ដែរ។ យើងអាចបញ្ជូនរូបភាព និងវីដេអូ ហៅទូរស័ព្ទ និងចាប់ផ្តើមការជជែកជាក្រុម។ ផ្នែកដែលល្អបំផុតគឺ គ្មាននរណាអាចមើលឃើញ សូម្បីអ្នកដែលបង្កើត Signal ក៏ដោយ!\n\nអ្នកអាចអានបន្ថែមអំពី Open Whisper Systems, មនុស្សបង្កើត Signal នៅទីនេះ %@";
+"EMAIL_INVITE_BODY" = "សួស្តី,\n\nថ្មីៗនេះ ខ្ញុំបានប្រើប្រាស់ SecureTalk ដើម្បីរក្សាការសន្ទនាឯកជនលើទូរស័ព្ទ iPhone របស់ខ្ញុំ។ ខ្ញុំចង់ឲ្យអ្នកបញ្ចូលវាដែរ ដូចនេះ យើងអាចទុកចិត្តថា មានតែអ្នកនិងខ្ញុំ ដែលអាចអានសាររបស់យើង ឬស្តាប់ការហៅរបស់យើង។\n\nSecureTalk មានសម្រាប់ ទូរស័ព្ទ iPhone និង Android។ ទាញយកនៅទីនេះ៖ %@\n\nSecureTalk ដំណើរការដូចគ្នានឹងកម្មវិធីផ្ញើសារ ដែលមានស្រាប់ដែរ។ យើងអាចបញ្ជូនរូបភាព និងវីដេអូ ហៅទូរស័ព្ទ និងចាប់ផ្តើមការជជែកជាក្រុម។ ផ្នែកដែលល្អបំផុតគឺ គ្មាននរណាអាចមើលឃើញ សូម្បីអ្នកដែលបង្កើត SecureTalk ក៏ដោយ!\n\nអ្នកអាចអានបន្ថែមអំពី, មនុស្សបង្កើត SecureTalk នៅទីនេះ %@";
 
 /* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "តោះប្តូរទៅប្រើ Signal";
+"EMAIL_INVITE_SUBJECT" = "តោះប្តូរទៅប្រើ SecureTalk";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "ចុចលើប៊ូតុង ផ្ញើសារ។";
 
 /* No comment provided by engineer. */
-"EMPTY_ARCHIVE_FIRST_TITLE" = "ចាប់ផ្តើមការសន្ទនា Signal ដំបូង!";
+"EMPTY_ARCHIVE_FIRST_TITLE" = "ចាប់ផ្តើមការសន្ទនា SecureTalk ដំបូង!";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_TEXT" = "អ្នកអាចបណ្ណសាររាល់ការសន្ទនាដែលអសកម្ម ពីប្រអប់សបុត្ររបស់អ្នក។";
@@ -554,7 +554,7 @@
 "EMPTY_ARCHIVE_TITLE" = "សំអាតការសន្ទនារបស់អ្នក។";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "គ្មានលេខទំនាក់ទំនងរបស់អ្នកប្រើ Signal ទេ។";
+"EMPTY_CONTACTS_LABEL_LINE1" = "គ្មានលេខទំនាក់ទំនងរបស់អ្នកប្រើ SecureTalk ទេ។";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "ហេតុអី អ្នកមិនអញ្ជើញនរណាម្នាក់?";
@@ -590,13 +590,13 @@
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_FAILED_ATTACHMENT_WRITE" = "បរាជ័យដោយសារមិនអាចដាក់ឯកសារភ្ជាប់។";
 
 /* Generic error used whenver Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal មិនអាចតភ្ជាប់ទៅកាន់អ៊ីនធើណែត។ សូមព្យាយាមពីបណ្តាញ WiFi ផ្សេង ឬប្រើប្រាស់ទិន្នន័យទូរស័ព្ទ។";
+"ERROR_DESCRIPTION_NO_INTERNET" = "SecureTalk មិនអាចតភ្ជាប់ទៅកាន់អ៊ីនធើណែត។ សូមព្យាយាមពីបណ្តាញ WiFi ផ្សេង ឬប្រើប្រាស់ទិន្នន័យទូរស័ព្ទ។";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "ផ្ញើសារបរាជ័យ ដោយសារឈ្មោះអ្នកទទួលមិនត្រឹមត្រូវ។";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "ឧបករណ៍អ្នក លែងមានលេខទូរស័ព្ទរបស់អ្នកទៀតហើយ។ អ្នកត្រូវលុបចោល និងបញ្ចូល Signal ឡើងវិញ។";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "ឧបករណ៍អ្នក លែងមានលេខទូរស័ព្ទរបស់អ្នកទៀតហើយ។ អ្នកត្រូវលុបចោល និងបញ្ចូល SecureTalk ឡើងវិញ។";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "បញ្ហាម៉ាស៊ីនមេ។ សូមព្យាយាមម្តងទៀតពេលក្រោយ។";
@@ -605,10 +605,10 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "បញ្ហាមិនស្គាល់កើតឡើង។";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "លេខទំនាក់ទំនងមិនមែនជាអ្នកប្រើប្រាស់ Signal។";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "លេខទំនាក់ទំនងមិនមែនជាអ្នកប្រើប្រាស់ SecureTalk។";
 
 /* Error message when unable to receive an attachment because the sending client is too old. */
-"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "បរាជ័យ៖ សាកសួរអ្នកផ្ញើ ឲ្យធ្វើបច្ចុប្បន្នភាព Signal និងសាកល្បងម្តងទៀត។";
+"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "បរាជ័យ៖ សាកសួរអ្នកផ្ញើ ឲ្យធ្វើបច្ចុប្បន្នភាព SecureTalk និងសាកល្បងម្តងទៀត។";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "ទទួលបានសារស្ទួនគ្នាមួយ។";
@@ -797,13 +797,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "ឯកសារសំឡេងមិនត្រឹមត្រូវ។";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "ដើម្បីអញ្ជើញលេខទំនាក់ទំនងរបស់អ្នក អ្នកត្រូវតែអនុញ្ញាតអោយ Signal ចូលប្រើប្រាស់បញ្ជីទំនាក់ទំនងរបស់អ្នក ក្នុងកម្មវិធី ការកំណត់។";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "ដើម្បីអញ្ជើញលេខទំនាក់ទំនងរបស់អ្នក អ្នកត្រូវតែអនុញ្ញាតអោយ SecureTalk ចូលប្រើប្រាស់បញ្ជីទំនាក់ទំនងរបស់អ្នក ក្នុងកម្មវិធី ការកំណត់។";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "អនុញ្ញាតចូលប្រើប្រាស់បញ្ជីទំនាក់ទំនង";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "អញ្ជើញមិត្តភក្តិមកកាន់ Signal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "អញ្ជើញមិត្តភក្តិមកកាន់ SecureTalk";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "ស្វែងរក";
@@ -987,11 +987,11 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Signal ត្រូវការចូលប្រើប្រាស់កាមេរ៉ា សម្រាប់ការហៅជាវីដេអូ។ អ្នកអាចផ្តល់សិទ្ធិក្នុង ការកំណត់ >> ឯកជនភាព >> កាមេរ៉ា >> Signal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "SecureTalk ត្រូវការចូលប្រើប្រាស់កាមេរ៉ា សម្រាប់ការហៅជាវីដេអូ។ អ្នកអាចផ្តល់សិទ្ធិក្នុង ការកំណត់ >> ឯកជនភាព >> កាមេរ៉ា >> SecureTalk";
 
 /* Alert title
    Alert title when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_TITLE" = "Signal ត្រូវការចូលប្រើប្រាស់កាមេរ៉ារបស់អ្នក។";
+"MISSING_CAMERA_PERMISSION_TITLE" = "SecureTalk ត្រូវការចូលប្រើប្រាស់កាមេរ៉ារបស់អ្នក។";
 
 /* notification title. Embeds {{caller's name or phone number}} */
 "MSGVIEW_MISSED_CALL_WITH_NAME" = "ខកការហៅពី %@។";
@@ -1181,19 +1181,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "លេខក្នុងclipboard អ្នក ទំនងមិនត្រឹមត្រូវជាមួយលេខសុវត្ថិភាពសម្រាប់ការសន្ទនានេះ។ ";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal មិនអាចស្វែងរកលេខសុវត្ថិភាពណាមួយក្នុង clipboard របស់អ្នកបានទេ។ តើអ្នកបានថតចម្លងវា ត្រឹមត្រូវហើយ?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "SecureTalk មិនអាចស្វែងរកលេខសុវត្ថិភាពណាមួយក្នុង clipboard របស់អ្នកបានទេ។ តើអ្នកបានថតចម្លងវា ត្រឹមត្រូវហើយ?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "រាល់គូអ្នកប្រើប្រាស់ Signal ចែករំលែកលេខសុវត្ថិភាពខុសគ្នា។ ពិនិត្យម្តងទៀត ថា%@ គឹកំពុងបង្ហាញ លេខសុវត្ថិភាពខុសគ្នារបស់ *អ្នក*។";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "រាល់គូអ្នកប្រើប្រាស់ SecureTalk ចែករំលែកលេខសុវត្ថិភាពខុសគ្នា។ ពិនិត្យម្តងទៀត ថា%@ គឹកំពុងបង្ហាញ លេខសុវត្ថិភាពខុសគ្នារបស់ *អ្នក*។";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "អ្នកកំពុងដំណើរការ Signal ជំនាន់ចាស់។ អ្នកត្រូវធ្វើបច្ចុប្បន្នភាព មុនពេលអ្នកអាចផ្ទៀងផ្ទាត់បាន។";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "អ្នកកំពុងដំណើរការ SecureTalk ជំនាន់ចាស់។ អ្នកត្រូវធ្វើបច្ចុប្បន្នភាព មុនពេលអ្នកអាចផ្ទៀងផ្ទាត់បាន។";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "ដៃគូរបស់អ្នកកំពុងដំណើរការ Signal ជំនាន់ចាស់។ ពួកគេត្រូវធ្វើបច្ចុប្បន្នភាព មុនពេលអ្នកអាចផ្ទៀងផ្ទាត់បាន។";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "ដៃគូរបស់អ្នកកំពុងដំណើរការ SecureTalk ជំនាន់ចាស់។ ពួកគេត្រូវធ្វើបច្ចុប្បន្នភាព មុនពេលអ្នកអាចផ្ទៀងផ្ទាត់បាន។";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "កូដដែលស្កេន ទំនងជាមិនមែនកូដសុវត្ថិភាព។ តើអ្នកច្បាស់ អ្នកទាំងពីរមានជំនាន់ Signal ចុងក្រោយគេ?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "កូដដែលស្កេន ទំនងជាមិនមែនកូដសុវត្ថិភាព។ តើអ្នកច្បាស់ អ្នកទាំងពីរមានជំនាន់ SecureTalk ចុងក្រោយគេ?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "ប្រសិនបើ អ្នកចង់ផ្ទៀងផ្ទាត់សុវត្ថិភាពនៃការអ៊ិនគ្រីបទាំងសងខាង ជាមួយ %@, ប្រៀបធៀបលេខខាងលើ ជាមួយលេខនៅលើឧបករណ៍របស់គេ។\n\nផ្សេងពីនេះ អ្នកអាចស្កេនកូដលើទូរស័ព្ទគេ ឬសុំគេឲ្យស្កេនកូដរបស់អ្នក។";
@@ -1232,7 +1232,7 @@
 "PROFILE_VIEW_PROFILE_AVATAR_FIELD" = "រូបតំណាង";
 
 /* Description of the user profile. */
-"PROFILE_VIEW_PROFILE_DESCRIPTION" = "ទម្រង់ Signal អ្នកនឹងបង្ហាញទៅបញ្ជីទំនាក់ទំនងអ្នក នៅពេលចាប់ផ្តើមសន្ទនាថ្មី និងពេលអ្នកចែករំលែកវាជាមួយអ្នកប្រើប្រាស់និងក្រុមផ្សេង។";
+"PROFILE_VIEW_PROFILE_DESCRIPTION" = "ទម្រង់ SecureTalk អ្នកនឹងបង្ហាញទៅបញ្ជីទំនាក់ទំនងអ្នក នៅពេលចាប់ផ្តើមសន្ទនាថ្មី និងពេលអ្នកចែករំលែកវាជាមួយអ្នកប្រើប្រាស់និងក្រុមផ្សេង។";
 
 /* Link to more information about the user profile. */
 "PROFILE_VIEW_PROFILE_DESCRIPTION_LINK" = "ចុចទីនេះ ដើម្បីស្វែងយល់បន្ថែម។";
@@ -1265,13 +1265,13 @@
 "QUESTIONMARK_PUNCTUATION" = "?";
 
 /* No comment provided by engineer. */
-"RATING_MSG" = "ប្រសិនបើអ្នកពេញចិត្តប្រើប្រាស់ Signal សម្រាប់ការសន្ទនាផ្ទាល់ខ្លួន អ្នកអាចគាំទ្រគម្រោងរបស់យើង ដោយដាក់ពិន្ទុវា។ វាចំណាយពេលមិនលើសពីមួយនាទីទេ និងអាចជួយអ្នកដទៃ រក្សាឯកជនភាពបាន។";
+"RATING_MSG" = "ប្រសិនបើអ្នកពេញចិត្តប្រើប្រាស់ SecureTalk សម្រាប់ការសន្ទនាផ្ទាល់ខ្លួន អ្នកអាចគាំទ្រគម្រោងរបស់យើង ដោយដាក់ពិន្ទុវា។ វាចំណាយពេលមិនលើសពីមួយនាទីទេ និងអាចជួយអ្នកដទៃ រក្សាឯកជនភាពបាន។";
 
 /* No comment provided by engineer. */
-"RATING_RATE" = "ដាក់ពិន្ទុ Signal";
+"RATING_RATE" = "ដាក់ពិន្ទុ SecureTalk";
 
 /* No comment provided by engineer. */
-"RATING_TITLE" = "គាំទ្រ Signal!";
+"RATING_TITLE" = "គាំទ្រ SecureTalk!";
 
 /* No comment provided by engineer. */
 "REGISTER_CONTACTS_WELCOME" = "ស្វាគមន៍!";
@@ -1352,7 +1352,7 @@
 "SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION" = "បញ្ជូន យ៉ាងណាក៏ដោយ";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "លេខសុវត្ថិភាព Signal របស់យើង៖\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "លេខសុវត្ថិភាព SecureTalk របស់យើង៖\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "លេខសុវត្ថិភាពរបស់អ្នកជាមួយ %@ បានផ្លាស់ប្តូរ។ អ្នកប្រហែលចង់ផ្ទៀងផ្ទាត់វា។";
@@ -1394,7 +1394,7 @@
 "SEND_INVITE_FAILURE" = "ការផ្ញើលិខិតអញ្ជើញបរាជ័យ សូមព្យាយាមម្តងទៀតពេលក្រោយ។";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "អ្នកបានអញ្ជើញមិត្តភក្តិរបស់អ្នកប្រើប្រាស់ Signal!";
+"SEND_INVITE_SUCCESS" = "អ្នកបានអញ្ជើញមិត្តភក្តិរបស់អ្នកប្រើប្រាស់ SecureTalk!";
 
 /* Text for button to send a Signal invite via SMS. %@ is placeholder for the receipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "អញ្ជើញតាមសារ SMS៖ %@";
@@ -1403,7 +1403,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "អញ្ជើញមិត្តភក្តិតាម SMS ដែលមិនមានសុវត្ថិភាព?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "តើអ្នកចង់អញ្ជើញលេខខាងក្រោម មកកាន់ Signal៖";
+"SEND_SMS_INVITE_TITLE" = "តើអ្នកចង់អញ្ជើញលេខខាងក្រោម មកកាន់ SecureTalk៖";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "អំពី";
@@ -1424,7 +1424,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY_FORMAT" = "ទីតាំង៖ %@";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "បើសិនបើក Signal នឹងព្យាយាមចៀសវាងការឃ្លាំមើល។ កុំបើកមុខងារនេះ លុះត្រាអ្នកកំពុងស្ថិតនៅទីតាំងដែល Signal ត្រូវបានឃ្លាំមើល។";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "បើសិនបើក SecureTalk នឹងព្យាយាមចៀសវាងការឃ្លាំមើល។ កុំបើកមុខងារនេះ លុះត្រាអ្នកកំពុងស្ថិតនៅទីតាំងដែល SecureTalk ត្រូវបានឃ្លាំមើល។";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "ការចៀសវាងការឃ្លាំមើល ត្រូវបានដំណើរការ ផ្អែកលើលេខទូរស័ព្ទរបស់គណនីអ្នក។";
@@ -1433,7 +1433,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "ការចៀសវាងការឃ្លាំមើល អាចត្រូវបានដំណើរការ ពេលភ្ជាប់អ៊ីនធើណេតតែប៉ុណ្ណោះ។";
 
 /* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "ការចៀសវាងការឃ្លាំមើល មិនចាំបាច់; អ្នកមានភ្ជាប់សេវាកម្ម Signal រួចរាល់ហើយ។";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "ការចៀសវាងការឃ្លាំមើល មិនចាំបាច់; អ្នកមានភ្ជាប់សេវាកម្ម SecureTalk រួចរាល់ហើយ។";
 
 /* Table header for the 'censorship circumvention' section. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_HEADER" = "ការចៀសវាងការឃ្លាំមើល";
@@ -1451,7 +1451,7 @@
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "បន្ថែម...";
 
 /* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "អ្នកមិនមានលេខទំនាក់ទំនងលើ Signal ទេ។";
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "អ្នកមិនមានលេខទំនាក់ទំនងលើ SecureTalk ទេ។";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "គ្មានលទ្ធផលស្វែងរក";
@@ -1466,7 +1466,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "តែងតែហៅបន្ត";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "បន្តការហៅទាំងអស់តាមរយៈម៉ាស៊ីនមេ Signal ដើម្បីចៀសវាងការបង្ហាញអាសយដ្ឋាន IP របស់អ្នកទៅកាន់លេខទំនាក់ទំនងរបស់អ្នក។ ការបើកនេះ នឹងកាត់បន្ថយគុណភាពនៃការហៅ។";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "បន្តការហៅទាំងអស់តាមរយៈម៉ាស៊ីនមេ SecureTalk ដើម្បីចៀសវាងការបង្ហាញអាសយដ្ឋាន IP របស់អ្នកទៅកាន់លេខទំនាក់ទំនងរបស់អ្នក។ ការបើកនេះ នឹងកាត់បន្ថយគុណភាពនៃការហៅ។";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "សំអាតកំណត់ត្រាពីមុន";
@@ -1496,7 +1496,7 @@
 "SETTINGS_INVITE_TITLE" = "អញ្ជើញមិត្តភក្តិអ្នក";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "អ្នកអាចទាក់ទងខ្ញុំ​ ប្រើប្រាស់ Signal ដោយ @WhisperSystems, ទាញយកវាឥលូវនេះ។";
+"SETTINGS_INVITE_TWITTER_TEXT" = "អ្នកអាចទាក់ទងខ្ញុំ​ ប្រើប្រាស់ SecureTalk ដោយ @WhisperSystems, ទាញយកវាឥលូវនេះ។";
 
 /* Title for settings activity */
 "SETTINGS_NAV_BAR_TITLE" = "ការកំណត់";
@@ -1523,10 +1523,10 @@
 "SETTINGS_SCREEN_SECURITY" = "បើកអេក្រង់សុវត្ថិភាព";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY_DETAIL" = "រារាំងការបើកមើលមុន Signal ពីការបង្ហាញក្នុងការផ្លាស់ប្តូរកម្មវិធី។";
+"SETTINGS_SCREEN_SECURITY_DETAIL" = "រារាំងការបើកមើលមុន SecureTalk ពីការបង្ហាញក្នុងការផ្លាស់ប្តូរកម្មវិធី។";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "សមាហរណកម្មការហៅ iOS បង្ហាញការហៅតាម Signal លើអេក្រង់ជាប់សោររបស់អ្នក និង ក្នុងបញ្ជីការហៅរបស់ប្រព័ន្ធ។ អ្នកអាចមានជម្រើសក្នុងការបង្ហាញឈ្មោះ និងលេខទំនាក់ទំនងរបស់អ្នក។ ប្រសិនបើ iCloud បានបើក ប្រវត្តិរបស់ការហៅនេះ នឹងត្រូវបានចែករំលែកជាមួយ Apple​ ដែរ។";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "សមាហរណកម្មការហៅ iOS បង្ហាញការហៅតាម SecureTalk លើអេក្រង់ជាប់សោររបស់អ្នក និង ក្នុងបញ្ជីការហៅរបស់ប្រព័ន្ធ។ អ្នកអាចមានជម្រើសក្នុងការបង្ហាញឈ្មោះ និងលេខទំនាក់ទំនងរបស់អ្នក។ ប្រសិនបើ iCloud បានបើក ប្រវត្តិរបស់ការហៅនេះ នឹងត្រូវបានចែករំលែកជាមួយ Apple​ ដែរ។";
 
 /* settings topic header for table section */
 "SETTINGS_SECTION_TITLE_CALLING" = "ការហៅ";
@@ -1553,13 +1553,13 @@
 "SHARE_EXTENSION_LOADING" = "Loading...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Launch the Signal app to register.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Launch the SecureTalk app to register.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Not Registered";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Launch the Signal app to update.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Launch the SecureTalk app to update.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Not Ready";
@@ -1574,7 +1574,7 @@
 "SHOW_THREAD_BUTTON_TITLE" = "បង្ហាញការសន្ទនា";
 
 /* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "ខ្ញុំអញ្ជើញអ្នក ដំឡើង Signal! នេះជាតំណ៖";
+"SMS_INVITE_BODY" = "ខ្ញុំអញ្ជើញអ្នក ដំឡើង SecureTalk! នេះជាតំណ៖";
 
 /* Alert body after verifying privacy with {{other user's name}} */
 "SUCCESSFUL_VERIFICATION_DESCRIPTION" = "លេខសុវត្ថិភាពរបស់អ្នក ជាមួយ %@ ត្រូវគ្នា។ អ្នកអាចដាក់លេខទំនាក់ទំនងនេះ ផ្ទៀងផ្ទាត់បាន។";
@@ -1640,13 +1640,13 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "ផ្តាច់ \"%@\"?";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal មិនអាចផ្តាច់ឧបករណ៍របស់អ្នកបានទេ។";
+"UNLINKING_FAILED_ALERT_TITLE" = "SecureTalk មិនអាចផ្តាច់ឧបករណ៍របស់អ្នកបានទេ។";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "ឧបករណ៍គ្មានឈ្មោះ";
 
 /* No comment provided by engineer. */
-"UNREGISTER_SIGNAL_FAIL" = "បរាជ័យក្នុងការលុបឈ្មោះពី Signal។";
+"UNREGISTER_SIGNAL_FAIL" = "បរាជ័យក្នុងការលុបឈ្មោះពី SecureTalk។";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "បានទទួលប្រភេទឯកសារភ្ជាប់ដែលមិនគាំទ្រ។";
@@ -1673,7 +1673,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_BUTTON" = "កំណត់ទម្រង់របស់អ្នក";
 
 /* Description of new profile feature for upgrading (existing) users */
-"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "អ្នកអាចចែករំលែករូបភាពទម្រង់មួយ និងឈ្មោះជាមួយមិត្តភក្តិលើ Signal។";
+"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "អ្នកអាចចែករំលែករូបភាពទម្រង់មួយ និងឈ្មោះជាមួយមិត្តភក្តិលើ SecureTalk។";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_TITLE" = "ត្រៀមខ្លួនសម្រាប់ការបិទជិតរបស់អ្នក?";
@@ -1688,19 +1688,19 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_READ_RECEIPTS_TITLE" = "សូមណែនាំ ការទទួលអាន";
 
 /* Description of video calling to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Signal ឥលូវគាំទ្រការហៅវីដេអូសុវត្ថិភាព។ គ្រាន់តែហៅតាមធម្មតា ចុចលើប៊ូតុង កាមេរ៉ា ហើយបក់ដៃ សួស្តី។";
+"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "SecureTalk ឥលូវគាំទ្រការហៅវីដេអូសុវត្ថិភាព។ គ្រាន់តែហៅតាមធម្មតា ចុចលើប៊ូតុង កាមេរ៉ា ហើយបក់ដៃ សួស្តី។";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "សួស្តី ការហៅវីដេអូសុវត្ថិភាព!";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Signal នឹងទាមទារ iOS 9 ឬថ្មីជាងនេះ។ សូមដំឡើងក្នុង ការកំណត់ >> ទូទៅ >> បច្ចុប្បភាពកម្មវិធី។";
+"UPGRADE_IOS_ALERT_MESSAGE" = "SecureTalk នឹងទាមទារ iOS 9 ឬថ្មីជាងនេះ។ សូមដំឡើងក្នុង ការកំណត់ >> ទូទៅ >> បច្ចុប្បភាពកម្មវិធី។";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "ដំឡើង iOS";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "កំពុងធ្វើបច្ចុប្បន្នភាព Signal ...";
+"Upgrading SecureTalk ..." = "កំពុងធ្វើបច្ចុប្បន្នភាព SecureTalk ...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "ត្រលប់ក្រោយ";
@@ -1754,7 +1754,7 @@
 "VOICE_MESSAGE_TOO_SHORT_ALERT_TITLE" = "សារសំឡេង";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "បញ្ចប់ការកំណត់លើ Signal Desktop។";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "បញ្ចប់ការកំណត់លើ SecureTalk Desktop។";
 
 /* No comment provided by engineer. */
 "WHISPER_NAV_BAR_TITLE" = "ប្រអប់សារ";

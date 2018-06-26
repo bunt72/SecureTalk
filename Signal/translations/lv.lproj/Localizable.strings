@@ -536,7 +536,7 @@
 "EDIT_TXT" = "Edit";
 
 /* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to WhisperSystems home page}} */
-"EMAIL_INVITE_BODY" = "Hey,\n\nLately I've been using SecureTalk to keep the conversations on my iPhone private. I'd like you to install it too, so we can be confident that only you and I can read our messages or hear our calls.\n\nSecureTalk is available for iPhones and Android. Get it here: %@\n\nSecureTalk works like your existing messaging app. We can send pictures and video, make calls, and start group chats. The best part is, no one else can see any of it, not even the people who make Signal!\n\nYou can read more about SecureTalk, the people who make SecureTalk, here: %@";
+"EMAIL_INVITE_BODY" = "Hey,\n\nLately I've been using SecureTalk to keep the conversations on my iPhone private. I'd like you to install it too, so we can be confident that only you and I can read our messages or hear our calls.\n\nSecureTalk is available for iPhones and Android. Get it here: %@\n\nSecureTalk works like your existing messaging app. We can send pictures and video, make calls, and start group chats. The best part is, no one else can see any of it, not even the people who make SecureTalk!\n\nYou can read more about SecureTalk, the people who make SecureTalk, here: %@";
 
 /* subject of email sent to contacts when inviting to install Signal */
 "EMAIL_INVITE_SUBJECT" = "Let's switch to SecureTalk";

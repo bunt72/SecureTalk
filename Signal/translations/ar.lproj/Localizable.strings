@@ -131,7 +131,7 @@
 "ATTACHMENT_PICKER_DOCUMENTS_FAILED_ALERT_TITLE" = "فشل في اختيار الوثيقة ";
 
 /* Alert body when picking a document fails because user picked a directory/bundle */
-"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "لا يمكن لـ Signal التعامل مع ملف من هذا النوع. حاول ضغط الملف قبل ارساله.";
+"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "لا يمكن لـ SecureTalk التعامل مع ملف من هذا النوع. حاول ضغط الملف قبل ارساله.";
 
 /* Alert title when picking a document fails because user picked a directory/bundle */
 "ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_TITLE" = "ملف غير مدعم";
@@ -215,7 +215,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "لم يتم الرد على المكالمة.";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal  %@";
+"CALL_STATUS_FORMAT" = "SecureTalk  %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "اتصل";
@@ -263,7 +263,7 @@
 "CALLBACK_BUTTON_TITLE" = "إعادة الإتصال";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "مستخدم Signal";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "مستخدم SecureTalk";
 
 /* Message for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_MESSAGE" = "لا يمكن التحقق من هذا المستخدم حتى يتم تبادل الرسائل معه.";
@@ -536,16 +536,16 @@
 "EDIT_TXT" = "تصحيح";
 
 /* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to WhisperSystems home page}} */
-"EMAIL_INVITE_BODY" = "مرحبّا,\n\nمؤخرًا أصبحت أستخدم Signal لجعل محادثاتي على الـiPhone سرية. أرغب أن تثبّته أنت كذلك حتى نتأكد أنا وأنت أننا فقط من يمكنه قراءة رسائلنا أو سماع مكالماتنا.\n\nSignal متاح للـiPhone واﻷندرويد. احصل عليه من هنا: %@\n\nيعمل Signal كما تطبيق تراسلك الحالي. يستطيع إرسال الصور والفيديو, إجاراء المكالمات, وبدء محادثة جماعية. وأفضل جزء هو, لا أحد آخر قادرعلى رؤية أي شيء من ذلك, ولا حتى صنّاع Signal!\n\nتستطيع قراءة المزيد عن Open Whisper Systems, صنّاع Signal, هنا: %@";
+"EMAIL_INVITE_BODY" = "مرحبّا,\n\nمؤخرًا أصبحت أستخدم SecureTalk لجعل محادثاتي على الـiPhone سرية. أرغب أن تثبّته أنت كذلك حتى نتأكد أنا وأنت أننا فقط من يمكنه قراءة رسائلنا أو سماع مكالماتنا.\n\nSecureTalk متاح للـiPhone واﻷندرويد. احصل عليه من هنا: %@\n\nيعمل SecureTalk كما تطبيق تراسلك الحالي. يستطيع إرسال الصور والفيديو, إجاراء المكالمات, وبدء محادثة جماعية. وأفضل جزء هو, لا أحد آخر قادرعلى رؤية أي شيء من ذلك, ولا حتى صنّاع SecureTalk!\n\nتستطيع قراءة المزيد عن";
 
 /* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "لنستخدم Signal";
+"EMAIL_INVITE_SUBJECT" = "لنستخدم SecureTalk";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "انقر على زرّ اﻹنشاء";
 
 /* No comment provided by engineer. */
-"EMPTY_ARCHIVE_FIRST_TITLE" = "بدء أول محادثة باستخدام تطبيق Signal!";
+"EMPTY_ARCHIVE_FIRST_TITLE" = "بدء أول محادثة باستخدام تطبيق SecureTalk!";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_TEXT" = "يمكنك أرشفة المحادثات غير النشطة لاحقاً من خلال صندوق الوارد.";
@@ -554,7 +554,7 @@
 "EMPTY_ARCHIVE_TITLE" = "مسح المحادثات";
 
 /* Full width label displayed when attempting to compose message */
-"EMPTY_CONTACTS_LABEL_LINE1" = "لا أحد من جهات اتصالك لديه Signal.";
+"EMPTY_CONTACTS_LABEL_LINE1" = "لا أحد من جهات اتصالك لديه SecureTalk.";
 
 /* Full width label displayed when attempting to compose message */
 "EMPTY_CONTACTS_LABEL_LINE2" = "لمَ لا تدعُ أحدهم؟";
@@ -590,13 +590,13 @@
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_FAILED_ATTACHMENT_WRITE" = "Failed due to failed attachment write.";
 
 /* Generic error used whenver Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal غير قادر على الاتصال بالإنترنت. من فضلك حاول من شبكة WiFi أخرى أو استخدم بيانات الهاتف.";
+"ERROR_DESCRIPTION_NO_INTERNET" = "SecureTalk غير قادر على الاتصال بالإنترنت. من فضلك حاول من شبكة WiFi أخرى أو استخدم بيانات الهاتف.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "لم ينجح بعث الرسالة لعدم صحة معلومات المستلمين. ";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "جهازك لم يعد مسجّلًا برقم هاتفك. عليك حذف وإعادة تثبيت Signal.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "جهازك لم يعد مسجّلًا برقم هاتفك. عليك حذف وإعادة تثبيت SecureTalk.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "خطأ في المخدم، الرجاء تكرار المحاولة لاحقاً.";
@@ -605,10 +605,10 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "حدث خطأ غير معروف.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "جهة الاتصال ليست من مستخدمي Signal.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "جهة الاتصال ليست من مستخدمي SecureTalk.";
 
 /* Error message when unable to receive an attachment because the sending client is too old. */
-"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Failure: Ask sender to update Signal and resend.";
+"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Failure: Ask sender to update SecureTalk and resend.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "تم تلقي رسالة مكررة.";
@@ -803,7 +803,7 @@
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "السماح بإستخدام جهات الاتصال";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "دعوة اﻷصدقاء لـSignal";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "دعوة اﻷصدقاء لـSecureTalk";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "بحث";
@@ -987,11 +987,11 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Singal بحاجة إِلى استخدام كاميرتك لإجراء الاتصالات الفيديوية. يمكنك السماح بذلك من برنامج الإعدادات  >> الخصوصية  >> الكاميرا >>  Signal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "Singal بحاجة إِلى استخدام كاميرتك لإجراء الاتصالات الفيديوية. يمكنك السماح بذلك من برنامج الإعدادات  >> الخصوصية  >> الكاميرا >>  SecureTalk";
 
 /* Alert title
    Alert title when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_TITLE" = "يحتاج Signal للوصول للكاميرا";
+"MISSING_CAMERA_PERMISSION_TITLE" = "يحتاج SecureTalk للوصول للكاميرا";
 
 /* notification title. Embeds {{caller's name or phone number}} */
 "MSGVIEW_MISSED_CALL_WITH_NAME" = "مكالمة فائتة من %@";
@@ -1181,19 +1181,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "الرقم الذي في حافظتك لا يبدو كرقم اﻷمان الخاص بهذه المحادثة.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "لم يمكن Signal من إيجاد أي رقم أمان في حافظتك. هل نسخه بشكل صحيح؟";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "لم يمكن SecureTalk من إيجاد أي رقم أمان في حافظتك. هل نسخه بشكل صحيح؟";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "كل زوج من مستخدمي Signal يتشاركان رقم أمان فريد. تأكد أن %@ يعرض رقم أمانك الفريد.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "كل زوج من مستخدمي SecureTalk يتشاركان رقم أمان فريد. تأكد أن %@ يعرض رقم أمانك الفريد.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "أنت تستخدم إصدار قديم من Signal. تحتاج للتحديث لتتمكن من التحقق.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "أنت تستخدم إصدار قديم من SecureTalk. تحتاج للتحديث لتتمكن من التحقق.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "شريكك يستخدم إصدار قديم من Signal. يحتاج للتحديث ليتمكن من التحقق.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "شريكك يستخدم إصدار قديم من SecureTalk. يحتاج للتحديث ليتمكن من التحقق.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "الرمز الممسوح لا يبدو كرقم أمان. هل يستخدم كلاكما آخر إصدار من Signal؟";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "الرمز الممسوح لا يبدو كرقم أمان. هل يستخدم كلاكما آخر إصدار من SecureTalk؟";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "إذا رغبت في التحقق من أمان تشفير end-to-end الخاص بك مع %@, قارن اﻷرقام في اﻷعلى مع اﻷرقام على أجهزتهم.\n\nأو يمكنك مسح الرمز على أجهزتهم, أو اطلب منهم مسح الرمز الخاص بك.";
@@ -1265,13 +1265,13 @@
 "QUESTIONMARK_PUNCTUATION" = "؟";
 
 /* No comment provided by engineer. */
-"RATING_MSG" = "إذا كنت تتمتع باستخدام Signal لإجراء محادثات خاصة، يمكنك دعم مشروعنا عن طريق تقييمه. لن يستغرق هذا أكثر من دقيقة واحدة، وسوف يساعد الآخرين في العثور على بعض الخصوصية.";
+"RATING_MSG" = "إذا كنت تتمتع باستخدام SecureTalk لإجراء محادثات خاصة، يمكنك دعم مشروعنا عن طريق تقييمه. لن يستغرق هذا أكثر من دقيقة واحدة، وسوف يساعد الآخرين في العثور على بعض الخصوصية.";
 
 /* No comment provided by engineer. */
-"RATING_RATE" = "قيّم Signal";
+"RATING_RATE" = "قيّم SecureTalk";
 
 /* No comment provided by engineer. */
-"RATING_TITLE" = "ادعم Signal!";
+"RATING_TITLE" = "ادعم SecureTalk!";
 
 /* No comment provided by engineer. */
 "REGISTER_CONTACTS_WELCOME" = "مرحبًا!";
@@ -1352,7 +1352,7 @@
 "SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION" = "أرسل على كل حال";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "رقم أمان Signal الخاص بنا:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "رقم أمان SecureTalk الخاص بنا:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "تم تغيير رقم أمانك مع %@. ربما ترغب في التحقق منه.";
@@ -1394,7 +1394,7 @@
 "SEND_INVITE_FAILURE" = "فشل إرسال الدعوة, فضلّا أعد المحاولة لاحقًا.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "لقد دعوت صديقك لاستخدام Signal!";
+"SEND_INVITE_SUCCESS" = "لقد دعوت صديقك لاستخدام SecureTalk!";
 
 /* Text for button to send a Signal invite via SMS. %@ is placeholder for the receipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "دعوة عبر الرسائل القصيرة: %@";
@@ -1403,7 +1403,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "إرسال دعوة لصديق عن طريق رسالة نصية غير آمنة؟";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "هل ترغب في إرسال دعوة لتطبيق Signal إلى الرقم التالي:";
+"SEND_SMS_INVITE_TITLE" = "هل ترغب في إرسال دعوة لتطبيق SecureTalk إلى الرقم التالي:";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "حول";
@@ -1451,7 +1451,7 @@
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "إضافة";
 
 /* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "جهات الاتصال الخاصة بك غير موجودة على Signal.";
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "جهات الاتصال الخاصة بك غير موجودة على SecureTalk.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "لا توجد نتائج لبحثك";
@@ -1466,7 +1466,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "مناوبة المكالمات الهاتفية دوماً";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "مناوبة جميع المكالمات عن طريق شبكة خدمة Signal لتجنب ظهور عنوان الـ IP الخاص بك إِلى جهات الاتصال. سيُقلل التمكين من جودة المكالمة.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "مناوبة جميع المكالمات عن طريق شبكة خدمة SecureTalk لتجنب ظهور عنوان الـ IP الخاص بك إِلى جهات الاتصال. سيُقلل التمكين من جودة المكالمة.";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "امسح سجل التاريخ";
@@ -1496,7 +1496,7 @@
 "SETTINGS_INVITE_TITLE" = "دعوة أصدقائك";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "يمكنك التواصل معي باستخدام Signal من @WhisperSystems, ثبّته اﻵن.";
+"SETTINGS_INVITE_TWITTER_TEXT" = "يمكنك التواصل معي باستخدام SecureTalk, ثبّته اﻵن.";
 
 /* Title for settings activity */
 "SETTINGS_NAV_BAR_TITLE" = "الإعدادات";
@@ -1523,10 +1523,10 @@
 "SETTINGS_SCREEN_SECURITY" = "تفعيل خاصية تأمين الشاشة";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY_DETAIL" = "منع ظهور استعراضات Signal في محول البرنامج.";
+"SETTINGS_SCREEN_SECURITY_DETAIL" = "منع ظهور استعراضات SecureTalk في محول البرنامج.";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "يعرض دمج المكالمة التابع لـ iOS مكالمات Signal الهاتفية على الشاشة المقفلة وفي سجل اتصالات النظام. يمكنك أن تختار اظهار أسم المتصل ورقمه. في حال تمكين iCloud يتم تبادل تاريخ المكالمات مع Apple.";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "يعرض دمج المكالمة التابع لـ iOS مكالمات SecureTalk الهاتفية على الشاشة المقفلة وفي سجل اتصالات النظام. يمكنك أن تختار اظهار أسم المتصل ورقمه. في حال تمكين iCloud يتم تبادل تاريخ المكالمات مع Apple.";
 
 /* settings topic header for table section */
 "SETTINGS_SECTION_TITLE_CALLING" = "جاري الاتصال";
@@ -1553,13 +1553,13 @@
 "SHARE_EXTENSION_LOADING" = "Loading...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Launch the Signal app to register.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Launch the SecureTalk app to register.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Not Registered";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Launch the Signal app to update.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Launch the SecureTalk app to update.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Not Ready";
@@ -1574,7 +1574,7 @@
 "SHOW_THREAD_BUTTON_TITLE" = "عرض المحادثة";
 
 /* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "أنا ادعُك لتثبيت تطبيق Signal، ها هو الرابط:";
+"SMS_INVITE_BODY" = "أنا ادعُك لتثبيت تطبيق SecureTalk، ها هو الرابط:";
 
 /* Alert body after verifying privacy with {{other user's name}} */
 "SUCCESSFUL_VERIFICATION_DESCRIPTION" = "رقم الأمان الخاص بك مع %@ متطابق. يمكنك وضع علامة على جهة الاتصال هذه بأنها مُتحقق منها.";
@@ -1640,13 +1640,13 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "فصل ارتباط \"%@\"?";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "فشل Signal في فك ارتباط جهازك.";
+"UNLINKING_FAILED_ALERT_TITLE" = "فشل SecureTalk في فك ارتباط جهازك.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "جهاز غير مسمّى";
 
 /* No comment provided by engineer. */
-"UNREGISTER_SIGNAL_FAIL" = "فشل إلغاء التسجيل من Signal.";
+"UNREGISTER_SIGNAL_FAIL" = "فشل إلغاء التسجيل من SecureTalk.";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "تم تلقى ملحقة من نوعية غير معتمد";
@@ -1688,7 +1688,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_READ_RECEIPTS_TITLE" = "Introducing Read Receipts";
 
 /* Description of video calling to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "تدعم Signal حالياً إتصال الفيديو الآمن. إِبدأ بمجرد إجراء الاتصال الهاتفي المعتاد، وانقر على زرّ الكاميرا، ثم لوِّح لتلقي التحية. ";
+"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "تدعم SecureTalk حالياً إتصال الفيديو الآمن. إِبدأ بمجرد إجراء الاتصال الهاتفي المعتاد، وانقر على زرّ الكاميرا، ثم لوِّح لتلقي التحية. ";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "أهلاً بإتصالات الفيديو الآمنة! ";
@@ -1700,7 +1700,7 @@
 "UPGRADE_IOS_ALERT_TITLE" = "ترقية iOS";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "ترقية Signal ...";
+"Upgrading SecureTalk ..." = "ترقية SecureTalk ...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "الرجوع";
@@ -1754,7 +1754,7 @@
 "VOICE_MESSAGE_TOO_SHORT_ALERT_TITLE" = "رسالة صوتية";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "إكمال الإعداد على نسخة سطح المكتب من Signal.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "إكمال الإعداد على نسخة سطح المكتب من SecureTalk.";
 
 /* No comment provided by engineer. */
 "WHISPER_NAV_BAR_TITLE" = "البريد الوارد";

@@ -59,13 +59,13 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "Sürüm %@ şimdi App Store'dan edinilebilir.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Signal'in yeni bir sürümü mevcut";
+"APP_UPDATE_NAG_ALERT_TITLE" = "SecureTalk'in yeni bir sürümü mevcut";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Güncelle";
 
 /* Name of application */
-"APPLICATION_NAME" = "Signal";
+"APPLICATION_NAME" = "SecureTalk";
 
 /* Pressing this button moves a thread from the inbox to the archive */
 "ARCHIVE_ACTION" = "Arşivle";
@@ -131,7 +131,7 @@
 "ATTACHMENT_PICKER_DOCUMENTS_FAILED_ALERT_TITLE" = "Doküman seçimi başarısız.";
 
 /* Alert body when picking a document fails because user picked a directory/bundle */
-"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "Signal bu tür bir dosyayı olduğu gibi işleyemez. Göndermeden önce sıkıştırmayı deneyin.";
+"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "SecureTalk bu tür bir dosyayı olduğu gibi işleyemez. Göndermeden önce sıkıştırmayı deneyin.";
 
 /* Alert title when picking a document fails because user picked a directory/bundle */
 "ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_TITLE" = "Desteklenmeyen dosya";
@@ -200,7 +200,7 @@
 "BUTTON_DONE" = "Tamam";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Signal, arama yapmak ve sesli mesajlar kaydetmek için mikrofonunuza erişime ihtiyaç duyar. Bu izni Ayarlar uygulamasından verebilirsiniz.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "SecureTalk, arama yapmak ve sesli mesajlar kaydetmek için mikrofonunuza erişime ihtiyaç duyar. Bu izni Ayarlar uygulamasından verebilirsiniz.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Mikrofon Erişimi Gerekiyor";
@@ -215,7 +215,7 @@
 "CALL_SCREEN_STATUS_NO_ANSWER" = "Yanıt yok.";
 
 /* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
-"CALL_STATUS_FORMAT" = "Signal %@";
+"CALL_STATUS_FORMAT" = "SecureTalk %@";
 
 /* Label for call button for alert offering to call a user. */
 "CALL_USER_ALERT_CALL_BUTTON" = "Ara";
@@ -263,7 +263,7 @@
 "CALLBACK_BUTTON_TITLE" = "Geri ara";
 
 /* The generic name used for calls if CallKit privacy is enabled */
-"CALLKIT_ANONYMOUS_CONTACT_NAME" = "Signal Kullanıcısı";
+"CALLKIT_ANONYMOUS_CONTACT_NAME" = "SecureTalk Kullanıcısı";
 
 /* Message for alert explaining that a user cannot be verified. */
 "CANT_VERIFY_IDENTITY_ALERT_MESSAGE" = "Onunla mesaj alışverişi yapmadan bu kullanıcı doğrulanamaz";
@@ -287,7 +287,7 @@
 "COMPOSE_MESSAGE_INVITE_SECTION_TITLE" = "Davet et";
 
 /* Multiline label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Kişilerinizden kimlerin Signal kullanıcısı olduğunu görmek için, sistem ayarlarınızdan kişilere erişime izin verin.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "Kişilerinizden kimlerin SecureTalk kullanıcısı olduğunu görmek için, sistem ayarlarınızdan kişilere erişime izin verin.";
 
 /* No comment provided by engineer. */
 "CONFIRM_ACCOUNT_DESTRUCTION_TEXT" = "Bu işlem mesajlarınızı silerek ve sunucudan kaydını kaldırarak uygulamayı sıfırlayacaktır. Uygulama, verilerin silinmesinden sonra kapanacaktır.";
@@ -488,7 +488,7 @@
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Ayarlar uygulamasından erişim verebilirsiniz";
 
 /* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal, kişi bilgisini düzenlemek için Kişi erişimine ihtiyaç duyuyor";
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "SecureTalk, kişi bilgisini düzenlemek için Kişi erişimine ihtiyaç duyuyor";
 
 /* table cell label in conversation settings */
 "EDIT_GROUP_ACTION" = "Grubu düzenle";
@@ -536,16 +536,16 @@
 "EDIT_TXT" = "Düzenle";
 
 /* body of email sent to contacts when inviting to install Signal. Embeds {{link to install Signal}} and {{link to WhisperSystems home page}} */
-"EMAIL_INVITE_BODY" = "Hey,\n\nSon zamanlarda konuşmalarımı iPhone'umda gizli tutmak için Signal kullanıyorum. Size de kurmanızı öneririm, bu nedenle yalnızca siz ve ben mesajlarımızı okuyabilir veya aramaları duyabiliriz.\n\nSinyal, iPhone'lar ve Android için kullanılabilir. Buraya bakın: %@ \n\nSignal mevcut mesajlaşma uygulamanız gibi çalışır. Resim ve video gönderebilir, arama yapabilir ve grup sohbetlerine başlayabiliriz. En iyi yanı, hiç kimse Signal'i yapanları bile kimse göremez!\n\nSignal'ı yapan kişiler olan Open Whisper Systems hakkında daha fazla bilgi için: %@";
+"EMAIL_INVITE_BODY" = "Hey,\n\nSon zamanlarda konuşmalarımı iPhone'umda gizli tutmak için SecureTalk kullanıyorum. Size de kurmanızı öneririm, bu nedenle yalnızca siz ve ben mesajlarımızı okuyabilir veya aramaları duyabiliriz.\n\nSecureTalk, iPhone'lar ve Android için kullanılabilir. Buraya bakın: %@ \n\nSecureTalk mevcut mesajlaşma uygulamanız gibi çalışır. Resim ve video gönderebilir, arama yapabilir ve grup sohbetlerine başlayabiliriz. En iyi yanı, hiç kimse SecureTalk'i yapanları bile kimse göremez!\n\nSecureTalk'ı yapan kişiler olan hakkında daha fazla bilgi için: %@";
 
 /* subject of email sent to contacts when inviting to install Signal */
-"EMAIL_INVITE_SUBJECT" = "Signal'a geçelim.";
+"EMAIL_INVITE_SUBJECT" = "SecureTalk'a geçelim.";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_FIRST_TEXT" = "Oluşturma düğmesine dokun.";
 
 /* No comment provided by engineer. */
-"EMPTY_ARCHIVE_FIRST_TITLE" = "İlk Signal görüşmene başla!";
+"EMPTY_ARCHIVE_FIRST_TITLE" = "İlk SecureTalk görüşmene başla!";
 
 /* No comment provided by engineer. */
 "EMPTY_ARCHIVE_TEXT" = "Gelen kutunuzdaki eski görüşmelerinizi arşivleyebilirsiniz.";
@@ -596,7 +596,7 @@
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Mesaj gönderimi, geçerli alıcı olmadığından başarısız oldu.";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Cihazınız artık telefon numaranız için kayıtlı değil. Signal'ı kaldırıp tekrar kurmalısınız.";
+"ERROR_DESCRIPTION_SENDING_UNAUTHORIZED" = "Cihazınız artık telefon numaranız için kayıtlı değil. SecureTalk'ı kaldırıp tekrar kurmalısınız.";
 
 /* Generic server error */
 "ERROR_DESCRIPTION_SERVER_FAILURE" = "Sunucu hatası. Lütfen daha sonra tekrar deneyiniz.";
@@ -605,10 +605,10 @@
 "ERROR_DESCRIPTION_UNKNOWN_ERROR" = "Bilinmeyen bir hata oluştu";
 
 /* Error message when attempting to send message */
-"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kişi bir Signal kullanıcısı değil.";
+"ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Kişi bir SecureTalk kullanıcısı değil.";
 
 /* Error message when unable to receive an attachment because the sending client is too old. */
-"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Başarısız: Göndericiden Signal'i güncellemesini ya da yeniden göndermesini isteyin.";
+"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Başarısız: Göndericiden SecureTalk'i güncellemesini ya da yeniden göndermesini isteyin.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "Tekrarlanan bir ileti alındı.";
@@ -797,13 +797,13 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Geçersiz ses dosyası";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Kişilerinizi davet etmek için, Ayarlar uygulamasından Signal'in kişilerinize erişimine izin vermelisiniz";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "Kişilerinizi davet etmek için, Ayarlar uygulamasından SecureTalk'in kişilerinize erişimine izin vermelisiniz";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Kişi Erişimine İzin Ver";
 
 /* Label for the cell that presents the 'invite contacts' workflow. */
-"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "Signal'a arkadaşlarınızı davet edin";
+"INVITE_FRIENDS_CONTACT_TABLE_BUTTON" = "SecureTalk'a arkadaşlarınızı davet edin";
 
 /* Search */
 "INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER" = "Ara";
@@ -987,7 +987,7 @@
 
 /* Alert body
    Alert body when camera is not authorized */
-"MISSING_CAMERA_PERMISSION_MESSAGE" = "Signal görüntülü aramalar için kameraya erişim istiyor. Erişimi açmak için Ayarlar >> Gizlilik >>> Kamera >> Signal";
+"MISSING_CAMERA_PERMISSION_MESSAGE" = "SecureTalk görüntülü aramalar için kameraya erişim istiyor. Erişimi açmak için Ayarlar >> Gizlilik >>> Kamera >> SecureTalk";
 
 /* Alert title
    Alert title when camera is not authorized */
@@ -1181,19 +1181,19 @@
 "PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD" = "Panonuzdaki sayı bu konuşma için doğru güvenlik numarasına benzemiyor.";
 
 /* Alert body for user error */
-"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "Signal, panonuzda herhangi bir güvenlik numarası bulamadı. Doğru şekilde kopyaladın mı?";
+"PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD" = "SecureTalk, panonuzda herhangi bir güvenlik numarası bulamadı. Doğru şekilde kopyaladın mı?";
 
 /* Alert body when verifying with {{contact name}} */
-"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "Signal kullanıcılarının her çifti ayrı bir güvenlik numarası paylaşıyor. %@ *sizin* emniyet numaranızı gösterdiğini tekrar kontrol edin.";
+"PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME" = "SecureTalk kullanıcılarının her çifti ayrı bir güvenlik numarası paylaşıyor. %@ *sizin* emniyet numaranızı gösterdiğini tekrar kontrol edin.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Eski bir Signal sürümünü çalıştırıyorsunuz. Doğrulamadan önce güncellemeniz gerekiyor.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION" = "Eski bir SecureTalk sürümünü çalıştırıyorsunuz. Doğrulamadan önce güncellemeniz gerekiyor.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Karşıdaki kişi Signal'in eski bir sürümünü çalıştırıyor. Doğrulamadan önce güncelleme yapılmalıdır.";
+"PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION" = "Karşıdaki kişi SecureTalk'in eski bir sürümünü çalıştırıyor. Doğrulamadan önce güncelleme yapılmalıdır.";
 
 /* alert body */
-"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Taranan kod bir güvenlik numarası kodu gibi görünmüyor. İkiniz de Signal'in güncel bir sürümünü mü kullanıyorsunuz?";
+"PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE" = "Taranan kod bir güvenlik numarası kodu gibi görünmüyor. İkiniz de SecureTalk'in güncel bir sürümünü mü kullanıyorsunuz?";
 
 /* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "PRIVACY_VERIFICATION_INSTRUCTIONS" = "Uçtan uca şifrelemenin güvenliğini %@ ile doğrulamak isterseniz, yukarıdaki numaraları kendi cihazlarındaki numaralarla karşılaştırın.\n\nAlternatif olarak, kodunu telefonlarında tarayabilir veya kodunu taramanızı rica edebilirsiniz.";
@@ -1232,7 +1232,7 @@
 "PROFILE_VIEW_PROFILE_AVATAR_FIELD" = "Avatar";
 
 /* Description of the user profile. */
-"PROFILE_VIEW_PROFILE_DESCRIPTION" = "Yeni bir konuşma başlattığınızda ve diğer kullanıcı ve gruplar ile paylaştığınızda Signal Profiliniz kişileriniz tarafından görünebilir olacak.";
+"PROFILE_VIEW_PROFILE_DESCRIPTION" = "Yeni bir konuşma başlattığınızda ve diğer kullanıcı ve gruplar ile paylaştığınızda SecureTalk Profiliniz kişileriniz tarafından görünebilir olacak.";
 
 /* Link to more information about the user profile. */
 "PROFILE_VIEW_PROFILE_DESCRIPTION_LINK" = "Daha fazla öğrenmek için buraya dokunun.";
@@ -1265,13 +1265,13 @@
 "QUESTIONMARK_PUNCTUATION" = "?";
 
 /* No comment provided by engineer. */
-"RATING_MSG" = "Özel görüşmeler yapmak için Signal'ı kullanmaktan hoşlanıyorsan, projemize oy vererek destekte bulunabilirsin. Bu işlem bir dakikadan uzun sürmez ve başka insanların biraz mahremiyet bulmasına yardımcı olur.";
+"RATING_MSG" = "Özel görüşmeler yapmak için SecureTalk'ı kullanmaktan hoşlanıyorsan, projemize oy vererek destekte bulunabilirsin. Bu işlem bir dakikadan uzun sürmez ve başka insanların biraz mahremiyet bulmasına yardımcı olur.";
 
 /* No comment provided by engineer. */
-"RATING_RATE" = "Signal'a Oy Ver";
+"RATING_RATE" = "SecureTalk'a Oy Ver";
 
 /* No comment provided by engineer. */
-"RATING_TITLE" = "Signal'ı Destekle!";
+"RATING_TITLE" = "SecureTalk'ı Destekle!";
 
 /* No comment provided by engineer. */
 "REGISTER_CONTACTS_WELCOME" = "Hoşgeldin!";
@@ -1352,7 +1352,7 @@
 "SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION" = "Yine de gönder";
 
 /* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
-"SAFETY_NUMBER_SHARE_FORMAT" = "Bizim Signal Güvenlik Numarası:\n%@";
+"SAFETY_NUMBER_SHARE_FORMAT" = "Bizim SecureTalk Güvenlik Numarası:\n%@";
 
 /* Action sheet heading */
 "SAFETY_NUMBERS_ACTIONSHEET_TITLE" = "%@ ile güvenlik numaranız değişti. Doğrulamak isteyebilirsiniz.";
@@ -1394,7 +1394,7 @@
 "SEND_INVITE_FAILURE" = "Davetiye gönderilemedi, lütfen daha sonra tekrar deneyin.";
 
 /* Alert body after invite succeeded */
-"SEND_INVITE_SUCCESS" = "Arkadaşınızı Signal kullanmaya davet ettiniz!";
+"SEND_INVITE_SUCCESS" = "Arkadaşınızı SecureTalk kullanmaya davet ettiniz!";
 
 /* Text for button to send a Signal invite via SMS. %@ is placeholder for the receipient's phone number. */
 "SEND_INVITE_VIA_SMS_BUTTON_FORMAT" = "SMS ile davet et:%@";
@@ -1403,7 +1403,7 @@
 "SEND_SMS_CONFIRM_TITLE" = "Arkadaşın güvensiz SMS ile davet edilsin mi?";
 
 /* No comment provided by engineer. */
-"SEND_SMS_INVITE_TITLE" = "Şu numarayı Signal'a davet etmek ister misin";
+"SEND_SMS_INVITE_TITLE" = "Şu numarayı SecureTalk'a davet etmek ister misin";
 
 /* Navbar title */
 "SETTINGS_ABOUT" = "Hakkında";
@@ -1424,7 +1424,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY_FORMAT" = "Konum: %@";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Etkinleştirildiğinde, Signal sansür önlemini sağlamaya çalışacaktır Signal'in engellendiği bir konumda olmadığınız sürece bu özelliği etkinleştirmeyin.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "Etkinleştirildiğinde, SecureTalk sansür önlemini sağlamaya çalışacaktır SecureTalk'in engellendiği bir konumda olmadığınız sürece bu özelliği etkinleştirmeyin.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Sansür önleme, hesabınızın telefon numarasına bağlı olarak aktifleştirildi.";
@@ -1433,7 +1433,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Sansür önleme, sadece Internet'e bağlıyken aktifleştirilebilir.";
 
 /* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Sansür önleme gerekli değil; zaten Signal hizmetine  bağlısınız.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Sansür önleme gerekli değil; zaten SecureTalk hizmetine  bağlısınız.";
 
 /* Table header for the 'censorship circumvention' section. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_HEADER" = "Sansür Önleme";
@@ -1451,7 +1451,7 @@
 "SETTINGS_BLOCK_LIST_ADD_BUTTON" = "Ekle...";
 
 /* A label that indicates the user has no Signal contacts. */
-"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "Signal'de hiç kişiniz yok.";
+"SETTINGS_BLOCK_LIST_NO_CONTACTS" = "SecureTalk'de hiç kişiniz yok.";
 
 /* A label that indicates the user's search has no matching results. */
 "SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS" = "Arama sonucu yok";
@@ -1466,7 +1466,7 @@
 "SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE" = "Daima Aktarma Çağrılar";
 
 /* User settings section footer, a detailed explanation */
-"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "IP adresinizi kişinize göstermekten kaçınmak için tüm aramaları Signal sunucusundan aktarın. Etkinleştirme, çağrı kalitesini düşürecektir.";
+"SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL" = "IP adresinizi kişinize göstermekten kaçınmak için tüm aramaları SecureTalk sunucusundan aktarın. Etkinleştirme, çağrı kalitesini düşürecektir.";
 
 /* No comment provided by engineer. */
 "SETTINGS_CLEAR_HISTORY" = "Geçmiş kayıtlarını temizle.";
@@ -1496,7 +1496,7 @@
 "SETTINGS_INVITE_TITLE" = "Arkadaşlarınızı davet edin";
 
 /* content of tweet when inviting via twitter */
-"SETTINGS_INVITE_TWITTER_TEXT" = "Bana @WhisperSystems'in Signal uygulamasını kullanarak erişebilirsiniz. Siz de edinin.";
+"SETTINGS_INVITE_TWITTER_TEXT" = "Bana in SecureTalk uygulamasını kullanarak erişebilirsiniz. Siz de edinin.";
 
 /* Title for settings activity */
 "SETTINGS_NAV_BAR_TITLE" = "Ayarlar";
@@ -1523,10 +1523,10 @@
 "SETTINGS_SCREEN_SECURITY" = "Ekran Güvenliğini Etkinleştir";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY_DETAIL" = "Uygulama geçişleri esnasında Signal önizlemelerinin görülmez.";
+"SETTINGS_SCREEN_SECURITY_DETAIL" = "Uygulama geçişleri esnasında SecureTalk önizlemelerinin görülmez.";
 
 /* Settings table section footer. */
-"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "IOS Çağrı Entegrasyonu, Signal çağrılarını kilit ekranınızda ve sistemin arama geçmişinde gösterir. İsteğe bağlı olarak kişinin adını ve numarasını da gösterebilirsiniz. ICloud etkinleştirilirse, bu arama geçmişi Apple ile paylaşılacaktır.";
+"SETTINGS_SECTION_CALL_KIT_DESCRIPTION" = "IOS Çağrı Entegrasyonu, SecureTalk çağrılarını kilit ekranınızda ve sistemin arama geçmişinde gösterir. İsteğe bağlı olarak kişinin adını ve numarasını da gösterebilirsiniz. ICloud etkinleştirilirse, bu arama geçmişi Apple ile paylaşılacaktır.";
 
 /* settings topic header for table section */
 "SETTINGS_SECTION_TITLE_CALLING" = "Aranıyor";
@@ -1553,13 +1553,13 @@
 "SHARE_EXTENSION_LOADING" = "Loading...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Launch the Signal app to register.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Launch the SecureTalk app to register.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Not Registered";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Launch the Signal app to update.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Launch the SecureTalk app to update.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Not Ready";
@@ -1574,7 +1574,7 @@
 "SHOW_THREAD_BUTTON_TITLE" = "Görüşmeyi göster";
 
 /* body sent to contacts when inviting to Install Signal */
-"SMS_INVITE_BODY" = "Seni Signal kullanmaya davet ediyorum! İşte link:";
+"SMS_INVITE_BODY" = "Seni SecureTalk kullanmaya davet ediyorum! İşte link:";
 
 /* Alert body after verifying privacy with {{other user's name}} */
 "SUCCESSFUL_VERIFICATION_DESCRIPTION" = "%@ ile güvenlik numaranız eşleşiyor. Bu kişiyi doğrulanmış olarak işaretleyebilirsiniz.";
@@ -1640,13 +1640,13 @@
 "UNLINK_CONFIRMATION_ALERT_TITLE" = "\"%@\" bağlantısını kaldır?";
 
 /* Alert title when unlinking device fails */
-"UNLINKING_FAILED_ALERT_TITLE" = "Signal cihazınızın bağlantısını kaldıramadı.";
+"UNLINKING_FAILED_ALERT_TITLE" = "SecureTalk cihazınızın bağlantısını kaldıramadı.";
 
 /* Label text in device manager for a device with no name */
 "UNNAMED_DEVICE" = "Adsız Cihaz";
 
 /* No comment provided by engineer. */
-"UNREGISTER_SIGNAL_FAIL" = "Signal'den kaydınızı kaldırmada hata oluştu";
+"UNREGISTER_SIGNAL_FAIL" = "SecureTalk'den kaydınızı kaldırmada hata oluştu";
 
 /* No comment provided by engineer. */
 "UNSUPPORTED_ATTACHMENT" = "Desteklenmeyen eklenti tipi alındı";
@@ -1673,7 +1673,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_BUTTON" = "Profilinizi Ayarlayın";
 
 /* Description of new profile feature for upgrading (existing) users */
-"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "Artık Signal'de arkadaşlarınızla bir profil fotoğrafı ve ismi paylaşabilirsiniz.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "Artık SecureTalk'de arkadaşlarınızla bir profil fotoğrafı ve ismi paylaşabilirsiniz.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_TITLE" = "Yakından Bakmaya Hazır mısınız?";
@@ -1688,19 +1688,19 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_READ_RECEIPTS_TITLE" = "Okundu İletileriyle Tanışın";
 
 /* Description of video calling to upgrading (existing) users */
-"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "Signal artık güvenli video aramasını destekliyor. Yapmanız gereken sadece normalde yaptığınız gibi kamera butonuna dokunarak arama başlatmak ve selam vermek.";
+"UPGRADE_EXPERIENCE_VIDEO_DESCRIPTION" = "SecureTalk artık güvenli video aramasını destekliyor. Yapmanız gereken sadece normalde yaptığınız gibi kamera butonuna dokunarak arama başlatmak ve selam vermek.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "Merhaba güvenli görüntülü aramalar!";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Signal yakında iOS9 veya daha günceline ihtiyaç duyacaktır. Lütfen Ayarlar uygulaması>> Genel >> Yazılım Güncelleme den güncelleme yapın";
+"UPGRADE_IOS_ALERT_MESSAGE" = "SecureTalk yakında iOS9 veya daha günceline ihtiyaç duyacaktır. Lütfen Ayarlar uygulaması>> Genel >> Yazılım Güncelleme den güncelleme yapın";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "iOS u Güncelle";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "Signal'i yükseltme...";
+"Upgrading SecureTalk ..." = "SecureTalk'i yükseltme...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "Geri";
@@ -1754,7 +1754,7 @@
 "VOICE_MESSAGE_TOO_SHORT_ALERT_TITLE" = "Sesli Mesaj";
 
 /* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
-"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "Signalın Masaüstündeki kurulumu bitir.";
+"WAITING_TO_COMPLETE_DEVICE_LINK_TEXT" = "SecureTalkın Masaüstündeki kurulumu bitir.";
 
 /* No comment provided by engineer. */
 "WHISPER_NAV_BAR_TITLE" = "Gelen Kutusu";

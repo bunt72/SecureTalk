@@ -59,7 +59,7 @@
 "APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT" = "Version %@ is now available in the App Store.";
 
 /* Title for the 'new app version available' alert. */
-"APP_UPDATE_NAG_ALERT_TITLE" = "Достапна е нова верзија на Signal ";
+"APP_UPDATE_NAG_ALERT_TITLE" = "Достапна е нова верзија на SecureTalk ";
 
 /* Label for the 'update' button in the 'new app version available' alert. */
 "APP_UPDATE_NAG_ALERT_UPDATE_BUTTON" = "Aжурирај";
@@ -131,7 +131,7 @@
 "ATTACHMENT_PICKER_DOCUMENTS_FAILED_ALERT_TITLE" = "Failed to choose document.";
 
 /* Alert body when picking a document fails because user picked a directory/bundle */
-"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "Signal can't handle that file as is. Try zipping it before sending.";
+"ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY" = "SecureTalk can't handle that file as is. Try zipping it before sending.";
 
 /* Alert title when picking a document fails because user picked a directory/bundle */
 "ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_TITLE" = "Unsupported File";
@@ -200,7 +200,7 @@
 "BUTTON_DONE" = "Готово";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Signal requires access to your microphone to make calls and record voice messages. You can grant this permission in the Settings app.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "SecureTalk requires access to your microphone to make calls and record voice messages. You can grant this permission in the Settings app.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Microphone Access Required";
@@ -287,7 +287,7 @@
 "COMPOSE_MESSAGE_INVITE_SECTION_TITLE" = "Invite";
 
 /* Multiline label explaining why compose-screen contact picker is empty. */
-"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "To see which of your contacts are Signal users, allow contacts access in your system settings.";
+"COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION" = "To see which of your contacts are SecureTalk users, allow contacts access in your system settings.";
 
 /* No comment provided by engineer. */
 "CONFIRM_ACCOUNT_DESTRUCTION_TEXT" = "Со ова ќе се ресетира апликацијата така што ќе се избришат пораките и ќе те одрегистрира од серверот. Апликацијата ќе се затвори откако ќе се избришат податоците.";
@@ -488,7 +488,7 @@
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "You can give access in the Settings app.";
 
 /* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal Needs Contact Access to Edit Contact Information";
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "SecureTalk Needs Contact Access to Edit Contact Information";
 
 /* table cell label in conversation settings */
 "EDIT_GROUP_ACTION" = "Измени во група";
@@ -590,7 +590,7 @@
 "ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_FAILED_ATTACHMENT_WRITE" = "Failed due to failed attachment write.";
 
 /* Generic error used whenver Signal can't contact the server */
-"ERROR_DESCRIPTION_NO_INTERNET" = "Signal не може да се поврзе на интернет. Ве молиме пробајте преку друга безжична мрежа или користете мобилен интенет.";
+"ERROR_DESCRIPTION_NO_INTERNET" = "SecureTalk не може да се поврзе на интернет. Ве молиме пробајте преку друга безжична мрежа или користете мобилен интенет.";
 
 /* Error indicating that an outgoing message had no valid recipients. */
 "ERROR_DESCRIPTION_NO_VALID_RECIPIENTS" = "Message send failed due to a lack of valid recipients.";
@@ -608,7 +608,7 @@
 "ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT" = "Контактот не е Сигнал корисник.";
 
 /* Error message when unable to receive an attachment because the sending client is too old. */
-"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Failure: Ask sender to update Signal and resend.";
+"ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT" = "Failure: Ask sender to update SecureTalk and resend.";
 
 /* No comment provided by engineer. */
 "ERROR_MESSAGE_DUPLICATE_MESSAGE" = "Примена е дуплицирана порака.";
@@ -797,7 +797,7 @@
 "INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE" = "Invalid audio file.";
 
 /* Alert body when contacts disabled while trying to invite contacts to signal */
-"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "To invite your contacts, you need to allow Signal access to your contacts in the Settings app.";
+"INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY" = "To invite your contacts, you need to allow SecureTalk access to your contacts in the Settings app.";
 
 /* Alert title when contacts disabled while trying to invite contacts to signal */
 "INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE" = "Allow Contact Access";
@@ -1232,7 +1232,7 @@
 "PROFILE_VIEW_PROFILE_AVATAR_FIELD" = "Avatar";
 
 /* Description of the user profile. */
-"PROFILE_VIEW_PROFILE_DESCRIPTION" = "Your Signal Profile will be visible to your contacts, when you initiate new conversations, and when you share it with other users and groups.";
+"PROFILE_VIEW_PROFILE_DESCRIPTION" = "Your SecureTalk Profile will be visible to your contacts, when you initiate new conversations, and when you share it with other users and groups.";
 
 /* Link to more information about the user profile. */
 "PROFILE_VIEW_PROFILE_DESCRIPTION_LINK" = "Tap here to learn more.";
@@ -1424,7 +1424,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY_FORMAT" = "Location: %@";
 
 /* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "If enabled, Signal will attempt to circumvent censorship. Do not enable this feature unless you are in a location where Signal is censored.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER" = "If enabled, SecureTalk will attempt to circumvent censorship. Do not enable this feature unless you are in a location where SecureTalk is censored.";
 
 /* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED" = "Censorship circumvention has been activated based on your account's phone number.";
@@ -1433,7 +1433,7 @@
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION" = "Censorship circumvention can only be activated when connected to the internet.";
 
 /* Table footer for the 'censorship circumvention' section shown when the app is connected to the Signal service. */
-"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Censorship circumvention is not necessary; you are already connected to the Signal service.";
+"SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED" = "Censorship circumvention is not necessary; you are already connected to the SecureTalk service.";
 
 /* Table header for the 'censorship circumvention' section. */
 "SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_HEADER" = "Censorship Circumvention";
@@ -1553,13 +1553,13 @@
 "SHARE_EXTENSION_LOADING" = "Loading...";
 
 /* Message indicating that the share extension cannot be used until the user has registered in the main app. */
-"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Launch the Signal app to register.";
+"SHARE_EXTENSION_NOT_REGISTERED_MESSAGE" = "Launch the SecureTalk app to register.";
 
 /* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "SHARE_EXTENSION_NOT_REGISTERED_TITLE" = "Not Registered";
 
 /* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
-"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Launch the Signal app to update.";
+"SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE" = "Launch the SecureTalk app to update.";
 
 /* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE" = "Not Ready";
@@ -1673,7 +1673,7 @@
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_BUTTON" = "Set up Your Profile";
 
 /* Description of new profile feature for upgrading (existing) users */
-"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "You can now share a profile photo and name with your friends on Signal.";
+"UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_DESCRIPTION" = "You can now share a profile photo and name with your friends on SecureTalk.";
 
 /* Header for upgrade experience */
 "UPGRADE_EXPERIENCE_INTRODUCING_PROFILES_TITLE" = "Ready for Your Closeup?";
@@ -1694,13 +1694,13 @@
 "UPGRADE_EXPERIENCE_VIDEO_TITLE" = "Здраво Сигурносни Видео Повици!";
 
 /* Message for the alert indicating that user should upgrade iOS. */
-"UPGRADE_IOS_ALERT_MESSAGE" = "Signal will soon require iOS 9 or later. Please upgrade in Settings app >> General >> Software Update.";
+"UPGRADE_IOS_ALERT_MESSAGE" = "SecureTalk will soon require iOS 9 or later. Please upgrade in Settings app >> General >> Software Update.";
 
 /* Title for the alert indicating that user should upgrade iOS. */
 "UPGRADE_IOS_ALERT_TITLE" = "Upgrade iOS";
 
 /* No comment provided by engineer. */
-"Upgrading Signal ..." = "Ажурирање на Сигнал ...";
+"Upgrading SecureTalk ..." = "Ажурирање на SecureTalk ...";
 
 /* button text for back button on verification view */
 "VERIFICATION_BACK_BUTTON" = "Назад";
