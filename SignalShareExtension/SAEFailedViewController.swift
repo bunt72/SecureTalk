@@ -42,7 +42,7 @@ class SAEFailedViewController: UIViewController {
 
         self.view.backgroundColor = UIColor.ows_darkGreen
 
-        let logoImage = UIImage(named: "talk_logo")
+        let logoImage = UIImage(named: "talk_logo1")
         let logoImageView = UIImageView(image: logoImage)
         self.view.addSubview(logoImageView)
         logoImageView.autoCenterInSuperview()
