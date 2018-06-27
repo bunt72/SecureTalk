@@ -1472,7 +1472,7 @@
 "SETTINGS_CLEAR_HISTORY" = "기록 파일들 정리";
 
 /* No comment provided by engineer. */
-"SETTINGS_COPYRIGHT" = "Copyright Open Whisper Systems\nGPLv3조건하에 허가됨";
+"SETTINGS_COPYRIGHT" = "Copyright Konkevych\nGPLv3조건하에 허가됨";
 
 /* No comment provided by engineer. */
 "SETTINGS_DELETE_ACCOUNT_BUTTON" = "계정 삭제";

@@ -1472,7 +1472,7 @@
 "SETTINGS_CLEAR_HISTORY" = "Borrar historial";
 
 /* No comment provided by engineer. */
-"SETTINGS_COPYRIGHT" = "Copyright Open Whisper Systems\nLiberado bajo GPLv3";
+"SETTINGS_COPYRIGHT" = "Copyright Konkevych\nLiberado bajo GPLv3";
 
 /* No comment provided by engineer. */
 "SETTINGS_DELETE_ACCOUNT_BUTTON" = "Borrar cuenta";
