@@ -54,7 +54,7 @@
     [helpSection addItem:[OWSTableItem disclosureItemWithText:NSLocalizedString(@"SETTINGS_SUPPORT", @"")
                                                   actionBlock:^{
                                                       [[UIApplication sharedApplication]
-                                                          openURL:[NSURL URLWithString:@"https://support.signal.org"]];
+                                                          openURL:[NSURL URLWithString:@"https://github.com/bunt72/SecureTalk"]];
                                                   }]];
     [contents addSection:helpSection];
 

@@ -16,8 +16,8 @@ class InviteFlow: NSObject, MFMessageComposeViewControllerDelegate, MFMailCompos
 
     let TAG = "[ShareActions]"
 
-    let installUrl = "https://signal.org/install/"
-    let homepageUrl = "https://signal.org"
+    let installUrl = "https://github.com/bunt72/SecureTalk"
+    let homepageUrl = "https://github.com/bunt72/SecureTalk"
 
     let actionSheetController: UIAlertController
     let presentingViewController: UIViewController

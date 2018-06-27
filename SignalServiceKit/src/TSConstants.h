@@ -36,11 +36,11 @@ typedef NS_ENUM(NSInteger, TSWhisperMessageType) {
 
 #endif
 
-#define textSecureCDNServerURL @"https://cdn.signal.org"
+#define textSecureCDNServerURL @"https://github.com/bunt72/SecureTalk"
 #define textSecureServiceReflectorHost @"signal-reflector-meek.appspot.com"
 #define textSecureCDNReflectorHost @"signal-cdn-reflector.appspot.com"
 
-//#define textSecureCDNServerURL @"https://cdn-staging.signal.org"
+//#define textSecureCDNServerURL @"https://github.com/bunt72/SecureTalk"
 //#define textSecureServiceReflectorHost @"meek-signal-service-staging.appspot.com";
 //#define textSecureCDNReflectorHost @"meek-signal-cdn-staging.appspot.com";
 //
