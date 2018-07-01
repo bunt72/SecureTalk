@@ -1472,7 +1472,7 @@
 "SETTINGS_CLEAR_HISTORY" = "清除歷史日誌";
 
 /* No comment provided by engineer. */
-"SETTINGS_COPYRIGHT" = "版權所有 Open Whisper Systems\n根據 GPLv3授權";
+"SETTINGS_COPYRIGHT" = "版權所有 Konkevych\n根據 GPLv3授權";
 
 /* No comment provided by engineer. */
 "SETTINGS_DELETE_ACCOUNT_BUTTON" = "刪除帳戶";
