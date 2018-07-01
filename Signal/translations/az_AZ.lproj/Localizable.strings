@@ -1472,7 +1472,7 @@
 "SETTINGS_CLEAR_HISTORY" = "Giriş tarixçəsinin silinməsi";
 
 /* No comment provided by engineer. */
-"SETTINGS_COPYRIGHT" = "Hüquqları qorunur Open Whisper Systems \n GPLv3 ilə lisenziyalaşdırılmış";
+"SETTINGS_COPYRIGHT" = "Hüquqları qorunur Konkevych \n GPLv3 ilə lisenziyalaşdırılmış";
 
 /* No comment provided by engineer. */
 "SETTINGS_DELETE_ACCOUNT_BUTTON" = "Hesabı ləğv et";
@@ -1709,7 +1709,7 @@
 "VERIFICATION_CHALLENGE_DEFAULT_TEXT" = "Təsdiqləmə kodu";
 
 /* button text during registration to request phone number verification be done via phone call */
-"VERIFICATION_CHALLENGE_SEND_VIA_VOICE" = "Call Me Instead";
+"VERIFICATION_CHALLENGE_SEND_VIA_VOICE" = "";
 
 /* button text during registration to request another SMS code be sent */
 "VERIFICATION_CHALLENGE_SUBMIT_AGAIN" = "Resend Code by SMS";

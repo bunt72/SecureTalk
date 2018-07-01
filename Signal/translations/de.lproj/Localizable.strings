@@ -1709,10 +1709,10 @@
 "VERIFICATION_CHALLENGE_DEFAULT_TEXT" = "Verifikationscode";
 
 /* button text during registration to request phone number verification be done via phone call */
-"VERIFICATION_CHALLENGE_SEND_VIA_VOICE" = "Mich stattdessen anrufen";
+"VERIFICATION_CHALLENGE_SEND_VIA_VOICE" = "";
 
 /* button text during registration to request another SMS code be sent */
-"VERIFICATION_CHALLENGE_SUBMIT_AGAIN" = "Code via SMS erneut senden";
+"VERIFICATION_CHALLENGE_SUBMIT_AGAIN" = "Code erneut senden";
 
 /* button text during registration to submit your SMS verification code. */
 "VERIFICATION_CHALLENGE_SUBMIT_CODE" = "Senden";

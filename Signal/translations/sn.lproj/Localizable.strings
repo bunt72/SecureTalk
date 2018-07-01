@@ -1472,7 +1472,7 @@
 "SETTINGS_CLEAR_HISTORY" = "Dzima rutarwa rwemakare";
 
 /* No comment provided by engineer. */
-"SETTINGS_COPYRIGHT" = "Kopakodzero ye\"Open Whister Systems\" yakanyoresiwa pasi pe GPLv393";
+"SETTINGS_COPYRIGHT" = "Kopakodzero ye\"Konkevych\" yakanyoresiwa pasi pe GPLv393";
 
 /* No comment provided by engineer. */
 "SETTINGS_DELETE_ACCOUNT_BUTTON" = "Dzima homwe";
@@ -1709,7 +1709,7 @@
 "VERIFICATION_CHALLENGE_DEFAULT_TEXT" = "Murau wekuongorora kururama";
 
 /* button text during registration to request phone number verification be done via phone call */
-"VERIFICATION_CHALLENGE_SEND_VIA_VOICE" = "Call Me Instead";
+"VERIFICATION_CHALLENGE_SEND_VIA_VOICE" = "";
 
 /* button text during registration to request another SMS code be sent */
 "VERIFICATION_CHALLENGE_SUBMIT_AGAIN" = "Resend Code by SMS";

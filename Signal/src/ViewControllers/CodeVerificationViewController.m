@@ -25,11 +25,11 @@ NS_ASSUME_NONNULL_BEGIN
 //// User action buttons
 @property (nonatomic) OWSFlatButton *submitButton;
 @property (nonatomic) UIButton *sendCodeViaSMSAgainButton;
-@property (nonatomic) UIButton *sendCodeViaVoiceButton;
+//@property (nonatomic) UIButton *sendCodeViaVoiceButton;
 
 @property (nonatomic) UIActivityIndicatorView *submitCodeSpinner;
 @property (nonatomic) UIActivityIndicatorView *requestCodeAgainSpinner;
-@property (nonatomic) UIActivityIndicatorView *requestCallSpinner;
+//@property (nonatomic) UIActivityIndicatorView *requestCallSpinner;
 
 @end
 
@@ -160,7 +160,7 @@ NS_ASSUME_NONNULL_BEGIN
                                            @"button text during registration to submit your SMS verification code.")
                                   font:[OWSFlatButton fontForHeight:kSubmitButtonHeight]
                             titleColor:[UIColor whiteColor]
-                       backgroundColor:[UIColor ows_secureTalkBackgroundColor]
+                       backgroundColor:[UIColor ows_darkGreenColor]
                                 target:self
                               selector:@selector(submitVerificationCode)];
     self.submitButton = submitButton;
@@ -201,28 +201,28 @@ NS_ASSUME_NONNULL_BEGIN
     [_requestCodeAgainSpinner autoVCenterInSuperview];
     [_requestCodeAgainSpinner autoPinTrailingToSuperviewWithMargin:kSpinnerSpacing];
 
-    _sendCodeViaVoiceButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    _sendCodeViaVoiceButton.backgroundColor = [UIColor ows_secureTalkBackgroundColor];
-    [_sendCodeViaVoiceButton setTitle:NSLocalizedString(@"VERIFICATION_CHALLENGE_SEND_VIA_VOICE",
-                                @"button text during registration to request phone number verification be done via phone call")
-                            forState:UIControlStateNormal];
-    [_sendCodeViaVoiceButton setTitleColor:secureTalkColor
-                                    forState:UIControlStateNormal];
-    _sendCodeViaVoiceButton.titleLabel.font = [UIFont ows_mediumFontWithSize:14.f];
-    [_sendCodeViaVoiceButton addTarget:self
-                                action:@selector(sendCodeViaVoiceAction:)
-                      forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:_sendCodeViaVoiceButton];
-    [_sendCodeViaVoiceButton autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:_sendCodeViaSMSAgainButton];
-    [_sendCodeViaVoiceButton autoPinWidthToSuperviewWithMargin:kHMargin];
-    [_sendCodeViaVoiceButton autoSetDimension:ALDimensionHeight toSize:35];
+    //_sendCodeViaVoiceButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    //_sendCodeViaVoiceButton.backgroundColor = [UIColor ows_secureTalkBackgroundColor];
+    //[_sendCodeViaVoiceButton setTitle:NSLocalizedString(@"VERIFICATION_CHALLENGE_SEND_VIA_VOICE",
+    //                            @"button text during registration to request phone number verification be done via phone call")
+    //                        forState:UIControlStateNormal];
+    //[_sendCodeViaVoiceButton setTitleColor:secureTalkColor
+    //                                forState:UIControlStateNormal];
+    //_sendCodeViaVoiceButton.titleLabel.font = [UIFont ows_mediumFontWithSize:14.f];
+    //[_sendCodeViaVoiceButton addTarget:self
+    //                            action:@selector(sendCodeViaVoiceAction:)
+    //                  forControlEvents:UIControlEventTouchUpInside];
+    //[self.view addSubview:_sendCodeViaVoiceButton];
+    //[_sendCodeViaVoiceButton autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:_sendCodeViaSMSAgainButton];
+    //[_sendCodeViaVoiceButton autoPinWidthToSuperviewWithMargin:kHMargin];
+    //[_sendCodeViaVoiceButton autoSetDimension:ALDimensionHeight toSize:35];
     
-    _requestCallSpinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
-    [_sendCodeViaVoiceButton addSubview:_requestCallSpinner];
-    [_requestCallSpinner autoSetDimension:ALDimensionWidth toSize:kSpinnerSize];
-    [_requestCallSpinner autoSetDimension:ALDimensionHeight toSize:kSpinnerSize];
-    [_requestCallSpinner autoVCenterInSuperview];
-    [_requestCallSpinner autoPinTrailingToSuperviewWithMargin:kSpinnerSpacing];
+    //_requestCallSpinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+    // [_sendCodeViaSMSAgainButton addSubview:_requestCallSpinner];
+   // [_requestCallSpinner autoSetDimension:ALDimensionWidth toSize:kSpinnerSize];
+   // [_requestCallSpinner autoSetDimension:ALDimensionHeight toSize:kSpinnerSize];
+   // [_requestCallSpinner autoVCenterInSuperview];
+   // [_requestCallSpinner autoPinTrailingToSuperviewWithMargin:kSpinnerSpacing];
 }
 
 - (NSString *)phoneNumberText
@@ -335,27 +335,27 @@ NS_ASSUME_NONNULL_BEGIN
         }];
 }
 
-- (void)sendCodeViaVoiceAction:(id)sender {
-    OWSProdInfo([OWSAnalyticsEvents registrationRegisteringRequestedNewCodeByVoice]);
-
-    [self enableServerActions:NO];
-
-    [_requestCallSpinner startAnimating];
-    __weak CodeVerificationViewController *weakSelf = self;
-    [TSAccountManager rerequestVoiceWithSuccess:^{
-        DDLogInfo(@"%@ Successfully requested voice code", weakSelf.logTag);
-
-        [weakSelf enableServerActions:YES];
-        [weakSelf.requestCallSpinner stopAnimating];
-    }
-        failure:^(NSError *error) {
-            DDLogError(@"%@ Failed to request voice code with error: %@", weakSelf.logTag, error);
-            [weakSelf showRegistrationErrorMessage:error];
-            [weakSelf enableServerActions:YES];
-            [weakSelf.requestCallSpinner stopAnimating];
-            [weakSelf.challengeTextField becomeFirstResponder];
-        }];
-}
+//- (void)sendCodeViaVoiceAction:(id)sender {
+//    OWSProdInfo([OWSAnalyticsEvents registrationRegisteringRequestedNewCodeByVoice]);
+//
+//    [self enableServerActions:NO];
+//
+//    [_requestCallSpinner startAnimating];
+//    __weak CodeVerificationViewController *weakSelf = self;
+//    [TSAccountManager rerequestVoiceWithSuccess:^{
+//        DDLogInfo(@"%@ Successfully requested voice code", weakSelf.logTag);
+//
+//        [weakSelf enableServerActions:YES];
+//        [weakSelf.requestCallSpinner stopAnimating];
+//    }
+//        failure:^(NSError *error) {
+//            DDLogError(@"%@ Failed to request voice code with error: %@", weakSelf.logTag, error);
+//            [weakSelf showRegistrationErrorMessage:error];
+//            [weakSelf enableServerActions:YES];
+//            [weakSelf.requestCallSpinner stopAnimating];
+//            [weakSelf.challengeTextField becomeFirstResponder];
+//        }];
+//}
 
 - (void)showRegistrationErrorMessage:(NSError *)registrationError {
     [OWSAlerts showAlertWithTitle:registrationError.localizedDescription
@@ -365,7 +365,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)enableServerActions:(BOOL)enabled {
     [_submitButton setEnabled:enabled];
     [_sendCodeViaSMSAgainButton setEnabled:enabled];
-    [_sendCodeViaVoiceButton setEnabled:enabled];
+    //[_sendCodeViaVoiceButton setEnabled:enabled];
 }
 
 - (void)backButtonPressed:(id)sender {

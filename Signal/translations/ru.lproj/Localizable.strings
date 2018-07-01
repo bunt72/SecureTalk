@@ -1472,7 +1472,7 @@
 "SETTINGS_CLEAR_HISTORY" = "Стереть историю";
 
 /* No comment provided by engineer. */
-"SETTINGS_COPYRIGHT" = "Все права принадлежат Open Whisper Systems\nЛицензия GPLv3";
+"SETTINGS_COPYRIGHT" = "Все права принадлежат Konkevych\nЛицензия GPLv3";
 
 /* No comment provided by engineer. */
 "SETTINGS_DELETE_ACCOUNT_BUTTON" = "Удалить учетную запись";
@@ -1709,10 +1709,10 @@
 "VERIFICATION_CHALLENGE_DEFAULT_TEXT" = "Код подтверждения";
 
 /* button text during registration to request phone number verification be done via phone call */
-"VERIFICATION_CHALLENGE_SEND_VIA_VOICE" = "Сообщить код посредством голосовой связи";
+"VERIFICATION_CHALLENGE_SEND_VIA_VOICE" = "";
 
 /* button text during registration to request another SMS code be sent */
-"VERIFICATION_CHALLENGE_SUBMIT_AGAIN" = "Прислать код подтвеждения по SMS";
+"VERIFICATION_CHALLENGE_SUBMIT_AGAIN" = "Запросить новый код";
 
 /* button text during registration to submit your SMS verification code. */
 "VERIFICATION_CHALLENGE_SUBMIT_CODE" = "Подтвердить";
