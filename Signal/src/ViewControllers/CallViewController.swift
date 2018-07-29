@@ -306,7 +306,7 @@ class CallViewController: OWSViewController, CallObserver, CallServiceObserver {
         let callSettingsButton = OWSFlatButton.button(title:NSLocalizedString("CALL_VIEW_SETTINGS_NAG_SHOW_CALL_SETTINGS",
                                                                               comment: "Label for button that shows the privacy settings."),
                                                       font:OWSFlatButton.fontForHeight(buttonHeight),
-                                                      titleColor:UIColor.white,
+                                                      titleColor:UIColor.black,
                                         backgroundColor:UIColor.ows_secureTalkBackground,
                                                       target:self,
                                                       selector:#selector(didPressShowCallSettings))
@@ -318,7 +318,7 @@ class CallViewController: OWSViewController, CallObserver, CallServiceObserver {
         let notNowButton = OWSFlatButton.button(title:NSLocalizedString("CALL_VIEW_SETTINGS_NAG_NOT_NOW_BUTTON",
                                                                         comment: "Label for button that dismiss the call view's settings nag."),
                                                 font:OWSFlatButton.fontForHeight(buttonHeight),
-                                                titleColor:UIColor.white,
+                                                titleColor:UIColor.black,
                                                 backgroundColor:UIColor.ows_secureTalkBackground,
                                                 target:self,
                                                 selector:#selector(didPressDismissNag))

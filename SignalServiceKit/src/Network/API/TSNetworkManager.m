@@ -103,6 +103,7 @@ typedef void (^failureBlock)(NSURLSessionDataTask *task, NSError *error);
         } else if ([request.HTTPMethod isEqualToString:@"PUT"]) {
             [sessionManager PUT:request.URL.absoluteString
                      parameters:request.parameters
+             
                         success:success
                         failure:failure];
         } else if ([request.HTTPMethod isEqualToString:@"DELETE"]) {

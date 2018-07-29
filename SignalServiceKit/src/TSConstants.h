@@ -17,12 +17,17 @@ typedef NS_ENUM(NSInteger, TSWhisperMessageType) {
 
 #define textSecureHTTPTimeOut 10
 
-#define textSecureWebSocketAPI @"wss://195.242.219.133/v1/websocket/"
-#define textSecureServerURL @"https://195.242.219.133/"
+
+#define textSecureWebSocketAPI @"wss://<privateServer>/v1/websocket/"
+#define textSecureServerURL @"https://<privateServer>/"
+
+//#define textSecureWebSocketAPI @"wss://sotger32.vds.serverdale.com/v1/websocket/"
+//#define textSecureServerURL @"https://sotger32.vds.serverdale.com/"
+
 
 #ifndef DEBUG
 
-// Production
+//Production
 //#define textSecureWebSocketAPI @"wss://textsecure-service.whispersystems.org/v1/websocket/"
 //#define textSecureServerURL @"https://textsecure-service.whispersystems.org/"
 
@@ -36,14 +41,16 @@ typedef NS_ENUM(NSInteger, TSWhisperMessageType) {
 
 #endif
 
-#define textSecureCDNServerURL @"https://github.com/bunt72/SecureTalk"
+//#define textSecureCDNServerURL @"https://cdn.signal.org"
+#define textSecureCDNServerURL @"http://<privateServer>/global-securetalk-profiles"
 #define textSecureServiceReflectorHost @"signal-reflector-meek.appspot.com"
 #define textSecureCDNReflectorHost @"signal-cdn-reflector.appspot.com"
 
-//#define textSecureCDNServerURL @"https://github.com/bunt72/SecureTalk"
+
+
 //#define textSecureServiceReflectorHost @"meek-signal-service-staging.appspot.com";
 //#define textSecureCDNReflectorHost @"meek-signal-cdn-staging.appspot.com";
-//
+
 
 #define textSecureAccountsAPI @"v1/accounts"
 #define textSecureAttributesAPI @"/attributes/"
@@ -56,6 +63,7 @@ typedef NS_ENUM(NSInteger, TSWhisperMessageType) {
 #define textSecureDeviceProvisioningCodeAPI @"v1/devices/provisioning/code"
 #define textSecureDeviceProvisioningAPIFormat @"v1/provisioning/%@"
 #define textSecureDevicesAPIFormat @"v1/devices/%@"
+#define textSecureProfileAPI @"v1/profile"
 #define textSecureProfileAPIFormat @"v1/profile/%@"
 #define textSecureSetProfileNameAPIFormat @"v1/profile/name/%@"
 #define textSecureProfileAvatarFormAPI @"v1/profile/form/avatar"

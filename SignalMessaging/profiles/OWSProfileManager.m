@@ -1,3 +1,4 @@
+
 //
 //  Copyright (c) 2018 Open Whisper Systems. All rights reserved.
 //
@@ -442,6 +443,9 @@ const NSUInteger kOWSProfileManager_MaxAvatarDiameter = 640;
                         // because AWS is sensitive to the order of the form params (at least the "key"
                         // field must occur early on).
                         // For consistency, all fields are ordered here in a known working order.
+                        
+                        [formData appendPartWithFormData:formDataForString(@"global-securetalk-profiles") name:@"bucket"];
+
                         [formData appendPartWithFormData:formDataForString(formKey) name:@"key"];
                         [formData appendPartWithFormData:formDataForString(formAcl) name:@"acl"];
                         [formData appendPartWithFormData:formDataForString(formAlgorithm) name:@"x-amz-algorithm"];
@@ -451,10 +455,13 @@ const NSUInteger kOWSProfileManager_MaxAvatarDiameter = 640;
                         [formData appendPartWithFormData:formDataForString(formSignature) name:@"x-amz-signature"];
                         [formData appendPartWithFormData:formDataForString(OWSMimeTypeApplicationOctetStream)
                                                     name:@"Content-Type"];
+                        
                         NSData *encryptedAvatarData = [self encryptProfileData:avatarData];
                         OWSAssert(encryptedAvatarData.length > 0);
-                        [formData appendPartWithFormData:encryptedAvatarData name:@"file"];
-
+                        //[formData appendPartWithFormData:encryptedAvatarData name:@"file"];
+                        
+                        [formData appendPartWithFileData:encryptedAvatarData name:@"File" fileName:@"upload" mimeType:OWSMimeTypeApplicationOctetStream];
+                     
                         DDLogVerbose(@"%@ constructed body", self.logTag);
                     }
                     progress:^(NSProgress *_Nonnull uploadProgress) {
