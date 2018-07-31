@@ -18,8 +18,8 @@ typedef NS_ENUM(NSInteger, TSWhisperMessageType) {
 #define textSecureHTTPTimeOut 10
 
 
-#define textSecureWebSocketAPI @"wss://<privateServer>/v1/websocket/"
-#define textSecureServerURL @"https://<privateServer>/"
+#define textSecureWebSocketAPI @"wss://192.168.2.110/v1/websocket/"
+#define textSecureServerURL @"https://192.168.2.110/"
 
 //#define textSecureWebSocketAPI @"wss://sotger32.vds.serverdale.com/v1/websocket/"
 //#define textSecureServerURL @"https://sotger32.vds.serverdale.com/"
@@ -42,7 +42,7 @@ typedef NS_ENUM(NSInteger, TSWhisperMessageType) {
 #endif
 
 //#define textSecureCDNServerURL @"https://cdn.signal.org"
-#define textSecureCDNServerURL @"http://<privateServer>/global-securetalk-profiles"
+#define textSecureCDNServerURL @"http://192.168.2.110:9000/global-securetalk-profiles"
 #define textSecureServiceReflectorHost @"signal-reflector-meek.appspot.com"
 #define textSecureCDNReflectorHost @"signal-cdn-reflector.appspot.com"
 

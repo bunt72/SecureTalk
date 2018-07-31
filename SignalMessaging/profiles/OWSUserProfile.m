@@ -105,7 +105,9 @@ NSString *const kLocalProfileUniqueId = @"kLocalProfileUniqueId";
         dbConnection:(YapDatabaseConnection *)dbConnection
           completion:(nullable OWSUserProfileCompletion)completion
 {
-    NSDictionary *beforeSnapshot = self.dictionaryValue;
+    // self might be the latest instance, so take a "before" snapshot
+    // before any changes have been made.
+    __block NSDictionary *beforeSnapshot = [self.dictionaryValue copy];
 
     changeBlock(self);
 
@@ -114,21 +116,23 @@ NSString *const kLocalProfileUniqueId = @"kLocalProfileUniqueId";
         NSString *collection = [[self class] collection];
         OWSUserProfile *_Nullable latestInstance = [transaction objectForKey:self.uniqueId inCollection:collection];
         if (latestInstance) {
+            // If self is NOT the latest instance, take a new "before" snapshot
+            // before updating.
+            if (self != latestInstance) {
+                beforeSnapshot = [latestInstance.dictionaryValue copy];
+            }
+
             changeBlock(latestInstance);
 
-            NSDictionary *afterSnapshot = latestInstance.dictionaryValue;
+            NSDictionary *afterSnapshot = [latestInstance.dictionaryValue copy];
+
             if ([beforeSnapshot isEqual:afterSnapshot]) {
-                DDLogVerbose(
-                    @"%@ Ignoring redundant update in %s: %@", self.logTag, functionName, self.debugDescription);
+                DDLogVerbose(@"%@ Ignoring redundant update in %s: %@",
+                    self.logTag,
+                    functionName,
+                    self.debugDescription);
                 didChange = NO;
             } else {
-                NSString *_Nullable oldAvatarUrlPath = beforeSnapshot[@"avatarUrlPath"];
-                if (!latestInstance.avatarUrlPath || ![latestInstance.avatarUrlPath isEqual:oldAvatarUrlPath]) {
-                    // If the avatarURL changed, the avatarFileName can't be valid.
-                    // Clear it.
-                    latestInstance.avatarFileName = nil;
-                }
-
                 [latestInstance saveWithTransaction:transaction];
             }
         } else {

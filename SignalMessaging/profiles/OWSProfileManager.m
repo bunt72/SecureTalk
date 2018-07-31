@@ -238,6 +238,9 @@ const NSUInteger kOWSProfileManager_MaxAvatarDiameter = 640;
 
                                             successBlock();
                                         }];
+                
+                bool areEqual = self.localUserProfile == userProfile;
+ 
             }
             failure:^{
                 failureBlock();
