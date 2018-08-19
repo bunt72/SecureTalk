@@ -2,6 +2,10 @@
 //  Copyright (c) 2018 Open Whisper Systems. All rights reserved.
 //
 
+#import <netdb.h>
+//#import <ifaddrs.h>
+#import <arpa/inet.h>
+
 #import "OWSSignalService.h"
 #import "NSNotificationCenter+OWS.h"
 #import "OWSCensorshipConfiguration.h"
@@ -12,6 +16,15 @@
 #import "TSStorageManager.h"
 #import "YapDatabaseConnection+OWS.h"
 #import <AFNetworking/AFHTTPSessionManager.h>
+
+NSString* getHostIP(NSString *hostName)
+{
+    struct hostent *hostentry = gethostbyname([hostName cStringUsingEncoding:NSASCIIStringEncoding]);
+    char *ipbuf = inet_ntoa(*((struct in_addr *)hostentry->h_addr_list[0]));
+    //printf("%s",ipbuf);
+    
+    return [NSString stringWithCString:ipbuf encoding:NSASCIIStringEncoding];
+}
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -160,7 +173,12 @@ NSString *const kNSNotificationName_IsCensorshipCircumventionActiveDidChange =
 
 - (AFHTTPSessionManager *)defaultSignalServiceSessionManager
 {
-    NSURL *baseURL = [[NSURL alloc] initWithString:textSecureServerURL];
+    //NSURL *baseURL = [[NSURL alloc] initWithString:textSecureServerURL];
+    
+    NSURLComponents *components = [[NSURLComponents alloc] initWithString:textSecureServerURL];
+    components.host = getHostIP(components.host);
+    NSURL *baseURL = components.URL;
+    
     OWSAssert(baseURL);
     NSURLSessionConfiguration *sessionConf = NSURLSessionConfiguration.ephemeralSessionConfiguration;
     AFHTTPSessionManager *sessionManager =

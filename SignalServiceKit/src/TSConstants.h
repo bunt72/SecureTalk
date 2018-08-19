@@ -17,9 +17,11 @@ typedef NS_ENUM(NSInteger, TSWhisperMessageType) {
 
 #define textSecureHTTPTimeOut 10
 
+//#define textSecureWebSocketAPI @"wss://192.168.2.110/v1/websocket/"
+//#define textSecureServerURL @"https://192.168.2.110/"
 
-#define textSecureWebSocketAPI @"wss://192.168.2.110/v1/websocket/"
-#define textSecureServerURL @"https://192.168.2.110/"
+#define textSecureWebSocketAPI @"wss://umnik-pc.speedport_w_723v_1_45_000/v1/websocket/"
+#define textSecureServerURL @"https://umnik-pc.speedport_w_723v_1_45_000/"
 
 //#define textSecureWebSocketAPI @"wss://sotger32.vds.serverdale.com/v1/websocket/"
 //#define textSecureServerURL @"https://sotger32.vds.serverdale.com/"

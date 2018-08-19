@@ -54,7 +54,7 @@
 NSString *const AppDelegateStoryboardMain = @"Main";
 
 static NSString *const kInitialViewControllerIdentifier = @"UserInitialViewController";
-static NSString *const kURLSchemeSGNLKey                = @"sgnl";
+static NSString *const kURLSchemeAppKey                = @"stlk";
 static NSString *const kURLHostVerifyPrefix             = @"verify";
 
 @interface AppDelegate ()
@@ -411,7 +411,7 @@ static NSString *const kURLHostVerifyPrefix             = @"verify";
         return NO;
     }
 
-    if ([url.scheme isEqualToString:kURLSchemeSGNLKey]) {
+    if ([url.scheme isEqualToString:kURLSchemeAppKey]) {
         if ([url.host hasPrefix:kURLHostVerifyPrefix] && ![TSAccountManager isRegistered]) {
             id signupController = SignalApp.sharedApp.signUpFlowNavigationController;
             if ([signupController isKindOfClass:[UINavigationController class]]) {

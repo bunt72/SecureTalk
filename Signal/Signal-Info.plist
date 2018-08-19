@@ -33,7 +33,7 @@
 			<string>org.whispersystems.signal</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>sgnl</string>
+				<string>stlk</string>
 			</array>
 		</dict>
 	</array>
