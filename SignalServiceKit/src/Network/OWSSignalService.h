@@ -16,11 +16,15 @@ extern NSString *const kNSNotificationName_IsCensorshipCircumventionActiveDidCha
 @property (nonatomic, readonly) AFHTTPSessionManager *signalServiceSessionManager;
 
 /// For uploading avatar assets.
+
 @property (nonatomic, readonly) AFHTTPSessionManager *CDNSessionManager;
 
 @property (atomic, readonly) BOOL isCensorshipCircumventionActive;
 
 @property (atomic, readonly) BOOL hasCensoredPhoneNumber;
+
+@property (atomic) NSString *CDNSessionManagerUrl;
+
 
 + (instancetype)sharedInstance;
 
@@ -28,6 +32,7 @@ extern NSString *const kNSNotificationName_IsCensorshipCircumventionActiveDidCha
 
 - (BOOL)isCensorshipCircumventionManuallyActivated;
 - (void)setIsCensorshipCircumventionManuallyActivated:(BOOL)value;
+
 
 #pragma mark - Censorship Circumvention Domain
 

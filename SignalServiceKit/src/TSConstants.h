@@ -19,32 +19,22 @@ typedef NS_ENUM(NSInteger, TSWhisperMessageType) {
 
 //#define textSecureWebSocketAPI @"wss://192.168.2.110/v1/websocket/"
 //#define textSecureServerURL @"https://192.168.2.110/"
+//#define textSecureCDNServerURL @"http://192.168.2.110:9000/global-securetalk-profiles"
 
 #define textSecureWebSocketAPI @"wss://umnik-pc.speedport_w_723v_1_45_000/v1/websocket/"
 #define textSecureServerURL @"https://umnik-pc.speedport_w_723v_1_45_000/"
+#define textSecureCDNServerURL @"http://192.168.2.110:9000/global-securetalk-profiles"
 
 //#define textSecureWebSocketAPI @"wss://sotger32.vds.serverdale.com/v1/websocket/"
 //#define textSecureServerURL @"https://sotger32.vds.serverdale.com/"
 
-
-#ifndef DEBUG
-
-//Production
-//#define textSecureWebSocketAPI @"wss://textsecure-service.whispersystems.org/v1/websocket/"
 //#define textSecureServerURL @"https://textsecure-service.whispersystems.org/"
-
-#else
-//
-//// Staging
-
 //#define textSecureWebSocketAPI @"wss://textsecure-service.whispersystems.org/v1/websocket/"
-//#define textSecureServerURL @"https://textsecure-service.whispersystems.org/"
-
-
-#endif
-
 //#define textSecureCDNServerURL @"https://cdn.signal.org"
-#define textSecureCDNServerURL @"http://192.168.2.110:9000/global-securetalk-profiles"
+
+//#define textSecureWebSocketAPI @"wss://textsecure-service.whispersystems.org/v1/websocket/"
+//#define textSecureServerURL @"https://textsecure-service.whispersystems.org/"
+
 #define textSecureServiceReflectorHost @"signal-reflector-meek.appspot.com"
 #define textSecureCDNReflectorHost @"signal-cdn-reflector.appspot.com"
 

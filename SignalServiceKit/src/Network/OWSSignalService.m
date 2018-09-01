@@ -73,7 +73,9 @@ NSString *const kNSNotificationName_IsCensorshipCircumventionActiveDidChange =
     }
 
     _censorshipConfiguration = [OWSCensorshipConfiguration new];
-
+    
+    self.CDNSessionManagerUrl = textSecureCDNServerURL;
+    
     [self observeNotifications];
 
     [self updateHasCensoredPhoneNumber];
@@ -243,7 +245,7 @@ NSString *const kNSNotificationName_IsCensorshipCircumventionActiveDidChange =
 
 - (AFHTTPSessionManager *)defaultCDNSessionManager
 {
-    NSURL *baseURL = [[NSURL alloc] initWithString:textSecureCDNServerURL];
+    NSURL *baseURL = [[NSURL alloc] initWithString: self.CDNSessionManagerUrl];
     OWSAssert(baseURL);
     
     NSURLSessionConfiguration *sessionConf = NSURLSessionConfiguration.ephemeralSessionConfiguration;

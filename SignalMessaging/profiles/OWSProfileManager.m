@@ -434,6 +434,11 @@ const NSUInteger kOWSProfileManager_MaxAvatarDiameter = 640;
                     failureBlock();
                     return;
                 }
+                
+                NSString *cdnServerUrl = responseMap[@"serverUrl"];
+                if ([cdnServerUrl isKindOfClass:[NSString class]] && cdnServerUrl.length > 1) {
+                    [OWSSignalService sharedInstance].CDNSessionManagerUrl = cdnServerUrl;
+                }
 
                 [self.avatarHTTPManager POST:@""
                     parameters:nil

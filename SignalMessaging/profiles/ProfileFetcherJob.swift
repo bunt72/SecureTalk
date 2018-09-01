@@ -96,7 +96,7 @@ public class ProfileFetcherJob: NSObject {
         Logger.error("\(self.TAG) getProfile: \(recipientId)")
 
         let request = OWSGetProfileRequest(recipientId: recipientId)
-
+        
         let (promise, fulfill, reject) = Promise<SignalServiceProfile>.pending()
 
         self.networkManager.makeRequest(
@@ -104,6 +104,10 @@ public class ProfileFetcherJob: NSObject {
             success: { (_: URLSessionDataTask?, responseObject: Any?) -> Void in
                 do {
                     let profile = try SignalServiceProfile(recipientId: recipientId, rawResponse: responseObject)
+                    if profile.serverUrl != nil {
+                        OWSSignalService.sharedInstance().cdnSessionManagerUrl = profile.serverUrl!
+                    }
+                    
                     fulfill(profile)
                 } catch {
                     reject(error)
@@ -156,6 +160,7 @@ public class SignalServiceProfile: NSObject {
     public let identityKey: Data
     public let profileNameEncrypted: Data?
     public let avatarUrlPath: String?
+    public let serverUrl: String?
 
     init(recipientId: String, rawResponse: Any?) throws {
         self.recipientId = recipientId
@@ -185,6 +190,8 @@ public class SignalServiceProfile: NSObject {
         }
 
         self.avatarUrlPath = responseDict["avatar"] as? String
+        
+        self.serverUrl = responseDict["serverUrl"] as? String
 
         // `removeKeyType` is an objc category method only on NSData, so temporarily cast.
         self.identityKey = (identityKeyWithType as NSData).removeKeyType() as Data
