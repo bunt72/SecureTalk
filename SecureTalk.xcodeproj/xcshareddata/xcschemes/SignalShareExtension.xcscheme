@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0920"
+   LastUpgradeVersion = "0940"
    wasCreatedForAppExtension = "YES"
    version = "2.0">
    <BuildAction
@@ -18,7 +18,7 @@
                BlueprintIdentifier = "453518671FC635DD00210559"
                BuildableName = "SignalShareExtension.appex"
                BlueprintName = "SignalShareExtension"
-               ReferencedContainer = "container:Signal.xcodeproj">
+               ReferencedContainer = "container:SecureTalk.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,8 +31,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D221A088169C9E5E00537ABF"
                BuildableName = "SecureTalk.app"
-               BlueprintName = "Signal"
-               ReferencedContainer = "container:Signal.xcodeproj">
+               BlueprintName = "SecureTalk"
+               ReferencedContainer = "container:SecureTalk.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -41,7 +41,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -51,7 +50,7 @@
             BlueprintIdentifier = "453518671FC635DD00210559"
             BuildableName = "SignalShareExtension.appex"
             BlueprintName = "SignalShareExtension"
-            ReferencedContainer = "container:Signal.xcodeproj">
+            ReferencedContainer = "container:SecureTalk.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -61,7 +60,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = ""
       selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -75,8 +73,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D221A088169C9E5E00537ABF"
             BuildableName = "SecureTalk.app"
-            BlueprintName = "Signal"
-            ReferencedContainer = "container:Signal.xcodeproj">
+            BlueprintName = "SecureTalk"
+            ReferencedContainer = "container:SecureTalk.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,8 +93,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D221A088169C9E5E00537ABF"
             BuildableName = "SecureTalk.app"
-            BlueprintName = "Signal"
-            ReferencedContainer = "container:Signal.xcodeproj">
+            BlueprintName = "SecureTalk"
+            ReferencedContainer = "container:SecureTalk.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -203,7 +203,7 @@
 		411AC32E20E2E28C00C1C753 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 453518951FC63DBF00210559 /* Info.plist */; };
 		411AC32F20E2E28D00C1C753 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 453518951FC63DBF00210559 /* Info.plist */; };
 		411AC33020E2E28D00C1C753 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 453518951FC63DBF00210559 /* Info.plist */; };
-		41600F542041FB180003F25F /* Signal-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D221A095169C9E5E00537ABF /* Signal-Info.plist */; };
+		41600F542041FB180003F25F /* SecureTalk-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D221A095169C9E5E00537ABF /* SecureTalk-Info.plist */; };
 		4505C2BF1E648EA300CEBF41 /* ExperienceUpgrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505C2BE1E648EA300CEBF41 /* ExperienceUpgrade.swift */; };
 		450998651FD8A34D00D89EB3 /* DeviceSleepManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348F2EAD1F0D21BC00D4ECE0 /* DeviceSleepManager.swift */; };
 		450998681FD8C0FF00D89EB3 /* AttachmentSharing.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B3F83A1E8DF1700035BE1A /* AttachmentSharing.m */; };
@@ -980,9 +980,9 @@
 		D221A08D169C9E5E00537ABF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D221A08F169C9E5E00537ABF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D221A091169C9E5E00537ABF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D221A095169C9E5E00537ABF /* Signal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Signal-Info.plist"; sourceTree = "<group>"; };
+		D221A095169C9E5E00537ABF /* SecureTalk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecureTalk-Info.plist"; sourceTree = "<group>"; };
 		D221A099169C9E5E00537ABF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D221A09B169C9E5E00537ABF /* Signal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Signal-Prefix.pch"; sourceTree = "<group>"; };
+		D221A09B169C9E5E00537ABF /* SecureTalk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecureTalk-Prefix.pch"; sourceTree = "<group>"; };
 		D221A0AA169C9E5F00537ABF /* SignalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D221A0E7169DFFC500537ABF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = ../../../../../../System/Library/Frameworks/AVFoundation.framework; sourceTree = "<group>"; };
 		D24B5BD4169F568C00681372 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = ../../../../../../System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<group>"; };
@@ -2011,8 +2011,8 @@
 				B6B6C3C419193F5B00C0B76B /* Translations */,
 				E18AB40618A05754001A532A /* AudioFiles */,
 				D221A099169C9E5E00537ABF /* main.m */,
-				D221A095169C9E5E00537ABF /* Signal-Info.plist */,
-				D221A09B169C9E5E00537ABF /* Signal-Prefix.pch */,
+				D221A095169C9E5E00537ABF /* SecureTalk-Info.plist */,
+				D221A09B169C9E5E00537ABF /* SecureTalk-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -2149,9 +2149,9 @@
 			productReference = 453518921FC63DBF00210559 /* SignalMessaging.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D221A088169C9E5E00537ABF /* Signal */ = {
+		D221A088169C9E5E00537ABF /* SecureTalk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D221A0BC169C9E5F00537ABF /* Build configuration list for PBXNativeTarget "Signal" */;
+			buildConfigurationList = D221A0BC169C9E5F00537ABF /* Build configuration list for PBXNativeTarget "SecureTalk" */;
 			buildPhases = (
 				1460156AE01E0DB0949D61FE /* [CP] Check Pods Manifest.lock */,
 				45AE48531E073428004D96C2 /* Swift Lint */,
@@ -2169,7 +2169,7 @@
 				453518711FC635DD00210559 /* PBXTargetDependency */,
 				453518981FC63DBF00210559 /* PBXTargetDependency */,
 			);
-			name = Signal;
+			name = SecureTalk;
 			productName = RedPhone;
 			productReference = D221A089169C9E5E00537ABF /* SecureTalk.app */;
 			productType = "com.apple.product-type.application";
@@ -2272,7 +2272,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D221A083169C9E5E00537ABF /* Build configuration list for PBXProject "Signal" */;
+			buildConfigurationList = D221A083169C9E5E00537ABF /* Build configuration list for PBXProject "SecureTalk" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -2332,7 +2332,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D221A088169C9E5E00537ABF /* Signal */,
+				D221A088169C9E5E00537ABF /* SecureTalk */,
 				D221A0A9169C9E5F00537ABF /* SignalTests */,
 				453518671FC635DD00210559 /* SignalShareExtension */,
 				453518911FC63DBF00210559 /* SignalMessaging */,
@@ -2392,7 +2392,7 @@
 				FC5CDF3A1A3393DD00B47253 /* warning_white@2x.png in Resources */,
 				E1370BE018A0686600826894 /* busy.mp3 in Resources */,
 				E1370BE218A0686C00826894 /* failure.mp3 in Resources */,
-				41600F542041FB180003F25F /* Signal-Info.plist in Resources */,
+				41600F542041FB180003F25F /* SecureTalk-Info.plist in Resources */,
 				B625CD561ABB589C00E8B23C /* NewMessage.aifc in Resources */,
 				B633C58D1A1D190B0059AC12 /* contact_default_feed.png in Resources */,
 				B10C9B621A7049EC00ECA2BF /* play_icon@2x.png in Resources */,
@@ -2963,7 +2963,7 @@
 		};
 		B6AFCEBB19A93DA60098CFCB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D221A088169C9E5E00537ABF /* Signal */;
+			target = D221A088169C9E5E00537ABF /* SecureTalk */;
 			targetProxy = B6AFCEBA19A93DA60098CFCB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -3124,7 +3124,7 @@
 				);
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Signal/Signal-Prefix.pch";
+				GCC_PREFIX_HEADER = "Signal/SecureTalk-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -3143,7 +3143,7 @@
 					"\"$(SRCROOT)/MMDrawerController\"",
 					"\"$(SRCROOT)/Libraries\"/**",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Signal/Signal-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Signal/SecureTalk-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -3781,7 +3781,7 @@
 				);
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Signal/Signal-Prefix.pch";
+				GCC_PREFIX_HEADER = "Signal/SecureTalk-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -3800,7 +3800,7 @@
 					"\"$(SRCROOT)/MMDrawerController\"",
 					"\"$(SRCROOT)/Libraries\"/**",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Signal/Signal-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Signal/SecureTalk-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -3842,7 +3842,7 @@
 				);
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Signal/Signal-Prefix.pch";
+				GCC_PREFIX_HEADER = "Signal/SecureTalk-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					HAVE_CONFIG_H,
@@ -3861,7 +3861,7 @@
 					"\"$(SRCROOT)/MMDrawerController\"",
 					"\"$(SRCROOT)/Libraries\"/**",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Signal/Signal-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Signal/SecureTalk-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -4024,7 +4024,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "App Store Release";
 		};
-		D221A083169C9E5E00537ABF /* Build configuration list for PBXProject "Signal" */ = {
+		D221A083169C9E5E00537ABF /* Build configuration list for PBXProject "SecureTalk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D221A0BA169C9E5F00537ABF /* Debug */,
@@ -4034,7 +4034,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "App Store Release";
 		};
-		D221A0BC169C9E5F00537ABF /* Build configuration list for PBXNativeTarget "Signal" */ = {
+		D221A0BC169C9E5F00537ABF /* Build configuration list for PBXNativeTarget "SecureTalk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D221A0BD169C9E5F00537ABF /* Debug */,
