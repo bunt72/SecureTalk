@@ -100,7 +100,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (UIFont *)titleFont
 {
-    return [UIFont ows_mediumFontWithSize:16.f];
+    return [UIFont ows_mediumFontWithSize:40.f];
 }
 
 - (UIFont *)buttonFont

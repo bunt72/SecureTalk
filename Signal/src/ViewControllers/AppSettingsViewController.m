@@ -282,7 +282,7 @@
     [titleLabel autoPinEdgeToSuperviewEdge:ALEdgeTop];
     [titleLabel autoPinWidthToSuperview];
 
-    const CGFloat kSubtitlePointSize = 12.f;
+    const CGFloat kSubtitlePointSize = 16.f;
     UILabel *subtitleLabel = [UILabel new];
     subtitleLabel.textColor = [UIColor ows_darkGreenColor];
     subtitleLabel.font = [UIFont ows_regularFontWithSize:kSubtitlePointSize];
@@ -303,7 +303,7 @@
     [cell.contentView addSubview:disclosureButton];
     [disclosureButton autoVCenterInSuperview];
     [disclosureButton autoPinTrailingToSuperview];
-    [disclosureButton autoPinLeadingToTrailingOfView:nameView margin:16.f];
+    [disclosureButton autoPinLeadingToTrailingOfView:nameView margin:15.f];
     [disclosureButton setContentCompressionResistancePriority:(UILayoutPriorityDefaultHigh + 1) forAxis:UILayoutConstraintAxisHorizontal];
 
     return cell;

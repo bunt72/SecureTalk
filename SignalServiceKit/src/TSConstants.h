@@ -32,6 +32,10 @@ typedef NS_ENUM(NSInteger, TSWhisperMessageType) {
 //#define textSecureWebSocketAPI @"wss://textsecure-service.whispersystems.org/v1/websocket/"
 //#define textSecureCDNServerURL @"https://cdn.signal.org"
 
+//#define textSecureWebSocketAPI @"wss://umnik-pc.speedport_w_723v_1_45_000/v1/websocket/"
+//#define textSecureServerURL @"https://umnik-pc.speedport_w_723v_1_45_000/"
+//#define textSecureCDNServerURL @"https://192.168.2.110:9000/global-securetalk-profiles"
+
 //#define textSecureWebSocketAPI @"wss://textsecure-service.whispersystems.org/v1/websocket/"
 //#define textSecureServerURL @"https://textsecure-service.whispersystems.org/"
 

@@ -20,7 +20,7 @@
 NSString* getHostIP(NSString *hostName)
 {
     struct hostent *hostentry = gethostbyname([hostName cStringUsingEncoding:NSASCIIStringEncoding]);
-    char *ipbuf = inet_ntoa(*((struct in_addr *)hostentry->h_addr_list[0]));
+    char *ipbuf =  inet_ntoa(*((struct in_addr *)hostentry->h_addr_list[0]));
     //printf("%s",ipbuf);
     
     return [NSString stringWithCString:ipbuf encoding:NSASCIIStringEncoding];

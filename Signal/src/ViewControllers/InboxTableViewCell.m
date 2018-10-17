@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 #define ARCHIVE_IMAGE_VIEW_WIDTH 22.0f
 #define DELETE_IMAGE_VIEW_WIDTH 19.0f
-#define TIME_LABEL_SIZE 11
+#define TIME_LABEL_SIZE 13
 #define DATE_LABEL_SIZE 13
 #define SWIPE_ARCHIVE_OFFSET -50
 
@@ -78,9 +78,11 @@ const NSUInteger kAvatarViewDiameter = 52;
 
     self.nameLabel = [UILabel new];
     self.nameLabel.lineBreakMode = NSLineBreakByTruncatingTail;
-    self.nameLabel.font = [UIFont ows_boldFontWithSize:14.0f];
+    self.nameLabel.tintColor = [UIColor ows_greenColor];
+    self.nameLabel.font = [UIFont ows_boldFontWithSize:23.0f];
+    
     [self.contentView addSubview:self.nameLabel];
-    [self.nameLabel autoPinLeadingToTrailingOfView:self.avatarView margin:13.f];
+    [self.nameLabel autoPinLeadingToTrailingOfView:self.avatarView margin:15.f];
     [self.nameLabel autoPinEdge:ALEdgeTop toEdge:ALEdgeTop ofView:self.avatarView];
     [self.nameLabel setContentHuggingHorizontalLow];
 
@@ -195,10 +197,10 @@ const NSUInteger kAvatarViewDiameter = 52;
                                                     initWithString:displayableText
                                                         attributes:@{
                                                             NSFontAttributeName : (thread.hasUnreadMessages
-                                                                    ? [UIFont ows_mediumFontWithSize:12]
-                                                                    : [UIFont ows_regularFontWithSize:12]),
+                                                                    ? [UIFont ows_mediumFontWithSize:18]
+                                                                    : [UIFont ows_regularFontWithSize:18]),
                                                             NSForegroundColorAttributeName :
-                                                                (thread.hasUnreadMessages ? [UIColor ows_blackColor]
+                                                                (thread.hasUnreadMessages ? [UIColor ows_darkGreenColor]
                                                                                           : [UIColor lightGrayColor]),
                                                         }]];
         }
