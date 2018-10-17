@@ -32,7 +32,7 @@ def shared_pods
   pod 'YYImage'
 end
 
-target 'Signal' do
+target 'SecureTalk' do
   shared_pods
   pod 'ATAppUpdater', :inhibit_warnings => true
   pod 'SSZipArchive', :inhibit_warnings => true
