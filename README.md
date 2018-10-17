@@ -1,1 +1,1 @@
-Adaptaion of the SignalMessager
+Adaptaion of the TextSecureMessenger
