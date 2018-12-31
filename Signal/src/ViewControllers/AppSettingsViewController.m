@@ -282,7 +282,7 @@
     [titleLabel autoPinEdgeToSuperviewEdge:ALEdgeTop];
     [titleLabel autoPinWidthToSuperview];
 
-    const CGFloat kSubtitlePointSize = 16.f;
+    const CGFloat kSubtitlePointSize = 14.f;
     UILabel *subtitleLabel = [UILabel new];
     subtitleLabel.textColor = [UIColor ows_darkGreenColor];
     subtitleLabel.font = [UIFont ows_regularFontWithSize:kSubtitlePointSize];

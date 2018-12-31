@@ -540,7 +540,7 @@ typedef NS_ENUM(NSInteger, MessagesRangeSizeMode) {
         @"Indicates that the app is loading more messages in this conversation.");
     self.loadMoreHeader.textColor = [UIColor ows_darkGreenColor];
     self.loadMoreHeader.textAlignment = NSTextAlignmentCenter;
-    self.loadMoreHeader.font = [UIFont ows_mediumFontWithSize:20.f];
+    self.loadMoreHeader.font = [UIFont ows_mediumFontWithSize:18.f];
     [self.collectionView addSubview:self.loadMoreHeader];
     [self.loadMoreHeader autoPinWidthToWidthOfView:self.view];
     [self.loadMoreHeader autoPinEdgeToSuperviewEdge:ALEdgeTop];
@@ -796,7 +796,7 @@ typedef NS_ENUM(NSInteger, MessagesRangeSizeMode) {
     bannerView.layer.shadowOpacity = 0.35f;
 
     UILabel *label = [UILabel new];
-    label.font = [UIFont ows_mediumFontWithSize:20.f];
+    label.font = [UIFont ows_mediumFontWithSize:17.f];
     label.text = title;
     label.textColor = [UIColor whiteColor];
     label.numberOfLines = 0;
@@ -1147,7 +1147,7 @@ typedef NS_ENUM(NSInteger, MessagesRangeSizeMode) {
 
 - (UIFont *)navigationBarTitleLabelFont
 {
-    return [UIFont ows_boldFontWithSize:26.f];
+    return [UIFont ows_boldFontWithSize:23.f];
 }
 
 - (CGFloat)unreadCountViewDiameter
@@ -1294,7 +1294,7 @@ typedef NS_ENUM(NSInteger, MessagesRangeSizeMode) {
             appendAttributedString:[[NSAttributedString alloc]
                                        initWithString:@"\ue067  "
                                            attributes:@{
-                                               NSFontAttributeName : [UIFont ows_elegantIconsFont:10.f],
+                                               NSFontAttributeName : [UIFont ows_elegantIconsFont:9.f],
                                                NSForegroundColorAttributeName : [UIColor colorWithWhite:0.9f alpha:1.f],
                                            }]];
     }
@@ -1313,7 +1313,7 @@ typedef NS_ENUM(NSInteger, MessagesRangeSizeMode) {
             appendAttributedString:[[NSAttributedString alloc]
                                        initWithString:@"\uf00c "
                                            attributes:@{
-                                               NSFontAttributeName : [UIFont ows_fontAwesomeFont:16.f],
+                                               NSFontAttributeName : [UIFont ows_fontAwesomeFont:13.f],
                                                NSForegroundColorAttributeName : [UIColor colorWithWhite:0.9f alpha:1.f],
                                            }]];
     }
@@ -1323,7 +1323,7 @@ typedef NS_ENUM(NSInteger, MessagesRangeSizeMode) {
             appendAttributedString:[[NSAttributedString alloc]
                                        initWithString:NSLocalizedString(@"GROUP_YOU_LEFT", @"")
                                            attributes:@{
-                                               NSFontAttributeName : [UIFont ows_regularFontWithSize:12.f],
+                                               NSFontAttributeName : [UIFont ows_regularFontWithSize:11.f],
                                                NSForegroundColorAttributeName : [UIColor colorWithWhite:0.9f alpha:1.f],
                                            }]];
     } else {
@@ -1333,7 +1333,7 @@ typedef NS_ENUM(NSInteger, MessagesRangeSizeMode) {
                                                  @"The subtitle for the messages view title indicates that the "
                                                  @"title can be tapped to access settings for this conversation.")
                                   attributes:@{
-                                      NSFontAttributeName : [UIFont ows_regularFontWithSize:12.f],
+                                      NSFontAttributeName : [UIFont ows_regularFontWithSize:11.f],
                                       NSForegroundColorAttributeName : [UIColor colorWithWhite:0.9f alpha:1.f],
                                   }]];
     }

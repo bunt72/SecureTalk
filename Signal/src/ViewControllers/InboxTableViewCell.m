@@ -79,7 +79,7 @@ const NSUInteger kAvatarViewDiameter = 52;
     self.nameLabel = [UILabel new];
     self.nameLabel.lineBreakMode = NSLineBreakByTruncatingTail;
     self.nameLabel.tintColor = [UIColor ows_greenColor];
-    self.nameLabel.font = [UIFont ows_boldFontWithSize:23.0f];
+    self.nameLabel.font = [UIFont ows_boldFontWithSize:18.0f];
     
     [self.contentView addSubview:self.nameLabel];
     [self.nameLabel autoPinLeadingToTrailingOfView:self.avatarView margin:15.f];
@@ -197,8 +197,8 @@ const NSUInteger kAvatarViewDiameter = 52;
                                                     initWithString:displayableText
                                                         attributes:@{
                                                             NSFontAttributeName : (thread.hasUnreadMessages
-                                                                    ? [UIFont ows_mediumFontWithSize:18]
-                                                                    : [UIFont ows_regularFontWithSize:18]),
+                                                                    ? [UIFont ows_mediumFontWithSize:16]
+                                                                    : [UIFont ows_regularFontWithSize:16]),
                                                             NSForegroundColorAttributeName :
                                                                 (thread.hasUnreadMessages ? [UIColor ows_darkGreenColor]
                                                                                           : [UIColor lightGrayColor]),
