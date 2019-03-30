@@ -21,9 +21,9 @@ typedef NS_ENUM(NSInteger, TSWhisperMessageType) {
 //#define textSecureServerURL @"https://192.168.2.110/"
 //#define textSecureCDNServerURL @"http://192.168.2.110:9000/global-securetalk-profiles"
 
-#define textSecureWebSocketAPI @"wss://185.148.145.171/v1/websocket/"
-#define textSecureServerURL @"https://185.148.145.171/"
-#define textSecureCDNServerURL @"http://185.148.145.171:9000/global-securetalk-profiles"
+#define textSecureWebSocketAPI @"wss://176.9.46.88/v1/websocket/"
+#define textSecureServerURL @"https://176.9.46.88/"
+#define textSecureCDNServerURL @"http://176.9.46.88:9000/global-securetalk-profiles"
 
 //#define textSecureWebSocketAPI @"wss://sotger32.vds.serverdale.com/v1/websocket/"
 //#define textSecureServerURL @"https://sotger32.vds.serverdale.com/"
