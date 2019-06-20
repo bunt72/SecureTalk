@@ -800,8 +800,55 @@ class HardenedRTCSessionDescription {
         // https://tools.ietf.org/html/rfc6464
         let audioLevelRegex = try! NSRegularExpression(pattern:".+urn:ietf:params:rtp-hdrext:ssrc-audio-level.*\r?\n", options:.caseInsensitive)
         description = audioLevelRegex.stringByReplacingMatches(in: description, options: [], range: NSMakeRange(0, description.count), withTemplate: "")
+        
+        description = setMediaBitrates(sdp: description, videoBitrate: 233, audioBitrate: 64)
 
         return RTCSessionDescription.init(type: rtcSessionDescription.type, sdp: description)
+    }
+    
+    private class func setMediaBitrates(sdp: String, videoBitrate: Int, audioBitrate: Int) -> String {
+        return setMediaBitrate(sdp: setMediaBitrate(sdp: sdp, mediaType: "video", bitrate: videoBitrate), mediaType: "audio", bitrate: audioBitrate)
+    }
+    
+    private class func setMediaBitrate(sdp: String, mediaType: String, bitrate: Int) -> String {
+        
+        var lines = sdp.components(separatedBy: "\n")
+        var line = -1
+        
+        for (index, lineString) in lines.enumerated() {
+            if lineString.hasPrefix("m=\(mediaType)") {
+                line = index
+                break
+            }
+        }
+        
+        guard line != -1 else {
+            //Couldn't find the m (media) line return the original sdp
+            print("Couldn't find the m line in SDP so returning the original sdp")
+            return sdp
+        }
+        
+        // Go to next line i.e. line after m
+        line += 1
+        
+        //Now skip i and c lines
+        while (lines[line].hasPrefix("i=") || lines[line].hasPrefix("c=")) {
+            line += 1
+        }
+        
+        let newLine = "b=AS:\(bitrate)"
+        //Check if we're on b (bitrate) line, if so replace it
+        if lines[line].hasPrefix("b") {
+            print("Replacing the b line of the SDP")
+            lines[line] = newLine
+        } else {
+            //If there's no b line, add a new b line
+            lines.insert(newLine, at: line)
+        }
+        
+        let modifiedSDP = lines.joined(separator: "\n")
+        return modifiedSDP
+        
     }
 }
 
