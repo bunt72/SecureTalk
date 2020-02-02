@@ -13,11 +13,11 @@
 
 + (void)setupRatingLibrary {
     iRate *rate                         = [iRate sharedInstance];
-    rate.appStoreID                     = 874139669;
+    rate.appStoreID                     = 1403984541;
     rate.appStoreGenreID                = 6005;
-    rate.daysUntilPrompt                = 15;
-    rate.usesUntilPrompt                = 10;
-    rate.remindPeriod                   = 20;
+    rate.daysUntilPrompt                = 1000.0f;
+    rate.usesUntilPrompt                = 100;
+    rate.remindPeriod                   = 1000.0f;
     rate.onlyPromptIfLatestVersion      = YES;
     rate.promptForNewVersionIfUserRated = NO;
     rate.messageTitle                   = NSLocalizedString(@"RATING_TITLE", nil);
