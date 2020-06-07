@@ -801,13 +801,17 @@ class HardenedRTCSessionDescription {
         let audioLevelRegex = try! NSRegularExpression(pattern:".+urn:ietf:params:rtp-hdrext:ssrc-audio-level.*\r?\n", options:.caseInsensitive)
         description = audioLevelRegex.stringByReplacingMatches(in: description, options: [], range: NSMakeRange(0, description.count), withTemplate: "")
         
-        description = setMediaBitrates(sdp: description, videoBitrate: 233, audioBitrate: 64)
+        description = setAudioBitrate(sdp: description, audioBitrate: 32)
 
         return RTCSessionDescription.init(type: rtcSessionDescription.type, sdp: description)
     }
     
     private class func setMediaBitrates(sdp: String, videoBitrate: Int, audioBitrate: Int) -> String {
         return setMediaBitrate(sdp: setMediaBitrate(sdp: sdp, mediaType: "video", bitrate: videoBitrate), mediaType: "audio", bitrate: audioBitrate)
+    }
+    
+    private class func setAudioBitrate(sdp: String, audioBitrate: Int) -> String {
+        return setMediaBitrate(sdp: sdp, mediaType: "audio", bitrate: audioBitrate)
     }
     
     private class func setMediaBitrate(sdp: String, mediaType: String, bitrate: Int) -> String {
