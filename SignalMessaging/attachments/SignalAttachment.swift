@@ -256,7 +256,7 @@ public class SignalAttachment: NSObject {
             let asset = AVURLAsset(url: mediaUrl)
             let generator = AVAssetImageGenerator(asset: asset)
             generator.appliesPreferredTrackTransform = true
-            let cgImage = try generator.copyCGImage(at: CMTimeMake(0, 1), actualTime: nil)
+            let cgImage = try generator.copyCGImage(at: CMTimeMake(value: 0, timescale: 1), actualTime: nil)
             let image = UIImage(cgImage: cgImage)
 
             cachedVideoPreview = image
@@ -697,8 +697,7 @@ public class SignalAttachment: NSObject {
                 image.size.height > maxSize {
                 dstImage = imageScaled(image, toMaxSize: maxSize)
             }
-            guard let jpgImageData = UIImageJPEGRepresentation(dstImage,
-                                                               jpegCompressionQuality(imageUploadQuality:imageUploadQuality)) else {
+            guard let jpgImageData = dstImage.jpegData(compressionQuality: jpegCompressionQuality(imageUploadQuality:imageUploadQuality)) else {
                                                                 attachment.error = .couldNotConvertToJpeg
                                                                 return attachment
             }
@@ -861,7 +860,7 @@ public class SignalAttachment: NSObject {
         }
 
         exportSession.shouldOptimizeForNetworkUse = true
-        exportSession.outputFileType = AVFileTypeMPEG4
+        exportSession.outputFileType = AVFileType.mp4
 
         let exportURL = videoTempPath.appendingPathComponent(UUID().uuidString).appendingPathExtension("mp4")
         exportSession.outputURL = exportURL

@@ -652,7 +652,7 @@ public class ShareViewController: UINavigationController, ShareViewDelegate, SAE
                     fulfill((itemUrl: url, utiType: srcUtiType))
                 }
             } else if let image = value as? UIImage {
-                if let data = UIImagePNGRepresentation(image) {
+                if let data = image.pngData() {
                     let tempFilePath = OWSFileSystem.temporaryFilePath(withFileExtension:"png")
                     do {
                         let url = NSURL.fileURL(withPath:tempFilePath)

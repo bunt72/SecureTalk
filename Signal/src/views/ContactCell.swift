@@ -22,12 +22,12 @@ class ContactCell: UITableViewCell {
         super.awakeFromNib()
 
         // Initialization code
-        selectionStyle = UITableViewCellSelectionStyle.none
+        selectionStyle = UITableViewCell.SelectionStyle.none
 
         contactContainerView.layer.masksToBounds = true
         contactContainerView.layer.cornerRadius = contactContainerView.frame.size.width/2
 
-        NotificationCenter.default.addObserver(self, selector: #selector(self.didChangePreferredContentSize), name: NSNotification.Name.UIContentSizeCategoryDidChange, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(self.didChangePreferredContentSize), name: UIContentSizeCategory.didChangeNotification, object: nil)
     }
 
     override func prepareForReuse() {
@@ -39,7 +39,7 @@ class ContactCell: UITableViewCell {
         accessoryType = selected ? .checkmark : .none
     }
 
-    func didChangePreferredContentSize() {
+    @objc func didChangePreferredContentSize() {
         contactTextLabel.font = UIFont.preferredFont(forTextStyle: .body)
         contactDetailTextLabel.font = UIFont.preferredFont(forTextStyle: .subheadline)
     }
@@ -102,23 +102,39 @@ fileprivate extension CNContact {
 
         let boldDescriptor = font.fontDescriptor.withSymbolicTraits(.traitBold)
         let boldAttributes = [
-            NSFontAttributeName: UIFont(descriptor:boldDescriptor!, size: 0)
+            convertFromNSAttributedStringKey(NSAttributedString.Key.font): UIFont(descriptor:boldDescriptor!, size: 0)
         ]
 
         if let attributedName = CNContactFormatter.attributedString(from: self, style: .fullName, defaultAttributes: nil) {
             let highlightedName = attributedName.mutableCopy() as! NSMutableAttributedString
             highlightedName.enumerateAttributes(in: NSMakeRange(0, highlightedName.length), options: [], using: { (attrs, range, _) in
-                if let property = attrs[CNContactPropertyAttribute] as? String, property == keyToHighlight {
-                    highlightedName.addAttributes(boldAttributes, range: range)
+                if let property = attrs[NSAttributedString.Key(rawValue: CNContactPropertyAttribute)] as? String, property == keyToHighlight {
+                    highlightedName.addAttributes(convertToNSAttributedStringKeyDictionary(boldAttributes), range: range)
                 }
             })
             return highlightedName
         }
 
         if let emailAddress = (self.emailAddresses.first?.value as String?) {
-            return NSAttributedString(string: emailAddress, attributes: boldAttributes)
+            return NSAttributedString(string: emailAddress, attributes: convertToOptionalNSAttributedStringKeyDictionary(boldAttributes))
         }
 
         return nil
     }
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromNSAttributedStringKey(_ input: NSAttributedString.Key) -> String {
+	return input.rawValue
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToNSAttributedStringKeyDictionary(_ input: [String: Any]) -> [NSAttributedString.Key: Any] {
+	return Dictionary(uniqueKeysWithValues: input.map { key, value in (NSAttributedString.Key(rawValue: key), value)})
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToOptionalNSAttributedStringKeyDictionary(_ input: [String: Any]?) -> [NSAttributedString.Key: Any]? {
+	guard let input = input else { return nil }
+	return Dictionary(uniqueKeysWithValues: input.map { key, value in (NSAttributedString.Key(rawValue: key), value)})
 }

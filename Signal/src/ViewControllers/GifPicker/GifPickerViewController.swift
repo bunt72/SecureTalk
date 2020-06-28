@@ -79,7 +79,7 @@ class GifPickerViewController: OWSViewController, UISearchBarDelegate, UICollect
         progressiveSearchTimer?.invalidate()
     }
 
-    func didBecomeActive() {
+    @objc func didBecomeActive() {
         AssertIsOnMainThread()
 
         Logger.info("\(self.TAG) \(#function)")
@@ -88,7 +88,7 @@ class GifPickerViewController: OWSViewController, UISearchBarDelegate, UICollect
         ensureCellState()
     }
 
-    func reachabilityChanged() {
+    @objc func reachabilityChanged() {
         AssertIsOnMainThread()
 
         Logger.info("\(self.TAG) \(#function)")
@@ -214,7 +214,7 @@ class GifPickerViewController: OWSViewController, UISearchBarDelegate, UICollect
         searchErrorView.isUserInteractionEnabled = true
         searchErrorView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(retryTapped)))
 
-        let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+        let activityIndicator = UIActivityIndicatorView(style: .gray)
         self.activityIndicator = activityIndicator
         self.view.addSubview(activityIndicator)
         activityIndicator.autoHCenterInSuperview()
@@ -347,7 +347,7 @@ class GifPickerViewController: OWSViewController, UISearchBarDelegate, UICollect
             path.append(UIBezierPath(rect: cellRect))
 
             layer.path = path.cgPath
-            layer.fillRule = kCAFillRuleEvenOdd
+            layer.fillRule = CAShapeLayerFillRule.evenOdd
             layer.fillColor = UIColor.black.cgColor
             layer.opacity = 0.7
         }
@@ -418,7 +418,7 @@ class GifPickerViewController: OWSViewController, UISearchBarDelegate, UICollect
 
     // MARK: - Event Handlers
 
-    func donePressed(sender: UIButton) {
+    @objc func donePressed(sender: UIButton) {
         dismiss(animated: true, completion: nil)
     }
 
@@ -507,7 +507,7 @@ class GifPickerViewController: OWSViewController, UISearchBarDelegate, UICollect
 
     // MARK: - Event Handlers
 
-    func retryTapped(sender: UIGestureRecognizer) {
+    @objc func retryTapped(sender: UIGestureRecognizer) {
         guard sender.state == .recognized else {
             return
         }

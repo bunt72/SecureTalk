@@ -64,7 +64,7 @@ class ExperienceUpgradeFinder: NSObject {
             // (UIDevice.current.supportsCallKit ? callKit : nil),
             //  introducingProfiles,
             introducingReadReceipts
-        ].flatMap { $0 }
+        ].compactMap { $0 }
     }
 
     // MARK: - Instance Methods

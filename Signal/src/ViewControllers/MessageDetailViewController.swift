@@ -547,7 +547,7 @@ class MessageDetailViewController: OWSViewController, UIScrollViewDelegate, Medi
 
     // MARK: - Actions
 
-    func shareButtonPressed() {
+    @objc func shareButtonPressed() {
         if let messageBody = messageBody {
             UIPasteboard.general.string = messageBody
             return
@@ -603,7 +603,7 @@ class MessageDetailViewController: OWSViewController, UIScrollViewDelegate, Medi
         }
     }
 
-    internal func yapDatabaseModified(notification: NSNotification) {
+    @objc internal func yapDatabaseModified(notification: NSNotification) {
         AssertIsOnMainThread()
 
         let notifications = self.databaseConnection.beginLongLivedReadTransaction()

@@ -7,28 +7,28 @@ import MediaPlayer
 import SignalMessaging
 
 class OWSLayerView: UIView {
-    let layoutCallback : (() -> Void)
+    let layoutCallback : ((UIView) -> Void)
 
-    required init(frame: CGRect, layoutCallback : @escaping () -> Void) {
+    required init(frame: CGRect, layoutCallback : @escaping (UIView) -> Void) {
         self.layoutCallback = layoutCallback
         super.init(frame: frame)
     }
 
     required init?(coder aDecoder: NSCoder) {
-        self.layoutCallback = {
+        self.layoutCallback = { (_) in
         }
         super.init(coder: aDecoder)
     }
 
     override var bounds: CGRect {
         didSet {
-            layoutCallback()
+            layoutCallback(self)
         }
     }
 
     override var frame: CGRect {
         didSet {
-            layoutCallback()
+            layoutCallback(self)
         }
     }
 }
@@ -182,7 +182,7 @@ class CropScaleImageViewController: OWSViewController {
         self.view.addSubview(contentView)
         contentView.autoPinEdgesToSuperviewEdges()
 
-        let imageView = OWSLayerView(frame:CGRect.zero, layoutCallback: {[weak self] _ in
+        let imageView = OWSLayerView(frame: CGRect.zero, layoutCallback: { [weak self] _ in
             guard let strongSelf = self else { return }
             strongSelf.updateImageLayout()
         })
@@ -213,7 +213,7 @@ class CropScaleImageViewController: OWSViewController {
             path.usesEvenOddFillRule = true
 
             layer.path = path.cgPath
-            layer.fillRule = kCAFillRuleEvenOdd
+            layer.fillRule = CAShapeLayerFillRule.evenOdd
             layer.fillColor = UIColor.black.cgColor
             layer.opacity = 0.7
         }
@@ -369,7 +369,7 @@ class CropScaleImageViewController: OWSViewController {
     var lastPinchLocation: CGPoint = CGPoint.zero
     var lastPinchScale: CGFloat = 1.0
 
-    func handlePinch(sender: UIPinchGestureRecognizer) {
+    @objc func handlePinch(sender: UIPinchGestureRecognizer) {
         switch (sender.state) {
         case .possible:
             break
@@ -426,7 +426,7 @@ class CropScaleImageViewController: OWSViewController {
 
     var srcTranslationAtPanStart: CGPoint = CGPoint.zero
 
-    func handlePan(sender: UIPanGestureRecognizer) {
+    @objc func handlePan(sender: UIPanGestureRecognizer) {
         switch (sender.state) {
         case .possible:
             break
@@ -499,11 +499,11 @@ class CropScaleImageViewController: OWSViewController {
 
     // MARK: - Event Handlers
 
-    func cancelPressed(sender: UIButton) {
+    @objc func cancelPressed(sender: UIButton) {
         dismiss(animated: true, completion:nil)
     }
 
-    func donePressed(sender: UIButton) {
+    @objc func donePressed(sender: UIButton) {
         let successCompletion = self.successCompletion
         dismiss(animated: true, completion: {
             guard let dstImage = self.generateDstImage() else {

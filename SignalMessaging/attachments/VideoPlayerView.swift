@@ -91,14 +91,14 @@ public class PlayerProgressBar: UIView {
 
         // Background
         backgroundColor = UIColor.lightGray.withAlphaComponent(0.5)
-        if !UIAccessibilityIsReduceTransparencyEnabled() {
+        if !UIAccessibility.isReduceTransparencyEnabled {
             addSubview(blurEffectView)
             blurEffectView.autoPinToSuperviewEdges()
         }
 
         // Configure controls
 
-        let kLabelFont = UIFont.monospacedDigitSystemFont(ofSize: 12, weight: UIFontWeightRegular)
+        let kLabelFont = UIFont.monospacedDigitSystemFont(ofSize: 12, weight: UIFont.Weight.regular)
         positionLabel.font = kLabelFont
         remainingLabel.font = kLabelFont
 

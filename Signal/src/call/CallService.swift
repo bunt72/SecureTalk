@@ -160,7 +160,7 @@ protocol CallServiceObserver: class {
     }
 
     // Used to coordinate promises across delegate methods
-    private var fulfillCallConnectedPromise: (() -> Void)?
+    private var fulfillCallConnectedPromise: ((Void) -> Void)?
     private var rejectCallConnectedPromise: ((Error) -> Void)?
 
     /**
@@ -176,13 +176,13 @@ protocol CallServiceObserver: class {
 
     // Used by waitForPeerConnectionClient to make sure any received
     // ICE messages wait until the peer connection client is set up.
-    private var fulfillPeerConnectionClientPromise: (() -> Void)?
+    private var fulfillPeerConnectionClientPromise: ((Void) -> Void)?
     private var rejectPeerConnectionClientPromise: ((Error) -> Void)?
     private var peerConnectionClientPromise: Promise<Void>?
 
     // Used by waituntilReadyToSendIceUpdates to make sure CallOffer was 
     // sent before sending any ICE updates.
-    private var fulfillReadyToSendIceUpdatesPromise: (() -> Void)?
+    private var fulfillReadyToSendIceUpdatesPromise: ((Void) -> Void)?
     private var rejectReadyToSendIceUpdatesPromise: ((Error) -> Void)?
     private var readyToSendIceUpdatesPromise: Promise<Void>?
 
@@ -242,12 +242,12 @@ protocol CallServiceObserver: class {
         NotificationCenter.default.removeObserver(self)
     }
 
-    func didEnterBackground() {
+    @objc func didEnterBackground() {
         AssertIsOnMainThread()
         self.updateIsVideoEnabled()
     }
 
-    func didBecomeActive() {
+    @objc func didBecomeActive() {
         AssertIsOnMainThread()
         self.updateIsVideoEnabled()
     }
@@ -309,7 +309,7 @@ protocol CallServiceObserver: class {
             let peerConnectionClient = PeerConnectionClient(iceServers: iceServers, delegate: self, callDirection: .outgoing, useTurnOnly: useTurnOnly)
             Logger.debug("\(self.logTag) setting peerConnectionClient in \(#function) for call: \(call.identifiersForLogs)")
             self.peerConnectionClient = peerConnectionClient
-            self.fulfillPeerConnectionClientPromise?()
+            self.fulfillPeerConnectionClientPromise?(())
 
             return peerConnectionClient.createOffer()
         }.then { (sessionDescription: HardenedRTCSessionDescription) -> Promise<Void> in
@@ -385,7 +385,7 @@ protocol CallServiceObserver: class {
             return
         }
 
-        fulfillReadyToSendIceUpdatesPromise()
+        fulfillReadyToSendIceUpdatesPromise(())
     }
 
     /**
@@ -622,7 +622,7 @@ protocol CallServiceObserver: class {
             Logger.debug("\(self.logTag) setting peerConnectionClient in \(#function) for: \(newCall.identifiersForLogs)")
             let peerConnectionClient = PeerConnectionClient(iceServers: iceServers, delegate: self, callDirection: .incoming, useTurnOnly: useTurnOnly)
             self.peerConnectionClient = peerConnectionClient
-            self.fulfillPeerConnectionClientPromise?()
+            self.fulfillPeerConnectionClientPromise?(())
 
             let offerSessionDescription = RTCSessionDescription(type: .offer, sdp: callerSessionDescription)
             let constraints = RTCMediaConstraints(mandatoryConstraints: nil, optionalConstraints: nil)
@@ -932,7 +932,7 @@ protocol CallServiceObserver: class {
 
         assert(self.fulfillCallConnectedPromise != nil)
         // cancel connection timeout
-        self.fulfillCallConnectedPromise?()
+        self.fulfillCallConnectedPromise?(())
 
         call.state = .connected
 

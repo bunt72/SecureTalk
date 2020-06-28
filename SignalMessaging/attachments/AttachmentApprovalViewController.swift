@@ -121,7 +121,7 @@ public class AttachmentApprovalViewController: OWSViewController, CaptioningTool
         scrollView.showsVerticalScrollIndicator = false
 
         // Panning should stop pretty soon after the user stops scrolling
-        scrollView.decelerationRate = UIScrollViewDecelerationRateFast
+        scrollView.decelerationRate = UIScrollView.DecelerationRate.fast
 
         // We want scroll view content up and behind the system status bar content
         // but we want other content (e.g. bar buttons) to respect the top layout guide.
@@ -228,7 +228,7 @@ public class AttachmentApprovalViewController: OWSViewController, CaptioningTool
         }
     }
 
-    @available(iOS 9, *)
+    @objc @available(iOS 9, *)
     public func didTapPlayerView(_ gestureRecognizer: UIGestureRecognizer) {
         assert(self.videoPlayer != nil)
         self.pauseVideo()
@@ -264,7 +264,7 @@ public class AttachmentApprovalViewController: OWSViewController, CaptioningTool
         self.playVideo()
     }
 
-    func cancelPressed(sender: UIButton) {
+    @objc func cancelPressed(sender: UIButton) {
         self.delegate?.attachmentApproval(self, didCancelAttachment: attachment)
     }
 
@@ -308,7 +308,7 @@ public class AttachmentApprovalViewController: OWSViewController, CaptioningTool
 
             if item.currentTime() == item.duration {
                 // Rewind for repeated plays, but only if it previously played to end.
-                videoPlayer.seek(to: kCMTimeZero)
+                videoPlayer.seek(to: CMTime.zero)
             }
 
             videoPlayer.play()
@@ -661,7 +661,7 @@ class CaptioningToolbar: UIView, UITextViewDelegate {
         bottomGradient.autoPinEdgesToSuperviewEdges(with: .zero, excludingEdge: .top)
     }
 
-    func didTapSend() {
+    @objc func didTapSend() {
         self.captioningToolbarDelegate?.captioningToolbarDidTapSend(self, captionText: self.textView.text)
     }
 

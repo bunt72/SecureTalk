@@ -20,7 +20,9 @@ def shared_pods
   #pod 'GRKOpenSSLFramework', path: '../GRKOpenSSLFramework'
 
   # third party pods
-  pod 'AFNetworking', inhibit_warnings: true
+  #pod 'AFNetworking', '~> 3.0', :source => 'https://github.com/ElfSundae/CocoaPods-Specs.git', :inhibit_warnings => true
+  pod 'AFNetworking', '~> 3.0', :subspecs => ['Reachability', 'Serialization', 'Security', 'NSURLSession'], :inhibit_warnings => true
+  
   pod 'JSQMessagesViewController',  git: 'https://github.com/WhisperSystems/JSQMessagesViewController.git', branch: 'mkirk/share-compatible', :inhibit_warnings => true
   #pod 'JSQMessagesViewController',  git: 'https://github.com/WhisperSystems/JSQMessagesViewController.git', branch: 'signal-master', :inhibit_warnings => true
   #pod 'JSQMessagesViewController',   path: '../JSQMessagesViewController'

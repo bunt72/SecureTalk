@@ -366,7 +366,7 @@ class PeerConnectionClient: NSObject, RTCPeerConnectionDelegate, RTCDataChannelD
                                                                 reject(error!)
                                                                 return
                                                             }
-                                                            fulfill()
+                                                            fulfill(())
                 })
             }
         }
@@ -398,7 +398,7 @@ class PeerConnectionClient: NSObject, RTCPeerConnectionDelegate, RTCDataChannelD
                                                                 reject(error!)
                                                                 return
                                                             }
-                                                            fulfill()
+                                                            fulfill(())
                 })
             }
         }

@@ -71,7 +71,7 @@ public class ModalActivityIndicatorViewController: OWSViewController {
         self.view.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25)
         self.view.isOpaque = false
 
-        let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle:.whiteLarge)
+        let activityIndicator = UIActivityIndicatorView(style:.whiteLarge)
         self.activityIndicator = activityIndicator
         self.view.addSubview(activityIndicator)
         activityIndicator.autoCenterInSuperview()
@@ -132,7 +132,7 @@ public class ModalActivityIndicatorViewController: OWSViewController {
         self.presentTimer = nil
     }
 
-    func presentTimerFired() {
+    @objc func presentTimerFired() {
         AssertIsOnMainThread()
 
         clearTimer()
@@ -143,7 +143,7 @@ public class ModalActivityIndicatorViewController: OWSViewController {
         }
     }
 
-    func cancelPressed() {
+    @objc func cancelPressed() {
         AssertIsOnMainThread()
 
         wasCancelled = true
